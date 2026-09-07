@@ -14,7 +14,9 @@ pensada para alojarse gratis en **GitHub Pages**.
 
 ## ✨ Funcionalidades
 
-- **25 bloques del temario**, con 20 preguntas tipo test cada uno (500 en total).
+- **25 bloques del temario**, con más de 500 preguntas tipo test en total
+  (algunos bloques, especialmente los de normativa y desarrollo, cuentan con
+  30 preguntas para dar más variedad).
 - **Filtro de dificultad**: cada pregunta está etiquetada como *fácil*,
   *media* o *difícil*; en la pantalla de configuración puedes elegir
   cualquier combinación de niveles (por defecto, los tres). El contador

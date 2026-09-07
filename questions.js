@@ -129,7 +129,27 @@ const QUESTION_BANK = [
      c:0, e:"Un entorno afectivo estable y sensible es la base para un apego seguro y un desarrollo emocional saludable, con efectos positivos también en otras áreas del desarrollo."},
     {d:"dificil", q:"El 'crecimiento discontinuo o por 'estirones'', frente a una visión estrictamente lineal del desarrollo, hace referencia a que:",
      o:["El desarrollo avanza siempre de forma perfectamente uniforme y constante","En determinados momentos se observan avances más rápidos y visibles, alternados con periodos de mayor estabilidad","El desarrollo se detiene por completo entre hito e hito","Solo el crecimiento físico presenta esta discontinuidad, nunca el cognitivo o social"],
-     c:1, e:"El desarrollo infantil no es perfectamente lineal: se alternan periodos de avances más rápidos y visibles ('estirones' evolutivos) con otros de mayor estabilidad y consolidación."}
+     c:1, e:"El desarrollo infantil no es perfectamente lineal: se alternan periodos de avances más rápidos y visibles ('estirones' evolutivos) con otros de mayor estabilidad y consolidación."},
+    {d:"facil", q:"¿Qué ley del desarrollo físico describe un crecimiento rápido al inicio que posteriormente se desacelera?",
+     o:["Ley céfalo-caudal","Ley de progresión y amortiguamiento","Ley próximo-distal","Ley de flexores-extensores"], c:1, e:"La ley de progresión y amortiguamiento describe un crecimiento inicialmente rápido que se va desacelerando."},
+    {d:"facil", q:"¿Qué ley del desarrollo motor indica que el control se adquiere desde la cabeza hacia los pies?",
+     o:["Ley próximo-distal","Ley céfalo-caudal","Ley de masa a específico","Ley flexores-extensores"], c:1, e:"La ley céfalo-caudal indica una progresión del control desde las regiones cefálicas hacia las caudales."},
+    {d:"facil", q:"¿Qué autor formuló el concepto de zona de desarrollo próximo?",
+     o:["Piaget","Vygotski","Wallon","Bruner"], c:1, e:"La zona de desarrollo próximo es un concepto central de Vygotski."},
+    {d:"media", q:"Según Piaget, ¿qué subetapa del período preoperatorio se caracteriza especialmente por el pensamiento simbólico y el egocentrismo?",
+     o:["Operaciones concretas","Preconceptual","Sensoriomotora","Operaciones formales"], c:1, e:"La subetapa preconceptual, aproximadamente de 2 a 4 años, pertenece al período preoperatorio."},
+    {d:"facil", q:"¿Qué fase lingüística aparece aproximadamente alrededor del primer año y se caracteriza por primeras palabras simples?",
+     o:["Balbuceo inicial","Palabra-frase","Habla telegráfica","Discurso narrativo"], c:1, e:"La etapa de palabra-frase aparece aproximadamente hacia el primer año."},
+    {d:"media", q:"¿Qué factor, junto con la maduración neurológica, resulta especialmente relevante para el desarrollo del lenguaje?",
+     o:["La interacción social","El tamaño corporal","La lateralidad manual","La dentición"], c:0, e:"La interacción social y comunicativa es fundamental para el desarrollo del lenguaje."},
+    {d:"media", q:"¿Qué perspectiva entiende el desarrollo como resultado de la interacción entre factores biológicos y ambientales?",
+     o:["Perspectiva exclusivamente innatista","Perspectiva interaccionista","Perspectiva exclusivamente ambientalista","Perspectiva exclusivamente conductista"], c:1, e:"La perspectiva interaccionista considera la influencia conjunta de la maduración y del ambiente."},
+    {d:"facil", q:"¿Qué etapa psicosexual de Freud corresponde al primer año de vida?",
+     o:["Oral","Anal","Fálica","Latencia"], c:0, e:"En la teoría freudiana, el primer año se sitúa en la etapa oral."},
+    {d:"media", q:"¿Qué crisis psicosocial de Erikson se asocia principalmente al período aproximado de 18 meses a 3 años?",
+     o:["Confianza frente a desconfianza","Autonomía frente a vergüenza y duda","Iniciativa frente a culpa","Industria frente a inferioridad"], c:1, e:"Erikson sitúa la crisis de autonomía frente a vergüenza y duda aproximadamente entre los 18 meses y los 3 años."},
+    {d:"media", q:"¿Qué efecto describe la influencia de las expectativas del docente sobre el rendimiento del alumnado?",
+     o:["Efecto halo","Efecto Pigmalión","Efecto placebo","Efecto Zeigarnik"], c:1, e:"El efecto Pigmalión, asociado a Rosenthal y Jacobson, alude a la influencia de las expectativas del docente sobre el rendimiento."}
   ]
 },
 {
@@ -194,7 +214,23 @@ const QUESTION_BANK = [
      c:1, e:"El currículo oculto se refiere a aquello que se transmite de forma no explícita a través de las normas, actitudes, organización del espacio y relaciones del día a día, más allá del currículo oficial."},
     {d:"facil", q:"Las áreas de conocimiento en Educación Infantil se relacionan entre sí de forma:",
      o:["Totalmente independiente y sin conexión","Estrecha e interrelacionada, dado el enfoque globalizador de la etapa","Jerárquica, siendo unas más importantes que otras","Aleatoria, sin ningún criterio pedagógico"],
-     c:1, e:"Dado el enfoque globalizador de la etapa, las áreas se trabajan de forma interrelacionada, ya que el niño percibe la realidad de manera global."}
+     c:1, e:"Dado el enfoque globalizador de la etapa, las áreas se trabajan de forma interrelacionada, ya que el niño percibe la realidad de manera global."},
+    {d:"media", q:"¿Cómo se organizan las enseñanzas de Educación Infantil en Galicia según la Orden de 30 de mayo de 2023?",
+     o:["Por asignaturas independientes","En áreas correspondientes a ámbitos propios de la experiencia y del desarrollo infantil","Por materias instrumentales","Por niveles de competencia"], c:1, e:"La orden organiza las enseñanzas en áreas vinculadas a ámbitos propios de la experiencia y del desarrollo infantil."},
+    {d:"facil", q:"¿Qué norma estatal establece la ordenación y las enseñanzas mínimas de Educación Infantil?",
+     o:["Real Decreto 95/2022","Decreto 150/2022","Orden de 30 de mayo de 2023","Ley 39/2015"], c:0, e:"El Real Decreto 95/2022 establece la ordenación y las enseñanzas mínimas de Educación Infantil a nivel estatal."},
+    {d:"facil", q:"¿Qué norma gallega desarrolla el Decreto 150/2022 y regula la evaluación de Educación Infantil?",
+     o:["Orden de 30 de mayo de 2023","Orden de 25 de junio de 2009","Decreto 229/2011","Real Decreto 95/2022"], c:0, e:"La Orden de 30 de mayo de 2023 desarrolla el Decreto 150/2022 y regula la evaluación de la etapa."},
+    {d:"facil", q:"¿Cuál es el mínimo semanal de actividades escolares en el segundo ciclo de Educación Infantil en Galicia?",
+     o:["20 horas","25 horas","30 horas","35 horas"], c:1, e:"La Orden de 30 de mayo de 2023 establece un mínimo de 25 horas semanales."},
+    {d:"media", q:"¿Qué profesional es responsable de la atención y seguimiento personalizado del alumnado?",
+     o:["La persona tutora","El director exclusivamente","El jefe de estudios exclusivamente","La inspección educativa"], c:0, e:"La tutoría tiene entre sus funciones la atención y seguimiento personalizado del alumnado."},
+    {d:"media", q:"¿Cómo debe garantizarse la continuidad del proceso educativo y la transición entre etapas?",
+     o:["Mediante coordinación e intercambio de información entre los profesionales","Sin coordinación para favorecer la autonomía de cada etapa","Únicamente mediante un examen final","Solo mediante reuniones con las familias"], c:0, e:"La continuidad educativa exige coordinación y transmisión de información relevante entre profesionales y etapas."},
+    {d:"facil", q:"¿En qué debe basarse la metodología didáctica de Educación Infantil según la normativa gallega?",
+     o:["En clases magistrales","En experiencias de aprendizaje significativas y en el juego","En libros de texto como recurso exclusivo","En exámenes periódicos"], c:1, e:"La normativa destaca experiencias de aprendizaje significativas y el juego como elementos metodológicos."},
+    {d:"media", q:"¿Cuál es la principal técnica de evaluación señalada por la normativa gallega para Educación Infantil?",
+     o:["Observación directa y sistemática","Examen escrito","Prueba estandarizada única","Autoevaluación numérica"], c:0, e:"La observación directa y sistemática constituye la principal técnica, complementada por otras técnicas e instrumentos."}
   ]
 },
 {
@@ -389,7 +425,27 @@ const QUESTION_BANK = [
      c:0, e:"El respeto a los ritmos individuales, propio del principio de individualización, es esencial para favorecer un desarrollo emocional y personal saludable."},
     {d:"dificil", q:"El concepto de 'autoconcepto multidimensional' (académico, físico, social, emocional) hace referencia a que la valoración que el niño hace de sí mismo:",
      o:["Es siempre única y global, sin distinguir ámbitos concretos","Puede variar según distintas áreas o dimensiones de su vida (cómo se ve físicamente, socialmente, en el aprendizaje...)","No se desarrolla hasta la adolescencia","Depende únicamente de factores genéticos, sin influencia del entorno"],
-     c:1, e:"El autoconcepto es multidimensional: el niño puede tener una valoración distinta de sí mismo en distintos ámbitos (físico, social, académico, emocional), que se van diferenciando progresivamente con el desarrollo."}
+     c:1, e:"El autoconcepto es multidimensional: el niño puede tener una valoración distinta de sí mismo en distintos ámbitos (físico, social, académico, emocional), que se van diferenciando progresivamente con el desarrollo."},
+    {d:"facil", q:"¿Quién introdujo el concepto de apego como vínculo afectivo esencial para el desarrollo?",
+     o:["John Bowlby","Albert Bandura","Jean Piaget","B. F. Skinner"], c:0, e:"John Bowlby formuló la teoría del apego y destacó la importancia del vínculo afectivo temprano."},
+    {d:"facil", q:"¿Qué investigadora clasificó los patrones de apego a partir de sus investigaciones con la Situación Extraña?",
+     o:["Mary Ainsworth","Anna Freud","Carol Gilligan","Urie Bronfenbrenner"], c:0, e:"Mary Ainsworth desarrolló la Situación Extraña y clasificó patrones de apego."},
+    {d:"media", q:"¿Qué teoría explica la influencia de microsistema, mesosistema, exosistema y macrosistema sobre el desarrollo?",
+     o:["Teoría ecológica de Bronfenbrenner","Teoría del aprendizaje social de Bandura","Teoría psicosexual de Freud","Teoría de la asimilación de Ausubel"], c:0, e:"Bronfenbrenner propuso un modelo ecológico que analiza diferentes sistemas ambientales."},
+    {d:"facil", q:"¿Qué autor está especialmente relacionado con la teoría del aprendizaje por observación e imitación?",
+     o:["Bandura","Bowlby","Erikson","Wallon"], c:0, e:"Albert Bandura desarrolló la teoría del aprendizaje social, destacando el aprendizaje observacional."},
+    {d:"facil", q:"¿Quién propuso la jerarquía de necesidades humanas?",
+     o:["Maslow","Piaget","Bruner","Kohlberg"], c:0, e:"Abraham Maslow formuló la conocida jerarquía de necesidades."},
+    {d:"media", q:"¿Qué teoría de Bruner respalda que el adulto proporcione apoyos ajustados que permitan al niño realizar progresivamente tareas por sí mismo?",
+     o:["Teoría del andamiaje","Teoría de la zona de desarrollo próximo","Teoría del condicionamiento clásico","Teoría del apego"], c:0, e:"El andamiaje describe el apoyo temporal y ajustado que facilita la realización autónoma de una tarea."},
+    {d:"facil", q:"¿Qué conducta de oposición es frecuente alrededor de los 2-3 años y se relaciona con la afirmación del yo?",
+     o:["Negativismo","Ecolalia","Balbuceo","Sonambulismo"], c:0, e:"El negativismo y las conductas de oposición forman parte de la progresiva afirmación de la autonomía."},
+    {d:"media", q:"¿Qué crisis psicosocial de Erikson corresponde aproximadamente a los 18 meses-3 años?",
+     o:["Confianza frente a desconfianza","Autonomía frente a vergüenza y duda","Iniciativa frente a culpa","Identidad frente a confusión de roles"], c:1, e:"La segunda etapa de Erikson gira en torno a autonomía frente a vergüenza y duda."},
+    {d:"media", q:"¿Qué autor relacionó especialmente la autonomía con la superación progresiva del egocentrismo y la interiorización de normas?",
+     o:["Piaget","Bowlby","Skinner","Goleman"], c:0, e:"Piaget estudió la progresiva descentralización y construcción de normas en el desarrollo moral y social."},
+    {d:"facil", q:"¿Qué hábitos cotidianos favorecen directamente la autonomía infantil?",
+     o:["Vestirse, alimentarse y recoger materiales","Evitar que el niño tome decisiones","Realizar todas las tareas por él","Eliminar las rutinas"], c:0, e:"Las rutinas de autocuidado y participación, como vestirse, alimentarse o recoger, permiten practicar autonomía."}
   ]
 },
 {
@@ -519,7 +575,27 @@ const QUESTION_BANK = [
      c:0, e:"La relajación en Infantil favorece la toma de conciencia del propio cuerpo y contribuye a la regulación del tono muscular y del estado emocional."},
     {d:"dificil", q:"La 'psicomotricidad relacional', enfoque impulsado por autores como André Lapierre, otorga especial importancia a:",
      o:["El componente exclusivamente técnico y deportivo del movimiento","La dimensión afectiva y relacional del movimiento, más allá de sus aspectos puramente motrices","La memorización de secuencias de ejercicios físicos","La ausencia total de interacción entre iguales"],
-     c:1, e:"La psicomotricidad relacional, vinculada a autores como Lapierre, pone el énfasis en la dimensión afectiva y relacional del movimiento y el juego corporal, más allá de sus aspectos técnicos o físicos."}
+     c:1, e:"La psicomotricidad relacional, vinculada a autores como Lapierre, pone el énfasis en la dimensión afectiva y relacional del movimiento y el juego corporal, más allá de sus aspectos técnicos o físicos."},
+    {d:"facil", q:"¿Qué autor consideró la psicomotricidad como un elemento fundamental de la acción educativa?",
+     o:["Le Boulch","Ausubel","Skinner","Maslow"], c:0, e:"Le Boulch desarrolló una concepción psicomotriz de gran influencia educativa."},
+    {d:"facil", q:"¿Qué tipo de sensaciones proceden principalmente de estímulos externos?",
+     o:["Interoceptivas","Propioceptivas","Exteroceptivas","Vestibulares exclusivamente"], c:2, e:"Las sensaciones exteroceptivas informan sobre estímulos procedentes del exterior."},
+    {d:"media", q:"¿Qué autor destacó especialmente la relación entre movimiento, emoción y construcción de la identidad?",
+     o:["Wallon","Montessori","Ausubel","Decroly"], c:0, e:"Wallon concedió un papel central al movimiento y a la emoción en el desarrollo infantil."},
+    {d:"facil", q:"¿Cuál es la finalidad principal de la psicomotricidad en Educación Infantil?",
+     o:["Preparar para el deporte competitivo","Favorecer el desarrollo integral","Trabajar exclusivamente la motricidad fina","Aumentar únicamente la fuerza muscular"], c:1, e:"La psicomotricidad persigue favorecer el desarrollo global e integral del niño."},
+    {d:"facil", q:"¿Qué enfoque metodológico resulta especialmente coherente con la psicomotricidad infantil?",
+     o:["Memorización y repetición","Globalización y socialización","Clase magistral","Examen escrito"], c:1, e:"La psicomotricidad infantil se aborda de forma global, activa y socializada."},
+    {d:"facil", q:"¿Cuál es la técnica de evaluación especialmente adecuada para observar el desarrollo psicomotor en Infantil?",
+     o:["Examen escrito","Observación directa y continua","Prueba de velocidad lectora","Examen memorístico"], c:1, e:"La observación directa y continua permite recoger información contextualizada sobre el desarrollo psicomotor."},
+    {d:"media", q:"¿Qué material se asocia especialmente con la educación sensorial Montessori?",
+     o:["Cilindros de encaje y torre rosa","Pizarra digital exclusivamente","Banco sueco","Fichas de caligrafía"], c:0, e:"Los materiales sensoriales Montessori incluyen, entre otros, los cilindros de encaje y la torre rosa."},
+    {d:"facil", q:"¿Qué ley del desarrollo motor describe el paso del control desde el centro del cuerpo hacia las extremidades?",
+     o:["Céfalo-caudal","Próximo-distal","De masa a específico","De lo concreto a lo abstracto"], c:1, e:"La ley próximo-distal describe la progresión desde las partes centrales hacia las extremidades."},
+    {d:"media", q:"¿Qué capacidad se favorece especialmente mediante experiencias psicomotrices ajustadas a la edad?",
+     o:["Solo la fuerza física","Autonomía, autoestima y conocimiento del esquema corporal","Únicamente la memoria verbal","Solo la competencia matemática"], c:1, e:"La psicomotricidad contribuye al conocimiento corporal, la autonomía, la autoestima y el desarrollo global."},
+    {d:"media", q:"¿Qué instrumento estandarizado se ha utilizado tradicionalmente para valorar el desarrollo psicomotor en la primera infancia?",
+     o:["Escala de Brunet-Lézine","WISC-V","Raven exclusivamente","Prueba de velocidad lectora"], c:0, e:"La escala de Brunet-Lézine es una herramienta clásica de evaluación del desarrollo psicomotor infantil."}
   ]
 },
 {
@@ -1559,7 +1635,13 @@ const QUESTION_BANK = [
      c:1, e:"Los elementos transversales deben impregnar de forma continuada el conjunto de áreas y actividades a lo largo de la programación, evitando un tratamiento puntual y aislado en fechas concretas del calendario."},
     {d:"facil", q:"La metodología basada en 'proyectos de trabajo' en el segundo ciclo suele iniciarse a partir de:",
      o:["Una pregunta o interés surgido del propio alumnado o del grupo","Un examen inicial de conocimientos previos exclusivamente","Un libro de texto cerrado sin posibilidad de modificación","La elección exclusiva del equipo directivo del centro"],
-     c:0, e:"Los proyectos de trabajo parten habitualmente de una pregunta, curiosidad o interés genuino surgido del alumnado o del grupo, que se convierte en el hilo conductor de la investigación."}
+     c:0, e:"Los proyectos de trabajo parten habitualmente de una pregunta, curiosidad o interés genuino surgido del alumnado o del grupo, que se convierte en el hilo conductor de la investigación."},
+    {d:"facil", q:"¿Cuántas sesiones de evaluación parciales deben realizarse como mínimo a lo largo del curso en el segundo ciclo de Infantil?",
+     o:["Una","Dos","Tres","Cinco"], c:2, e:"La normativa gallega establece como mínimo tres sesiones de evaluación parciales, coincidiendo la última con la evaluación final."},
+    {d:"media", q:"¿Qué documento elabora la persona tutora al finalizar el sexto curso para garantizar una atención individualizada y continuada?",
+     o:["Informe final de etapa","Boletín numérico","Acta de claustro","Informe de asistencia"], c:0, e:"Al finalizar el sexto curso, la tutora o tutor elabora un informe final de etapa sobre el progreso global."},
+    {d:"facil", q:"¿Con qué términos cualitativos se expresa habitualmente la valoración del proceso de aprendizaje en Educación Infantil en Galicia?",
+     o:["1-10","Insuficiente, suficiente y notable","Sen dificultade (SD), en proceso (EP) ou con dificultade (CD)","Apto/no apto"], c:2, e:"En Galicia la valoración cualitativa se expresa habitualmente mediante SD (sen dificultade), EP (en proceso) o CD (con dificultade)."}
   ]
 },
 {
@@ -1624,7 +1706,13 @@ const QUESTION_BANK = [
      c:0, e:"El respeto a la diversidad de ritmos implica evitar comparaciones y expectativas rígidas e idénticas para todo el grupo, reconociendo que cada niño se desarrolla siguiendo su propio ritmo dentro de una secuencia evolutiva común."},
     {d:"dificil", q:"El principio de 'coherencia y continuidad educativa' entre ciclos y etapas defiende que la intervención educativa debe:",
      o:["Cambiar de forma radical y sin ninguna conexión entre un ciclo y el siguiente","Mantener una progresión coherente de principios, metodología y expectativas a lo largo de los distintos ciclos y etapas educativas","Aplicarse de forma idéntica en todas las edades sin ningún tipo de progresión","Limitarse exclusivamente al ámbito de un único curso escolar"],
-     c:1, e:"El principio de coherencia y continuidad defiende que debe existir una progresión coherente de principios, metodología y expectativas entre los distintos ciclos y etapas educativas, facilitando así las transiciones y evitando rupturas bruscas en el proceso educativo del alumnado."}
+     c:1, e:"El principio de coherencia y continuidad defiende que debe existir una progresión coherente de principios, metodología y expectativas entre los distintos ciclos y etapas educativas, facilitando así las transiciones y evitando rupturas bruscas en el proceso educativo del alumnado."},
+    {d:"media", q:"¿Qué debe hacer el profesorado si durante la evaluación continua detecta que el progreso de un alumno o alumna no es adecuado?",
+     o:["Esperar a la evaluación final","Establecer las medidas más adecuadas para garantizar los aprendizajes imprescindibles","Calificar automáticamente con un suspenso","Derivar siempre al alumnado fuera del aula"], c:1, e:"La normativa establece la adopción de medidas adecuadas cuando el progreso no sea el esperado, con el fin de garantizar los aprendizajes imprescindibles."},
+    {d:"facil", q:"¿Qué carácter tiene la evaluación en el segundo ciclo de Educación Infantil en Galicia?",
+     o:["Global, continua y formativa","Diagnóstica y exclusivamente inicial","Sumativa y numérica","Final y selectiva"], c:0, e:"La Orden de 30 de mayo de 2023 define la evaluación como global, continua y formativa."},
+    {d:"media", q:"¿Qué finalidad tiene la evaluación del proceso de enseñanza y de la propia práctica docente?",
+     o:["Analizar y valorar la intervención educativa para adaptarla a las características y necesidades del alumnado","Clasificar al alumnado por rendimiento","Determinar exclusivamente las calificaciones","Sustituir la observación del alumnado"], c:0, e:"La evaluación de la práctica docente busca analizar la intervención educativa y ajustarla progresivamente a las necesidades del alumnado."}
   ]
 }
 ];
