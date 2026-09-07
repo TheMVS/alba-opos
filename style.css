@@ -206,8 +206,19 @@ h1,h2,h3{
 .select-actions{
   display:flex;
   gap:14px;
+  flex-wrap:wrap;
   margin:12px 0 18px;
 }
+
+.block-group-title{
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.02em;
+  color:var(--forest);
+  text-transform:uppercase;
+  margin:22px 0 8px;
+}
+.block-group-title:first-of-type{margin-top:4px;}
 .link-btn{
   background:none;border:none;padding:0;
   font-family:inherit;font-size:13px;
