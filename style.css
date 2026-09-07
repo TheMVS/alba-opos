@@ -17,7 +17,7 @@
   --shadow:0 1px 0 rgba(36,38,31,0.06);
 }
 
-*{box-sizing:border-box;}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 html{-webkit-font-smoothing:antialiased;}
 body{
   margin:0;
@@ -25,6 +25,7 @@ body{
   color:var(--ink);
   font-family:"Public Sans", system-ui, sans-serif;
   line-height:1.5;
+  -webkit-text-size-adjust:100%;
 }
 
 h1,h2,h3{
@@ -38,6 +39,7 @@ h1,h2,h3{
   max-width:840px;
   margin:0 auto;
   padding:0 20px 64px;
+  padding-bottom:calc(64px + env(safe-area-inset-bottom));
 }
 
 /* Header */
@@ -151,6 +153,56 @@ h1,h2,h3{
 .block-stat.has-data{color:var(--forest);font-weight:600;}
 .block-stat.no-data{color:var(--slate);}
 
+.difficulty-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:16px;
+  flex-wrap:wrap;
+}
+.difficulty-label{
+  font-size:13px;
+  color:var(--slate);
+  font-weight:600;
+  margin-right:2px;
+}
+.diff-chip{
+  display:inline-flex;
+  align-items:center;
+  cursor:pointer;
+}
+.diff-chip input{
+  position:absolute;
+  opacity:0;
+  width:0;height:0;
+}
+.diff-chip-text{
+  display:inline-block;
+  padding:6px 14px;
+  border-radius:999px;
+  font-size:13px;
+  font-weight:600;
+  border:1.5px solid var(--line);
+  color:var(--slate);
+  background:var(--paper-raised);
+  transition:all .12s ease;
+}
+.diff-chip input:checked + .diff-chip-text.diff-facil{
+  background:#EAF3EC;
+  border-color:var(--forest);
+  color:var(--forest-dark);
+}
+.diff-chip input:checked + .diff-chip-text.diff-media{
+  background:#E9EEF2;
+  border-color:var(--slate);
+  color:#3A4A52;
+}
+.diff-chip input:checked + .diff-chip-text.diff-dificil{
+  background:#FBEFE0;
+  border-color:var(--mustard-deep);
+  color:var(--mustard-deep);
+}
+
 .select-actions{
   display:flex;
   gap:14px;
@@ -230,37 +282,128 @@ h1,h2,h3{
 .secondary-btn:hover{background:var(--forest-dark);color:var(--paper-raised);}
 
 /* ---------- Quiz screen ---------- */
-.quiz-progress{
+.quiz-toolbar{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  margin-bottom:10px;
-  font-size:13px;
+  flex-wrap:wrap;
+  gap:12px;
+  position:sticky;
+  top:0;
+  z-index:5;
+  background:var(--paper);
+  padding:14px 0;
+  border-bottom:1.5px solid var(--line);
+}
+.quiz-toolbar-bottom{
+  position:static;
+  justify-content:flex-end;
+  margin-top:28px;
+  border-bottom:none;
+  border-top:1.5px solid var(--line);
+}
+.quiz-toolbar-info{
+  font-size:14px;
   color:var(--slate);
 }
-.progress-track{
-  height:6px;
-  background:var(--line);
-  border-radius:6px;
-  overflow:hidden;
-  margin-bottom:22px;
+.quiz-toolbar-info strong{
+  font-family:"Fraunces",serif;
+  color:var(--forest-dark);
+  font-size:17px;
 }
-.progress-fill{
-  height:100%;
-  background:var(--mustard-deep);
+.quiz-toolbar-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.quiz-toolbar-actions .primary-btn,
+.quiz-toolbar-actions .secondary-btn,
+.quiz-toolbar-bottom .primary-btn,
+.quiz-toolbar-bottom .secondary-btn{
+  margin-top:0;
+  padding:10px 16px;
+  font-size:13.5px;
+}
+.toolbar-hint{
+  font-size:12.5px;
+  color:var(--slate);
+  margin:10px 0 20px;
+}
+
+.question-list{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
 }
 
 .question-card{
   background:var(--paper-raised);
   border:1px solid var(--line);
   border-radius:var(--radius);
-  padding:26px;
+  padding:22px;
+}
+.question-card.is-corrected{
+  border-color:var(--line);
+}
+.question-head{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:8px 10px;
+  margin-bottom:8px;
+}
+.question-index{
+  font-size:11.5px;
+  color:var(--slate);
+  white-space:nowrap;
+  margin-left:auto;
 }
 .question-block-tag{
   font-size:12px;
   color:var(--forest);
   font-weight:600;
-  margin-bottom:10px;
+}
+.diff-badge{
+  font-size:10.5px;
+  font-weight:700;
+  padding:2px 9px;
+  border-radius:999px;
+  white-space:nowrap;
+  letter-spacing:.02em;
+}
+.diff-badge-facil{
+  background:#EAF3EC;
+  color:var(--forest-dark);
+}
+.diff-badge-media{
+  background:#E9EEF2;
+  color:#3A4A52;
+}
+.diff-badge-dificil{
+  background:#FBEFE0;
+  color:var(--mustard-deep);
+}
+
+.check-btn{
+  margin-top:14px;
+  background:transparent;
+  border:1.5px solid var(--mustard-deep);
+  color:var(--mustard-deep);
+  font-family:inherit;
+  font-weight:600;
+  font-size:13.5px;
+  padding:9px 16px;
+  border-radius:var(--radius);
+  cursor:pointer;
+}
+.check-btn:hover:not(:disabled){
+  background:var(--mustard-deep);
+  color:#fff;
+}
+.check-btn:disabled{
+  border-color:var(--line);
+  color:var(--slate);
+  cursor:not-allowed;
 }
 .question-text{
   font-family:"Fraunces",serif;
@@ -374,6 +517,10 @@ h1,h2,h3{
   border-collapse:collapse;
   margin-top:6px;
 }
+.table-scroll{
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+}
 .stats-table th{
   text-align:left;
   font-size:12px;
@@ -467,4 +614,44 @@ h1,h2,h3{
   .app-header{padding-top:20px;}
   .panel{padding:18px;}
   .question-card{padding:20px;}
+
+  /* Filas de bloque: el título pasa a ocupar toda la línea si es largo,
+     y el contador/estadística bajan a una segunda línea. */
+  .block-row{flex-wrap:wrap; row-gap:4px;}
+  .block-row .block-name{flex:1 1 100%;}
+  .block-row .block-count,
+  .block-row .block-stat{font-size:11.5px;}
+
+  /* Chips de dificultad: algo más de superficie táctil. */
+  .diff-chip-text{padding:8px 15px; font-size:13.5px;}
+
+  /* Cabecera y pie del test: botones apilables y fáciles de tocar. */
+  .quiz-toolbar{gap:10px;}
+  .quiz-toolbar-actions{width:100%;}
+  .quiz-toolbar-actions .primary-btn,
+  .quiz-toolbar-actions .secondary-btn,
+  .quiz-toolbar-bottom .primary-btn,
+  .quiz-toolbar-bottom .secondary-btn{
+    flex:1 1 auto;
+    justify-content:center;
+    padding:12px 14px;
+  }
+  .quiz-toolbar-bottom{flex-direction:column; align-items:stretch;}
+
+  .result-actions .primary-btn,
+  .result-actions .secondary-btn{flex:1 1 auto; justify-content:center;}
+
+  /* Tabla de resultados: columnas más compactas para que quepa sin
+     desbordar en 390px de ancho (iPhone 13). */
+  .stats-table th,
+  .stats-table td{padding:7px 6px; font-size:12.5px;}
+  .bar-cell{width:56px;}
+  .pct-cell{width:38px;}
+
+  .question-text{font-size:17.5px;}
+  .option-row{padding:11px 12px; gap:11px; font-size:14.5px;}
+  .option-bubble{width:25px;height:25px;font-size:12px;}
+
+  .brand-text h1{font-size:19px;}
+  .brand-mark{width:40px;height:40px;font-size:15px;}
 }

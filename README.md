@@ -14,13 +14,22 @@ pensada para alojarse gratis en **GitHub Pages**.
 
 ## ✨ Funcionalidades
 
-- **25 bloques del temario**, con 6 preguntas tipo test cada uno (150 en total).
+- **25 bloques del temario**, con 20 preguntas tipo test cada uno (500 en total).
+- **Filtro de dificultad**: cada pregunta está etiquetada como *fácil*,
+  *media* o *difícil*; en la pantalla de configuración puedes elegir
+  cualquier combinación de niveles (por defecto, los tres). El contador
+  de preguntas disponibles por bloque se ajusta automáticamente según el
+  filtro elegido, y cada pregunta muestra su etiqueta de dificultad durante
+  el test.
 - **Selección flexible**: elige qué bloques repasar y cuántas preguntas quieres
   responder en cada test.
 - **Aleatoriedad real**: tanto las preguntas elegidas como el orden de las
   opciones (A/B/C/D) cambian en cada intento, para evitar la memorización
   posicional.
-- **Corrección y explicación al momento**, tras cada respuesta.
+- **Corrección a tu ritmo**: todo el test se muestra de una vez y cada
+  pregunta tiene su propio botón "Comprobar esta pregunta", para corregir
+  sobre la marcha. Si te aburres de ir una a una, el botón "Corrixir todo o
+  test" corrige de golpe todas las que falten.
 - **Estadísticas por bloque**, guardadas en el propio navegador: la pantalla
   de inicio muestra el % de acierto histórico de cada tema, para detectar
   puntos débiles de un vistazo.
@@ -87,6 +96,7 @@ pregunta sigue este formato:
 
 ```js
 {
+  d: "facil",   // "facil" | "media" | "dificil" — nivel de dificultad de la pregunta
   q: "Texto de la pregunta",
   o: ["Opción A", "Opción B", "Opción C", "Opción D"],
   c: 1,   // índice (0 a 3) de la opción correcta dentro de "o"
@@ -94,9 +104,9 @@ pregunta sigue este formato:
 }
 ```
 
-Para ampliar el banco, añade objetos con ese formato dentro del array
-`questions` del bloque correspondiente. No hay límite de preguntas por
-bloque: cuantas más haya, más variedad tendrá cada test.
+Para ampliar el banco, añade objetos con ese formato (sin olvidar el campo
+`d`) dentro del array `questions` del bloque correspondiente. No hay límite
+de preguntas por bloque: cuantas más haya, más variedad tendrá cada test.
 
 ## ⚠️ Nota sobre el contenido
 

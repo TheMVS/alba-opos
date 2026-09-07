@@ -4,6 +4,7 @@ const main = document.getElementById("app-main");
 
 let state = {
   selectedBlocks: new Set(QUESTION_BANK.map(b => b.id)),
+  selectedDifficulty: new Set(["facil","media","dificil"]),
   numQuestions: 20,
   quiz: null // {questions:[...], index, answers:[], startedAt}
 };
@@ -20,7 +21,10 @@ function saveStats(stats){
 function totalAvailable(){
   return QUESTION_BANK
     .filter(b => state.selectedBlocks.has(b.id))
-    .reduce((sum,b) => sum + b.questions.length, 0);
+    .reduce((sum,b) => sum + b.questions.filter(q => state.selectedDifficulty.has(q.d)).length, 0);
+}
+function blockAvailable(b){
+  return b.questions.filter(q => state.selectedDifficulty.has(q.d)).length;
 }
 
 // ============ Setup screen ============
@@ -42,15 +46,35 @@ function renderSetup(){
       <label class="block-row">
         <input type="checkbox" data-block="${b.id}" ${checked}>
         <span class="block-name">${b.title}</span>
-        <span class="block-count">${b.questions.length} preg.</span>
+        <span class="block-count">${blockAvailable(b)} preg.</span>
         ${statHtml}
       </label>`;
   }).join("");
 
+  const facilChecked = state.selectedDifficulty.has("facil") ? "checked" : "";
+  const mediaChecked = state.selectedDifficulty.has("media") ? "checked" : "";
+  const dificilChecked = state.selectedDifficulty.has("dificil") ? "checked" : "";
+
   main.innerHTML = `
     <section class="panel">
       <h2>Configura o teu test</h2>
-      <p class="panel-sub">Elixe os bloques do temario e cantas preguntas queres responder. As preguntas e as opcións escóllense ao chou en cada intento.</p>
+      <p class="panel-sub">Elixe os bloques do temario, a dificultade e cantas preguntas queres responder. As preguntas e as opcións escóllense ao chou en cada intento.</p>
+
+      <div class="difficulty-row">
+        <span class="difficulty-label">Dificultade</span>
+        <label class="diff-chip">
+          <input type="checkbox" id="diffFacil" ${facilChecked}>
+          <span class="diff-chip-text diff-facil">Fácil</span>
+        </label>
+        <label class="diff-chip">
+          <input type="checkbox" id="diffMedia" ${mediaChecked}>
+          <span class="diff-chip-text diff-media">Media</span>
+        </label>
+        <label class="diff-chip">
+          <input type="checkbox" id="diffDificil" ${dificilChecked}>
+          <span class="diff-chip-text diff-dificil">Difícil</span>
+        </label>
+      </div>
 
       <div class="select-actions">
         <button class="link-btn" id="selectAll">Marcar todos</button>
@@ -85,6 +109,21 @@ function renderSetup(){
     state.selectedBlocks = new Set();
     renderSetup();
   });
+  document.getElementById("diffFacil").addEventListener("change", (e) => {
+    if(e.target.checked) state.selectedDifficulty.add("facil"); else state.selectedDifficulty.delete("facil");
+    if(state.selectedDifficulty.size === 0) state.selectedDifficulty.add("facil");
+    renderSetup();
+  });
+  document.getElementById("diffMedia").addEventListener("change", (e) => {
+    if(e.target.checked) state.selectedDifficulty.add("media"); else state.selectedDifficulty.delete("media");
+    if(state.selectedDifficulty.size === 0) state.selectedDifficulty.add("media");
+    renderSetup();
+  });
+  document.getElementById("diffDificil").addEventListener("change", (e) => {
+    if(e.target.checked) state.selectedDifficulty.add("dificil"); else state.selectedDifficulty.delete("dificil");
+    if(state.selectedDifficulty.size === 0) state.selectedDifficulty.add("dificil");
+    renderSetup();
+  });
   const range = document.getElementById("numQ");
   range.addEventListener("input", () => {
     state.numQuestions = parseInt(range.value, 10);
@@ -107,7 +146,10 @@ function startQuiz(){
   const pool = [];
   QUESTION_BANK.forEach(b => {
     if(!state.selectedBlocks.has(b.id)) return;
-    b.questions.forEach(q => pool.push({blockId:b.id, blockTitle:b.title, ...q}));
+    b.questions.forEach(q => {
+      if(!state.selectedDifficulty.has(q.d)) return;
+      pool.push({blockId:b.id, blockTitle:b.title, ...q});
+    });
   });
   const chosen = shuffle(pool).slice(0, state.numQuestions);
 
@@ -116,86 +158,125 @@ function startQuiz(){
     const newOptions = optionIdxs.map(i => q.o[i]);
     const newCorrect = optionIdxs.indexOf(q.c);
     return {
-      blockId:q.blockId, blockTitle:q.blockTitle,
+      blockId:q.blockId, blockTitle:q.blockTitle, difficulty:q.d,
       question:q.q, options:newOptions, correct:newCorrect,
-      explanation:q.e, userAnswer:null
+      explanation:q.e, userAnswer:null, corrected:false
     };
   });
 
-  state.quiz = { questions: prepared, index: 0 };
+  state.quiz = { questions: prepared };
   renderQuiz();
 }
 
-// ============ Quiz screen ============
-function renderQuiz(){
-  const quiz = state.quiz;
-  const q = quiz.questions[quiz.index];
-  const total = quiz.questions.length;
-  const letters = ["A","B","C","D","E","F"];
-  const answered = q.userAnswer !== null;
-  const pct = Math.round((quiz.index/total)*100);
+// ============ Quiz screen (todas as preguntas xuntas, corrección total ou individual) ============
+const LETTERS = ["A","B","C","D","E","F"];
 
-  const optionsHtml = q.options.map((opt,i) => {
+function questionCardHtml(q, i){
+  const answered = q.userAnswer !== null;
+
+  const optionsHtml = q.options.map((opt,idx) => {
     let cls = "option-row";
-    if(answered){
+    if(q.corrected){
       cls += " locked";
-      if(i === q.correct) cls += " correct";
-      else if(i === q.userAnswer) cls += " incorrect";
-    } else if(i === q.userAnswer){
+      if(idx === q.correct) cls += " correct";
+      else if(idx === q.userAnswer) cls += " incorrect";
+    } else if(idx === q.userAnswer){
       cls += " selected";
     }
-    return `<button class="${cls}" data-idx="${i}" ${answered?"disabled":""}>
-      <span class="option-bubble">${letters[i]}</span>
+    return `<button class="${cls}" data-qi="${i}" data-idx="${idx}" ${q.corrected?"disabled":""}>
+      <span class="option-bubble">${LETTERS[idx]}</span>
       <span>${opt}</span>
     </button>`;
   }).join("");
 
   let feedbackHtml = "";
-  if(answered){
+  if(q.corrected){
     const isCorrect = q.userAnswer === q.correct;
+    const noAnswer = q.userAnswer === null;
     feedbackHtml = `
       <div class="feedback-box ${isCorrect?"is-correct":"is-incorrect"}">
-        <span class="feedback-title ${isCorrect?"is-correct":"is-incorrect"}">${isCorrect ? "Correcto" : "Incorrecto"}</span>
+        <span class="feedback-title ${isCorrect?"is-correct":"is-incorrect"}">${noAnswer ? "Sen responder" : (isCorrect ? "Correcto" : "Incorrecto")}</span>
         ${q.explanation}
       </div>`;
   }
 
-  main.innerHTML = `
-    <div class="quiz-progress">
-      <span>Pregunta ${quiz.index+1} de ${total}</span>
-      <span>${q.blockTitle}</span>
-    </div>
-    <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
+  const checkBtn = !q.corrected
+    ? `<button class="check-btn" data-qi="${i}" ${answered?"":"disabled"}>Comprobar esta pregunta</button>`
+    : "";
 
-    <div class="question-card">
+  return `
+    <div class="question-card ${q.corrected ? "is-corrected":""}" id="qcard-${i}">
+      <div class="question-head">
+        <span class="question-block-tag">${q.blockTitle}</span>
+        <span class="diff-badge diff-badge-${q.difficulty}">${q.difficulty === "facil" ? "Fácil" : (q.difficulty === "media" ? "Media" : "Difícil")}</span>
+        <span class="question-index">Pregunta ${i+1}</span>
+      </div>
       <p class="question-text">${q.question}</p>
       <div class="options">${optionsHtml}</div>
       ${feedbackHtml}
-    </div>
+      ${checkBtn}
+    </div>`;
+}
 
-    <div class="quiz-nav">
-      <button class="primary-btn" id="nextBtn" ${answered?"":"disabled"}>
-        ${quiz.index+1 < total ? "Seguinte pregunta" : "Ver resultados"}
-      </button>
+function renderQuiz(){
+  const quiz = state.quiz;
+  const total = quiz.questions.length;
+  const correctedCount = quiz.questions.filter(q=>q.corrected).length;
+
+  const cardsHtml = quiz.questions.map((q,i) => questionCardHtml(q,i)).join("");
+
+  main.innerHTML = `
+    <div class="quiz-toolbar">
+      <div class="quiz-toolbar-info">
+        <strong>${correctedCount}</strong> de ${total} correxidas
+      </div>
+      <div class="quiz-toolbar-actions">
+        <button class="secondary-btn" id="correctAllBtn">Corrixir todo o test</button>
+        <button class="primary-btn" id="seeResultsBtn">Ver resultados</button>
+      </div>
+    </div>
+    <p class="toolbar-hint">Podes corrixir pregunta a pregunta co botón de cada tarxeta, ou corrixilas todas dun golpe.</p>
+
+    <div class="question-list">${cardsHtml}</div>
+
+    <div class="quiz-toolbar quiz-toolbar-bottom">
+      <button class="secondary-btn" id="correctAllBtn2">Corrixir todo o test</button>
+      <button class="primary-btn" id="seeResultsBtn2">Ver resultados</button>
     </div>
   `;
 
-  if(!answered){
-    main.querySelectorAll(".option-row").forEach(btn => {
-      btn.addEventListener("click", () => {
-        q.userAnswer = parseInt(btn.dataset.idx,10);
-        renderQuiz();
-      });
-    });
-  }
-  document.getElementById("nextBtn").addEventListener("click", () => {
-    if(quiz.index+1 < total){
-      quiz.index++;
+  main.querySelectorAll(".option-row").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const qi = parseInt(btn.dataset.qi,10);
+      const idx = parseInt(btn.dataset.idx,10);
+      quiz.questions[qi].userAnswer = idx;
       renderQuiz();
-    } else {
-      finishQuiz();
-    }
+      document.getElementById(`qcard-${qi}`)?.scrollIntoView({block:"nearest"});
+    });
   });
+
+  main.querySelectorAll(".check-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const qi = parseInt(btn.dataset.qi,10);
+      quiz.questions[qi].corrected = true;
+      renderQuiz();
+      document.getElementById(`qcard-${qi}`)?.scrollIntoView({block:"start", behavior:"smooth"});
+    });
+  });
+
+  function correctAll(){
+    quiz.questions.forEach(q => { q.corrected = true; });
+    renderQuiz();
+  }
+  document.getElementById("correctAllBtn").addEventListener("click", correctAll);
+  document.getElementById("correctAllBtn2").addEventListener("click", correctAll);
+
+  function goResults(){
+    quiz.questions.forEach(q => { q.corrected = true; });
+    finishQuiz();
+  }
+  document.getElementById("seeResultsBtn").addEventListener("click", goResults);
+  document.getElementById("seeResultsBtn2").addEventListener("click", goResults);
 }
 
 // ============ Results ============
@@ -264,10 +345,12 @@ function renderResults(){
       </div>
 
       <h3 class="section-title">Resultado por bloque (neste test)</h3>
-      <table class="stats-table">
-        <thead><tr><th>Bloque</th><th>Acertos</th><th></th><th>%</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
+      <div class="table-scroll">
+        <table class="stats-table">
+          <thead><tr><th>Bloque</th><th>Acertos</th><th></th><th>%</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
 
       <div class="result-actions">
         <button class="primary-btn" id="pdfBtn">Descargar PDF</button>
