@@ -34,7 +34,7 @@ function renderSetup(){
   if(state.numQuestions > max) state.numQuestions = max;
   if(state.numQuestions < 1) state.numQuestions = Math.min(10, max);
 
-  function blockRow(b){
+  const rows = QUESTION_BANK.map(b => {
     const checked = state.selectedBlocks.has(b.id) ? "checked" : "";
     const s = stats[b.id];
     let statHtml = `<span class="block-stat no-data">— sen datos</span>`;
@@ -49,12 +49,7 @@ function renderSetup(){
         <span class="block-count">${blockAvailable(b)} preg.</span>
         ${statHtml}
       </label>`;
-  }
-
-  const pedBlocks = QUESTION_BANK.filter(b => b.category !== "legislacion");
-  const legBlocks = QUESTION_BANK.filter(b => b.category === "legislacion");
-  const rows = pedBlocks.map(blockRow).join("");
-  const legRows = legBlocks.map(blockRow).join("");
+  }).join("");
 
   const facilChecked = state.selectedDifficulty.has("facil") ? "checked" : "";
   const mediaChecked = state.selectedDifficulty.has("media") ? "checked" : "";
@@ -84,16 +79,10 @@ function renderSetup(){
       <div class="select-actions">
         <button class="link-btn" id="selectAll">Marcar todos</button>
         <button class="link-btn" id="selectNone">Desmarcar todos</button>
-        <button class="link-btn" id="selectPedagogico">Só temario xeral</button>
-        <button class="link-btn" id="selectLegislacion">Só Legislación BOE/DOG</button>
+        <button class="link-btn" id="selectLegislacion">Só Lexislación BOE</button>
       </div>
 
-      <h3 class="block-group-title">Temario xeral (${pedBlocks.length} bloques)</h3>
       <div class="block-list">${rows}</div>
-
-      <h3 class="block-group-title">Legislación BOE/DOG (${legBlocks.length} temas)</h3>
-      <p class="toolbar-hint">Os 7 temas de lexislación de parte xeral (Constitución, Estatuto de Galicia, Ley 39/2015, Ley 2/2015, LOPDGDD, Ley 7/2023 e LO 1/2004).</p>
-      <div class="block-list">${legRows}</div>
 
       <div class="count-row">
         <label for="numQ">Nº de preguntas</label>
@@ -121,12 +110,8 @@ function renderSetup(){
     state.selectedBlocks = new Set();
     renderSetup();
   });
-  document.getElementById("selectPedagogico").addEventListener("click", () => {
-    state.selectedBlocks = new Set(pedBlocks.map(b=>b.id));
-    renderSetup();
-  });
   document.getElementById("selectLegislacion").addEventListener("click", () => {
-    state.selectedBlocks = new Set(legBlocks.map(b=>b.id));
+    state.selectedBlocks = new Set(["b26"]);
     renderSetup();
   });
   document.getElementById("diffFacil").addEventListener("change", (e) => {
