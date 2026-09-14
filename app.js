@@ -1,10 +1,11 @@
 // ============ App state ============
 const STORAGE_KEY = "oposicionesInfantilStatsV1";
 const main = document.getElementById("app-main");
+const DIFFICULTY_LABELS = { facil: "Fácil", media: "Media", dificil: "Difícil", moidificil: "Moi difícil" };
 
 let state = {
   selectedBlocks: new Set(QUESTION_BANK.map(b => b.id)),
-  selectedDifficulty: new Set(["facil","media","dificil"]),
+  selectedDifficulty: new Set(["facil","media","dificil","moidificil"]),
   numQuestions: 20,
   quiz: null // {questions:[...], index, answers:[], startedAt}
 };
@@ -54,6 +55,7 @@ function renderSetup(){
   const facilChecked = state.selectedDifficulty.has("facil") ? "checked" : "";
   const mediaChecked = state.selectedDifficulty.has("media") ? "checked" : "";
   const dificilChecked = state.selectedDifficulty.has("dificil") ? "checked" : "";
+  const moiDificilChecked = state.selectedDifficulty.has("moidificil") ? "checked" : "";
 
   main.innerHTML = `
     <section class="panel">
@@ -73,6 +75,10 @@ function renderSetup(){
         <label class="diff-chip">
           <input type="checkbox" id="diffDificil" ${dificilChecked}>
           <span class="diff-chip-text diff-dificil">Difícil</span>
+        </label>
+        <label class="diff-chip">
+          <input type="checkbox" id="diffMoiDificil" ${moiDificilChecked}>
+          <span class="diff-chip-text diff-moidificil">Moi difícil</span>
         </label>
       </div>
 
@@ -127,6 +133,11 @@ function renderSetup(){
   document.getElementById("diffDificil").addEventListener("change", (e) => {
     if(e.target.checked) state.selectedDifficulty.add("dificil"); else state.selectedDifficulty.delete("dificil");
     if(state.selectedDifficulty.size === 0) state.selectedDifficulty.add("dificil");
+    renderSetup();
+  });
+  document.getElementById("diffMoiDificil").addEventListener("change", (e) => {
+    if(e.target.checked) state.selectedDifficulty.add("moidificil"); else state.selectedDifficulty.delete("moidificil");
+    if(state.selectedDifficulty.size === 0) state.selectedDifficulty.add("moidificil");
     renderSetup();
   });
   const range = document.getElementById("numQ");
@@ -213,7 +224,7 @@ function questionCardHtml(q, i){
     <div class="question-card ${q.corrected ? "is-corrected":""}" id="qcard-${i}">
       <div class="question-head">
         <span class="question-block-tag">${q.blockTitle}</span>
-        <span class="diff-badge diff-badge-${q.difficulty}">${q.difficulty === "facil" ? "Fácil" : (q.difficulty === "media" ? "Media" : "Difícil")}</span>
+        <span class="diff-badge diff-badge-${q.difficulty}">${DIFFICULTY_LABELS[q.difficulty] || q.difficulty}</span>
         <span class="question-index">Pregunta ${i+1}</span>
       </div>
       <p class="question-text">${q.question}</p>

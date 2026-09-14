@@ -1716,422 +1716,1605 @@ const QUESTION_BANK = [
   ]
 },
 {
-  id: "b26", title: "Legislación BOE (Temario xeral: Constitución, Estatuto, Ley 39/2015, Ley 2/2015, LOPDGDD, Ley 7/2023, LO 1/2004)",
-  questions: [
-    // ===== TEMA 1: Constitución Española (BOE núm. 311, 29/12/1978 — BOE-A-1978-31229) =====
-    {d:"facil", q:"Según el artículo 1.1 de la Constitución Española, ¿cuáles son los valores superiores del ordenamiento jurídico español?",
-     o:["La libertad, la justicia, la igualdad y el pluralismo político","La democracia, la unidad y la solidaridad","La soberanía, la justicia y la seguridad","La igualdad, la fraternidad y la propiedad"],
-     c:0, e:"Art. 1.1 CE (BOE núm. 311, de 29/12/1978): España se constituye en un Estado social y democrático de Derecho que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político."},
-    {d:"facil", q:"¿Cuál es la forma política del Estado español según el artículo 1.3 de la Constitución?",
-     o:["La República parlamentaria","La Monarquía parlamentaria","La Monarquía constitucional absoluta","La Confederación de Estados"],
-     c:1, e:"Art. 1.3 CE: la forma política del Estado español es la Monarquía parlamentaria."},
-    {d:"media", q:"El artículo 2 de la Constitución reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones. ¿En qué principio se fundamenta a la vez la Constitución según ese mismo artículo?",
-     o:["En la indisoluble unidad de la Nación española","En la federación voluntaria de territorios","En la soberanía compartida entre CCAA y Estado","En la independencia de los territorios históricos"],
-     c:0, e:"Art. 2 CE: la Constitución se fundamenta en la indisoluble unidad de la Nación española, y reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones que la integran."},
-    {d:"facil", q:"Según el artículo 3.1 de la Constitución, ¿qué lengua es la oficial del Estado?",
-     o:["El gallego","El catalán","El castellano","El euskera"],
-     c:2, e:"Art. 3.1 CE: el castellano es la lengua española oficial del Estado, con el deber de conocerla y el derecho a usarla."},
-    {d:"media", q:"Conforme al artículo 9.2 de la Constitución, corresponde a los poderes públicos:",
-     o:["Únicamente legislar sobre materias reservadas a ley orgánica","Promover las condiciones para que la libertad y la igualdad sean reales y efectivas, removiendo los obstáculos que impidan su plenitud","Garantizar exclusivamente el orden público","Suspender los derechos fundamentales cuando lo consideren oportuno"],
-     c:1, e:"Art. 9.2 CE: los poderes públicos deben promover las condiciones para que la libertad y la igualdad del individuo y de los grupos sean reales y efectivas, removiendo los obstáculos que impidan o dificulten su plenitud."},
-    {d:"media", q:"El artículo 10.1 de la Constitución señala que la dignidad de la persona y los derechos inviolables que le son inherentes son:",
-     o:["Un principio meramente programático sin efectos jurídicos","Fundamento del orden político y de la paz social","Competencia exclusiva del Tribunal Constitucional","Aplicables solo a los ciudadanos españoles"],
-     c:1, e:"Art. 10.1 CE: la dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social."},
-    {d:"facil", q:"El artículo 14 de la Constitución establece la igualdad de los españoles ante la ley. ¿Cuál de estas causas de discriminación cita expresamente?",
-     o:["Nacimiento, raza, sexo, religión u opinión","Únicamente la raza","Únicamente el sexo y la religión","Solo la opinión política"],
-     c:0, e:"Art. 14 CE: los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social."},
-    {d:"media", q:"Según el artículo 23.1 de la Constitución, los ciudadanos tienen derecho a participar en los asuntos públicos:",
-     o:["Solo a través de representantes designados por el Gobierno","Directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal","Únicamente mediante referéndum","Solo si son mayores de 25 años"],
-     c:1, e:"Art. 23.1 CE: los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal."},
-    {d:"media", q:"El artículo 23.2 de la Constitución reconoce el derecho a acceder en condiciones de igualdad a las funciones y cargos públicos. ¿Qué requisito señala el propio artículo para su ejercicio?",
-     o:["Que se exijan los requisitos que señalen las leyes","Superar exclusivamente una entrevista personal","Ser mayor de 30 años","No tener ninguna condición"],
-     c:0, e:"Art. 23.2 CE: los ciudadanos tienen derecho a acceder en condiciones de igualdad a las funciones y cargos públicos, con los requisitos que señalen las leyes (principio que fundamenta el acceso por mérito y capacidad al empleo público)."},
-    {d:"dificil", q:"Según el artículo 53.1 de la Constitución, el ejercicio de los derechos y libertades del Capítulo Segundo del Título I:",
-     o:["Solo podrá regularse por ley, que en todo caso deberá respetar su contenido esencial","Puede regularse libremente por reglamento","No puede regularse en ningún caso","Se regula exclusivamente por decreto-ley"],
-     c:0, e:"Art. 53.1 CE: los derechos y libertades del Capítulo segundo vinculan a todos los poderes públicos; solo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse su ejercicio."},
-    {d:"dificil", q:"De acuerdo con el artículo 53.2 de la Constitución, ¿ante quién puede recabarse la tutela de las libertades y derechos reconocidos en el artículo 14 y en la Sección Primera del Capítulo Segundo?",
-     o:["Únicamente ante el Defensor del Pueblo","Ante los Tribunales ordinarios por un procedimiento preferente y sumario y, en su caso, mediante recurso de amparo ante el Tribunal Constitucional","Solo ante el Consejo de Estado","Ante el Tribunal Supremo en única instancia"],
-     c:1, e:"Art. 53.2 CE: cualquier ciudadano podrá recabar la tutela de las libertades y derechos del art. 14 y de la Sección primera del Capítulo segundo ante los Tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional."},
-    {d:"media", q:"El artículo 54 de la Constitución encomienda a una ley orgánica la regulación de una institución. ¿Cuál?",
-     o:["El Tribunal de Cuentas","El Defensor del Pueblo","El Consejo de Estado","El Consejo General del Poder Judicial"],
-     c:1, e:"Art. 54 CE: una ley orgánica regulará la institución del Defensor del Pueblo, alto comisionado de las Cortes Generales para la defensa de los derechos comprendidos en el Título I."},
-    {d:"dificil", q:"Conforme al artículo 55.1 de la Constitución, los derechos que pueden suspenderse durante la declaración de estado de excepción o de sitio incluyen, entre otros, los reconocidos en los artículos:",
-     o:["17, 18 (apartados 2 y 3), 19, 20 (apartados 1 a) y d), y 5), 21 y 28.2","10, 14 y 23 en todo caso","Solo el artículo 14","Todos los derechos fundamentales sin excepción"],
-     c:0, e:"Art. 55.1 CE recoge la lista de derechos susceptibles de suspensión (entre ellos los arts. 17, 18.2 y 3, 19, 20.1 a) y d) y 20.5, 21, 28.2 y 37.2) cuando se declare el estado de excepción o de sitio."},
-    {d:"facil", q:"Según el artículo 137 de la Constitución, ¿en qué entidades se organiza territorialmente el Estado?",
-     o:["Municipios, provincias y las Comunidades Autónomas que se constituyan","Únicamente en provincias","Solo en Comunidades Autónomas","Regiones militares"],
-     c:0, e:"Art. 137 CE: el Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan, gozando todas estas entidades de autonomía para la gestión de sus intereses."},
-    {d:"media", q:"El artículo 140 de la Constitución garantiza la autonomía de los municipios. ¿A quién corresponde su gobierno y administración?",
-     o:["A los Ayuntamientos, integrados por Alcaldes y Concejales","Exclusivamente al Alcalde","A la Diputación Provincial","Al Delegado del Gobierno"],
-     c:0, e:"Art. 140 CE: el gobierno y administración de los municipios corresponde a sus respectivos Ayuntamientos, integrados por los Alcaldes y los Concejales, elegidos estos por sufragio universal."},
-    {d:"dificil", q:"Según el artículo 148.1 de la Constitución, una de las materias en las que las Comunidades Autónomas pueden asumir competencias es:",
-     o:["El fomento de la cultura, de la investigación y, en su caso, de la enseñanza de la lengua de la Comunidad Autónoma","La política exterior del Estado","La emisión de moneda","La defensa nacional"],
-     c:0, e:"Art. 148.1.17ª CE: las Comunidades Autónomas podrán asumir competencias en el fomento de la cultura, de la investigación y, en su caso, de la enseñanza de la lengua de la Comunidad Autónoma."},
-
-    // ===== TEMA 2: Estatuto de Autonomía de Galicia (LO 1/1981, BOE núm. 101, 28/04/1981 — BOE-A-1981-9564) =====
-    {d:"facil", q:"Según el artículo 9 del Estatuto de Autonomía de Galicia, ¿a través de qué instituciones se ejercen los poderes de la Comunidad Autónoma?",
-     o:["El Parlamento, la Junta y su Presidente","Solo el Parlamento","El Consello de la Xunta y el Valedor do Pobo","Los Ayuntamientos gallegos"],
-     c:0, e:"Art. 9.Uno del Estatuto (LO 1/1981, BOE núm. 101, de 28/04/1981): los poderes de la Comunidad Autónoma se ejercen a través del Parlamento, de la Junta y de su Presidente."},
-    {d:"media", q:"Entre las funciones del Parlamento de Galicia que enumera el artículo 10 del Estatuto se encuentra:",
-     o:["Ejercer la potestad legislativa de la Comunidad Autónoma","Nombrar directamente a los jueces gallegos","Aprobar los Presupuestos Generales del Estado","Declarar el estado de excepción"],
-     c:0, e:"Art. 10.Uno.a) del Estatuto: corresponde al Parlamento de Galicia ejercer la potestad legislativa de la Comunidad Autónoma."},
-    {d:"facil", q:"¿Por cuánto tiempo es elegido el Parlamento de Galicia según el artículo 11 del Estatuto?",
-     o:["Dos años","Cuatro años","Cinco años","Seis años"],
-     c:1, e:"Art. 11.Dos del Estatuto: el Parlamento será elegido por un plazo de cuatro años, de acuerdo con un sistema de representación proporcional."},
-    {d:"media", q:"Según el artículo 11.Cinco del Estatuto, ¿entre qué número de diputados debe fijarse el Parlamento de Galicia?",
-     o:["Entre 40 y 60","Entre 60 y 80","Entre 80 y 100","Entre 100 y 120"],
-     c:1, e:"Art. 11.Cinco del Estatuto: una ley del Parlamento de Galicia fijará su número de miembros, entre sesenta y ochenta."},
-    {d:"facil", q:"¿Quién elige al Presidente de la Junta de Galicia y quién lo nombra, según el artículo 15 del Estatuto?",
-     o:["Es elegido por el Parlamento de Galicia entre sus miembros y nombrado por el Rey","Es elegido directamente por sufragio universal","Lo nombra el Gobierno de España","Lo designa el Delegado del Gobierno"],
-     c:0, e:"Art. 15.Dos del Estatuto: el Presidente de la Junta será elegido por el Parlamento Gallego de entre sus miembros y será nombrado por el Rey."},
-    {d:"media", q:"Según el artículo 16 del Estatuto, ¿cómo está compuesta la Junta de Galicia?",
-     o:["Por el Presidente, Vicepresidente o Vicepresidentes y los Consejeros","Solo por el Presidente","Por el Presidente y el Valedor do Pobo","Por los alcaldes de las cuatro provincias"],
-     c:0, e:"Art. 16.Dos del Estatuto: la Junta de Galicia está compuesta por el Presidente, Vicepresidente o Vicepresidentes, en su caso, y los Consejeros."},
-    {d:"dificil", q:"Según el artículo 21 del Estatuto, ¿qué órgano culmina la organización judicial en el ámbito territorial de Galicia?",
-     o:["El Tribunal Superior de Justicia de Galicia","El Tribunal Supremo","El Tribunal Constitucional","La Audiencia Nacional"],
-     c:0, e:"Art. 21 del Estatuto: el Tribunal Superior de Justicia de Galicia es el órgano jurisdiccional en que culmina la organización judicial en su ámbito territorial."},
-    {d:"media", q:"Según el artículo 24.1 del Estatuto, a instancia de la Comunidad Autónoma, ¿qué se convoca para cubrir plazas vacantes en Galicia de Magistrados, Jueces y Secretarios Judiciales?",
-     o:["Concursos y oposiciones, de acuerdo con la Ley Orgánica del Poder Judicial","Elecciones directas","Sorteos públicos","Nombramientos discrecionales de la Junta"],
-     c:0, e:"Art. 24.1 del Estatuto: a instancia de la Comunidad Autónoma se convocarán los concursos y oposiciones para cubrir plazas vacantes en Galicia de Magistrados, Jueces, Secretarios Judiciales y demás personal, conforme a la LOPJ."},
-    {d:"dificil", q:"Según el artículo 25 del Estatuto, en la resolución de concursos y oposiciones de la Administración de Justicia en Galicia, ¿qué se considera mérito preferente?",
-     o:["La especialización en Derecho gallego y el conocimiento del idioma del país","Únicamente la antigüedad","Haber nacido en Galicia","Superar un examen de idiomas extranjeros"],
-     c:0, e:"Art. 25 del Estatuto: será mérito preferente la especialización en Derecho gallego y el conocimiento del idioma del país en la resolución de concursos y oposiciones."},
-    {d:"facil", q:"Según el artículo 27 del Estatuto, ¿en qué materias tiene la Comunidad Autónoma gallega competencia exclusiva, entre otras?",
-     o:["Ordenación del territorio y del litoral, urbanismo y vivienda","Defensa y Fuerzas Armadas","Relaciones internacionales","Sistema monetario"],
-     c:0, e:"Art. 27.Tres del Estatuto: corresponde a la Comunidad Autónoma gallega la competencia exclusiva sobre ordenación del territorio y del litoral, urbanismo y vivienda."},
-    {d:"media", q:"El artículo 27.Veinte del Estatuto atribuye a Galicia competencia exclusiva sobre:",
-     o:["La promoción y la enseñanza de la lengua gallega","La política exterior","El régimen aduanero","La legislación mercantil"],
-     c:0, e:"Art. 27.Veinte del Estatuto: es competencia exclusiva de la Comunidad Autónoma gallega la promoción y la enseñanza de la lengua gallega."},
-    {d:"dificil", q:"Según el artículo 31 del Estatuto, ¿qué competencia tiene la Comunidad Autónoma gallega en materia de enseñanza?",
-     o:["La competencia plena en la regulación y administración de la enseñanza en toda su extensión, niveles y grados","Ninguna competencia, es exclusiva del Estado","Solo la gestión de los comedores escolares","Solo la enseñanza universitaria"],
-     c:0, e:"Art. 31 del Estatuto: es de la competencia plena de la Comunidad Autónoma gallega la regulación y administración de la enseñanza en toda su extensión, niveles, grados, modalidades y especialidades, sin perjuicio del artículo 27 CE y de la alta inspección del Estado."},
-    {d:"media", q:"Según el artículo 33.1 del Estatuto, ¿qué corresponde a la Comunidad Autónoma en materia de sanidad interior?",
-     o:["El desarrollo legislativo y la ejecución de la legislación básica del Estado","Nada, es competencia exclusiva estatal","Solo la inspección farmacéutica","La fijación de los precios de los medicamentos"],
-     c:0, e:"Art. 33.Uno del Estatuto: corresponde a la Comunidad Autónoma el desarrollo legislativo y la ejecución de la legislación básica del Estado en materia de sanidad interior."},
-    {d:"facil", q:"Según el artículo 39 del Estatuto, ¿a quién corresponde la creación y estructuración de la Administración pública gallega?",
-     o:["A la Comunidad Autónoma, dentro de los principios y normas básicas del Estado","Al Gobierno de España en exclusiva","A cada Ayuntamiento por separado","A la Unión Europea"],
-     c:0, e:"Art. 39 del Estatuto: corresponde a la Comunidad Autónoma la creación y estructuración de su propia Administración pública, dentro de los principios generales y normas básicas del Estado."},
-    {d:"media", q:"Según el artículo 40 del Estatuto, mediante ley de Galicia se puede, entre otras cosas:",
-     o:["Reconocer la comarca como entidad local con personalidad jurídica y demarcación propia","Suprimir automáticamente los municipios","Eliminar las parroquias rurales","Crear nuevas provincias"],
-     c:0, e:"Art. 40.Uno del Estatuto: por ley de Galicia se podrá reconocer la comarca como entidad local con personalidad jurídica y demarcación propia, sin que ello suponga necesariamente la supresión de los municipios que la integren."},
-
-    // ===== TEMA 3: Ley 39/2015, del Procedimiento Administrativo Común (BOE núm. 236, 02/10/2015 — BOE-A-2015-10565) =====
-    {d:"facil", q:"Según el artículo 34 de la Ley 39/2015, los actos administrativos se producirán:",
-     o:["Por el órgano competente, ajustándose a los requisitos y al procedimiento establecido","Por cualquier funcionario que lo desee","Sin necesidad de procedimiento alguno","Solo a instancia de parte"],
-     c:0, e:"Art. 34.1 Ley 39/2015 (BOE núm. 236, de 02/10/2015): los actos administrativos se producirán por el órgano competente ajustándose a los requisitos y al procedimiento establecido."},
-    {d:"media", q:"Según el artículo 35.1 de la Ley 39/2015, ¿cuál de los siguientes actos debe ser motivado?",
-     o:["Los actos que limiten derechos subjetivos o intereses legítimos","Los actos de mero trámite sin relevancia","Todos los actos, sin excepción alguna","Solo los actos verbales"],
-     c:0, e:"Art. 35.1.a) Ley 39/2015: deben ser motivados, con sucinta referencia de hechos y fundamentos de derecho, los actos que limiten derechos subjetivos o intereses legítimos, entre otros supuestos."},
-    {d:"facil", q:"¿Cómo deben producirse, con carácter general, los actos administrativos según el artículo 36.1 de la Ley 39/2015?",
-     o:["Por escrito, a través de medios electrónicos, salvo que su naturaleza exija otra forma","Siempre de forma verbal","Solo mediante fax","Nunca por medios electrónicos"],
-     c:0, e:"Art. 36.1 Ley 39/2015: los actos administrativos se producirán por escrito a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia."},
-    {d:"dificil", q:"Según el artículo 39.3 de la Ley 39/2015, ¿en qué caso puede otorgarse eficacia retroactiva a un acto administrativo?",
-     o:["Cuando se dicte en sustitución de un acto anulado o produzca efectos favorables al interesado, si los supuestos de hecho ya existían","Nunca, la retroactividad está prohibida en todo caso","Solo si lo pide el interesado por escrito","Solo en procedimientos sancionadores"],
-     c:0, e:"Art. 39.3 Ley 39/2015: excepcionalmente podrá otorgarse eficacia retroactiva a los actos cuando se dicten en sustitución de actos anulados o produzcan efectos favorables al interesado, siempre que los supuestos de hecho necesarios existieran ya en la fecha a que se retrotraiga la eficacia."},
-    {d:"media", q:"Según el artículo 40.2 de la Ley 39/2015, ¿en qué plazo debe cursarse la notificación de una resolución o acto administrativo?",
-     o:["Dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado","En el plazo de un mes","Sin plazo determinado","En 24 horas"],
-     c:0, e:"Art. 40.2 Ley 39/2015: toda notificación deberá ser cursada dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado."},
-    {d:"dificil", q:"Según el artículo 44 de la Ley 39/2015, cuando los interesados sean desconocidos o no se pudiera practicar la notificación, ¿cómo se hará esta?",
-     o:["Mediante un anuncio publicado en el «Boletín Oficial del Estado»","No se notifica en ningún caso","Solo mediante un edicto en el tablón municipal, sin más trámite","A través de una llamada telefónica"],
-     c:0, e:"Art. 44 Ley 39/2015: cuando los interesados sean desconocidos, se ignore el lugar de la notificación o no se hubiese podido practicar, la notificación se hará por medio de un anuncio publicado en el «Boletín Oficial del Estado»."},
-    {d:"media", q:"Según el artículo 47.1.a) de la Ley 39/2015, son nulos de pleno derecho los actos que:",
-     o:["Lesionen los derechos y libertades susceptibles de amparo constitucional","Contengan un error material subsanable","Se dicten fuera de plazo por razones justificadas","Carezcan de firma electrónica avanzada"],
-     c:0, e:"Art. 47.1.a) Ley 39/2015: son nulos de pleno derecho los actos de las Administraciones Públicas que lesionen los derechos y libertades susceptibles de amparo constitucional."},
-    {d:"media", q:"Según el artículo 48.1 de la Ley 39/2015, son anulables los actos de la Administración que incurran en:",
-     o:["Cualquier infracción del ordenamiento jurídico, incluida la desviación de poder","Solo defectos de forma insubsanables","Solo errores aritméticos","Ninguna infracción, son siempre válidos"],
-     c:0, e:"Art. 48.1 Ley 39/2015: son anulables los actos de la Administración que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder."},
-    {d:"facil", q:"Según el artículo 53.1.a) de la Ley 39/2015, los interesados en un procedimiento administrativo tienen derecho a:",
-     o:["Conocer, en cualquier momento, el estado de la tramitación de los procedimientos en los que sean interesados","Modificar unilateralmente la resolución del expediente","Elegir al instructor del procedimiento","Vetar la participación de otros interesados"],
-     c:0, e:"Art. 53.1.a) Ley 39/2015: los interesados tienen derecho a conocer, en cualquier momento, el estado de la tramitación de los procedimientos en los que tengan la condición de interesados."},
-    {d:"dificil", q:"Según el artículo 53.1.c) de la Ley 39/2015, los interesados tienen derecho:",
-     o:["A no presentar documentos originales, salvo que excepcionalmente la normativa reguladora establezca lo contrario","A presentar siempre documentos originales sin excepción","A no aportar ningún documento nunca","A exigir copia sellada en todo caso, aunque no la pidan"],
-     c:0, e:"Art. 53.1.c) Ley 39/2015: los interesados tienen derecho a no presentar documentos originales salvo que, excepcionalmente, la normativa reguladora aplicable establezca lo contrario."},
-    {d:"media", q:"Según el artículo 77.2 de la Ley 39/2015, el período de prueba del procedimiento administrativo tendrá un plazo:",
-     o:["No superior a treinta días ni inferior a diez","Fijo de quince días en todo caso","No superior a seis meses","No inferior a un mes"],
-     c:0, e:"Art. 77.2 Ley 39/2015: el instructor acordará la apertura de un período de prueba por un plazo no superior a treinta días ni inferior a diez."},
-    {d:"dificil", q:"Según el artículo 77.3 de la Ley 39/2015, el instructor del procedimiento solo podrá rechazar las pruebas propuestas por los interesados cuando:",
-     o:["Sean manifiestamente improcedentes o innecesarias, mediante resolución motivada","Lo decida sin necesidad de justificación","Superen un número determinado de pruebas","El interesado no pague una tasa"],
-     c:0, e:"Art. 77.3 Ley 39/2015: el instructor solo podrá rechazar las pruebas propuestas cuando sean manifiestamente improcedentes o innecesarias, mediante resolución motivada."},
-    {d:"media", q:"Según el artículo 82.2 de la Ley 39/2015, en el trámite de audiencia los interesados podrán alegar y presentar documentos en un plazo:",
-     o:["No inferior a diez días ni superior a quince","Fijo de veinte días","No superior a cinco días","Sin plazo, indefinido"],
-     c:0, e:"Art. 82.2 Ley 39/2015: en el trámite de audiencia, los interesados, en un plazo no inferior a diez días ni superior a quince, podrán alegar y presentar los documentos que estimen pertinentes."},
-    {d:"facil", q:"Según el artículo 84.1 de la Ley 39/2015, ¿cuáles son, entre otras, las formas de terminación de un procedimiento administrativo?",
-     o:["La resolución, el desistimiento y la renuncia al derecho","Solo la resolución expresa","Solo el silencio administrativo","Únicamente el recurso de alzada"],
-     c:0, e:"Art. 84.1 Ley 39/2015: pondrán fin al procedimiento la resolución, el desistimiento, la renuncia al derecho, entre otras causas de terminación previstas en el artículo."},
-    {d:"dificil", q:"Según el artículo 106.1 de la Ley 39/2015, para declarar de oficio la nulidad de actos que han puesto fin a la vía administrativa, la Administración necesita:",
-     o:["Previo dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma","Solo la firma del funcionario instructor","Autorización judicial previa en todo caso","Nada, puede declararla libremente sin trámites"],
-     c:0, e:"Art. 106.1 Ley 39/2015: las Administraciones Públicas, en cualquier momento, previo dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma, declararán de oficio la nulidad de los actos que hayan puesto fin a la vía administrativa."},
-    {d:"media", q:"Según el artículo 107.2 de la Ley 39/2015, ¿en qué plazo debe adoptarse la declaración de lesividad de un acto anulable?",
-     o:["Antes de que transcurran cuatro años desde que se dictó el acto","En cualquier momento, sin límite temporal","Antes de un mes desde el acto","Antes de diez días"],
-     c:0, e:"Art. 107.2 Ley 39/2015: la declaración de lesividad no podrá adoptarse una vez transcurridos cuatro años desde que se dictó el acto administrativo."},
-    {d:"media", q:"Según el artículo 112.1 de la Ley 39/2015, ¿qué recursos administrativos pueden interponer los interesados contra resoluciones y actos de trámite cualificados?",
-     o:["El recurso de alzada y el potestativo de reposición","Solo el recurso contencioso-administrativo","Únicamente la reclamación económico-administrativa","Solo el recurso de súplica"],
-     c:0, e:"Art. 112.1 Ley 39/2015: contra las resoluciones y ciertos actos de trámite podrán interponerse por los interesados los recursos de alzada y potestativo de reposición."},
-    {d:"facil", q:"Según el artículo 114.1.a) de la Ley 39/2015, ¿qué tipo de resoluciones ponen fin a la vía administrativa?",
-     o:["Las resoluciones de los recursos de alzada","Solo las sentencias judiciales","Las resoluciones de mero trámite","Ninguna resolución administrativa pone fin a la vía"],
-     c:0, e:"Art. 114.1.a) Ley 39/2015: ponen fin a la vía administrativa, entre otras, las resoluciones de los recursos de alzada."},
-
-    // ===== TEMA 4: Ley 2/2015, del empleo público de Galicia (DOG núm. 82, 04/05/2015 / BOE núm. 123, 23/05/2015 — BOE-A-2015-5677) =====
-    {d:"facil", q:"Según el artículo 20.2 de la Ley 2/2015, del empleo público de Galicia, ¿en qué clases se clasifican los empleados públicos?",
-     o:["Personal funcionario de carrera, funcionario interino, laboral y eventual","Solo funcionarios de carrera","Funcionarios y contratistas externos","Personal directivo y personal de base"],
-     c:0, e:"Art. 20.2 Ley 2/2015 (DOG núm. 82, de 04/05/2015; BOE núm. 123, de 23/05/2015): los empleados públicos se clasifican en personal funcionario de carrera, personal funcionario interino, personal laboral y personal eventual."},
-    {d:"media", q:"Según el artículo 21 de la Ley 2/2015, el personal funcionario de carrera se caracteriza por estar vinculado a la Administración mediante:",
-     o:["Una relación estatutaria regulada por el derecho administrativo, de carácter permanente","Un contrato laboral indefinido","Una relación mercantil","Un nombramiento temporal siempre revocable"],
-     c:0, e:"Art. 21 Ley 2/2015: tienen la condición de personal funcionario de carrera las personas vinculadas a la Administración por una relación estatutaria regulada por el derecho administrativo, de carácter permanente."},
-    {d:"dificil", q:"Según el artículo 23.2.a) de la Ley 2/2015, ¿cuál es el plazo máximo, con carácter general, para el nombramiento de personal funcionario interino por existencia de puesto vacante?",
-     o:["Tres años","Un año","Seis meses","Diez años"],
-     c:0, e:"Art. 23.2.a) Ley 2/2015: el nombramiento de personal funcionario interino por existencia de puestos vacantes tiene un plazo máximo de tres años, en los términos previstos en la ley."},
-    {d:"media", q:"Según el artículo 23.2.d) de la Ley 2/2015, el nombramiento de personal funcionario interino por exceso o acumulación de tareas tiene un plazo máximo de:",
-     o:["Nueve meses dentro de un período de dieciocho meses","Tres años","Un mes","Cinco años"],
-     c:0, e:"Art. 23.2.d) Ley 2/2015: el exceso o acumulación de tareas, de carácter excepcional y circunstancial, permite el nombramiento de interino por un plazo máximo de nueve meses dentro de un período de dieciocho meses."},
-    {d:"facil", q:"Según el artículo 86.1 de la Ley 2/2015, ¿qué derecho se garantiza al personal funcionario de carrera?",
-     o:["El derecho a la movilidad voluntaria","El derecho a elegir libremente su horario sin negociación","El derecho a un ascenso automático anual","El derecho a la doble jornada retribuida"],
-     c:0, e:"Art. 86.1 Ley 2/2015: se garantiza el derecho a la movilidad voluntaria del personal funcionario de carrera, de acuerdo con los procedimientos previstos en la ley."},
-    {d:"media", q:"Según el artículo 88.1 de la Ley 2/2015, los puestos de trabajo reservados al personal funcionario de carrera se proveerán de forma ordinaria por:",
-     o:["Concurso, ordinario o específico, o libre designación con convocatoria pública","Sorteo entre los aspirantes","Antigüedad exclusivamente","Decisión discrecional sin convocatoria"],
-     c:0, e:"Art. 88.1 Ley 2/2015: los puestos reservados al personal funcionario de carrera se proveerán de forma ordinaria por concurso, ordinario o específico, o de libre designación con convocatoria pública."},
-    {d:"dificil", q:"Según el artículo 89.1 de la Ley 2/2015, el concurso, procedimiento normal de provisión de puestos, consiste en:",
-     o:["La valoración de los méritos y capacidades, y en su caso aptitudes, conforme a las bases de la convocatoria","Un examen tipo test eliminatorio","Una entrevista personal exclusivamente","Un sorteo público entre candidatos"],
-     c:0, e:"Art. 89.1 Ley 2/2015: el concurso es el procedimiento normal de provisión de puestos de trabajo y consiste en la valoración de los méritos y capacidades, y en su caso aptitudes, de los candidatos conforme a las bases de la convocatoria."},
-    {d:"media", q:"Según el artículo 105 de la Ley 2/2015, ¿quién determina la jornada ordinaria de trabajo del personal funcionario?",
-     o:["Cada Administración pública, previa negociación con la representación del personal","El propio empleado público de forma individual","Únicamente el Parlamento de Galicia mediante ley","La Unión Europea"],
-     c:0, e:"Art. 105 Ley 2/2015: cada Administración pública determinará la jornada ordinaria y las especiales de trabajo del personal funcionario, previa negociación con la representación del personal."},
-    {d:"facil", q:"Según el artículo 132.1 de la Ley 2/2015, ¿cuál es la duración mínima de las vacaciones retribuidas del personal funcionario por año completo de servicio?",
-     o:["Veintidós días hábiles anuales","Quince días naturales","Treinta días hábiles","Un mes natural completo"],
-     c:0, e:"Art. 132.1 Ley 2/2015: el personal funcionario tiene derecho, por año completo de servicios, a vacaciones retribuidas de, como mínimo, veintidós días hábiles anuales."},
-    {d:"dificil", q:"Según el artículo 132.2 de la Ley 2/2015, a efectos del cómputo de vacaciones, ¿qué día de la semana no se considera hábil?",
-     o:["El sábado","El domingo","El lunes","El viernes"],
-     c:0, e:"Art. 132.2 Ley 2/2015: a efectos del cómputo de vacaciones no se consideran como días hábiles los sábados, sin perjuicio de las adaptaciones para jornadas especiales."},
-    {d:"media", q:"Según el artículo 164.1 de la Ley 2/2015, ¿cuál de estas es una de las situaciones administrativas del personal funcionario de carrera?",
-     o:["Servicios especiales","Baja voluntaria definitiva sin retorno","Contrato temporal","Cesión ilegal"],
-     c:0, e:"Art. 164.1 Ley 2/2015: el personal funcionario de carrera puede hallarse en servicio activo, servicios especiales, servicio en otras administraciones públicas, excedencia voluntaria, excedencia forzosa o suspensión de funciones."},
-    {d:"facil", q:"Según el artículo 166.1 de la Ley 2/2015, están en situación de servicio activo:",
-     o:["Las personas que prestan servicios como funcionarios de carrera y no les corresponde estar en otra situación","Solo el personal funcionario interino","Solo el personal eventual","El personal jubilado"],
-     c:0, e:"Art. 166.1 Ley 2/2015: están en situación de servicio activo las personas que presten servicios en su condición de funcionario de carrera, siempre que no les corresponda quedar en otra situación."},
-    {d:"dificil", q:"Según el artículo 167 de la Ley 2/2015, el personal funcionario de carrera será declarado en situación de servicios especiales, entre otros casos, cuando:",
-     o:["Sea designado miembro del Gobierno, del Consello de la Xunta o de instituciones de la Unión Europea","Solicite unas vacaciones","Sea trasladado de oficina dentro del mismo edificio","Se jubile de forma anticipada"],
-     c:0, e:"Art. 167.c) Ley 2/2015: pasa a servicios especiales el funcionario designado miembro del Gobierno, del Consello de la Xunta, de los órganos de gobierno de otras CCAA o de instituciones de la Unión Europea, entre otros supuestos."},
-    {d:"media", q:"Según el artículo 102 de la Ley 2/2015, se prevé un traslado especial por motivos de:",
-     o:["Violencia de género o de violencia sexual","Cambio de residencia por gusto personal","Ascenso de categoría profesional","Reducción presupuestaria"],
-     c:0, e:"Art. 102 Ley 2/2015 regula el traslado por motivos de violencia de género o de violencia sexual como garantía específica para el personal funcionario afectado."},
-    {d:"facil", q:"Según el artículo 133 de la Ley 2/2015, el régimen de jornada, permisos, licencias y vacaciones del personal laboral se rige por:",
-     o:["Lo dispuesto en la propia ley y en la legislación laboral correspondiente","Exclusivamente el Estatuto Básico del Empleado Público","Normativa militar","Un reglamento europeo directamente aplicable"],
-     c:0, e:"Art. 133 Ley 2/2015: para el régimen de jornada, permisos, licencias y vacaciones del personal laboral se estará a lo dispuesto en el capítulo correspondiente de la ley y en la legislación laboral aplicable."},
-
-    // ===== TEMA 5: LO 3/2018, de Protección de Datos y garantía de derechos digitales (BOE núm. 294, 06/12/2018 — BOE-A-2018-16673) =====
-    {d:"facil", q:"Según el artículo 1 de la LO 3/2018, uno de los objetos de la ley es:",
-     o:["Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679 (RGPD)","Regular exclusivamente el comercio electrónico","Sustituir íntegramente el RGPD europeo","Regular la propiedad intelectual"],
-     c:0, e:"Art. 1.a) LO 3/2018 (BOE núm. 294, de 06/12/2018): la ley tiene por objeto adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679, de protección de las personas físicas en cuanto al tratamiento de sus datos personales."},
-    {d:"media", q:"Según el artículo 2.2.b) de la LO 3/2018, la ley orgánica no será de aplicación, con carácter general, a:",
-     o:["Los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo 3","Los tratamientos de datos de menores de edad","Los tratamientos realizados por empresas públicas","Los tratamientos de datos sanitarios"],
-     c:0, e:"Art. 2.2.b) LO 3/2018: la ley orgánica no será de aplicación a los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo 3."},
-    {d:"dificil", q:"Según el artículo 3.1 de la LO 3/2018, ¿quiénes pueden solicitar el acceso, rectificación o supresión de los datos personales de una persona fallecida?",
-     o:["Las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos","Cualquier ciudadano sin límite","Solo el Ministerio Fiscal","Nadie puede solicitarlo nunca"],
-     c:0, e:"Art. 3.1 LO 3/2018: las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos, podrán dirigirse al responsable del tratamiento para solicitar el acceso, rectificación o supresión de sus datos."},
-    {d:"media", q:"Según el artículo 4.1 de la LO 3/2018, en relación con el artículo 5.1.d) del RGPD, los datos personales deben ser:",
-     o:["Exactos y, si fuere necesario, actualizados","Anónimos siempre","Cifrados con clave pública","Almacenados de forma indefinida"],
-     c:0, e:"Art. 4.1 LO 3/2018: conforme al art. 5.1.d) del RGPD, los datos serán exactos y, si fuere necesario, actualizados."},
-    {d:"facil", q:"Según el artículo 5.1 de la LO 3/2018, los responsables y encargados del tratamiento, así como todas las personas que intervengan en él, están sujetos a:",
-     o:["El deber de confidencialidad","Ninguna obligación específica","El deber de publicar todos los datos tratados","El deber de informar a la prensa"],
-     c:0, e:"Art. 5.1 LO 3/2018: los responsables y encargados del tratamiento, así como todas las personas que intervengan en cualquier fase de este, estarán sujetas al deber de confidencialidad del artículo 5.1.f) del RGPD."},
-    {d:"dificil", q:"Según el artículo 6.1 de la LO 3/2018, se entiende por consentimiento del afectado:",
-     o:["Toda manifestación de voluntad libre, específica, informada e inequívoca por la que acepta el tratamiento de sus datos","Cualquier silencio del interesado","Una autorización verbal no documentada","La simple no oposición expresa"],
-     c:0, e:"Art. 6.1 LO 3/2018: se entiende por consentimiento del afectado toda manifestación de voluntad libre, específica, informada e inequívoca por la que este acepta, mediante declaración o clara acción afirmativa, el tratamiento de sus datos."},
-    {d:"media", q:"Según el artículo 7.1 de la LO 3/2018, ¿a partir de qué edad puede un menor prestar por sí mismo su consentimiento para el tratamiento de sus datos personales?",
-     o:["A partir de los catorce años","A partir de los doce años","A partir de los dieciséis años","A partir de los dieciocho años"],
-     c:0, e:"Art. 7.1 LO 3/2018: el tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años, salvo excepciones legales."},
-    {d:"dificil", q:"Según el artículo 7.2 de la LO 3/2018, el tratamiento de datos de menores de catorce años fundado en el consentimiento:",
-     o:["Solo será lícito si consta el consentimiento del titular de la patria potestad o tutela","Es siempre lícito sin necesidad de autorización","Está prohibido en todo caso, incluso con autorización","Requiere autorización judicial previa"],
-     c:0, e:"Art. 7.2 LO 3/2018: el tratamiento de datos de menores de catorce años, fundado en el consentimiento, solo será lícito si consta el consentimiento del titular de la patria potestad o tutela."},
-    {d:"media", q:"Según el artículo 9.1 de la LO 3/2018, para el tratamiento de datos cuya finalidad principal sea identificar la ideología, afiliación sindical, religión u orientación sexual, el solo consentimiento del afectado:",
-     o:["No bastará para levantar la prohibición del tratamiento, a fin de evitar situaciones discriminatorias","Es siempre suficiente","No es necesario en ningún caso","Solo aplica a mayores de 65 años"],
-     c:0, e:"Art. 9.1 LO 3/2018: a fin de evitar situaciones discriminatorias, el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos que identifiquen ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico."},
-    {d:"facil", q:"Según el artículo 11 de la LO 3/2018, cuando los datos personales se obtienen del propio afectado, el responsable debe cumplir con:",
-     o:["El deber de transparencia e información al afectado","No informarle en ningún caso","Informar solo a la Agencia de Protección de Datos","Publicar los datos en un tablón"],
-     c:0, e:"Art. 11 LO 3/2018 regula la transparencia e información al afectado cuando los datos personales se obtienen directamente de este."},
-    {d:"media", q:"Según el artículo 12.6 de la LO 3/2018, ¿quién puede ejercer en nombre y representación de los menores de catorce años los derechos de acceso, rectificación, cancelación u oposición?",
-     o:["Los titulares de la patria potestad","Solo el propio menor","Cualquier familiar mayor de edad","El centro educativo"],
-     c:0, e:"Art. 12.6 LO 3/2018: los titulares de la patria potestad podrán ejercitar en nombre y representación de los menores de catorce años los derechos de acceso, rectificación, cancelación, oposición o cualesquiera otros que les correspondan."},
-    {d:"dificil", q:"Según el artículo 13.3 de la LO 3/2018, ¿en qué plazo se puede considerar repetitivo el ejercicio del derecho de acceso, salvo causa legítima?",
-     o:["Más de una vez durante un período de seis meses","Más de una vez al día","Más de diez veces al año","No existe límite temporal alguno"],
-     c:0, e:"Art. 13.3 LO 3/2018: se podrá considerar repetitivo el ejercicio del derecho de acceso en más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello."},
-    {d:"media", q:"Según el artículo 63.1 de la LO 3/2018, las disposiciones del Título VIII se aplican a los procedimientos tramitados por:",
-     o:["La Agencia Española de Protección de Datos","Los juzgados de lo social","El Ministerio de Justicia","Los Ayuntamientos"],
-     c:0, e:"Art. 63.1 LO 3/2018: las disposiciones de este Título son de aplicación a los procedimientos tramitados por la Agencia Española de Protección de Datos ante reclamaciones o investigaciones de posibles infracciones."},
-    {d:"dificil", q:"Según el artículo 64.1 de la LO 3/2018, cuando el procedimiento se refiera exclusivamente a la falta de atención de una solicitud de ejercicio de derechos, el plazo para resolver será de:",
-     o:["Seis meses desde la notificación del acuerdo de admisión a trámite","Un mes","Un año","Quince días"],
-     c:0, e:"Art. 64.1 LO 3/2018: en estos casos, el plazo para resolver el procedimiento será de seis meses a contar desde la fecha en que se notifique al reclamante el acuerdo de admisión a trámite."},
-    {d:"media", q:"Según el artículo 65.2 de la LO 3/2018, la Agencia Española de Protección de Datos inadmitirá las reclamaciones presentadas cuando:",
-     o:["No versen sobre cuestiones de protección de datos personales o carezcan manifiestamente de fundamento","Se presenten en horario de mañana","Provengan de una persona jurídica","Estén firmadas electrónicamente"],
-     c:0, e:"Art. 65.2 LO 3/2018: la AEPD inadmitirá las reclamaciones que no versen sobre cuestiones de protección de datos personales, carezcan manifiestamente de fundamento, sean abusivas o no aporten indicios racionales de infracción."},
-
-    // ===== TEMA 6: Ley 7/2023, para la igualdad efectiva de mujeres y hombres de Galicia (DOG núm. 233, 11/12/2023 / BOE núm. 38, 13/02/2024 — BOE-A-2024-2663) =====
-    {d:"facil", q:"Según el artículo 1.1 de la Ley 7/2023, el objeto de la ley es reforzar el compromiso de la Comunidad Autónoma de Galicia con:",
-     o:["La eliminación de la discriminación de las mujeres y la promoción de la igualdad entre mujeres y hombres","La regulación del régimen local gallego","La ordenación del territorio","El régimen fiscal autonómico"],
-     c:0, e:"Art. 1.1 Ley 7/2023 (DOG núm. 233, de 11/12/2023; BOE núm. 38, de 13/02/2024): la ley refuerza el compromiso de Galicia con la eliminación de la discriminación de las mujeres y la promoción de la igualdad entre mujeres y hombres."},
-    {d:"media", q:"Según el artículo 4.2 de la Ley 7/2023, se considera discriminación directa por razón de sexo la situación en que una persona:",
-     o:["Sea, haya sido o pudiera ser tratada de manera menos favorable que otra en situación comparable","Reciba un trato idéntico a los demás","Solicite voluntariamente una excedencia","Participe en un proceso selectivo"],
-     c:0, e:"Art. 4.2 Ley 7/2023, en relación con el art. 6.1 de la LO 3/2007: se considera discriminación directa la situación en que una persona sea, haya sido o pudiera ser tratada de manera menos favorable que otra en situación comparable."},
-    {d:"media", q:"Según el artículo 4.3 de la Ley 7/2023, existe discriminación indirecta por razón de sexo cuando:",
-     o:["Una disposición, criterio o práctica aparentemente neutros ponen a personas de un sexo en desventaja particular, sin justificación objetiva","Se trata igual a todas las personas sin distinción","Se aplica una cuota de género razonable","Existe una diferencia salarial justificada por el puesto"],
-     c:0, e:"Art. 4.3 Ley 7/2023: se considera discriminación indirecta la situación en que una disposición, criterio o práctica aparentemente neutros ponen a personas de un sexo en desventaja particular, salvo justificación objetiva y proporcionada."},
-    {d:"facil", q:"Según el artículo 6.1 de la Ley 7/2023, se entiende por acoso sexual:",
-     o:["Cualquier comportamiento de naturaleza sexual que atente contra la dignidad de una persona, creando un ambiente intimidatorio u hostil","Cualquier comentario sobre el trabajo","Una felicitación por un ascenso","Una simple conversación informal"],
-     c:0, e:"Art. 6.1.a) Ley 7/2023: se entiende por acoso sexual cualquier comportamiento verbal, no verbal o físico de naturaleza sexual que tenga el propósito o produzca el efecto de atentar contra la dignidad de una persona."},
-    {d:"dificil", q:"Según el artículo 9 de la Ley 7/2023, la discriminación sexista por asociación es aquella:",
-     o:["Sufrida por una persona por razón del sexo, embarazo o maternidad de otra persona con la que estuviera relacionada","Que solo puede sufrir directamente la propia mujer","Provocada por asociaciones sin ánimo de lucro","Vinculada exclusivamente al ámbito sindical"],
-     c:0, e:"Art. 9 Ley 7/2023: la discriminación sexista por asociación es la sufrida por una persona por razón del sexo, el embarazo, el parto o la maternidad, o de las obligaciones familiares o estado civil de otra persona con la que estuviera relacionada."},
-    {d:"media", q:"Según el artículo 13.1 de la Ley 7/2023, los poderes públicos de Galicia adoptarán medidas específicas en favor de las mujeres para:",
-     o:["Corregir situaciones patentes de desigualdad de hecho respecto de los hombres","Reducir el número de mujeres en el empleo público","Eliminar las políticas de conciliación","Suprimir la negociación colectiva"],
-     c:0, e:"Art. 13.1 Ley 7/2023: para hacer efectivo el derecho constitucional de la igualdad, los poderes públicos de Galicia adoptarán medidas de acción positiva a favor de las mujeres, razonables y proporcionadas, mientras subsistan las situaciones de desigualdad."},
-    {d:"facil", q:"Según el artículo 18 de la Ley 7/2023, se entiende por género:",
-     o:["El conjunto de construcciones sociales, educativas y culturales de roles y comportamientos que se atribuyen de forma diferencial a mujeres y hombres","Un sinónimo estricto de sexo biológico","Un concepto exclusivamente jurídico sin contenido social","Una categoría estadística del censo"],
-     c:0, e:"Art. 18 Ley 7/2023: se entiende por género el conjunto de construcciones sociales, educativas y culturales de los roles, rasgos, actitudes, comportamientos y expectativas sociales asociados de forma diferencial a mujeres y hombres."},
-    {d:"media", q:"Según el artículo 32.1 de la Ley 7/2023, la Administración general de la Comunidad Autónoma erradicará, en el campo institucional:",
-     o:["El uso sexista del lenguaje, tanto ante la ciudadanía como en las comunicaciones internas","El uso de cualquier idioma cooficial","La comunicación electrónica","El uso de formularios"],
-     c:0, e:"Art. 32.1 Ley 7/2023: la Administración general de la Comunidad Autónoma y las entidades del sector público erradicarán, en todas las formas de expresión oral o escrita, el uso sexista del lenguaje en el campo institucional."},
-    {d:"dificil", q:"Según el artículo 36.g) de la Ley 7/2023, el Servicio Gallego de Salud debe garantizar, entre otras cosas:",
-     o:["El tratamiento adecuado de las situaciones de violencia de género en los servicios sanitarios, mediante protocolos de actuación","La gratuidad total de todos los medicamentos","La reducción del número de consultas ginecológicas","La eliminación de la atención pediátrica"],
-     c:0, e:"Art. 36.g) Ley 7/2023: se garantizará el tratamiento adecuado de las situaciones de violencia de género y de violencia contra la mujer en los servicios de atención sanitaria, mediante protocolos de actuación."},
-    {d:"facil", q:"Según el artículo 41.1.a) de la Ley 7/2023, el currículo educativo debe favorecer, entre otros aspectos:",
-     o:["La comprensión del valor constitucional de la igualdad entre ambos sexos","La segregación del alumnado por sexo en las aulas","La eliminación de la asignatura de valores","La reducción de horas lectivas"],
-     c:0, e:"Art. 41.1.a) Ley 7/2023: el currículo se adaptará para incluir la comprensión del valor constitucional de la igualdad entre ambos sexos, sin admitir contenidos que transmitan una distribución estereotipada de papeles."},
-    {d:"media", q:"Según el artículo 41.1.h) de la Ley 7/2023, la Administración autonómica debe garantizar:",
-     o:["La coeducación en Galicia, dirigida al libre desarrollo de la personalidad sin barreras de género","La educación diferenciada obligatoria por sexos","La eliminación de la educación infantil pública","La privatización de los centros educativos"],
-     c:0, e:"Art. 41.1.h) Ley 7/2023: se garantizará la coeducación en la Comunidad Autónoma de Galicia, dentro de sus competencias, dirigida al libre desarrollo de la personalidad sin barreras de género."},
-    {d:"dificil", q:"Según el artículo 42.1 de la Ley 7/2023, en relación con el artículo 126.2 de la LOE, el consejo escolar de los centros docentes públicos debe:",
-     o:["Designar a una persona del centro que impulse medidas educativas que fomenten la igualdad real y efectiva","Eliminar la figura del director del centro","Prohibir la participación de las familias","Nombrar solo a un docente varón como responsable"],
-     c:0, e:"Art. 42.1 Ley 7/2023: constituido el consejo escolar de los centros docentes públicos, este designará una persona del centro que impulse medidas educativas que fomenten la igualdad real y efectiva entre hombres y mujeres."},
-    {d:"media", q:"Según el artículo 43.1 de la Ley 7/2023, en el centro docente no se admitirán:",
-     o:["Las desigualdades sustentadas en creencias, prejuicios, tradiciones o costumbres transmisoras de una distribución estereotipada de papeles entre sexos","Las actividades extraescolares","Las reuniones de familias","Las evaluaciones trimestrales"],
-     c:0, e:"Art. 43.1 Ley 7/2023: no se admitirán en el centro docente las desigualdades sustentadas en creencias, prejuicios, tradiciones o costumbres transmisoras, directa o indirectamente, de una distribución estereotipada de papeles entre los sexos."},
-    {d:"facil", q:"Según el artículo 44 de la Ley 7/2023, la Administración incluirá en los planes de formación permanente del profesorado, como materia específica:",
-     o:["La igualdad y la violencia de género","Solo idiomas extranjeros","Únicamente tecnologías digitales","Solo educación física"],
-     c:0, e:"Art. 44 Ley 7/2023: la Administración incluirá en los planes de formación permanente del profesorado, como materia específica, la igualdad y la violencia de género, diseñando cursos específicos de formación."},
-    {d:"dificil", q:"Según el artículo 74.1 de la Ley 7/2023, sobre mujeres con discapacidad, se considera que la confluencia de dos o más factores de discriminación:",
-     o:["Tiene un efecto exponencial en la situación de desigualdad","No tiene ninguna relevancia jurídica","Anula automáticamente cualquier discriminación","Solo se valora en el ámbito laboral"],
-     c:0, e:"Art. 74.1 Ley 7/2023: serán objeto de especial tratamiento las situaciones de discriminación múltiple e interseccional por sexo y discapacidad, al considerar que la confluencia de dos o más factores de discriminación tiene un efecto exponencial en la desigualdad."},
-    {d:"media", q:"Según el artículo 77 de la Ley 7/2023, la Administración gallega debe considerar la situación particular de desventaja en que se encuentran:",
-     o:["Las mujeres lesbianas, bisexuales y trans","Solo las mujeres funcionarias","Únicamente las mujeres empresarias","Las mujeres mayores de 80 años exclusivamente"],
-     c:0, e:"Art. 77 Ley 7/2023: la Administración considerará la situación particular de desventaja de las mujeres lesbianas, bisexuales y trans, colaborando para erradicar la violencia lesbofóbica y contra las mujeres trans."},
-
-    // ===== TEMA 7: LO 1/2004, de Medidas de Protección Integral contra la Violencia de Género (BOE núm. 313, 29/12/2004 — BOE-A-2004-21760) =====
-    {d:"facil", q:"Según el artículo 1.1 de la LO 1/2004, la ley tiene por objeto actuar contra la violencia que se ejerce sobre las mujeres por parte de:",
-     o:["Quienes sean o hayan sido sus cónyuges o personas ligadas por relaciones similares de afectividad, aun sin convivencia","Cualquier persona sin distinción de vínculo","Solo desconocidos","Exclusivamente compañeros de trabajo"],
-     c:0, e:"Art. 1.1 LO 1/2004 (BOE núm. 313, de 29/12/2004): la ley actúa contra la violencia ejercida sobre las mujeres por quienes sean o hayan sido sus cónyuges o estén o hayan estado ligados por relaciones similares de afectividad, aun sin convivencia."},
-    {d:"media", q:"Según el artículo 1.3 de la LO 1/2004, la violencia de género comprende:",
-     o:["Todo acto de violencia física y psicológica, incluidas las agresiones a la libertad sexual, amenazas, coacciones o privación arbitraria de libertad","Solo la violencia física","Únicamente las amenazas verbales","Solo los delitos cometidos en el domicilio"],
-     c:0, e:"Art. 1.3 LO 1/2004: la violencia de género comprende todo acto de violencia física y psicológica, incluidas las agresiones a la libertad sexual, las amenazas, las coacciones o la privación arbitraria de libertad."},
-    {d:"dificil", q:"Según el artículo 1.4 de la LO 1/2004, la violencia de género regulada por la ley también comprende:",
-     o:["La violencia ejercida sobre familiares o allegados menores de edad con el objetivo de causar perjuicio o daño a las mujeres","Solo la violencia entre hermanos","Los delitos patrimoniales entre desconocidos","La violencia laboral entre compañeros de distinto sexo"],
-     c:0, e:"Art. 1.4 LO 1/2004: la violencia de género también comprende la que, con el objetivo de causar perjuicio o daño a las mujeres, se ejerza sobre sus familiares o allegados menores de edad."},
-    {d:"facil", q:"Según el artículo 3.1 de la LO 1/2004, ¿qué instrumento debe ponerse en marcha de manera inmediata a la entrada en vigor de la ley?",
-     o:["Un Plan Estatal de Sensibilización y Prevención de la Violencia de Género","Un impuesto especial","Una moratoria legislativa","Un censo nacional de agresores"],
-     c:0, e:"Art. 3.1 LO 1/2004: de manera inmediata a la entrada en vigor de la ley se pondrá en marcha un Plan Estatal de Sensibilización y Prevención de la Violencia de Género con carácter permanente."},
-    {d:"media", q:"Según el artículo 4.2 de la LO 1/2004, la Educación Infantil contribuirá a desarrollar en la infancia:",
-     o:["El aprendizaje en la resolución pacífica de conflictos","Exclusivamente contenidos de lectoescritura","Solo hábitos de higiene","Únicamente juegos motrices"],
-     c:0, e:"Art. 4.2 LO 1/2004: la Educación Infantil contribuirá a desarrollar en la infancia el aprendizaje en la resolución pacífica de conflictos."},
-    {d:"dificil", q:"Según el artículo 4.7 de la LO 1/2004, las Universidades deben incluir y fomentar:",
-     o:["La formación, docencia e investigación en igualdad de género y no discriminación de forma transversal","Solo asignaturas técnicas","Exclusivamente formación deportiva","La eliminación de los estudios de género"],
-     c:0, e:"Art. 4.7 LO 1/2004: las Universidades incluirán y fomentarán en todos los ámbitos académicos la formación, docencia e investigación en igualdad de género y no discriminación de forma transversal."},
-    {d:"media", q:"Según el artículo 5 de la LO 1/2004, las Administraciones competentes deben prever:",
-     o:["La escolarización inmediata de los hijos afectados por un cambio de residencia derivado de actos de violencia de género","La expulsión del sistema educativo del agresor","El cierre temporal de los centros afectados","La suspensión de las clases durante un mes"],
-     c:0, e:"Art. 5 LO 1/2004: las Administraciones competentes deberán prever la escolarización inmediata de los hijos que se vean afectados por un cambio de residencia derivada de actos de violencia de género."},
-    {d:"facil", q:"Según el artículo 6 de la LO 1/2004, las Administraciones educativas velarán para que en los materiales educativos:",
-     o:["Se eliminen los estereotipos sexistas o discriminatorios","Se incluyan siempre imágenes de ambos sexos por igual sin más criterio","Se prohíban las ilustraciones","Se reduzca el número de páginas"],
-     c:0, e:"Art. 6 LO 1/2004: las Administraciones educativas velarán para que en todos los materiales educativos se eliminen los estereotipos sexistas o discriminatorios y se fomente el igual valor de hombres y mujeres."},
-    {d:"dificil", q:"Según el artículo 7 de la LO 1/2004, la formación inicial y permanente del profesorado en materia de igualdad debe habilitarles, entre otras cosas, para:",
-     o:["La detección precoz de la violencia en el ámbito familiar, especialmente sobre la mujer y los hijos e hijas","Impartir exclusivamente educación física","Sustituir a los orientadores escolares","Evaluar el rendimiento académico únicamente"],
-     c:0, e:"Art. 7.c) LO 1/2004: la formación del profesorado debe habilitarles para la detección precoz de la violencia en el ámbito familiar, especialmente sobre la mujer y los hijos e hijas."},
-    {d:"media", q:"Según el artículo 8 de la LO 1/2004, se adoptarán medidas para que los Consejos Escolares:",
-     o:["Impulsen la adopción de medidas educativas que fomenten la igualdad real y efectiva entre hombres y mujeres","Dejen de reunirse periódicamente","Se limiten a cuestiones económicas","Solo traten temas de infraestructura"],
-     c:0, e:"Art. 8 LO 1/2004: se adoptarán medidas para asegurar que los Consejos Escolares impulsen la adopción de medidas educativas que fomenten la igualdad real y efectiva entre hombres y mujeres."},
-    {d:"facil", q:"Según el artículo 9 de la LO 1/2004, los servicios de inspección educativa velarán por:",
-     o:["El cumplimiento y aplicación de los principios y valores de igualdad recogidos en el sistema educativo","La recaudación de tasas escolares","La gestión del comedor escolar","El transporte escolar exclusivamente"],
-     c:0, e:"Art. 9 LO 1/2004: los servicios de inspección educativa velarán por el cumplimiento y aplicación de los principios y valores recogidos en este capítulo del sistema educativo, destinados a fomentar la igualdad real entre mujeres y hombres."},
-    {d:"dificil", q:"Según el artículo 10 de la LO 1/2004, se considerará ilícita la publicidad que:",
-     o:["Utilice la imagen de la mujer con carácter vejatorio o discriminatorio","Anuncie productos infantiles","Se emita en horario nocturno","Utilice colores llamativos"],
-     c:0, e:"Art. 10 LO 1/2004, de acuerdo con la Ley 34/1988 General de Publicidad: se considerará ilícita la publicidad que utilice la imagen de la mujer con carácter vejatorio o discriminatorio."},
-    {d:"media", q:"Según el artículo 15.1 de la LO 1/2004, las Administraciones sanitarias, en el seno del Consejo Interterritorial del Sistema Nacional de Salud, deben:",
-     o:["Promover e impulsar actuaciones de los profesionales sanitarios para la detección precoz de la violencia de género","Suprimir la atención primaria en zonas rurales","Reducir el personal sanitario","Eliminar los protocolos de urgencias"],
-     c:0, e:"Art. 15.1 LO 1/2004: las Administraciones sanitarias promoverán e impulsarán actuaciones de los profesionales sanitarios para la detección precoz de la violencia de género, en el seno del Consejo Interterritorial del SNS."},
-    {d:"facil", q:"Según el artículo 16 de la LO 1/2004, en el seno del Consejo Interterritorial del Sistema Nacional de Salud se constituirá:",
-     o:["Una Comisión contra la Violencia de Género","Un nuevo Ministerio","Un tribunal especial","Una agencia tributaria específica"],
-     c:0, e:"Art. 16 LO 1/2004: en el seno del Consejo Interterritorial del Sistema Nacional de Salud se constituirá una Comisión contra la Violencia de Género que apoye técnicamente la planificación de las medidas sanitarias."},
-
-    // ===== NIVEL AVANZADO: detalles finos, cifras exactas, excepciones y remisiones entre artículos =====
-    {d:"dificil", q:"Según el artículo 149.3 de la Constitución, ¿qué ocurre con las materias que no se hayan asumido por los Estatutos de Autonomía?",
-     o:["La competencia corresponde al Estado, cuyas normas prevalecerán en caso de conflicto salvo en lo atribuido a la exclusiva competencia autonómica, siendo el derecho estatal supletorio del autonómico","Quedan automáticamente en manos de la Comunidad Autónoma limítrofe","Se someten a referéndum estatal obligatorio","Pasan a ser competencia exclusiva de la Unión Europea"],
-     c:0, e:"Art. 149.3 CE: la competencia sobre materias no asumidas por los Estatutos corresponde al Estado, cuyas normas prevalecerán en caso de conflicto sobre las de las CCAA en lo no atribuido a su exclusiva competencia; el derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas."},
-    {d:"dificil", q:"Según el artículo 149.1.18ª de la Constitución, el Estado tiene competencia exclusiva sobre las bases del régimen jurídico de las Administraciones públicas y, entre otras materias, sobre:",
-     o:["El procedimiento administrativo común, sin perjuicio de las especialidades derivadas de la organización propia de las Comunidades Autónomas","La totalidad del procedimiento administrativo de cada Comunidad Autónoma sin excepción alguna","Solo el procedimiento sancionador tributario","El procedimiento parlamentario autonómico"],
-     c:0, e:"Art. 149.1.18ª CE: el Estado tiene competencia exclusiva sobre las bases del régimen jurídico de las Administraciones públicas y el procedimiento administrativo común, sin perjuicio de las especialidades derivadas de la organización propia de las Comunidades Autónomas."},
-    {d:"dificil", q:"Según el artículo 156.1 de la Constitución, la autonomía financiera de las Comunidades Autónomas para el desarrollo y ejecución de sus competencias se ejerce con arreglo a los principios de:",
-     o:["Coordinación con la Hacienda estatal y solidaridad entre todos los españoles","Independencia absoluta respecto del Estado","Libre disposición sin ningún límite","Reciprocidad bilateral con cada Comunidad vecina"],
-     c:0, e:"Art. 156.1 CE: las Comunidades Autónomas gozarán de autonomía financiera para el desarrollo y ejecución de sus competencias con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos los españoles."},
-    {d:"dificil", q:"Según el artículo 157.1 de la Constitución, ¿cuál de las siguientes NO figura expresamente entre los recursos de las Comunidades Autónomas?",
-     o:["Los tributos cedidos por otra Comunidad Autónoma vecina","Impuestos cedidos total o parcialmente por el Estado","Transferencias del Fondo de Compensación interterritorial","El producto de las operaciones de crédito"],
-     c:0, e:"Art. 157.1 CE enumera como recursos: impuestos cedidos por el Estado, tributos propios, transferencias del Fondo de Compensación interterritorial, rendimientos de su patrimonio y operaciones de crédito; no contempla cesiones de tributos entre Comunidades Autónomas."},
-    {d:"dificil", q:"Según el artículo 55.2 de la Constitución, la suspensión individualizada de los derechos de los artículos 17.2 y 18.2 y 3 en investigaciones sobre bandas armadas o terrorismo exige:",
-     o:["La necesaria intervención judicial y el adecuado control parlamentario","Únicamente una orden gubernativa sin control alguno","Autorización previa del Defensor del Pueblo","Aprobación por referéndum"],
-     c:0, e:"Art. 55.2 CE: una ley orgánica puede prever la suspensión individual de esos derechos, para personas determinadas, en investigaciones sobre bandas armadas o terroristas, con la necesaria intervención judicial y el adecuado control parlamentario."},
-    {d:"dificil", q:"Según el artículo 11.Tres del Estatuto de Autonomía de Galicia, los miembros del Parlamento de Galicia son inviolables por los votos y opiniones emitidos en el ejercicio de su cargo. Durante su mandato, ¿en qué supuesto pueden ser detenidos o retenidos en Galicia?",
-     o:["Solo en caso de flagrante delito, correspondiendo decidir sobre su inculpación, prisión, procesamiento y juicio al Tribunal Superior de Justicia de Galicia","En cualquier caso, sin ninguna limitación","Nunca, gozan de inmunidad absoluta incluso en flagrante delito","Solo si lo autoriza previamente el Parlamento por mayoría simple"],
-     c:0, e:"Art. 11.Tres del Estatuto: durante su mandato, los diputados del Parlamento de Galicia no podrán ser detenidos ni retenidos por actos delictivos cometidos en Galicia, salvo en caso de flagrante delito, correspondiendo la decisión sobre su inculpación, prisión, procesamiento y juicio al Tribunal Superior de Justicia de Galicia."},
-    {d:"dificil", q:"Según el artículo 13.Dos del Estatuto de Autonomía de Galicia, ¿en qué diario oficial rige la fecha de publicación de las leyes de Galicia a efectos de su entrada en vigor?",
-     o:["En el «Diario Oficial de Galicia»","En el «Boletín Oficial del Estado» exclusivamente","En ambos diarios de forma simultánea e indistinta","En el boletín provincial correspondiente"],
-     c:0, e:"Art. 13.Dos del Estatuto: las leyes de Galicia se promulgan por el Presidente de la Junta y se publican en el «Diario Oficial de Galicia» y en el «Boletín Oficial del Estado», pero a efectos de entrada en vigor rige la fecha de publicación en el DOG."},
-    {d:"dificil", q:"Según el artículo 35.Uno del Estatuto de Autonomía de Galicia, los convenios que la Comunidad Autónoma celebre con otras Comunidades Autónomas para la gestión de servicios propios deben, antes de su entrada en vigor:",
-     o:["Ser comunicados a las Cortes Generales, que disponen de treinta días para manifestar reparos","Publicarse directamente sin ningún trámite previo","Ser ratificados por referéndum autonómico","Ser aprobados por unanimidad de todas las Comunidades Autónomas de España"],
-     c:0, e:"Art. 35.Uno del Estatuto: los convenios con otras Comunidades Autónomas deberán comunicarse a las Cortes Generales antes de su entrada en vigor; si estas manifiestan reparos en el plazo de treinta días, el convenio debe seguir otro trámite."},
-    {d:"dificil", q:"Según el artículo 65.3 de la LO 3/2018, la Agencia Española de Protección de Datos puede inadmitir una reclamación, cuando el responsable ya adoptó medidas correctivas tras advertencia, si concurre que:",
-     o:["No se ha causado perjuicio al afectado en las infracciones del artículo 74, o que su derecho queda plenamente garantizado con esas medidas","El reclamante reside fuera de España","Han transcurrido más de veinte años desde el hecho","El responsable del tratamiento es una persona física"],
-     c:0, e:"Art. 65.3 LO 3/2018: la AEPD podrá inadmitir la reclamación, previa advertencia y adopción de medidas correctivas, cuando no se haya causado perjuicio al afectado en las infracciones del art. 74 o cuando su derecho quede plenamente garantizado mediante esas medidas."},
-    {d:"dificil", q:"Según el artículo 9.2 de la LO 3/2018, los tratamientos de datos relativos a salud, previstos en las letras g), h) e i) del artículo 9.2 del RGPD, fundados en el Derecho español deben:",
-     o:["Estar amparados en una norma con rango de ley, que podrá establecer requisitos adicionales de seguridad y confidencialidad","Contar únicamente con el consentimiento verbal del paciente","Ser autorizados caso por caso por el Consejo de Ministros","Quedar excluidos de cualquier regulación específica"],
-     c:0, e:"Art. 9.2 LO 3/2018: los tratamientos de las letras g), h) e i) del art. 9.2 RGPD fundados en el Derecho español deberán estar amparados en una norma con rango de ley, que podrá establecer requisitos adicionales de seguridad y confidencialidad."},
-    {d:"dificil", q:"Según el artículo 40 de la Ley 39/2015, cuando una notificación contiene el texto íntegro del acto pero omite alguno de los demás requisitos exigidos, ¿desde qué momento surte efecto?",
-     o:["Desde la fecha en que el interesado realice actuaciones que supongan el conocimiento del contenido y alcance de la resolución, o interponga el recurso que proceda","Nunca surte efecto, es nula de pleno derecho automáticamente","Desde el mismo día en que fue dictado el acto, sin excepción","Solo cuando lo declare expresamente un juez"],
-     c:0, e:"Art. 40.3 Ley 39/2015: las notificaciones que, conteniendo el texto íntegro del acto, omitiesen algún otro requisito, surtirán efecto a partir de la fecha en que el interesado realice actuaciones que supongan conocimiento del contenido y alcance de la resolución, o interponga el recurso que proceda."},
-    {d:"dificil", q:"Según el artículo 43.2 de la Ley 39/2015, cuando la notificación electrónica es obligatoria o ha sido elegida por el interesado, ¿cuándo se entiende rechazada si no se accede a su contenido?",
-     o:["Transcurridos diez días naturales desde la puesta a disposición de la notificación","Transcurridas 48 horas desde su envío","Transcurrido un mes natural completo","Nunca se entiende rechazada, permanece indefinidamente disponible"],
-     c:0, e:"Art. 43.2 Ley 39/2015: cuando la notificación electrónica sea obligatoria o elegida expresamente por el interesado, se entenderá rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición sin acceder a su contenido."},
-    {d:"dificil", q:"Según el artículo 81.2 de la Ley 39/2015, en procedimientos de responsabilidad patrimonial, será preceptivo el dictamen del Consejo de Estado u órgano consultivo equivalente cuando la indemnización reclamada sea igual o superior a:",
-     o:["50.000 euros, o a la cuantía que establezca la legislación autonómica correspondiente","6.000 euros en todo caso","1.000.000 de euros sin excepción","Cualquier cuantía, siempre es preceptivo"],
-     c:0, e:"Art. 81.2 Ley 39/2015: cuando las indemnizaciones reclamadas sean de cuantía igual o superior a 50.000 euros, o a la que establezca la legislación autonómica correspondiente, será preceptivo solicitar dictamen del Consejo de Estado o del órgano consultivo autonómico equivalente."},
-    {d:"dificil", q:"Según el artículo 82.5 de la Ley 39/2015, en los procedimientos de responsabilidad patrimonial del artículo 32.9 de la Ley de Régimen Jurídico del Sector Público, ¿a quién es necesario dar audiencia en todo caso?",
-     o:["Al contratista, notificándole las actuaciones para que se persone, exponga lo que a su derecho convenga y proponga pruebas","Únicamente al Ministerio Fiscal","Solo al defensor del pueblo autonómico","A la aseguradora del contratante exclusivamente"],
-     c:0, e:"Art. 82.5 Ley 39/2015: en los procedimientos de responsabilidad patrimonial del art. 32.9 de la LRJSP será necesario en todo caso dar audiencia al contratista, notificándole cuantas actuaciones se realicen para que se persone y proponga cuantos medios de prueba estime necesarios."},
-    {d:"dificil", q:"Según el artículo 106.5 de la Ley 39/2015, cuando un procedimiento de revisión de oficio se inicia de oficio, ¿qué produce el transcurso de seis meses desde su inicio sin dictarse resolución?",
-     o:["La caducidad del procedimiento","La estimación automática de la nulidad solicitada","La nulidad de todas las actuaciones previas del expediente","La suspensión indefinida del procedimiento"],
-     c:0, e:"Art. 106.5 Ley 39/2015: cuando el procedimiento de revisión de oficio se hubiera iniciado de oficio, el transcurso del plazo de seis meses desde su inicio sin dictarse resolución producirá la caducidad del mismo."},
-    {d:"dificil", q:"Según el artículo 23.3 de la Ley 2/2015, del empleo público de Galicia, si transcurridos tres años desde el nombramiento de personal funcionario interino por vacante no se ha resuelto el proceso selectivo, pero se publicó la convocatoria dentro de ese plazo, el interino:",
-     o:["Puede permanecer en el puesto excepcionalmente hasta la resolución de la convocatoria, sin que su cese dé lugar a compensación económica","Debe cesar automáticamente al cumplirse los tres años, sin excepción","Adquiere automáticamente la condición de funcionario de carrera","Pasa a la situación de excedencia forzosa"],
-     c:0, e:"Art. 23.3 Ley 2/2015: excepcionalmente, el personal funcionario interino podrá permanecer en el puesto que ocupe temporalmente si se hubiese publicado la convocatoria dentro del plazo de tres años, hasta la resolución de esta, sin que su cese dé lugar a compensación económica."},
-    {d:"dificil", q:"Según el artículo 24.4 de la Ley 2/2015, el incumplimiento del plazo máximo de nombramiento del personal funcionario interino por vacante (artículo 23.2.a) da lugar a una compensación económica equivalente a:",
-     o:["Veinte días de retribuciones fijas por año de servicio, con un máximo de doce mensualidades","Un mes de salario íntegro sin límite máximo","El doble de las retribuciones anuales percibidas","No genera derecho a compensación alguna"],
-     c:0, e:"Art. 24.4 Ley 2/2015: el incumplimiento del plazo del art. 23.2.a) dará lugar a una compensación económica equivalente a veinte días de retribuciones fijas por año de servicio, prorrateándose por meses, hasta un máximo de doce mensualidades."},
-    {d:"dificil", q:"Según el artículo 106.6 de la Ley 2/2015, en materia de reducción de jornada por cuidado de hijo o hija que padezca cáncer u otra enfermedad grave, ¿hasta qué edad puede mantenerse el derecho si la enfermedad se diagnosticó antes de la mayoría de edad y, antes de los 23 años, se acredita un grado de discapacidad igual o superior al 65%?",
-     o:["Hasta que la persona a cargo cumpla los 26 años","Hasta que cumpla los 18 años únicamente","Hasta que cumpla los 21 años","No existe límite de edad en ningún supuesto"],
-     c:0, e:"Art. 106 Ley 2/2015: se mantendrá el derecho a la reducción de jornada hasta que la persona a cargo cumpla los 26 años si, antes de alcanzar los 23 años, se acredita un grado de discapacidad igual o superior al 65 %."},
-    {d:"dificil", q:"Según el artículo 132.6 de la Ley 2/2015, en caso de jubilación por incapacidad permanente o fallecimiento, ¿hasta qué plazo máximo puede solicitarse el abono de una compensación económica por vacaciones devengadas y no disfrutadas?",
-     o:["Hasta dieciocho meses","Hasta tres meses","No cabe compensación económica en ningún caso por vacaciones","Hasta cinco años"],
-     c:0, e:"Art. 132.6 Ley 2/2015: en los casos de jubilación por incapacidad permanente o de fallecimiento, se podrá solicitar el abono de una compensación económica por las vacaciones devengadas y no disfrutadas hasta un máximo de dieciocho meses."},
-    {d:"dificil", q:"Según el artículo 89.2 de la Ley 2/2015, en los concursos de provisión de puestos, ¿qué puestos quedan excluidos de la convocatoria general cuando el personal funcionario de carrera esté adscrito a ellos por determinados motivos?",
-     o:["Los puestos con personal funcionario adscrito por motivos de salud, rehabilitación, violencia de género o violencia sexual","Los puestos de nueva creación","Los puestos ocupados por personal interino","Los puestos de libre designación exclusivamente"],
-     c:0, e:"Art. 89.2 Ley 2/2015: en los concursos no se incluirán los puestos de trabajo que tengan adscrito personal funcionario de carrera por motivos de salud o rehabilitación, o por motivos de violencia de género o de violencia sexual."},
-    {d:"dificil", q:"Según el artículo 50.2.f) de la Ley 7/2023, las universidades gallegas deben garantizar que en los procesos de selección o evaluación de la trayectoria académico-profesional queden excluidos, sin impacto negativo, los períodos dedicados, entre otros, a:",
-     o:["Permisos de nacimiento, adopción, riesgo durante el embarazo o lactancia natural, o incapacidad temporal asociada, o por violencia de género o acoso en el trabajo","Vacaciones ordinarias anuales","Bajas por motivos exclusivamente deportivos","Permisos por asuntos particulares de libre disposición"],
-     c:0, e:"Art. 50.2.f) Ley 7/2023: se garantizará que queden excluidos, sin impacto negativo, los períodos dedicados a permisos de nacimiento, adopción, guarda con fines de adopción o acogimiento, riesgo durante el embarazo o lactancia natural, incapacidad temporal asociada, o por razones de violencia de género o de cualquier tipo de acoso en el trabajo."},
-    {d:"dificil", q:"Según el artículo 60 de la Ley 7/2023, sobre espacios electorales, la Administración autonómica fomentará el debate sobre cuestiones de género incrementando el tiempo gratuito de propaganda electoral en la Corporación Radio y Televisión de Galicia en un:",
-     o:["10 por ciento","50 por ciento","25 por ciento","5 por ciento"],
-     c:0, e:"Art. 60 Ley 7/2023: se fomentará el debate electoral sobre cuestiones de género mediante un incremento del 10 por ciento del tiempo gratuito de propaganda electoral concedido a las candidaturas al Parlamento de Galicia, si lo destinan a esas cuestiones."},
-    {d:"dificil", q:"Según el artículo 77.2 de la Ley 39/2015, además del período ordinario de prueba, el instructor puede acordar, a petición de los interesados, un período extraordinario de prueba de duración máxima de:",
-     o:["Diez días","Treinta días","Quince días","Dos meses"],
-     c:0, e:"Art. 77.2 Ley 39/2015: cuando lo considere necesario, el instructor, a petición de los interesados, podrá decidir la apertura de un período extraordinario de prueba por un plazo no superior a diez días."},
-    {d:"dificil", q:"Según el artículo 4.4 de la LO 1/2004, la Educación Secundaria Obligatoria debe contribuir a que el alumnado desarrolle su capacidad para:",
-     o:["Relacionarse con los demás de forma pacífica y conocer, valorar y respetar la igualdad de oportunidades de hombres y mujeres","Únicamente superar las pruebas de acceso a la universidad","Especializarse en una única disciplina científica","Memorizar el articulado legal vigente"],
-     c:0, e:"Art. 4.4 LO 1/2004: la Educación Secundaria Obligatoria contribuirá a desarrollar en el alumnado la capacidad para relacionarse con los demás de forma pacífica y para conocer, valorar y respetar la igualdad de oportunidades de hombres y mujeres."}
+  "id": "b26",
+  "title": "Legislación BOE (Temario xeral: Constitución, Estatuto, Ley 39/2015, Ley 2/2015, LOPDGDD, Ley 7/2023, LO 1/2004)",
+  "questions": [
+    {
+      "d": "facil",
+      "q": "Según el artículo 1.1 de la Constitución Española, ¿cuáles son los valores superiores del ordenamiento jurídico español?",
+      "o": [
+        "La libertad, la justicia, la igualdad y el pluralismo político",
+        "La democracia, la unidad y la solidaridad",
+        "La soberanía, la justicia y la seguridad, salvo prueba en contrario",
+        "La igualdad, la fraternidad y la propiedad"
+      ],
+      "c": 0,
+      "e": "Art. 1.1 CE (BOE núm. 311, de 29/12/1978): España se constituye en un Estado social y democrático de Derecho que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político."
+    },
+    {
+      "d": "facil",
+      "q": "¿Cuál es la forma política del Estado español según el artículo 1.3 de la Constitución?",
+      "o": [
+        "La República parlamentaria",
+        "La Monarquía parlamentaria",
+        "La Monarquía constitucional absoluta",
+        "La Confederación de Estados"
+      ],
+      "c": 1,
+      "e": "Art. 1.3 CE: la forma política del Estado español es la Monarquía parlamentaria."
+    },
+    {
+      "d": "media",
+      "q": "El artículo 2 de la Constitución reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones. ¿En qué principio se fundamenta a la vez la Constitución según ese mismo artículo?",
+      "o": [
+        "En la indisoluble unidad de la Nación española",
+        "En la federación voluntaria de territorios",
+        "En la soberanía compartida entre CCAA y Estado",
+        "En la independencia de los territorios históricos"
+      ],
+      "c": 0,
+      "e": "Art. 2 CE: la Constitución se fundamenta en la indisoluble unidad de la Nación española, y reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones que la integran."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 3.1 de la Constitución, ¿qué lengua es la oficial del Estado?",
+      "o": [
+        "El gallego, en general",
+        "El catalán",
+        "El castellano",
+        "El euskera"
+      ],
+      "c": 2,
+      "e": "Art. 3.1 CE: el castellano es la lengua española oficial del Estado, con el deber de conocerla y el derecho a usarla."
+    },
+    {
+      "d": "media",
+      "q": "Conforme al artículo 9.2 de la Constitución, corresponde a los poderes públicos:",
+      "o": [
+        "Únicamente legislar sobre materias reservadas a ley orgánica, salvo que una norma con rango de ley disponga lo contrario",
+        "Promover las condiciones para que la libertad y la igualdad sean reales y efectivas, removiendo los obstáculos que impidan su plenitud",
+        "Garantizar exclusivamente el orden público, salvo que una norma con rango de ley disponga lo contrario",
+        "Suspender los derechos fundamentales cuando lo consideren oportuno, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 1,
+      "e": "Art. 9.2 CE: los poderes públicos deben promover las condiciones para que la libertad y la igualdad del individuo y de los grupos sean reales y efectivas, removiendo los obstáculos que impidan o dificulten su plenitud."
+    },
+    {
+      "d": "media",
+      "q": "El artículo 10.1 de la Constitución señala que la dignidad de la persona y los derechos inviolables que le son inherentes son:",
+      "o": [
+        "Un principio meramente programático sin efectos jurídicos",
+        "Fundamento del orden político y de la paz social",
+        "Competencia exclusiva del Tribunal Constitucional",
+        "Aplicables solo a los ciudadanos españoles"
+      ],
+      "c": 1,
+      "e": "Art. 10.1 CE: la dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social."
+    },
+    {
+      "d": "facil",
+      "q": "El artículo 14 de la Constitución establece la igualdad de los españoles ante la ley. ¿Cuál de estas causas de discriminación cita expresamente?",
+      "o": [
+        "Nacimiento, raza, sexo, religión u opinión",
+        "Únicamente la raza, con las matizaciones oportunas",
+        "Únicamente el sexo y la religión",
+        "Solo la opinión política"
+      ],
+      "c": 0,
+      "e": "Art. 14 CE: los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 23.1 de la Constitución, los ciudadanos tienen derecho a participar en los asuntos públicos:",
+      "o": [
+        "Solo a través de representantes designados por el Gobierno, salvo que una norma con rango de ley disponga lo contrario",
+        "Directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal",
+        "Únicamente mediante referéndum, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo si son mayores de 25 años, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 1,
+      "e": "Art. 23.1 CE: los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal."
+    },
+    {
+      "d": "media",
+      "q": "El artículo 23.2 de la Constitución reconoce el derecho a acceder en condiciones de igualdad a las funciones y cargos públicos. ¿Qué requisito señala el propio artículo para su ejercicio?",
+      "o": [
+        "Que se exijan los requisitos que señalen las leyes",
+        "Superar exclusivamente una entrevista personal",
+        "Ser mayor de 30 años",
+        "No tener ninguna condición"
+      ],
+      "c": 0,
+      "e": "Art. 23.2 CE: los ciudadanos tienen derecho a acceder en condiciones de igualdad a las funciones y cargos públicos, con los requisitos que señalen las leyes (principio que fundamenta el acceso por mérito y capacidad al empleo público)."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 53.1 de la Constitución, el ejercicio de los derechos y libertades del Capítulo Segundo del Título I:",
+      "o": [
+        "Solo podrá regularse por ley, que en todo caso deberá respetar su contenido esencial",
+        "Puede regularse libremente por reglamento",
+        "No puede regularse en ningún caso, salvo que una norma con rango de ley disponga lo contrario",
+        "Se regula exclusivamente por decreto-ley"
+      ],
+      "c": 0,
+      "e": "Art. 53.1 CE: los derechos y libertades del Capítulo segundo vinculan a todos los poderes públicos; solo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse su ejercicio."
+    },
+    {
+      "d": "dificil",
+      "q": "De acuerdo con el artículo 53.2 de la Constitución, ¿ante quién puede recabarse la tutela de las libertades y derechos reconocidos en el artículo 14 y en la Sección Primera del Capítulo Segundo?",
+      "o": [
+        "Únicamente ante el Defensor del Pueblo, salvo que una norma con rango de ley disponga lo contrario, con carácter general",
+        "Ante los Tribunales ordinarios por un procedimiento preferente y sumario, y en su caso mediante amparo",
+        "Solo ante el Consejo de Estado, salvo que una norma con rango de ley disponga lo contrario, como criterio subsidiario",
+        "Ante el Tribunal Supremo en única instancia, salvo que una norma con rango de ley disponga lo contrario, en todo caso"
+      ],
+      "c": 1,
+      "e": "Art. 53.2 CE: cualquier ciudadano podrá recabar la tutela de las libertades y derechos del art. 14 y de la Sección primera del Capítulo segundo ante los Tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional."
+    },
+    {
+      "d": "media",
+      "q": "El artículo 54 de la Constitución encomienda a una ley orgánica la regulación de una institución. ¿Cuál?",
+      "o": [
+        "El Tribunal de Cuentas",
+        "El Defensor del Pueblo",
+        "El Consejo de Estado",
+        "El Consejo General del Poder Judicial"
+      ],
+      "c": 1,
+      "e": "Art. 54 CE: una ley orgánica regulará la institución del Defensor del Pueblo, alto comisionado de las Cortes Generales para la defensa de los derechos comprendidos en el Título I."
+    },
+    {
+      "d": "dificil",
+      "q": "Conforme al artículo 55.1 de la Constitución, los derechos que pueden suspenderse durante la declaración de estado de excepción o de sitio incluyen, entre otros, los reconocidos en los artículos:",
+      "o": [
+        "17, 18 (apartados 2 y 3), 19, 20 (apartados 1 a) y d), y 5), 21 y 28.2",
+        "10, 14 y 23 en todo caso",
+        "Solo el artículo 14, salvo que una norma con rango de ley disponga lo contrario",
+        "Todos los derechos fundamentales sin excepción"
+      ],
+      "c": 0,
+      "e": "Art. 55.1 CE recoge la lista de derechos susceptibles de suspensión (entre ellos los arts. 17, 18.2 y 3, 19, 20.1 a) y d) y 20.5, 21, 28.2 y 37.2) cuando se declare el estado de excepción o de sitio."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 137 de la Constitución, ¿en qué entidades se organiza territorialmente el Estado?",
+      "o": [
+        "Municipios, provincias y las Comunidades Autónomas que se constituyan",
+        "Únicamente en provincias",
+        "Solo en Comunidades Autónomas",
+        "Regiones militares, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 137 CE: el Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan, gozando todas estas entidades de autonomía para la gestión de sus intereses."
+    },
+    {
+      "d": "media",
+      "q": "El artículo 140 de la Constitución garantiza la autonomía de los municipios. ¿A quién corresponde su gobierno y administración?",
+      "o": [
+        "A los Ayuntamientos, integrados por Alcaldes y Concejales",
+        "Exclusivamente al Alcalde",
+        "A la Diputación Provincial",
+        "Al Delegado del Gobierno, salvo disposición expresa en contrario"
+      ],
+      "c": 0,
+      "e": "Art. 140 CE: el gobierno y administración de los municipios corresponde a sus respectivos Ayuntamientos, integrados por los Alcaldes y los Concejales, elegidos estos por sufragio universal."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 148.1 de la Constitución, una de las materias en las que las Comunidades Autónomas pueden asumir competencias es:",
+      "o": [
+        "El fomento de la cultura, de la investigación y, en su caso, de la enseñanza de la lengua de la Comunidad Autónoma",
+        "La política exterior del Estado, salvo que una norma con rango de ley disponga lo contrario, atendiendo a las circunstancias del caso",
+        "La emisión de moneda, salvo que una norma con rango de ley disponga lo contrario",
+        "La defensa nacional, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 148.1.17ª CE: las Comunidades Autónomas podrán asumir competencias en el fomento de la cultura, de la investigación y, en su caso, de la enseñanza de la lengua de la Comunidad Autónoma."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 9 del Estatuto de Autonomía de Galicia, ¿a través de qué instituciones se ejercen los poderes de la Comunidad Autónoma?",
+      "o": [
+        "El Parlamento, la Junta y su Presidente",
+        "Solo el Parlamento",
+        "El Consello de la Xunta y el Valedor do Pobo",
+        "Los Ayuntamientos gallegos"
+      ],
+      "c": 0,
+      "e": "Art. 9.Uno del Estatuto (LO 1/1981, BOE núm. 101, de 28/04/1981): los poderes de la Comunidad Autónoma se ejercen a través del Parlamento, de la Junta y de su Presidente."
+    },
+    {
+      "d": "media",
+      "q": "Entre las funciones del Parlamento de Galicia que enumera el artículo 10 del Estatuto se encuentra:",
+      "o": [
+        "Ejercer la potestad legislativa de la Comunidad Autónoma",
+        "Nombrar directamente a los jueces gallegos",
+        "Aprobar los Presupuestos Generales del Estado",
+        "Declarar el estado de excepción, con las matizaciones oportunas"
+      ],
+      "c": 0,
+      "e": "Art. 10.Uno.a) del Estatuto: corresponde al Parlamento de Galicia ejercer la potestad legislativa de la Comunidad Autónoma."
+    },
+    {
+      "d": "facil",
+      "q": "¿Por cuánto tiempo es elegido el Parlamento de Galicia según el artículo 11 del Estatuto?",
+      "o": [
+        "Dos años",
+        "Cuatro años",
+        "Cinco años",
+        "Seis años"
+      ],
+      "c": 1,
+      "e": "Art. 11.Dos del Estatuto: el Parlamento será elegido por un plazo de cuatro años, de acuerdo con un sistema de representación proporcional."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 11.Cinco del Estatuto, ¿entre qué número de diputados debe fijarse el Parlamento de Galicia?",
+      "o": [
+        "Entre 40 y 60",
+        "Entre 60 y 80",
+        "Entre 80 y 100",
+        "Entre 100 y 120"
+      ],
+      "c": 1,
+      "e": "Art. 11.Cinco del Estatuto: una ley del Parlamento de Galicia fijará su número de miembros, entre sesenta y ochenta."
+    },
+    {
+      "d": "facil",
+      "q": "¿Quién elige al Presidente de la Junta de Galicia y quién lo nombra, según el artículo 15 del Estatuto?",
+      "o": [
+        "Es elegido por el Parlamento de Galicia entre sus miembros y nombrado por el Rey",
+        "Es elegido directamente por sufragio universal",
+        "Lo nombra el Gobierno de España, en los términos que se determinen reglamentariamente",
+        "Lo designa el Delegado del Gobierno"
+      ],
+      "c": 0,
+      "e": "Art. 15.Dos del Estatuto: el Presidente de la Junta será elegido por el Parlamento Gallego de entre sus miembros y será nombrado por el Rey."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 16 del Estatuto, ¿cómo está compuesta la Junta de Galicia?",
+      "o": [
+        "Por el Presidente, Vicepresidente o Vicepresidentes y los Consejeros",
+        "Solo por el Presidente, sin perjuicio de la normativa sectorial aplicable",
+        "Por el Presidente y el Valedor do Pobo",
+        "Por los alcaldes de las cuatro provincias"
+      ],
+      "c": 0,
+      "e": "Art. 16.Dos del Estatuto: la Junta de Galicia está compuesta por el Presidente, Vicepresidente o Vicepresidentes, en su caso, y los Consejeros."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 21 del Estatuto, ¿qué órgano culmina la organización judicial en el ámbito territorial de Galicia?",
+      "o": [
+        "El Tribunal Superior de Justicia de Galicia",
+        "El Tribunal Supremo, con las matizaciones oportunas",
+        "El Tribunal Constitucional",
+        "La Audiencia Nacional"
+      ],
+      "c": 0,
+      "e": "Art. 21 del Estatuto: el Tribunal Superior de Justicia de Galicia es el órgano jurisdiccional en que culmina la organización judicial en su ámbito territorial."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 24.1 del Estatuto, a instancia de la Comunidad Autónoma, ¿qué se convoca para cubrir plazas vacantes en Galicia de Magistrados, Jueces y Secretarios Judiciales?",
+      "o": [
+        "Concursos y oposiciones, de acuerdo con la Ley Orgánica del Poder Judicial",
+        "Elecciones directas",
+        "Sorteos públicos, salvo que una norma con rango de ley disponga lo contrario",
+        "Nombramientos discrecionales de la Junta"
+      ],
+      "c": 0,
+      "e": "Art. 24.1 del Estatuto: a instancia de la Comunidad Autónoma se convocarán los concursos y oposiciones para cubrir plazas vacantes en Galicia de Magistrados, Jueces, Secretarios Judiciales y demás personal, conforme a la LOPJ."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 25 del Estatuto, en la resolución de concursos y oposiciones de la Administración de Justicia en Galicia, ¿qué se considera mérito preferente?",
+      "o": [
+        "La especialización en Derecho gallego y el conocimiento del idioma del país",
+        "Únicamente la antigüedad",
+        "Haber nacido en Galicia, salvo que una norma con rango de ley disponga lo contrario",
+        "Superar un examen de idiomas extranjeros"
+      ],
+      "c": 0,
+      "e": "Art. 25 del Estatuto: será mérito preferente la especialización en Derecho gallego y el conocimiento del idioma del país en la resolución de concursos y oposiciones."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 27 del Estatuto, ¿en qué materias tiene la Comunidad Autónoma gallega competencia exclusiva, entre otras?",
+      "o": [
+        "Ordenación del territorio y del litoral, urbanismo y vivienda",
+        "Defensa y Fuerzas Armadas",
+        "Relaciones internacionales",
+        "Sistema monetario, de acuerdo con el procedimiento correspondiente"
+      ],
+      "c": 0,
+      "e": "Art. 27.Tres del Estatuto: corresponde a la Comunidad Autónoma gallega la competencia exclusiva sobre ordenación del territorio y del litoral, urbanismo y vivienda."
+    },
+    {
+      "d": "media",
+      "q": "El artículo 27.Veinte del Estatuto atribuye a Galicia competencia exclusiva sobre:",
+      "o": [
+        "La promoción y la enseñanza de la lengua gallega",
+        "La política exterior",
+        "El régimen aduanero, salvo disposición expresa en contrario",
+        "La legislación mercantil"
+      ],
+      "c": 0,
+      "e": "Art. 27.Veinte del Estatuto: es competencia exclusiva de la Comunidad Autónoma gallega la promoción y la enseñanza de la lengua gallega."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 31 del Estatuto, ¿qué competencia tiene la Comunidad Autónoma gallega en materia de enseñanza?",
+      "o": [
+        "La competencia plena en la regulación y administración de la enseñanza en toda su extensión, niveles y grados",
+        "Ninguna competencia, es exclusiva del Estado, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo la gestión de los comedores escolares, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo la enseñanza universitaria, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 31 del Estatuto: es de la competencia plena de la Comunidad Autónoma gallega la regulación y administración de la enseñanza en toda su extensión, niveles, grados, modalidades y especialidades, sin perjuicio del artículo 27 CE y de la alta inspección del Estado."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 33.1 del Estatuto, ¿qué corresponde a la Comunidad Autónoma en materia de sanidad interior?",
+      "o": [
+        "El desarrollo legislativo y la ejecución de la legislación básica del Estado",
+        "Nada, es competencia exclusiva estatal",
+        "Solo la inspección farmacéutica, sin perjuicio de la normativa sectorial aplicable",
+        "La fijación de los precios de los medicamentos"
+      ],
+      "c": 0,
+      "e": "Art. 33.Uno del Estatuto: corresponde a la Comunidad Autónoma el desarrollo legislativo y la ejecución de la legislación básica del Estado en materia de sanidad interior."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 39 del Estatuto, ¿a quién corresponde la creación y estructuración de la Administración pública gallega?",
+      "o": [
+        "A la Comunidad Autónoma, dentro de los principios y normas básicas del Estado",
+        "Al Gobierno de España en exclusiva",
+        "A cada Ayuntamiento por separado",
+        "A la Unión Europea, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 39 del Estatuto: corresponde a la Comunidad Autónoma la creación y estructuración de su propia Administración pública, dentro de los principios generales y normas básicas del Estado."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 40 del Estatuto, mediante ley de Galicia se puede, entre otras cosas:",
+      "o": [
+        "Reconocer la comarca como entidad local con personalidad jurídica y demarcación propia",
+        "Suprimir automáticamente los municipios",
+        "Eliminar las parroquias rurales, salvo que una norma con rango de ley disponga lo contrario",
+        "Crear nuevas provincias, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 40.Uno del Estatuto: por ley de Galicia se podrá reconocer la comarca como entidad local con personalidad jurídica y demarcación propia, sin que ello suponga necesariamente la supresión de los municipios que la integren."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 34 de la Ley 39/2015, los actos administrativos se producirán:",
+      "o": [
+        "Por el órgano competente, ajustándose a los requisitos y al procedimiento establecido",
+        "Por cualquier funcionario que lo desee",
+        "Sin necesidad de procedimiento alguno, en los términos que se determinen reglamentariamente",
+        "Solo a instancia de parte, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 34.1 Ley 39/2015 (BOE núm. 236, de 02/10/2015): los actos administrativos se producirán por el órgano competente ajustándose a los requisitos y al procedimiento establecido."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 35.1 de la Ley 39/2015, ¿cuál de los siguientes actos debe ser motivado?",
+      "o": [
+        "Los actos que limiten derechos subjetivos o intereses legítimos",
+        "Los actos de mero trámite sin relevancia",
+        "Todos los actos, sin excepción alguna",
+        "Solo los actos verbales, de acuerdo con el procedimiento correspondiente"
+      ],
+      "c": 0,
+      "e": "Art. 35.1.a) Ley 39/2015: deben ser motivados, con sucinta referencia de hechos y fundamentos de derecho, los actos que limiten derechos subjetivos o intereses legítimos, entre otros supuestos."
+    },
+    {
+      "d": "facil",
+      "q": "¿Cómo deben producirse, con carácter general, los actos administrativos según el artículo 36.1 de la Ley 39/2015?",
+      "o": [
+        "Por escrito, a través de medios electrónicos, salvo que su naturaleza exija otra forma",
+        "Siempre de forma verbal, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo mediante fax, salvo que una norma con rango de ley disponga lo contrario",
+        "Nunca por medios electrónicos, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 36.1 Ley 39/2015: los actos administrativos se producirán por escrito a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 39.3 de la Ley 39/2015, ¿en qué caso puede otorgarse eficacia retroactiva a un acto administrativo?",
+      "o": [
+        "Cuando se dicte en sustitución de un acto anulado o produzca efectos favorables al interesado, si los supuestos de hecho ya existían",
+        "Nunca, la retroactividad está prohibida en todo caso, salvo que una norma con rango de ley disponga lo contrario, de forma excepcional y motivada",
+        "Solo si lo pide el interesado por escrito, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo en procedimientos sancionadores, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 39.3 Ley 39/2015: excepcionalmente podrá otorgarse eficacia retroactiva a los actos cuando se dicten en sustitución de actos anulados o produzcan efectos favorables al interesado, siempre que los supuestos de hecho necesarios existieran ya en la fecha a que se retrotraiga la eficacia."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 40.2 de la Ley 39/2015, ¿en qué plazo debe cursarse la notificación de una resolución o acto administrativo?",
+      "o": [
+        "Dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado",
+        "En el plazo de un mes, salvo que una norma con rango de ley disponga lo contrario",
+        "Sin plazo determinado, salvo que una norma con rango de ley disponga lo contrario",
+        "En 24 horas, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 40.2 Ley 39/2015: toda notificación deberá ser cursada dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 44 de la Ley 39/2015, cuando los interesados sean desconocidos o no se pudiera practicar la notificación, ¿cómo se hará esta?",
+      "o": [
+        "Mediante un anuncio publicado en el «Boletín Oficial del Estado»",
+        "No se notifica en ningún caso",
+        "Solo mediante un edicto en el tablón municipal, sin más trámite",
+        "A través de una llamada telefónica"
+      ],
+      "c": 0,
+      "e": "Art. 44 Ley 39/2015: cuando los interesados sean desconocidos, se ignore el lugar de la notificación o no se hubiese podido practicar, la notificación se hará por medio de un anuncio publicado en el «Boletín Oficial del Estado»."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 47.1.a) de la Ley 39/2015, son nulos de pleno derecho los actos que:",
+      "o": [
+        "Lesionen los derechos y libertades susceptibles de amparo constitucional",
+        "Contengan un error material subsanable, salvo disposición expresa en contrario",
+        "Se dicten fuera de plazo por razones justificadas",
+        "Carezcan de firma electrónica avanzada"
+      ],
+      "c": 0,
+      "e": "Art. 47.1.a) Ley 39/2015: son nulos de pleno derecho los actos de las Administraciones Públicas que lesionen los derechos y libertades susceptibles de amparo constitucional."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 48.1 de la Ley 39/2015, son anulables los actos de la Administración que incurran en:",
+      "o": [
+        "Cualquier infracción del ordenamiento jurídico, incluida la desviación de poder",
+        "Solo defectos de forma insubsanables",
+        "Solo errores aritméticos, salvo que una norma con rango de ley disponga lo contrario",
+        "Ninguna infracción, son siempre válidos"
+      ],
+      "c": 0,
+      "e": "Art. 48.1 Ley 39/2015: son anulables los actos de la Administración que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 53.1.a) de la Ley 39/2015, los interesados en un procedimiento administrativo tienen derecho a:",
+      "o": [
+        "Conocer, en cualquier momento, el estado de la tramitación de los procedimientos en los que sean interesados",
+        "Modificar unilateralmente la resolución del expediente, salvo que una norma con rango de ley disponga lo contrario",
+        "Elegir al instructor del procedimiento, salvo que una norma con rango de ley disponga lo contrario",
+        "Vetar la participación de otros interesados, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 53.1.a) Ley 39/2015: los interesados tienen derecho a conocer, en cualquier momento, el estado de la tramitación de los procedimientos en los que tengan la condición de interesados."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 53.1.c) de la Ley 39/2015, los interesados tienen derecho:",
+      "o": [
+        "A no presentar documentos originales, salvo que excepcionalmente la normativa reguladora establezca lo contrario",
+        "A presentar siempre documentos originales sin excepción, salvo que una norma con rango de ley disponga lo contrario",
+        "A no aportar ningún documento nunca, salvo que una norma con rango de ley disponga lo contrario",
+        "A exigir copia sellada en todo caso, aunque no la pidan"
+      ],
+      "c": 0,
+      "e": "Art. 53.1.c) Ley 39/2015: los interesados tienen derecho a no presentar documentos originales salvo que, excepcionalmente, la normativa reguladora aplicable establezca lo contrario."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 77.2 de la Ley 39/2015, el período de prueba del procedimiento administrativo tendrá un plazo:",
+      "o": [
+        "No superior a treinta días ni inferior a diez",
+        "Fijo de quince días en todo caso",
+        "No superior a seis meses",
+        "No inferior a un mes, con las matizaciones oportunas"
+      ],
+      "c": 0,
+      "e": "Art. 77.2 Ley 39/2015: el instructor acordará la apertura de un período de prueba por un plazo no superior a treinta días ni inferior a diez."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 77.3 de la Ley 39/2015, el instructor del procedimiento solo podrá rechazar las pruebas propuestas por los interesados cuando:",
+      "o": [
+        "Sean manifiestamente improcedentes o innecesarias, mediante resolución motivada",
+        "Lo decida sin necesidad de justificación",
+        "Superen un número determinado de pruebas",
+        "El interesado no pague una tasa, en los términos que se determinen reglamentariamente"
+      ],
+      "c": 0,
+      "e": "Art. 77.3 Ley 39/2015: el instructor solo podrá rechazar las pruebas propuestas cuando sean manifiestamente improcedentes o innecesarias, mediante resolución motivada."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 82.2 de la Ley 39/2015, en el trámite de audiencia los interesados podrán alegar y presentar documentos en un plazo:",
+      "o": [
+        "No inferior a diez días ni superior a quince",
+        "Fijo de veinte días, con las matizaciones oportunas",
+        "No superior a cinco días",
+        "Sin plazo, indefinido"
+      ],
+      "c": 0,
+      "e": "Art. 82.2 Ley 39/2015: en el trámite de audiencia, los interesados, en un plazo no inferior a diez días ni superior a quince, podrán alegar y presentar los documentos que estimen pertinentes."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 84.1 de la Ley 39/2015, ¿cuáles son, entre otras, las formas de terminación de un procedimiento administrativo?",
+      "o": [
+        "La resolución, el desistimiento y la renuncia al derecho",
+        "Solo la resolución expresa, salvo disposición expresa en contrario",
+        "Solo el silencio administrativo",
+        "Únicamente el recurso de alzada"
+      ],
+      "c": 0,
+      "e": "Art. 84.1 Ley 39/2015: pondrán fin al procedimiento la resolución, el desistimiento, la renuncia al derecho, entre otras causas de terminación previstas en el artículo."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 106.1 de la Ley 39/2015, para declarar de oficio la nulidad de actos que han puesto fin a la vía administrativa, la Administración necesita:",
+      "o": [
+        "Previo dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma",
+        "Solo la firma del funcionario instructor, salvo que una norma con rango de ley disponga lo contrario",
+        "Autorización judicial previa en todo caso, salvo que una norma con rango de ley disponga lo contrario",
+        "Nada, puede declararla libremente sin trámites, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 106.1 Ley 39/2015: las Administraciones Públicas, en cualquier momento, previo dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma, declararán de oficio la nulidad de los actos que hayan puesto fin a la vía administrativa."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 107.2 de la Ley 39/2015, ¿en qué plazo debe adoptarse la declaración de lesividad de un acto anulable?",
+      "o": [
+        "Antes de que transcurran cuatro años desde que se dictó el acto",
+        "En cualquier momento, sin límite temporal",
+        "Antes de un mes desde el acto",
+        "Antes de diez días, sin perjuicio de la normativa sectorial aplicable"
+      ],
+      "c": 0,
+      "e": "Art. 107.2 Ley 39/2015: la declaración de lesividad no podrá adoptarse una vez transcurridos cuatro años desde que se dictó el acto administrativo."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 112.1 de la Ley 39/2015, ¿qué recursos administrativos pueden interponer los interesados contra resoluciones y actos de trámite cualificados?",
+      "o": [
+        "El recurso de alzada y el potestativo de reposición",
+        "Solo el recurso contencioso-administrativo",
+        "Únicamente la reclamación económico-administrativa",
+        "Solo el recurso de súplica"
+      ],
+      "c": 0,
+      "e": "Art. 112.1 Ley 39/2015: contra las resoluciones y ciertos actos de trámite podrán interponerse por los interesados los recursos de alzada y potestativo de reposición."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 114.1.a) de la Ley 39/2015, ¿qué tipo de resoluciones ponen fin a la vía administrativa?",
+      "o": [
+        "Las resoluciones de los recursos de alzada",
+        "Solo las sentencias judiciales",
+        "Las resoluciones de mero trámite",
+        "Ninguna resolución administrativa pone fin a la vía"
+      ],
+      "c": 0,
+      "e": "Art. 114.1.a) Ley 39/2015: ponen fin a la vía administrativa, entre otras, las resoluciones de los recursos de alzada."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 20.2 de la Ley 2/2015, del empleo público de Galicia, ¿en qué clases se clasifican los empleados públicos?",
+      "o": [
+        "Personal funcionario de carrera, funcionario interino, laboral y eventual",
+        "Solo funcionarios de carrera, sin perjuicio de la normativa sectorial aplicable",
+        "Funcionarios y contratistas externos",
+        "Personal directivo y personal de base"
+      ],
+      "c": 0,
+      "e": "Art. 20.2 Ley 2/2015 (DOG núm. 82, de 04/05/2015; BOE núm. 123, de 23/05/2015): los empleados públicos se clasifican en personal funcionario de carrera, personal funcionario interino, personal laboral y personal eventual."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 21 de la Ley 2/2015, el personal funcionario de carrera se caracteriza por estar vinculado a la Administración mediante:",
+      "o": [
+        "Una relación estatutaria regulada por el derecho administrativo, de carácter permanente",
+        "Un contrato laboral indefinido, salvo que una norma con rango de ley disponga lo contrario",
+        "Una relación mercantil, salvo que una norma con rango de ley disponga lo contrario",
+        "Un nombramiento temporal siempre revocable"
+      ],
+      "c": 0,
+      "e": "Art. 21 Ley 2/2015: tienen la condición de personal funcionario de carrera las personas vinculadas a la Administración por una relación estatutaria regulada por el derecho administrativo, de carácter permanente."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 23.2.a) de la Ley 2/2015, ¿cuál es el plazo máximo, con carácter general, para el nombramiento de personal funcionario interino por existencia de puesto vacante?",
+      "o": [
+        "Tres años",
+        "Un año",
+        "Seis meses",
+        "Diez años"
+      ],
+      "c": 0,
+      "e": "Art. 23.2.a) Ley 2/2015: el nombramiento de personal funcionario interino por existencia de puestos vacantes tiene un plazo máximo de tres años, en los términos previstos en la ley."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 23.2.d) de la Ley 2/2015, el nombramiento de personal funcionario interino por exceso o acumulación de tareas tiene un plazo máximo de:",
+      "o": [
+        "Nueve meses dentro de un período de dieciocho meses",
+        "Tres años",
+        "Un mes, sin perjuicio de la normativa sectorial aplicable",
+        "Cinco años"
+      ],
+      "c": 0,
+      "e": "Art. 23.2.d) Ley 2/2015: el exceso o acumulación de tareas, de carácter excepcional y circunstancial, permite el nombramiento de interino por un plazo máximo de nueve meses dentro de un período de dieciocho meses."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 86.1 de la Ley 2/2015, ¿qué derecho se garantiza al personal funcionario de carrera?",
+      "o": [
+        "El derecho a la movilidad voluntaria",
+        "El derecho a elegir libremente su horario sin negociación",
+        "El derecho a un ascenso automático anual",
+        "El derecho a la doble jornada retribuida"
+      ],
+      "c": 0,
+      "e": "Art. 86.1 Ley 2/2015: se garantiza el derecho a la movilidad voluntaria del personal funcionario de carrera, de acuerdo con los procedimientos previstos en la ley."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 88.1 de la Ley 2/2015, los puestos de trabajo reservados al personal funcionario de carrera se proveerán de forma ordinaria por:",
+      "o": [
+        "Concurso, ordinario o específico, o libre designación con convocatoria pública",
+        "Sorteo entre los aspirantes",
+        "Antigüedad exclusivamente, salvo que una norma con rango de ley disponga lo contrario",
+        "Decisión discrecional sin convocatoria"
+      ],
+      "c": 0,
+      "e": "Art. 88.1 Ley 2/2015: los puestos reservados al personal funcionario de carrera se proveerán de forma ordinaria por concurso, ordinario o específico, o de libre designación con convocatoria pública."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 89.1 de la Ley 2/2015, el concurso, procedimiento normal de provisión de puestos, consiste en:",
+      "o": [
+        "La valoración de los méritos y capacidades, y en su caso aptitudes, conforme a las bases de la convocatoria",
+        "Un examen tipo test eliminatorio, salvo que una norma con rango de ley disponga lo contrario",
+        "Una entrevista personal exclusivamente, salvo que una norma con rango de ley disponga lo contrario",
+        "Un sorteo público entre candidatos, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 89.1 Ley 2/2015: el concurso es el procedimiento normal de provisión de puestos de trabajo y consiste en la valoración de los méritos y capacidades, y en su caso aptitudes, de los candidatos conforme a las bases de la convocatoria."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 105 de la Ley 2/2015, ¿quién determina la jornada ordinaria de trabajo del personal funcionario?",
+      "o": [
+        "Cada Administración pública, previa negociación con la representación del personal",
+        "El propio empleado público de forma individual, con las excepciones legalmente previstas",
+        "Únicamente el Parlamento de Galicia mediante ley",
+        "La Unión Europea, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 105 Ley 2/2015: cada Administración pública determinará la jornada ordinaria y las especiales de trabajo del personal funcionario, previa negociación con la representación del personal."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 132.1 de la Ley 2/2015, ¿cuál es la duración mínima de las vacaciones retribuidas del personal funcionario por año completo de servicio?",
+      "o": [
+        "Veintidós días hábiles anuales",
+        "Quince días naturales",
+        "Treinta días hábiles, como regla general",
+        "Un mes natural completo"
+      ],
+      "c": 0,
+      "e": "Art. 132.1 Ley 2/2015: el personal funcionario tiene derecho, por año completo de servicios, a vacaciones retribuidas de, como mínimo, veintidós días hábiles anuales."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 132.2 de la Ley 2/2015, a efectos del cómputo de vacaciones, ¿qué día de la semana no se considera hábil?",
+      "o": [
+        "El sábado",
+        "El domingo",
+        "El lunes",
+        "El viernes"
+      ],
+      "c": 0,
+      "e": "Art. 132.2 Ley 2/2015: a efectos del cómputo de vacaciones no se consideran como días hábiles los sábados, sin perjuicio de las adaptaciones para jornadas especiales."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 164.1 de la Ley 2/2015, ¿cuál de estas es una de las situaciones administrativas del personal funcionario de carrera?",
+      "o": [
+        "Servicios especiales",
+        "Baja voluntaria definitiva sin retorno",
+        "Contrato temporal",
+        "Cesión ilegal"
+      ],
+      "c": 0,
+      "e": "Art. 164.1 Ley 2/2015: el personal funcionario de carrera puede hallarse en servicio activo, servicios especiales, servicio en otras administraciones públicas, excedencia voluntaria, excedencia forzosa o suspensión de funciones."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 166.1 de la Ley 2/2015, están en situación de servicio activo:",
+      "o": [
+        "Las personas que prestan servicios como funcionarios de carrera y no les corresponde estar en otra situación",
+        "Solo el personal funcionario interino, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo el personal eventual, salvo que una norma con rango de ley disponga lo contrario",
+        "El personal jubilado, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 166.1 Ley 2/2015: están en situación de servicio activo las personas que presten servicios en su condición de funcionario de carrera, siempre que no les corresponda quedar en otra situación."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 167 de la Ley 2/2015, el personal funcionario de carrera será declarado en situación de servicios especiales, entre otros casos, cuando:",
+      "o": [
+        "Sea designado miembro del Gobierno, del Consello de la Xunta o de instituciones de la Unión Europea",
+        "Solicite unas vacaciones, salvo que una norma con rango de ley disponga lo contrario",
+        "Sea trasladado de oficina dentro del mismo edificio, en los términos que se determinen reglamentariamente",
+        "Se jubile de forma anticipada, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 167.c) Ley 2/2015: pasa a servicios especiales el funcionario designado miembro del Gobierno, del Consello de la Xunta, de los órganos de gobierno de otras CCAA o de instituciones de la Unión Europea, entre otros supuestos."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 102 de la Ley 2/2015, se prevé un traslado especial por motivos de:",
+      "o": [
+        "Violencia de género o de violencia sexual",
+        "Cambio de residencia por gusto personal",
+        "Ascenso de categoría profesional",
+        "Reducción presupuestaria"
+      ],
+      "c": 0,
+      "e": "Art. 102 Ley 2/2015 regula el traslado por motivos de violencia de género o de violencia sexual como garantía específica para el personal funcionario afectado."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 133 de la Ley 2/2015, el régimen de jornada, permisos, licencias y vacaciones del personal laboral se rige por:",
+      "o": [
+        "Lo dispuesto en la propia ley y en la legislación laboral correspondiente",
+        "Exclusivamente el Estatuto Básico del Empleado Público",
+        "Normativa militar, salvo que una norma con rango de ley disponga lo contrario",
+        "Un reglamento europeo directamente aplicable"
+      ],
+      "c": 0,
+      "e": "Art. 133 Ley 2/2015: para el régimen de jornada, permisos, licencias y vacaciones del personal laboral se estará a lo dispuesto en el capítulo correspondiente de la ley y en la legislación laboral aplicable."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 1 de la LO 3/2018, uno de los objetos de la ley es:",
+      "o": [
+        "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679 (RGPD)",
+        "Regular exclusivamente el comercio electrónico",
+        "Sustituir íntegramente el RGPD europeo",
+        "Regular la propiedad intelectual, de acuerdo con el procedimiento correspondiente"
+      ],
+      "c": 0,
+      "e": "Art. 1.a) LO 3/2018 (BOE núm. 294, de 06/12/2018): la ley tiene por objeto adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679, de protección de las personas físicas en cuanto al tratamiento de sus datos personales."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 2.2.b) de la LO 3/2018, la ley orgánica no será de aplicación, con carácter general, a:",
+      "o": [
+        "Los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo 3",
+        "Los tratamientos de datos de menores de edad, salvo que una norma con rango de ley disponga lo contrario",
+        "Los tratamientos realizados por empresas públicas",
+        "Los tratamientos de datos sanitarios, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 2.2.b) LO 3/2018: la ley orgánica no será de aplicación a los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo 3."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 3.1 de la LO 3/2018, ¿quiénes pueden solicitar el acceso, rectificación o supresión de los datos personales de una persona fallecida?",
+      "o": [
+        "Las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos",
+        "Cualquier ciudadano sin límite, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo el Ministerio Fiscal, salvo que una norma con rango de ley disponga lo contrario",
+        "Nadie puede solicitarlo nunca, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 3.1 LO 3/2018: las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos, podrán dirigirse al responsable del tratamiento para solicitar el acceso, rectificación o supresión de sus datos."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 4.1 de la LO 3/2018, en relación con el artículo 5.1.d) del RGPD, los datos personales deben ser:",
+      "o": [
+        "Exactos y, si fuere necesario, actualizados",
+        "Anónimos siempre, con las matizaciones oportunas",
+        "Cifrados con clave pública",
+        "Almacenados de forma indefinida"
+      ],
+      "c": 0,
+      "e": "Art. 4.1 LO 3/2018: conforme al art. 5.1.d) del RGPD, los datos serán exactos y, si fuere necesario, actualizados."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 5.1 de la LO 3/2018, los responsables y encargados del tratamiento, así como todas las personas que intervengan en él, están sujetos a:",
+      "o": [
+        "El deber de confidencialidad",
+        "Ninguna obligación específica",
+        "El deber de publicar todos los datos tratados",
+        "El deber de informar a la prensa"
+      ],
+      "c": 0,
+      "e": "Art. 5.1 LO 3/2018: los responsables y encargados del tratamiento, así como todas las personas que intervengan en cualquier fase de este, estarán sujetas al deber de confidencialidad del artículo 5.1.f) del RGPD."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 6.1 de la LO 3/2018, se entiende por consentimiento del afectado:",
+      "o": [
+        "Toda manifestación de voluntad libre, específica, informada e inequívoca por la que acepta el tratamiento de sus datos",
+        "Cualquier silencio del interesado, salvo que una norma con rango de ley disponga lo contrario, con carácter general",
+        "Una autorización verbal no documentada, salvo que una norma con rango de ley disponga lo contrario, en todo caso",
+        "La simple no oposición expresa, salvo que una norma con rango de ley disponga lo contrario, como criterio subsidiario"
+      ],
+      "c": 0,
+      "e": "Art. 6.1 LO 3/2018: se entiende por consentimiento del afectado toda manifestación de voluntad libre, específica, informada e inequívoca por la que este acepta, mediante declaración o clara acción afirmativa, el tratamiento de sus datos."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 7.1 de la LO 3/2018, ¿a partir de qué edad puede un menor prestar por sí mismo su consentimiento para el tratamiento de sus datos personales?",
+      "o": [
+        "A partir de los catorce años",
+        "A partir de los doce años",
+        "A partir de los dieciséis años",
+        "A partir de los dieciocho años"
+      ],
+      "c": 0,
+      "e": "Art. 7.1 LO 3/2018: el tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años, salvo excepciones legales."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 7.2 de la LO 3/2018, el tratamiento de datos de menores de catorce años fundado en el consentimiento:",
+      "o": [
+        "Solo será lícito si consta el consentimiento del titular de la patria potestad o tutela",
+        "Es siempre lícito sin necesidad de autorización",
+        "Está prohibido en todo caso, incluso con autorización",
+        "Requiere autorización judicial previa, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 7.2 LO 3/2018: el tratamiento de datos de menores de catorce años, fundado en el consentimiento, solo será lícito si consta el consentimiento del titular de la patria potestad o tutela."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 9.1 de la LO 3/2018, para el tratamiento de datos cuya finalidad principal sea identificar la ideología, afiliación sindical, religión u orientación sexual, el solo consentimiento del afectado:",
+      "o": [
+        "No bastará para levantar la prohibición del tratamiento, a fin de evitar situaciones discriminatorias",
+        "Es siempre suficiente, salvo que una norma con rango de ley disponga lo contrario",
+        "No es necesario en ningún caso, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo aplica a mayores de 65 años, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 9.1 LO 3/2018: a fin de evitar situaciones discriminatorias, el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos que identifiquen ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 11 de la LO 3/2018, cuando los datos personales se obtienen del propio afectado, el responsable debe cumplir con:",
+      "o": [
+        "El deber de transparencia e información al afectado",
+        "No informarle en ningún caso",
+        "Informar solo a la Agencia de Protección de Datos",
+        "Publicar los datos en un tablón"
+      ],
+      "c": 0,
+      "e": "Art. 11 LO 3/2018 regula la transparencia e información al afectado cuando los datos personales se obtienen directamente de este."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 12.6 de la LO 3/2018, ¿quién puede ejercer en nombre y representación de los menores de catorce años los derechos de acceso, rectificación, cancelación u oposición?",
+      "o": [
+        "Los titulares de la patria potestad",
+        "Solo el propio menor",
+        "Cualquier familiar mayor de edad",
+        "El centro educativo"
+      ],
+      "c": 0,
+      "e": "Art. 12.6 LO 3/2018: los titulares de la patria potestad podrán ejercitar en nombre y representación de los menores de catorce años los derechos de acceso, rectificación, cancelación, oposición o cualesquiera otros que les correspondan."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 13.3 de la LO 3/2018, ¿en qué plazo se puede considerar repetitivo el ejercicio del derecho de acceso, salvo causa legítima?",
+      "o": [
+        "Más de una vez durante un período de seis meses",
+        "Más de una vez al día, con las matizaciones oportunas",
+        "Más de diez veces al año",
+        "No existe límite temporal alguno"
+      ],
+      "c": 0,
+      "e": "Art. 13.3 LO 3/2018: se podrá considerar repetitivo el ejercicio del derecho de acceso en más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 63.1 de la LO 3/2018, las disposiciones del Título VIII se aplican a los procedimientos tramitados por:",
+      "o": [
+        "La Agencia Española de Protección de Datos",
+        "Los juzgados de lo social",
+        "El Ministerio de Justicia",
+        "Los Ayuntamientos, con las matizaciones oportunas"
+      ],
+      "c": 0,
+      "e": "Art. 63.1 LO 3/2018: las disposiciones de este Título son de aplicación a los procedimientos tramitados por la Agencia Española de Protección de Datos ante reclamaciones o investigaciones de posibles infracciones."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 64.1 de la LO 3/2018, cuando el procedimiento se refiera exclusivamente a la falta de atención de una solicitud de ejercicio de derechos, el plazo para resolver será de:",
+      "o": [
+        "Seis meses desde la notificación del acuerdo de admisión a trámite",
+        "Un mes, salvo que una norma con rango de ley disponga lo contrario",
+        "Un año, salvo que una norma con rango de ley disponga lo contrario",
+        "Quince días, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 64.1 LO 3/2018: en estos casos, el plazo para resolver el procedimiento será de seis meses a contar desde la fecha en que se notifique al reclamante el acuerdo de admisión a trámite."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 65.2 de la LO 3/2018, la Agencia Española de Protección de Datos inadmitirá las reclamaciones presentadas cuando:",
+      "o": [
+        "No versen sobre cuestiones de protección de datos personales o carezcan manifiestamente de fundamento",
+        "Se presenten en horario de mañana, salvo que una norma con rango de ley disponga lo contrario",
+        "Provengan de una persona jurídica, salvo que una norma con rango de ley disponga lo contrario",
+        "Estén firmadas electrónicamente, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 65.2 LO 3/2018: la AEPD inadmitirá las reclamaciones que no versen sobre cuestiones de protección de datos personales, carezcan manifiestamente de fundamento, sean abusivas o no aporten indicios racionales de infracción."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 1.1 de la Ley 7/2023, el objeto de la ley es reforzar el compromiso de la Comunidad Autónoma de Galicia con:",
+      "o": [
+        "La eliminación de la discriminación de las mujeres y la promoción de la igualdad entre mujeres y hombres",
+        "La regulación del régimen local gallego, salvo que una norma con rango de ley disponga lo contrario",
+        "La ordenación del territorio, salvo que una norma con rango de ley disponga lo contrario",
+        "El régimen fiscal autonómico, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 1.1 Ley 7/2023 (DOG núm. 233, de 11/12/2023; BOE núm. 38, de 13/02/2024): la ley refuerza el compromiso de Galicia con la eliminación de la discriminación de las mujeres y la promoción de la igualdad entre mujeres y hombres."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 4.2 de la Ley 7/2023, se considera discriminación directa por razón de sexo la situación en que una persona:",
+      "o": [
+        "Sea, haya sido o pudiera ser tratada de manera menos favorable que otra en situación comparable",
+        "Reciba un trato idéntico a los demás, salvo que una norma con rango de ley disponga lo contrario",
+        "Solicite voluntariamente una excedencia",
+        "Participe en un proceso selectivo, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 4.2 Ley 7/2023, en relación con el art. 6.1 de la LO 3/2007: se considera discriminación directa la situación en que una persona sea, haya sido o pudiera ser tratada de manera menos favorable que otra en situación comparable."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 4.3 de la Ley 7/2023, existe discriminación indirecta por razón de sexo cuando:",
+      "o": [
+        "Una disposición, criterio o práctica aparentemente neutros ponen a personas de un sexo en desventaja particular, sin justificación objetiva",
+        "Se trata igual a todas las personas sin distinción, salvo que una norma con rango de ley disponga lo contrario",
+        "Se aplica una cuota de género razonable, salvo que una norma con rango de ley disponga lo contrario",
+        "Existe una diferencia salarial justificada por el puesto, salvo que una norma con rango de ley disponga lo contrario, atendiendo a las circunstancias del caso"
+      ],
+      "c": 0,
+      "e": "Art. 4.3 Ley 7/2023: se considera discriminación indirecta la situación en que una disposición, criterio o práctica aparentemente neutros ponen a personas de un sexo en desventaja particular, salvo justificación objetiva y proporcionada."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 6.1 de la Ley 7/2023, se entiende por acoso sexual:",
+      "o": [
+        "Cualquier comportamiento de naturaleza sexual que atente contra la dignidad de una persona, creando un ambiente intimidatorio u hostil",
+        "Cualquier comentario sobre el trabajo, salvo que una norma con rango de ley disponga lo contrario, de forma excepcional y motivada",
+        "Una felicitación por un ascenso, salvo que una norma con rango de ley disponga lo contrario, con carácter general",
+        "Una simple conversación informal, salvo que una norma con rango de ley disponga lo contrario, en todo caso"
+      ],
+      "c": 0,
+      "e": "Art. 6.1.a) Ley 7/2023: se entiende por acoso sexual cualquier comportamiento verbal, no verbal o físico de naturaleza sexual que tenga el propósito o produzca el efecto de atentar contra la dignidad de una persona."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 9 de la Ley 7/2023, la discriminación sexista por asociación es aquella:",
+      "o": [
+        "Sufrida por una persona por razón del sexo, embarazo o maternidad de otra persona con la que estuviera relacionada",
+        "Que solo puede sufrir directamente la propia mujer, salvo que una norma con rango de ley disponga lo contrario",
+        "Provocada por asociaciones sin ánimo de lucro, salvo que una norma con rango de ley disponga lo contrario",
+        "Vinculada exclusivamente al ámbito sindical, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 9 Ley 7/2023: la discriminación sexista por asociación es la sufrida por una persona por razón del sexo, el embarazo, el parto o la maternidad, o de las obligaciones familiares o estado civil de otra persona con la que estuviera relacionada."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 13.1 de la Ley 7/2023, los poderes públicos de Galicia adoptarán medidas específicas en favor de las mujeres para:",
+      "o": [
+        "Corregir situaciones patentes de desigualdad de hecho respecto de los hombres",
+        "Reducir el número de mujeres en el empleo público",
+        "Eliminar las políticas de conciliación",
+        "Suprimir la negociación colectiva, de acuerdo con el procedimiento correspondiente"
+      ],
+      "c": 0,
+      "e": "Art. 13.1 Ley 7/2023: para hacer efectivo el derecho constitucional de la igualdad, los poderes públicos de Galicia adoptarán medidas de acción positiva a favor de las mujeres, razonables y proporcionadas, mientras subsistan las situaciones de desigualdad."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 18 de la Ley 7/2023, se entiende por género:",
+      "o": [
+        "El conjunto de construcciones sociales, educativas y culturales de roles y comportamientos que se atribuyen de forma diferencial a mujeres y hombres",
+        "Un sinónimo estricto de sexo biológico, salvo que una norma con rango de ley disponga lo contrario, atendiendo a las circunstancias del caso",
+        "Un concepto exclusivamente jurídico sin contenido social, salvo que una norma con rango de ley disponga lo contrario, como criterio subsidiario",
+        "Una categoría estadística del censo, salvo que una norma con rango de ley disponga lo contrario, de forma excepcional y motivada"
+      ],
+      "c": 0,
+      "e": "Art. 18 Ley 7/2023: se entiende por género el conjunto de construcciones sociales, educativas y culturales de los roles, rasgos, actitudes, comportamientos y expectativas sociales asociados de forma diferencial a mujeres y hombres."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 32.1 de la Ley 7/2023, la Administración general de la Comunidad Autónoma erradicará, en el campo institucional:",
+      "o": [
+        "El uso sexista del lenguaje, tanto ante la ciudadanía como en las comunicaciones internas",
+        "El uso de cualquier idioma cooficial, salvo que una norma con rango de ley disponga lo contrario",
+        "La comunicación electrónica, salvo que una norma con rango de ley disponga lo contrario",
+        "El uso de formularios, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 32.1 Ley 7/2023: la Administración general de la Comunidad Autónoma y las entidades del sector público erradicarán, en todas las formas de expresión oral o escrita, el uso sexista del lenguaje en el campo institucional."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 36.g) de la Ley 7/2023, el Servicio Gallego de Salud debe garantizar, entre otras cosas:",
+      "o": [
+        "El tratamiento adecuado de las situaciones de violencia de género en los servicios sanitarios, mediante protocolos de actuación",
+        "La gratuidad total de todos los medicamentos, salvo que una norma con rango de ley disponga lo contrario, con carácter general",
+        "La reducción del número de consultas ginecológicas, salvo que una norma con rango de ley disponga lo contrario, en todo caso",
+        "La eliminación de la atención pediátrica, salvo que una norma con rango de ley disponga lo contrario, como criterio subsidiario"
+      ],
+      "c": 0,
+      "e": "Art. 36.g) Ley 7/2023: se garantizará el tratamiento adecuado de las situaciones de violencia de género y de violencia contra la mujer en los servicios de atención sanitaria, mediante protocolos de actuación."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 41.1.a) de la Ley 7/2023, el currículo educativo debe favorecer, entre otros aspectos:",
+      "o": [
+        "La comprensión del valor constitucional de la igualdad entre ambos sexos",
+        "La segregación del alumnado por sexo en las aulas",
+        "La eliminación de la asignatura de valores",
+        "La reducción de horas lectivas, de acuerdo con el procedimiento correspondiente"
+      ],
+      "c": 0,
+      "e": "Art. 41.1.a) Ley 7/2023: el currículo se adaptará para incluir la comprensión del valor constitucional de la igualdad entre ambos sexos, sin admitir contenidos que transmitan una distribución estereotipada de papeles."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 41.1.h) de la Ley 7/2023, la Administración autonómica debe garantizar:",
+      "o": [
+        "La coeducación en Galicia, dirigida al libre desarrollo de la personalidad sin barreras de género",
+        "La educación diferenciada obligatoria por sexos",
+        "La eliminación de la educación infantil pública",
+        "La privatización de los centros educativos, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 41.1.h) Ley 7/2023: se garantizará la coeducación en la Comunidad Autónoma de Galicia, dentro de sus competencias, dirigida al libre desarrollo de la personalidad sin barreras de género."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 42.1 de la Ley 7/2023, en relación con el artículo 126.2 de la LOE, el consejo escolar de los centros docentes públicos debe:",
+      "o": [
+        "Designar a una persona del centro que impulse medidas educativas que fomenten la igualdad real y efectiva",
+        "Eliminar la figura del director del centro, salvo que una norma con rango de ley disponga lo contrario",
+        "Prohibir la participación de las familias, salvo que una norma con rango de ley disponga lo contrario",
+        "Nombrar solo a un docente varón como responsable, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 42.1 Ley 7/2023: constituido el consejo escolar de los centros docentes públicos, este designará una persona del centro que impulse medidas educativas que fomenten la igualdad real y efectiva entre hombres y mujeres."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 43.1 de la Ley 7/2023, en el centro docente no se admitirán:",
+      "o": [
+        "Las desigualdades sustentadas en creencias, prejuicios, tradiciones o costumbres transmisoras de una distribución estereotipada de papeles entre sexos",
+        "Las actividades extraescolares, salvo que una norma con rango de ley disponga lo contrario, atendiendo a las circunstancias del caso",
+        "Las reuniones de familias, salvo que una norma con rango de ley disponga lo contrario, en todo caso",
+        "Las evaluaciones trimestrales, salvo que una norma con rango de ley disponga lo contrario, de forma excepcional y motivada"
+      ],
+      "c": 0,
+      "e": "Art. 43.1 Ley 7/2023: no se admitirán en el centro docente las desigualdades sustentadas en creencias, prejuicios, tradiciones o costumbres transmisoras, directa o indirectamente, de una distribución estereotipada de papeles entre los sexos."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 44 de la Ley 7/2023, la Administración incluirá en los planes de formación permanente del profesorado, como materia específica:",
+      "o": [
+        "La igualdad y la violencia de género",
+        "Solo idiomas extranjeros",
+        "Únicamente tecnologías digitales",
+        "Solo educación física"
+      ],
+      "c": 0,
+      "e": "Art. 44 Ley 7/2023: la Administración incluirá en los planes de formación permanente del profesorado, como materia específica, la igualdad y la violencia de género, diseñando cursos específicos de formación."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 74.1 de la Ley 7/2023, sobre mujeres con discapacidad, se considera que la confluencia de dos o más factores de discriminación:",
+      "o": [
+        "Tiene un efecto exponencial en la situación de desigualdad",
+        "No tiene ninguna relevancia jurídica",
+        "Anula automáticamente cualquier discriminación",
+        "Solo se valora en el ámbito laboral, con las matizaciones oportunas"
+      ],
+      "c": 0,
+      "e": "Art. 74.1 Ley 7/2023: serán objeto de especial tratamiento las situaciones de discriminación múltiple e interseccional por sexo y discapacidad, al considerar que la confluencia de dos o más factores de discriminación tiene un efecto exponencial en la desigualdad."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 77 de la Ley 7/2023, la Administración gallega debe considerar la situación particular de desventaja en que se encuentran:",
+      "o": [
+        "Las mujeres lesbianas, bisexuales y trans",
+        "Solo las mujeres funcionarias",
+        "Únicamente las mujeres empresarias",
+        "Las mujeres mayores de 80 años exclusivamente"
+      ],
+      "c": 0,
+      "e": "Art. 77 Ley 7/2023: la Administración considerará la situación particular de desventaja de las mujeres lesbianas, bisexuales y trans, colaborando para erradicar la violencia lesbofóbica y contra las mujeres trans."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 1.1 de la LO 1/2004, la ley tiene por objeto actuar contra la violencia que se ejerce sobre las mujeres por parte de:",
+      "o": [
+        "Quienes sean o hayan sido sus cónyuges o personas ligadas por relaciones similares de afectividad, aun sin convivencia",
+        "Cualquier persona sin distinción de vínculo, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo desconocidos, salvo que una norma con rango de ley disponga lo contrario",
+        "Exclusivamente compañeros de trabajo, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 1.1 LO 1/2004 (BOE núm. 313, de 29/12/2004): la ley actúa contra la violencia ejercida sobre las mujeres por quienes sean o hayan sido sus cónyuges o estén o hayan estado ligados por relaciones similares de afectividad, aun sin convivencia."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 1.3 de la LO 1/2004, la violencia de género comprende:",
+      "o": [
+        "Violencia física y psicológica, agresiones a la libertad sexual, amenazas, coacciones o privación de libertad",
+        "Solo la violencia física, salvo que una norma con rango de ley disponga lo contrario, atendiendo a las circunstancias del caso",
+        "Únicamente las amenazas verbales, salvo que una norma con rango de ley disponga lo contrario, como criterio subsidiario",
+        "Solo los delitos cometidos en el domicilio, salvo que una norma con rango de ley disponga lo contrario, con carácter general"
+      ],
+      "c": 0,
+      "e": "Art. 1.3 LO 1/2004: la violencia de género comprende todo acto de violencia física y psicológica, incluidas las agresiones a la libertad sexual, las amenazas, las coacciones o la privación arbitraria de libertad."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 1.4 de la LO 1/2004, la violencia de género regulada por la ley también comprende:",
+      "o": [
+        "La violencia ejercida sobre familiares o allegados menores de edad con el objetivo de causar perjuicio o daño a las mujeres",
+        "Solo la violencia entre hermanos, salvo que una norma con rango de ley disponga lo contrario",
+        "Los delitos patrimoniales entre desconocidos, salvo que una norma con rango de ley disponga lo contrario",
+        "La violencia laboral entre compañeros de distinto sexo, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 1.4 LO 1/2004: la violencia de género también comprende la que, con el objetivo de causar perjuicio o daño a las mujeres, se ejerza sobre sus familiares o allegados menores de edad."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 3.1 de la LO 1/2004, ¿qué instrumento debe ponerse en marcha de manera inmediata a la entrada en vigor de la ley?",
+      "o": [
+        "Un Plan Estatal de Sensibilización y Prevención de la Violencia de Género",
+        "Un impuesto especial, salvo que una norma con rango de ley disponga lo contrario",
+        "Una moratoria legislativa",
+        "Un censo nacional de agresores"
+      ],
+      "c": 0,
+      "e": "Art. 3.1 LO 1/2004: de manera inmediata a la entrada en vigor de la ley se pondrá en marcha un Plan Estatal de Sensibilización y Prevención de la Violencia de Género con carácter permanente."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 4.2 de la LO 1/2004, la Educación Infantil contribuirá a desarrollar en la infancia:",
+      "o": [
+        "El aprendizaje en la resolución pacífica de conflictos",
+        "Exclusivamente contenidos de lectoescritura",
+        "Solo hábitos de higiene, salvo disposición expresa en contrario",
+        "Únicamente juegos motrices"
+      ],
+      "c": 0,
+      "e": "Art. 4.2 LO 1/2004: la Educación Infantil contribuirá a desarrollar en la infancia el aprendizaje en la resolución pacífica de conflictos."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 4.7 de la LO 1/2004, las Universidades deben incluir y fomentar:",
+      "o": [
+        "La formación, docencia e investigación en igualdad de género y no discriminación de forma transversal",
+        "Solo asignaturas técnicas, salvo que una norma con rango de ley disponga lo contrario",
+        "Exclusivamente formación deportiva, salvo que una norma con rango de ley disponga lo contrario",
+        "La eliminación de los estudios de género, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 4.7 LO 1/2004: las Universidades incluirán y fomentarán en todos los ámbitos académicos la formación, docencia e investigación en igualdad de género y no discriminación de forma transversal."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 5 de la LO 1/2004, las Administraciones competentes deben prever:",
+      "o": [
+        "La escolarización inmediata de los hijos afectados por un cambio de residencia derivado de actos de violencia de género",
+        "La expulsión del sistema educativo del agresor, salvo que una norma con rango de ley disponga lo contrario",
+        "El cierre temporal de los centros afectados, salvo que una norma con rango de ley disponga lo contrario",
+        "La suspensión de las clases durante un mes, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 5 LO 1/2004: las Administraciones competentes deberán prever la escolarización inmediata de los hijos que se vean afectados por un cambio de residencia derivada de actos de violencia de género."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 6 de la LO 1/2004, las Administraciones educativas velarán para que en los materiales educativos:",
+      "o": [
+        "Se eliminen los estereotipos sexistas o discriminatorios",
+        "Se incluyan siempre imágenes de ambos sexos por igual sin más criterio",
+        "Se prohíban las ilustraciones",
+        "Se reduzca el número de páginas"
+      ],
+      "c": 0,
+      "e": "Art. 6 LO 1/2004: las Administraciones educativas velarán para que en todos los materiales educativos se eliminen los estereotipos sexistas o discriminatorios y se fomente el igual valor de hombres y mujeres."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 7 de la LO 1/2004, la formación inicial y permanente del profesorado en materia de igualdad debe habilitarles, entre otras cosas, para:",
+      "o": [
+        "La detección precoz de la violencia en el ámbito familiar, especialmente sobre la mujer y los hijos e hijas",
+        "Impartir exclusivamente educación física, salvo que una norma con rango de ley disponga lo contrario",
+        "Sustituir a los orientadores escolares, salvo que una norma con rango de ley disponga lo contrario",
+        "Evaluar el rendimiento académico únicamente, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 7.c) LO 1/2004: la formación del profesorado debe habilitarles para la detección precoz de la violencia en el ámbito familiar, especialmente sobre la mujer y los hijos e hijas."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 8 de la LO 1/2004, se adoptarán medidas para que los Consejos Escolares:",
+      "o": [
+        "Impulsen la adopción de medidas educativas que fomenten la igualdad real y efectiva entre hombres y mujeres",
+        "Dejen de reunirse periódicamente, salvo que una norma con rango de ley disponga lo contrario",
+        "Se limiten a cuestiones económicas, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo traten temas de infraestructura, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 8 LO 1/2004: se adoptarán medidas para asegurar que los Consejos Escolares impulsen la adopción de medidas educativas que fomenten la igualdad real y efectiva entre hombres y mujeres."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 9 de la LO 1/2004, los servicios de inspección educativa velarán por:",
+      "o": [
+        "El cumplimiento y aplicación de los principios y valores de igualdad recogidos en el sistema educativo",
+        "La recaudación de tasas escolares, salvo que una norma con rango de ley disponga lo contrario",
+        "La gestión del comedor escolar, salvo que una norma con rango de ley disponga lo contrario",
+        "El transporte escolar exclusivamente, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 9 LO 1/2004: los servicios de inspección educativa velarán por el cumplimiento y aplicación de los principios y valores recogidos en este capítulo del sistema educativo, destinados a fomentar la igualdad real entre mujeres y hombres."
+    },
+    {
+      "d": "dificil",
+      "q": "Según el artículo 10 de la LO 1/2004, se considerará ilícita la publicidad que:",
+      "o": [
+        "Utilice la imagen de la mujer con carácter vejatorio o discriminatorio",
+        "Anuncie productos infantiles",
+        "Se emita en horario nocturno",
+        "Utilice colores llamativos, de acuerdo con el procedimiento correspondiente"
+      ],
+      "c": 0,
+      "e": "Art. 10 LO 1/2004, de acuerdo con la Ley 34/1988 General de Publicidad: se considerará ilícita la publicidad que utilice la imagen de la mujer con carácter vejatorio o discriminatorio."
+    },
+    {
+      "d": "media",
+      "q": "Según el artículo 15.1 de la LO 1/2004, las Administraciones sanitarias, en el seno del Consejo Interterritorial del Sistema Nacional de Salud, deben:",
+      "o": [
+        "Promover e impulsar actuaciones de los profesionales sanitarios para la detección precoz de la violencia de género",
+        "Suprimir la atención primaria en zonas rurales, salvo que una norma con rango de ley disponga lo contrario",
+        "Reducir el personal sanitario, salvo que una norma con rango de ley disponga lo contrario",
+        "Eliminar los protocolos de urgencias, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 15.1 LO 1/2004: las Administraciones sanitarias promoverán e impulsarán actuaciones de los profesionales sanitarios para la detección precoz de la violencia de género, en el seno del Consejo Interterritorial del SNS."
+    },
+    {
+      "d": "facil",
+      "q": "Según el artículo 16 de la LO 1/2004, en el seno del Consejo Interterritorial del Sistema Nacional de Salud se constituirá:",
+      "o": [
+        "Una Comisión contra la Violencia de Género",
+        "Un nuevo Ministerio, con las matizaciones oportunas",
+        "Un tribunal especial",
+        "Una agencia tributaria específica"
+      ],
+      "c": 0,
+      "e": "Art. 16 LO 1/2004: en el seno del Consejo Interterritorial del Sistema Nacional de Salud se constituirá una Comisión contra la Violencia de Género que apoye técnicamente la planificación de las medidas sanitarias."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 149.3 de la Constitución, ¿qué ocurre con las materias que no se hayan asumido por los Estatutos de Autonomía?",
+      "o": [
+        "La competencia corresponde al Estado, cuyas normas prevalecen en conflicto salvo lo atribuido en exclusiva a las CCAA",
+        "Quedan automáticamente en manos de la Comunidad Autónoma limítrofe, salvo que una norma con rango de ley disponga lo contrario, de forma excepcional y motivada",
+        "Se someten a referéndum estatal obligatorio, salvo que una norma con rango de ley disponga lo contrario, con carácter general",
+        "Pasan a ser competencia exclusiva de la Unión Europea, salvo que una norma con rango de ley disponga lo contrario, en todo caso"
+      ],
+      "c": 0,
+      "e": "Art. 149.3 CE: la competencia sobre materias no asumidas por los Estatutos corresponde al Estado, cuyas normas prevalecerán en caso de conflicto sobre las de las CCAA en lo no atribuido a su exclusiva competencia; el derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 149.1.18ª de la Constitución, el Estado tiene competencia exclusiva sobre las bases del régimen jurídico de las Administraciones públicas y, entre otras materias, sobre:",
+      "o": [
+        "El procedimiento administrativo común, sin perjuicio de las especialidades derivadas de la organización propia de las Comunidades Autónomas",
+        "La totalidad del procedimiento administrativo de cada Comunidad Autónoma sin excepción alguna, sin perjuicio de la normativa sectorial aplicable",
+        "Solo el procedimiento sancionador tributario, salvo que una norma con rango de ley disponga lo contrario",
+        "El procedimiento parlamentario autonómico, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 149.1.18ª CE: el Estado tiene competencia exclusiva sobre las bases del régimen jurídico de las Administraciones públicas y el procedimiento administrativo común, sin perjuicio de las especialidades derivadas de la organización propia de las Comunidades Autónomas."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 156.1 de la Constitución, la autonomía financiera de las Comunidades Autónomas para el desarrollo y ejecución de sus competencias se ejerce con arreglo a los principios de:",
+      "o": [
+        "Coordinación con la Hacienda estatal y solidaridad entre todos los españoles",
+        "Independencia absoluta respecto del Estado",
+        "Libre disposición sin ningún límite, de acuerdo con el procedimiento correspondiente",
+        "Reciprocidad bilateral con cada Comunidad vecina"
+      ],
+      "c": 0,
+      "e": "Art. 156.1 CE: las Comunidades Autónomas gozarán de autonomía financiera para el desarrollo y ejecución de sus competencias con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos los españoles."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 157.1 de la Constitución, ¿cuál de las siguientes NO figura expresamente entre los recursos de las Comunidades Autónomas?",
+      "o": [
+        "Los tributos cedidos por otra Comunidad Autónoma vecina",
+        "Impuestos cedidos total o parcialmente por el Estado",
+        "Transferencias del Fondo de Compensación interterritorial",
+        "El producto de las operaciones de crédito"
+      ],
+      "c": 0,
+      "e": "Art. 157.1 CE enumera como recursos: impuestos cedidos por el Estado, tributos propios, transferencias del Fondo de Compensación interterritorial, rendimientos de su patrimonio y operaciones de crédito; no contempla cesiones de tributos entre Comunidades Autónomas."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 55.2 de la Constitución, la suspensión individualizada de los derechos de los artículos 17.2 y 18.2 y 3 en investigaciones sobre bandas armadas o terrorismo exige:",
+      "o": [
+        "La necesaria intervención judicial y el adecuado control parlamentario",
+        "Únicamente una orden gubernativa sin control alguno",
+        "Autorización previa del Defensor del Pueblo",
+        "Aprobación por referéndum, sin perjuicio de la normativa sectorial aplicable"
+      ],
+      "c": 0,
+      "e": "Art. 55.2 CE: una ley orgánica puede prever la suspensión individual de esos derechos, para personas determinadas, en investigaciones sobre bandas armadas o terroristas, con la necesaria intervención judicial y el adecuado control parlamentario."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 11.Tres del Estatuto de Autonomía de Galicia, los miembros del Parlamento de Galicia son inviolables por los votos y opiniones emitidos en el ejercicio de su cargo. Durante su mandato, ¿en qué supuesto pueden ser detenidos o retenidos en Galicia?",
+      "o": [
+        "Solo en caso de flagrante delito, correspondiendo decidir sobre su inculpación, prisión, procesamiento y juicio al Tribunal Superior de Justicia de Galicia",
+        "En cualquier caso, sin ninguna limitación, salvo que una norma con rango de ley disponga lo contrario",
+        "Nunca, gozan de inmunidad absoluta incluso en flagrante delito, salvo que una norma con rango de ley disponga lo contrario, atendiendo a las circunstancias del caso",
+        "Solo si lo autoriza previamente el Parlamento por mayoría simple, salvo que una norma con rango de ley disponga lo contrario, como criterio subsidiario"
+      ],
+      "c": 0,
+      "e": "Art. 11.Tres del Estatuto: durante su mandato, los diputados del Parlamento de Galicia no podrán ser detenidos ni retenidos por actos delictivos cometidos en Galicia, salvo en caso de flagrante delito, correspondiendo la decisión sobre su inculpación, prisión, procesamiento y juicio al Tribunal Superior de Justicia de Galicia."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 13.Dos del Estatuto de Autonomía de Galicia, ¿en qué diario oficial rige la fecha de publicación de las leyes de Galicia a efectos de su entrada en vigor?",
+      "o": [
+        "En el «Diario Oficial de Galicia»",
+        "En el «Boletín Oficial del Estado» exclusivamente",
+        "En ambos diarios de forma simultánea e indistinta",
+        "En el boletín provincial correspondiente"
+      ],
+      "c": 0,
+      "e": "Art. 13.Dos del Estatuto: las leyes de Galicia se promulgan por el Presidente de la Junta y se publican en el «Diario Oficial de Galicia» y en el «Boletín Oficial del Estado», pero a efectos de entrada en vigor rige la fecha de publicación en el DOG."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 35.Uno del Estatuto de Autonomía de Galicia, los convenios que la Comunidad Autónoma celebre con otras Comunidades Autónomas para la gestión de servicios propios deben, antes de su entrada en vigor:",
+      "o": [
+        "Ser comunicados a las Cortes Generales, que disponen de treinta días para manifestar reparos",
+        "Publicarse directamente sin ningún trámite previo",
+        "Ser ratificados por referéndum autonómico, salvo que una norma con rango de ley disponga lo contrario",
+        "Ser aprobados por unanimidad de todas las Comunidades Autónomas de España"
+      ],
+      "c": 0,
+      "e": "Art. 35.Uno del Estatuto: los convenios con otras Comunidades Autónomas deberán comunicarse a las Cortes Generales antes de su entrada en vigor; si estas manifiestan reparos en el plazo de treinta días, el convenio debe seguir otro trámite."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 65.3 de la LO 3/2018, la Agencia Española de Protección de Datos puede inadmitir una reclamación, cuando el responsable ya adoptó medidas correctivas tras advertencia, si concurre que:",
+      "o": [
+        "No se ha causado perjuicio al afectado en las infracciones del artículo 74, o que su derecho queda plenamente garantizado con esas medidas",
+        "El reclamante reside fuera de España, salvo que una norma con rango de ley disponga lo contrario",
+        "Han transcurrido más de veinte años desde el hecho, salvo que una norma con rango de ley disponga lo contrario",
+        "El responsable del tratamiento es una persona física, salvo que una norma con rango de ley disponga lo contrario, de forma excepcional y motivada"
+      ],
+      "c": 0,
+      "e": "Art. 65.3 LO 3/2018: la AEPD podrá inadmitir la reclamación, previa advertencia y adopción de medidas correctivas, cuando no se haya causado perjuicio al afectado en las infracciones del art. 74 o cuando su derecho quede plenamente garantizado mediante esas medidas."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 9.2 de la LO 3/2018, los tratamientos de datos relativos a salud, previstos en las letras g), h) e i) del artículo 9.2 del RGPD, fundados en el Derecho español deben:",
+      "o": [
+        "Estar amparados en una norma con rango de ley, que podrá establecer requisitos adicionales de seguridad y confidencialidad",
+        "Contar únicamente con el consentimiento verbal del paciente, salvo que una norma con rango de ley disponga lo contrario",
+        "Ser autorizados caso por caso por el Consejo de Ministros, salvo que una norma con rango de ley disponga lo contrario",
+        "Quedar excluidos de cualquier regulación específica, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 9.2 LO 3/2018: los tratamientos de las letras g), h) e i) del art. 9.2 RGPD fundados en el Derecho español deberán estar amparados en una norma con rango de ley, que podrá establecer requisitos adicionales de seguridad y confidencialidad."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 40 de la Ley 39/2015, cuando una notificación contiene el texto íntegro del acto pero omite alguno de los demás requisitos exigidos, ¿desde qué momento surte efecto?",
+      "o": [
+        "Desde la fecha en que el interesado realice actuaciones que supongan el conocimiento del contenido y alcance de la resolución, o interponga el recurso que proceda",
+        "Nunca surte efecto, es nula de pleno derecho automáticamente, salvo que una norma con rango de ley disponga lo contrario, en todo caso",
+        "Desde el mismo día en que fue dictado el acto, sin excepción, salvo que una norma con rango de ley disponga lo contrario, con carácter general",
+        "Solo cuando lo declare expresamente un juez, salvo que una norma con rango de ley disponga lo contrario, como criterio subsidiario"
+      ],
+      "c": 0,
+      "e": "Art. 40.3 Ley 39/2015: las notificaciones que, conteniendo el texto íntegro del acto, omitiesen algún otro requisito, surtirán efecto a partir de la fecha en que el interesado realice actuaciones que supongan conocimiento del contenido y alcance de la resolución, o interponga el recurso que proceda."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 43.2 de la Ley 39/2015, cuando la notificación electrónica es obligatoria o ha sido elegida por el interesado, ¿cuándo se entiende rechazada si no se accede a su contenido?",
+      "o": [
+        "Transcurridos diez días naturales desde la puesta a disposición de la notificación",
+        "Transcurridas 48 horas desde su envío",
+        "Transcurrido un mes natural completo, sin perjuicio de la normativa sectorial aplicable",
+        "Nunca se entiende rechazada, permanece indefinidamente disponible"
+      ],
+      "c": 0,
+      "e": "Art. 43.2 Ley 39/2015: cuando la notificación electrónica sea obligatoria o elegida expresamente por el interesado, se entenderá rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición sin acceder a su contenido."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 81.2 de la Ley 39/2015, en procedimientos de responsabilidad patrimonial, será preceptivo el dictamen del Consejo de Estado u órgano consultivo equivalente cuando la indemnización reclamada sea igual o superior a:",
+      "o": [
+        "50.000 euros, o a la cuantía que establezca la legislación autonómica correspondiente",
+        "6.000 euros en todo caso, salvo que una norma con rango de ley disponga lo contrario",
+        "1.000.000 de euros sin excepción, salvo que una norma con rango de ley disponga lo contrario",
+        "Cualquier cuantía, siempre es preceptivo"
+      ],
+      "c": 0,
+      "e": "Art. 81.2 Ley 39/2015: cuando las indemnizaciones reclamadas sean de cuantía igual o superior a 50.000 euros, o a la que establezca la legislación autonómica correspondiente, será preceptivo solicitar dictamen del Consejo de Estado o del órgano consultivo autonómico equivalente."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 82.5 de la Ley 39/2015, en los procedimientos de responsabilidad patrimonial del artículo 32.9 de la Ley de Régimen Jurídico del Sector Público, ¿a quién es necesario dar audiencia en todo caso?",
+      "o": [
+        "Al contratista, notificándole las actuaciones para que se persone, exponga lo que a su derecho convenga y proponga pruebas",
+        "Únicamente al Ministerio Fiscal, salvo que una norma con rango de ley disponga lo contrario",
+        "Solo al defensor del pueblo autonómico, salvo que una norma con rango de ley disponga lo contrario",
+        "A la aseguradora del contratante exclusivamente, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 82.5 Ley 39/2015: en los procedimientos de responsabilidad patrimonial del art. 32.9 de la LRJSP será necesario en todo caso dar audiencia al contratista, notificándole cuantas actuaciones se realicen para que se persone y proponga cuantos medios de prueba estime necesarios."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 106.5 de la Ley 39/2015, cuando un procedimiento de revisión de oficio se inicia de oficio, ¿qué produce el transcurso de seis meses desde su inicio sin dictarse resolución?",
+      "o": [
+        "La caducidad del procedimiento",
+        "La estimación automática de la nulidad solicitada",
+        "La nulidad de todas las actuaciones previas del expediente",
+        "La suspensión indefinida del procedimiento"
+      ],
+      "c": 0,
+      "e": "Art. 106.5 Ley 39/2015: cuando el procedimiento de revisión de oficio se hubiera iniciado de oficio, el transcurso del plazo de seis meses desde su inicio sin dictarse resolución producirá la caducidad del mismo."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 23.3 de la Ley 2/2015, del empleo público de Galicia, si transcurridos tres años desde el nombramiento de personal funcionario interino por vacante no se ha resuelto el proceso selectivo, pero se publicó la convocatoria dentro de ese plazo, el interino:",
+      "o": [
+        "Puede permanecer en el puesto excepcionalmente hasta la resolución de la convocatoria, sin que su cese dé lugar a compensación económica",
+        "Debe cesar automáticamente al cumplirse los tres años, sin excepción, salvo que una norma con rango de ley disponga lo contrario",
+        "Adquiere automáticamente la condición de funcionario de carrera, salvo que una norma con rango de ley disponga lo contrario",
+        "Pasa a la situación de excedencia forzosa, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 23.3 Ley 2/2015: excepcionalmente, el personal funcionario interino podrá permanecer en el puesto que ocupe temporalmente si se hubiese publicado la convocatoria dentro del plazo de tres años, hasta la resolución de esta, sin que su cese dé lugar a compensación económica."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 24.4 de la Ley 2/2015, el incumplimiento del plazo máximo de nombramiento del personal funcionario interino por vacante (artículo 23.2.a) da lugar a una compensación económica equivalente a:",
+      "o": [
+        "Veinte días de retribuciones fijas por año de servicio, con un máximo de doce mensualidades",
+        "Un mes de salario íntegro sin límite máximo",
+        "El doble de las retribuciones anuales percibidas",
+        "No genera derecho a compensación alguna, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 24.4 Ley 2/2015: el incumplimiento del plazo del art. 23.2.a) dará lugar a una compensación económica equivalente a veinte días de retribuciones fijas por año de servicio, prorrateándose por meses, hasta un máximo de doce mensualidades."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 106.6 de la Ley 2/2015, en materia de reducción de jornada por cuidado de hijo o hija que padezca cáncer u otra enfermedad grave, ¿hasta qué edad puede mantenerse el derecho si la enfermedad se diagnosticó antes de la mayoría de edad y, antes de los 23 años, se acredita un grado de discapacidad igual o superior al 65%?",
+      "o": [
+        "Hasta que la persona a cargo cumpla los 26 años",
+        "Hasta que cumpla los 18 años únicamente",
+        "Hasta que cumpla los 21 años",
+        "No existe límite de edad en ningún supuesto"
+      ],
+      "c": 0,
+      "e": "Art. 106 Ley 2/2015: se mantendrá el derecho a la reducción de jornada hasta que la persona a cargo cumpla los 26 años si, antes de alcanzar los 23 años, se acredita un grado de discapacidad igual o superior al 65 %."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 132.6 de la Ley 2/2015, en caso de jubilación por incapacidad permanente o fallecimiento, ¿hasta qué plazo máximo puede solicitarse el abono de una compensación económica por vacaciones devengadas y no disfrutadas?",
+      "o": [
+        "Hasta dieciocho meses",
+        "Hasta tres meses",
+        "No cabe compensación económica en ningún caso por vacaciones",
+        "Hasta cinco años"
+      ],
+      "c": 0,
+      "e": "Art. 132.6 Ley 2/2015: en los casos de jubilación por incapacidad permanente o de fallecimiento, se podrá solicitar el abono de una compensación económica por las vacaciones devengadas y no disfrutadas hasta un máximo de dieciocho meses."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 89.2 de la Ley 2/2015, en los concursos de provisión de puestos, ¿qué puestos quedan excluidos de la convocatoria general cuando el personal funcionario de carrera esté adscrito a ellos por determinados motivos?",
+      "o": [
+        "Los puestos con personal funcionario adscrito por motivos de salud, rehabilitación, violencia de género o violencia sexual",
+        "Los puestos de nueva creación, salvo que una norma con rango de ley disponga lo contrario",
+        "Los puestos ocupados por personal interino, salvo que una norma con rango de ley disponga lo contrario",
+        "Los puestos de libre designación exclusivamente, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 89.2 Ley 2/2015: en los concursos no se incluirán los puestos de trabajo que tengan adscrito personal funcionario de carrera por motivos de salud o rehabilitación, o por motivos de violencia de género o de violencia sexual."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 50.2.f) de la Ley 7/2023, las universidades gallegas deben garantizar que en los procesos de selección o evaluación de la trayectoria académico-profesional queden excluidos, sin impacto negativo, los períodos dedicados, entre otros, a:",
+      "o": [
+        "Permisos de nacimiento, adopción, riesgo durante el embarazo o lactancia natural, o incapacidad temporal asociada, o por violencia de género o acoso en el trabajo",
+        "Vacaciones ordinarias anuales, salvo que una norma con rango de ley disponga lo contrario, en todo caso",
+        "Bajas por motivos exclusivamente deportivos, salvo que una norma con rango de ley disponga lo contrario, de forma excepcional y motivada",
+        "Permisos por asuntos particulares de libre disposición, salvo que una norma con rango de ley disponga lo contrario, atendiendo a las circunstancias del caso"
+      ],
+      "c": 0,
+      "e": "Art. 50.2.f) Ley 7/2023: se garantizará que queden excluidos, sin impacto negativo, los períodos dedicados a permisos de nacimiento, adopción, guarda con fines de adopción o acogimiento, riesgo durante el embarazo o lactancia natural, incapacidad temporal asociada, o por razones de violencia de género o de cualquier tipo de acoso en el trabajo."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 60 de la Ley 7/2023, sobre espacios electorales, la Administración autonómica fomentará el debate sobre cuestiones de género incrementando el tiempo gratuito de propaganda electoral en la Corporación Radio y Televisión de Galicia en un:",
+      "o": [
+        "10 por ciento",
+        "50 por ciento",
+        "25 por ciento",
+        "5 por ciento"
+      ],
+      "c": 0,
+      "e": "Art. 60 Ley 7/2023: se fomentará el debate electoral sobre cuestiones de género mediante un incremento del 10 por ciento del tiempo gratuito de propaganda electoral concedido a las candidaturas al Parlamento de Galicia, si lo destinan a esas cuestiones."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 77.2 de la Ley 39/2015, además del período ordinario de prueba, el instructor puede acordar, a petición de los interesados, un período extraordinario de prueba de duración máxima de:",
+      "o": [
+        "Diez días",
+        "Treinta días",
+        "Quince días",
+        "Dos meses"
+      ],
+      "c": 0,
+      "e": "Art. 77.2 Ley 39/2015: cuando lo considere necesario, el instructor, a petición de los interesados, podrá decidir la apertura de un período extraordinario de prueba por un plazo no superior a diez días."
+    },
+    {
+      "d": "moidificil",
+      "q": "Según el artículo 4.4 de la LO 1/2004, la Educación Secundaria Obligatoria debe contribuir a que el alumnado desarrolle su capacidad para:",
+      "o": [
+        "Relacionarse con los demás de forma pacífica y conocer, valorar y respetar la igualdad de oportunidades de hombres y mujeres",
+        "Únicamente superar las pruebas de acceso a la universidad, salvo que una norma con rango de ley disponga lo contrario",
+        "Especializarse en una única disciplina científica, salvo que una norma con rango de ley disponga lo contrario",
+        "Memorizar el articulado legal vigente, salvo que una norma con rango de ley disponga lo contrario"
+      ],
+      "c": 0,
+      "e": "Art. 4.4 LO 1/2004: la Educación Secundaria Obligatoria contribuirá a desarrollar en el alumnado la capacidad para relacionarse con los demás de forma pacífica y para conocer, valorar y respetar la igualdad de oportunidades de hombres y mujeres."
+    }
   ]
 }
 ];
