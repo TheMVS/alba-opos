@@ -492,24 +492,19 @@ function escapeAttr(s){
   return (s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 }
 
+// As fichas de Explicacións veñen dun banco propio (CARD_BANK, en cards.js),
+// independente das preguntas do test: cada ficha agrupa varias preguntas do
+// mesmo concepto nunha soa explicación ampliada, en vez de ter unha ficha por
+// pregunta (o que duplicaría contido e non deixaría ver o concepto de conxunto).
 const GLOSSARY_CARDS = (() => {
-  const cards = [];
-  QUESTION_BANK.forEach(b => {
-    b.questions.forEach((q, qi) => {
-      const answer = q.o[q.c];
-      cards.push({
-        id: `${b.id}-${qi}`,
-        blockId: b.id,
-        blockTitle: b.title,
-        difficulty: q.d,
-        question: q.q,
-        answer,
-        explanation: q.e,
-        search: normalizeText([b.title, q.q, answer, q.e].join(" "))
-      });
-    });
-  });
-  return cards;
+  return CARD_BANK.map(c => ({
+    id: c.id,
+    blockId: c.block,
+    blockTitle: c.blockTitle,
+    concept: c.concept,
+    explanation: c.explanation,
+    search: normalizeText([c.blockTitle, c.concept, c.explanation].join(" "))
+  }));
 })();
 
 let glossaryState = { query: "", blockId: "all", limit: 40 };
@@ -528,31 +523,14 @@ function filterGlossaryCards(){
   });
 }
 
-// A ficha explica o CONCEPTO teórico (ao estilo dunha cita legal: "Art. X da
-// Lei Y: ..."), non repite a pregunta do test. O campo `explanation` de cada
-// pregunta xa está escrito como unha afirmación declarativa e autocontida da
-// teoría (ou da cita legal), así que se usa como corpo da ficha; extraemos
-// dela un encabezado curto (todo o que hai antes dos dous puntos, se os hai,
-// p.ex. "Art. 1.1 CE (BOE núm. 311, de 29/12/1978)") para dar contexto de
-// inmediato. Isto evita ademais o problema das preguntas en negativo (“Cal
-// dos seguintes NON é...”): como nunca se amosa a resposta correcta como se
-// fose o concepto, non hai risco de presentar a excepción coma se fose a regra.
-function splitConcept(explanation, fallback){
-  const text = (explanation || "").trim();
-  if(!text) return { heading: fallback, body: "" };
-  const colonMatch = text.match(/^(.{3,90}?):\s+/);
-  if(colonMatch){
-    return { heading: colonMatch[1].trim(), body: text.slice(colonMatch[0].length).trim() };
-  }
-  const dotIdx = text.indexOf(". ");
-  if(dotIdx > 0 && dotIdx < 90){
-    return { heading: text.slice(0, dotIdx + 1).trim(), body: text.slice(dotIdx + 1).trim() };
-  }
-  return { heading: fallback, body: text };
-}
-
+// A ficha explica o CONCEPTO teórico de forma declarativa e autocontida
+// (nunca repite a pregunta do test): o título é o concepto (`concept`) e o
+// corpo é a explicación ampliada con exemplos (`explanation`), ambos xa
+// escritos así en CARD_BANK. Isto evita ademais o problema das preguntas en
+// negativo (“Cal dos seguintes NON é...”): como a ficha nunca se constrúe a
+// partir da resposta a unha pregunta concreta, non hai risco de presentar a
+// excepción coma se fose a regra.
 function glossaryCardHtml(c){
-  const { heading, body } = splitConcept(c.explanation, c.blockTitle);
   const checked = glossarySelected.has(c.id);
   return `
     <div class="glossary-card ${checked ? "glossary-card-selected" : ""}">
@@ -561,10 +539,9 @@ function glossaryCardHtml(c){
           <input type="checkbox" class="glossary-select" data-id="${c.id}" ${checked ? "checked" : ""}>
         </label>
         <span class="question-block-tag">${c.blockTitle}</span>
-        <span class="diff-badge diff-badge-${c.difficulty}">${DIFFICULTY_LABELS[c.difficulty] || c.difficulty}</span>
       </div>
-      <p class="glossary-concept">${heading}</p>
-      <div class="glossary-explain">${body}</div>
+      <p class="glossary-concept">${c.concept}</p>
+      <div class="glossary-explain">${c.explanation}</div>
     </div>`;
 }
 
@@ -687,12 +664,11 @@ function downloadGlossaryPdf(cards){
   y += 8;
 
   cards.forEach((c, i) => {
-    const { heading, body } = splitConcept(c.explanation, c.blockTitle);
     ensureSpace(28);
     y += 6;
     addWrapped(`${i+1}. ${c.blockTitle}`, margin, 9.5, "normal", [120,120,110], 3);
-    addWrapped(heading, margin, 12, "bold", [30,52,40], 4);
-    if(body) addWrapped(body, margin, 10.5, "normal", [50,50,45], 4);
+    addWrapped(c.concept, margin, 12, "bold", [30,52,40], 4);
+    if(c.explanation) addWrapped(c.explanation, margin, 10.5, "normal", [50,50,45], 4);
     y += 6;
   });
 
@@ -708,7 +684,7 @@ function renderGlossary(){
     ${navHtml("glossary")}
     <section class="panel">
       <h2>Explicacións</h2>
-      <p class="panel-sub">Fichas con cada concepto do temario: a pregunta que o define, a resposta clave e a explicación completa. Busca por palabra, artigo, autor ou tema.</p>
+      <p class="panel-sub">Fichas de estudo por concepto (non por pregunta): cada ficha agrupa o que hai que saber dun tema en explicación ampliada, con exemplos. Busca por palabra, artigo, autor ou tema.</p>
 
       <div class="glossary-controls">
         <input type="search" id="glossarySearch" class="glossary-search-input"
