@@ -94,6 +94,33 @@ h1,h2,h3{
   color:var(--slate);
 }
 
+/* ---------- Top nav (Test / Explicacións) ---------- */
+.top-nav{
+  display:flex;
+  gap:8px;
+  margin-bottom:20px;
+}
+.top-nav-btn{
+  flex:1 1 auto;
+  background:var(--paper-raised);
+  border:1.5px solid var(--line);
+  color:var(--slate);
+  font-family:"Public Sans", sans-serif;
+  font-weight:600;
+  font-size:14px;
+  padding:11px 14px;
+  border-radius:var(--radius);
+  cursor:pointer;
+  text-align:center;
+  transition:all .12s ease;
+}
+.top-nav-btn:hover{border-color:var(--forest);color:var(--forest-dark);}
+.top-nav-btn.active{
+  background:var(--forest-dark);
+  border-color:var(--forest-dark);
+  color:var(--paper-raised);
+}
+
 /* ---------- Setup screen ---------- */
 .panel{
   background:var(--paper-raised);
@@ -501,6 +528,118 @@ h1,h2,h3{
   margin-top:20px;
 }
 
+/* ---------- Glossary screen (Explicacións) ---------- */
+.glossary-controls{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:14px;
+}
+.glossary-search-input{
+  flex:2 1 240px;
+  padding:11px 14px;
+  border:1.5px solid var(--line);
+  border-radius:var(--radius);
+  font-family:inherit;
+  font-size:14.5px;
+  background:var(--paper-raised);
+  color:var(--ink);
+}
+.glossary-search-input:focus{outline:none;border-color:var(--forest);}
+.glossary-block-filter{
+  flex:1 1 200px;
+  padding:11px 14px;
+  border:1.5px solid var(--line);
+  border-radius:var(--radius);
+  font-family:inherit;
+  font-size:14px;
+  background:var(--paper-raised);
+  color:var(--ink);
+}
+.glossary-block-filter:focus{outline:none;border-color:var(--forest);}
+.glossary-count{
+  font-size:12.5px;
+  color:var(--slate);
+  margin:0 0 14px;
+}
+.glossary-list{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+.glossary-card{
+  background:var(--paper-raised);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:18px 20px;
+  transition:border-color .15s, box-shadow .15s;
+}
+.glossary-card-selected{
+  border-color:var(--forest);
+  box-shadow:0 0 0 1px var(--forest) inset;
+}
+.glossary-select-wrap{
+  display:flex;
+  align-items:center;
+  cursor:pointer;
+}
+.glossary-select{
+  width:18px;
+  height:18px;
+  accent-color:var(--forest);
+  cursor:pointer;
+}
+.glossary-concept{
+  font-family:"Fraunces",serif;
+  font-weight:600;
+  font-size:16.5px;
+  line-height:1.4;
+  margin:8px 0 8px;
+  color:var(--forest-dark);
+  border-left:4px solid var(--forest);
+  padding-left:12px;
+}
+.glossary-explain{
+  font-size:14.5px;
+  color:var(--ink);
+  line-height:1.55;
+}
+.glossary-more{
+  display:flex;
+  justify-content:center;
+  margin-top:18px;
+}
+.glossary-selection-bar{
+  margin-bottom:14px;
+}
+.glossary-selection-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px 14px;
+  background:var(--paper-raised);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:10px 14px;
+}
+.glossary-selection-count{
+  font-size:13px;
+  color:var(--ink-soft);
+  font-weight:600;
+}
+.glossary-selection-actions{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+}
+.glossary-selection-actions .secondary-btn,
+.glossary-selection-actions .primary-btn{
+  padding:8px 14px;
+  font-size:13px;
+}
+
 /* ---------- Results screen ---------- */
 .score-hero{
   display:flex;
@@ -663,4 +802,16 @@ h1,h2,h3{
 
   .brand-text h1{font-size:19px;}
   .brand-mark{width:40px;height:40px;font-size:15px;}
+
+  /* Nav e explicacións: controis apilables, fichas máis compactas. */
+  .top-nav-btn{font-size:12.5px;padding:10px 8px;}
+  .glossary-controls{flex-direction:column;}
+  .glossary-search-input,
+  .glossary-block-filter{flex:1 1 auto;}
+  .glossary-card{padding:15px 16px;}
+  .glossary-concept{font-size:15px;}
+  .glossary-selection-inner{flex-direction:column;align-items:stretch;}
+  .glossary-selection-actions{justify-content:stretch;}
+  .glossary-selection-actions .secondary-btn,
+  .glossary-selection-actions .primary-btn{flex:1 1 auto;justify-content:center;}
 }

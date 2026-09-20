@@ -10,6 +10,21 @@ let state = {
   quiz: null // {questions:[...], index, answers:[], startedAt}
 };
 
+// ============ Top navigation (Test / Explicacións) ============
+function navHtml(active){
+  return `
+    <nav class="top-nav">
+      <button class="top-nav-btn ${active === "test" ? "active" : ""}" id="navTestBtn" type="button">📝 Facer test</button>
+      <button class="top-nav-btn ${active === "glossary" ? "active" : ""}" id="navGlossaryBtn" type="button">📚 Explicacións</button>
+    </nav>`;
+}
+function attachNavHandlers(){
+  const testBtn = document.getElementById("navTestBtn");
+  const glossBtn = document.getElementById("navGlossaryBtn");
+  if(testBtn) testBtn.addEventListener("click", () => { state.quiz = null; renderSetup(); });
+  if(glossBtn) glossBtn.addEventListener("click", renderGlossary);
+}
+
 function loadStats(){
   try{
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -58,6 +73,7 @@ function renderSetup(){
   const moiDificilChecked = state.selectedDifficulty.has("moidificil") ? "checked" : "";
 
   main.innerHTML = `
+    ${navHtml("test")}
     <section class="panel">
       <h2>Configura o teu test</h2>
       <p class="panel-sub">Elixe os bloques do temario, a dificultade e cantas preguntas queres responder. As preguntas e as opcións escóllense ao chou en cada intento.</p>
@@ -146,6 +162,7 @@ function renderSetup(){
     document.getElementById("numQVal").textContent = state.numQuestions;
   });
   document.getElementById("startBtn").addEventListener("click", startQuiz);
+  attachNavHandlers();
 }
 
 // ============ Quiz building ============
@@ -460,6 +477,283 @@ function downloadPdf(quiz, overallPct, correctCount, total, byBlock){
 // jsPDF's base helvetica font has limited character support; keep text readable if odd glyphs appear.
 function stripAccentsSafe(text){
   return text;
+}
+
+// ============ Explicacións (fichas de conceptos + buscador) ============
+// Cada pregunta do banco xa leva unha explicación redactada; reaproveitámola
+// como "ficha" de estudo (pregunta = concepto, resposta correcta + explicación
+// = contido da ficha), sen necesidade dun banco de datos separado.
+function normalizeText(s){
+  return (s || "").toString().toLowerCase()
+    .normalize("NFD").replace(/[̀-ͯ]/g, "");
+}
+
+function escapeAttr(s){
+  return (s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+
+const GLOSSARY_CARDS = (() => {
+  const cards = [];
+  QUESTION_BANK.forEach(b => {
+    b.questions.forEach((q, qi) => {
+      const answer = q.o[q.c];
+      cards.push({
+        id: `${b.id}-${qi}`,
+        blockId: b.id,
+        blockTitle: b.title,
+        difficulty: q.d,
+        question: q.q,
+        answer,
+        explanation: q.e,
+        search: normalizeText([b.title, q.q, answer, q.e].join(" "))
+      });
+    });
+  });
+  return cards;
+})();
+
+let glossaryState = { query: "", blockId: "all", limit: 40 };
+const GLOSSARY_PAGE_SIZE = 40;
+// Selección de fichas persiste mentres se navega por Explicacións (cambiar a
+// busca ou o filtro de bloque non a borra), para poder ir marcando fichas de
+// varias buscas antes de xerar o PDF.
+let glossarySelected = new Set();
+
+function filterGlossaryCards(){
+  const q = normalizeText(glossaryState.query.trim());
+  return GLOSSARY_CARDS.filter(c => {
+    if(glossaryState.blockId !== "all" && c.blockId !== glossaryState.blockId) return false;
+    if(!q) return true;
+    return c.search.includes(q);
+  });
+}
+
+// A ficha explica o CONCEPTO teórico (ao estilo dunha cita legal: "Art. X da
+// Lei Y: ..."), non repite a pregunta do test. O campo `explanation` de cada
+// pregunta xa está escrito como unha afirmación declarativa e autocontida da
+// teoría (ou da cita legal), así que se usa como corpo da ficha; extraemos
+// dela un encabezado curto (todo o que hai antes dos dous puntos, se os hai,
+// p.ex. "Art. 1.1 CE (BOE núm. 311, de 29/12/1978)") para dar contexto de
+// inmediato. Isto evita ademais o problema das preguntas en negativo (“Cal
+// dos seguintes NON é...”): como nunca se amosa a resposta correcta como se
+// fose o concepto, non hai risco de presentar a excepción coma se fose a regra.
+function splitConcept(explanation, fallback){
+  const text = (explanation || "").trim();
+  if(!text) return { heading: fallback, body: "" };
+  const colonMatch = text.match(/^(.{3,90}?):\s+/);
+  if(colonMatch){
+    return { heading: colonMatch[1].trim(), body: text.slice(colonMatch[0].length).trim() };
+  }
+  const dotIdx = text.indexOf(". ");
+  if(dotIdx > 0 && dotIdx < 90){
+    return { heading: text.slice(0, dotIdx + 1).trim(), body: text.slice(dotIdx + 1).trim() };
+  }
+  return { heading: fallback, body: text };
+}
+
+function glossaryCardHtml(c){
+  const { heading, body } = splitConcept(c.explanation, c.blockTitle);
+  const checked = glossarySelected.has(c.id);
+  return `
+    <div class="glossary-card ${checked ? "glossary-card-selected" : ""}">
+      <div class="question-head">
+        <label class="glossary-select-wrap">
+          <input type="checkbox" class="glossary-select" data-id="${c.id}" ${checked ? "checked" : ""}>
+        </label>
+        <span class="question-block-tag">${c.blockTitle}</span>
+        <span class="diff-badge diff-badge-${c.difficulty}">${DIFFICULTY_LABELS[c.difficulty] || c.difficulty}</span>
+      </div>
+      <p class="glossary-concept">${heading}</p>
+      <div class="glossary-explain">${body}</div>
+    </div>`;
+}
+
+function updateGlossaryResults(){
+  const results = filterGlossaryCards();
+  const shown = results.slice(0, glossaryState.limit);
+
+  const countEl = document.getElementById("glossaryCount");
+  const listEl = document.getElementById("glossaryResults");
+  const moreWrap = document.getElementById("glossaryMoreWrap");
+
+  if(countEl){
+    countEl.textContent = glossaryState.query.trim() || glossaryState.blockId !== "all"
+      ? `${results.length} de ${GLOSSARY_CARDS.length} fichas coinciden`
+      : `${GLOSSARY_CARDS.length} fichas en total`;
+  }
+  if(listEl){
+    listEl.innerHTML = shown.length
+      ? shown.map(glossaryCardHtml).join("")
+      : `<p class="empty-note">Non se atoparon fichas para esa busca. Proba con outra palabra clave.</p>`;
+  }
+  if(moreWrap){
+    const remaining = results.length - shown.length;
+    moreWrap.innerHTML = remaining > 0
+      ? `<button class="secondary-btn" id="glossaryMoreBtn">Amosar máis (quedan ${remaining})</button>`
+      : "";
+    const moreBtn = document.getElementById("glossaryMoreBtn");
+    if(moreBtn){
+      moreBtn.addEventListener("click", () => {
+        glossaryState.limit += GLOSSARY_PAGE_SIZE;
+        updateGlossaryResults();
+      });
+    }
+  }
+
+  updateSelectionBar(shown);
+}
+
+// ============ Selección de fichas + descarga PDF ============
+function updateSelectionBar(shown){
+  const bar = document.getElementById("glossarySelectionBar");
+  if(!bar) return;
+
+  const total = glossarySelected.size;
+  const visibleIds = (shown || []).map(c => c.id);
+  const allVisibleSelected = visibleIds.length > 0 && visibleIds.every(id => glossarySelected.has(id));
+
+  bar.innerHTML = `
+    <div class="glossary-selection-inner">
+      <span class="glossary-selection-count">${total > 0 ? `${total} ficha${total===1?"":"s"} seleccionada${total===1?"":"s"}` : "Ningunha ficha seleccionada"}</span>
+      <div class="glossary-selection-actions">
+        <button class="secondary-btn" id="glossarySelectVisibleBtn" type="button">${allVisibleSelected ? "Desmarcar visibles" : "Marcar visibles"}</button>
+        ${total > 0 ? `<button class="secondary-btn" id="glossaryClearSelBtn" type="button">Limpar selección</button>` : ""}
+        <button class="primary-btn" id="glossaryPdfBtn" type="button" ${total===0 ? "disabled" : ""}>⬇ Descargar PDF${total>0 ? ` (${total})` : ""}</button>
+      </div>
+    </div>`;
+
+  const selectVisibleBtn = document.getElementById("glossarySelectVisibleBtn");
+  if(selectVisibleBtn){
+    selectVisibleBtn.addEventListener("click", () => {
+      if(allVisibleSelected){
+        visibleIds.forEach(id => glossarySelected.delete(id));
+      } else {
+        visibleIds.forEach(id => glossarySelected.add(id));
+      }
+      updateGlossaryResults();
+    });
+  }
+  const clearBtn = document.getElementById("glossaryClearSelBtn");
+  if(clearBtn){
+    clearBtn.addEventListener("click", () => {
+      glossarySelected.clear();
+      updateGlossaryResults();
+    });
+  }
+  const pdfBtn = document.getElementById("glossaryPdfBtn");
+  if(pdfBtn && total > 0){
+    pdfBtn.addEventListener("click", () => {
+      const selectedCards = GLOSSARY_CARDS.filter(c => glossarySelected.has(c.id));
+      downloadGlossaryPdf(selectedCards);
+    });
+  }
+}
+
+function downloadGlossaryPdf(cards){
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({unit:"pt", format:"a4"});
+  const pageW = doc.internal.pageSize.getWidth();
+  const margin = 48;
+  let y = 56;
+  const maxW = pageW - margin*2;
+
+  function ensureSpace(h){
+    if(y + h > doc.internal.pageSize.getHeight() - 40){
+      doc.addPage();
+      y = 56;
+    }
+  }
+  function addWrapped(text, x, size, weight, color, lineGap){
+    doc.setFont("helvetica", weight);
+    doc.setFontSize(size);
+    doc.setTextColor(color[0],color[1],color[2]);
+    const lines = doc.splitTextToSize(text, maxW - (x-margin));
+    lines.forEach(line => {
+      ensureSpace(size + lineGap);
+      doc.text(line, x, y);
+      y += size + lineGap;
+    });
+  }
+
+  doc.setFont("helvetica","bold");
+  doc.setFontSize(18);
+  doc.setTextColor(30,52,40);
+  doc.text("Explicacions - Fichas seleccionadas", margin, y);
+  y += 20;
+
+  const date = new Date().toLocaleDateString("gl-ES");
+  addWrapped(`Data: ${date}`, margin, 10.5, "normal", [90,90,80], 4);
+  addWrapped(`${cards.length} ficha${cards.length===1?"":"s"} seleccionada${cards.length===1?"":"s"}`, margin, 10.5, "normal", [90,90,80], 6);
+  y += 8;
+
+  cards.forEach((c, i) => {
+    const { heading, body } = splitConcept(c.explanation, c.blockTitle);
+    ensureSpace(28);
+    y += 6;
+    addWrapped(`${i+1}. ${c.blockTitle}`, margin, 9.5, "normal", [120,120,110], 3);
+    addWrapped(heading, margin, 12, "bold", [30,52,40], 4);
+    if(body) addWrapped(body, margin, 10.5, "normal", [50,50,45], 4);
+    y += 6;
+  });
+
+  doc.save("explicacions-fichas.pdf");
+}
+
+function renderGlossary(){
+  const blockOptions = QUESTION_BANK.map(b =>
+    `<option value="${b.id}" ${glossaryState.blockId === b.id ? "selected" : ""}>${b.title}</option>`
+  ).join("");
+
+  main.innerHTML = `
+    ${navHtml("glossary")}
+    <section class="panel">
+      <h2>Explicacións</h2>
+      <p class="panel-sub">Fichas con cada concepto do temario: a pregunta que o define, a resposta clave e a explicación completa. Busca por palabra, artigo, autor ou tema.</p>
+
+      <div class="glossary-controls">
+        <input type="search" id="glossarySearch" class="glossary-search-input"
+               placeholder="Buscar (p. ex. Piaget, artigo 23, vacacións...)"
+               value="${escapeAttr(glossaryState.query)}">
+        <select id="glossaryBlockFilter" class="glossary-block-filter">
+          <option value="all" ${glossaryState.blockId === "all" ? "selected" : ""}>Todos os bloques</option>
+          ${blockOptions}
+        </select>
+      </div>
+
+      <p class="glossary-count" id="glossaryCount"></p>
+      <div class="glossary-selection-bar" id="glossarySelectionBar"></div>
+      <div class="glossary-list" id="glossaryResults"></div>
+      <div class="glossary-more" id="glossaryMoreWrap"></div>
+    </section>
+  `;
+
+  const searchInput = document.getElementById("glossarySearch");
+  searchInput.addEventListener("input", () => {
+    glossaryState.query = searchInput.value;
+    glossaryState.limit = GLOSSARY_PAGE_SIZE;
+    updateGlossaryResults();
+  });
+  document.getElementById("glossaryBlockFilter").addEventListener("change", (e) => {
+    glossaryState.blockId = e.target.value;
+    glossaryState.limit = GLOSSARY_PAGE_SIZE;
+    updateGlossaryResults();
+  });
+
+  // Delegación no contedor: as fichas cámbianse enteiras con innerHTML en
+  // cada busca, pero este contedor persiste, así que abonda un só listener.
+  document.getElementById("glossaryResults").addEventListener("change", (e) => {
+    const box = e.target.closest(".glossary-select");
+    if(!box) return;
+    const id = box.dataset.id;
+    if(box.checked) glossarySelected.add(id);
+    else glossarySelected.delete(id);
+    const card = box.closest(".glossary-card");
+    if(card) card.classList.toggle("glossary-card-selected", box.checked);
+    updateSelectionBar(filterGlossaryCards().slice(0, glossaryState.limit));
+  });
+
+  attachNavHandlers();
+  updateGlossaryResults();
 }
 
 // ============ Init ============
