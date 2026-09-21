@@ -1,5 +1,5 @@
-// Banco de preguntas — Oposiciones Galicia, Educación Infantil
-// 26 bloques, 677 preguntas en total, cada unha etiquetada
+// Banco de preguntas — Oposicións Galicia, Educación Infantil
+// 26 bloques, 1197 preguntas en total, cada unha etiquetada
 // coa propiedade "d": "facil", "media", "dificil" ou "moidificil".
 const QUESTION_BANK = [
  {
@@ -245,6 +245,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Debido al crecimiento y al elevado gasto energético relativo a su tamaño, los niños y niñas de Infantil necesitan, en proporción a su peso corporal, un aporte calórico y de nutrientes (proteínas, calcio, hierro) mayor que un adulto, aunque en términos absolutos coman cantidades menores. Por ejemplo, un niño de 4 años necesita relativamente más calcio por kilo de peso que un adulto, precisamente porque sus huesos están en pleno crecimiento."
+   },
+   {
+    "d": "facil",
+    "q": "Según la OMS, tras la lactancia materna exclusiva hasta los 6 meses, se recomienda mantener la lactancia materna, junto con la alimentación complementaria, hasta:",
+    "o": [
+     "El primer mes de vida",
+     "Los 2 años de edad o más",
+     "Los 9 meses como máximo",
+     "No se recomienda mantenerla una vez iniciados los sólidos"
+    ],
+    "c": 1,
+    "e": "La OMS recomienda no solo la lactancia materna exclusiva hasta los 6 meses, sino también su continuidad, junto con una alimentación complementaria adecuada, hasta los 2 años de edad o más, ya que la leche materna sigue aportando nutrientes y defensas inmunológicas valiosas más allá del primer año. Por ejemplo, un niño de 18 meses que sigue tomando pecho por la mañana y por la noche, además de comer alimentos sólidos variados durante el día, sigue beneficiándose de ambas fuentes de nutrición."
+   },
+   {
+    "d": "dificil",
+    "q": "En comparación con un adulto, el agua representa en el organismo de un bebé un porcentaje del peso corporal:",
+    "o": [
+     "Mayor, en torno al 70-75%",
+     "Menor, en torno al 30-40%",
+     "Igual, en torno al 55-60%",
+     "Prácticamente nulo, inferior al 5%"
+    ],
+    "c": 0,
+    "e": "El agua constituye una proporción mayor del peso corporal en el bebé (en torno al 70-75%) que en el adulto (en torno al 55-60%), lo que explica su mayor vulnerabilidad a la deshidratación ante pérdidas de líquidos por fiebre, vómitos o diarrea, ya que proporcionalmente pierden más agua corporal en menos tiempo. Por eso, ante un cuadro de gastroenteritis infantil, la reposición de líquidos es una prioridad médica inmediata."
+   },
+   {
+    "d": "dificil",
+    "q": "Según las recomendaciones actuales sobre alimentación complementaria, el gluten debe introducirse de forma gradual en la dieta del bebé:",
+    "o": [
+     "No antes de los 4 meses ni después de los 12 meses",
+     "No antes de los 12 meses ni después de los 24 meses",
+     "No antes del nacimiento ni después de los 2 meses",
+     "No antes de los 2 años ni después de los 4 años"
+    ],
+    "c": 0,
+    "e": "Las guías actuales recomiendan introducir el gluten de forma gradual y en pequeñas cantidades entre los 4 y los 12 meses de vida, evitando tanto una introducción muy precoz como un retraso excesivo, ya que ambos extremos se han relacionado en estudios con un mayor riesgo de desarrollar enfermedad celíaca. Por ejemplo, ofrecer pequeñas cantidades de cereales con gluten hacia los 6 meses, mientras se mantiene la lactancia, sigue esta recomendación."
+   },
+   {
+    "d": "media",
+    "q": "La miel no debe ofrecerse a bebés antes de los 12 meses debido, principalmente, al riesgo de:",
+    "o": [
+     "Botulismo infantil, por la posible presencia de esporas de Clostridium botulinum",
+     "Reacción alérgica inmediata en la práctica totalidad de los casos",
+     "Intolerancia congénita a la fructosa",
+     "Caries dental de aparición inmediata"
+    ],
+    "c": 0,
+    "e": "La miel puede contener esporas de la bacteria Clostridium botulinum que, aunque inofensivas para niños mayores y adultos, pueden germinar en el intestino inmaduro del lactante y producir una toxina causante de botulismo infantil, un cuadro grave que puede afectar a la musculatura respiratoria. Por eso se recomienda evitar la miel, incluso en pequeñas cantidades o cocinada, antes del primer año de vida."
+   },
+   {
+    "d": "facil",
+    "q": "La leche de vaca entera, como bebida principal, no se recomienda introducirla antes de:",
+    "o": [
+     "Los 3 meses",
+     "Los 12 meses",
+     "Los 6 meses",
+     "Los 3 años"
+    ],
+    "c": 1,
+    "e": "La leche de vaca entera no se recomienda como bebida principal antes de los 12 meses, ya que su composición (exceso de proteínas y minerales, escaso hierro) no se adapta a las necesidades del lactante y puede sobrecargar su riñón inmaduro; hasta esa edad, la leche materna o las fórmulas adaptadas son las opciones adecuadas."
+   },
+   {
+    "d": "media",
+    "q": "Según la OMS, el consumo de azúcares libres en la alimentación infantil debería reducirse, idealmente, a menos de:",
+    "o": [
+     "El 5% de la ingesta calórica total diaria",
+     "El 25% de la ingesta calórica total diaria",
+     "El 40% de la ingesta calórica total diaria",
+     "No existe ninguna recomendación cuantitativa"
+    ],
+    "c": 0,
+    "e": "La OMS recomienda reducir el consumo de azúcares libres (los añadidos a alimentos y bebidas, y los presentes de forma natural en miel, siropes y zumos) a menos del 10% de la ingesta calórica diaria, con un beneficio adicional si se reduce a menos del 5%, dado su papel en el desarrollo de caries y obesidad infantil. Un vaso de refresco azucarado puede aportar, por sí solo, buena parte de ese límite diario recomendado para un niño pequeño."
+   },
+   {
+    "d": "dificil",
+    "q": "Respecto a la sal añadida en la dieta infantil, la recomendación general de las guías de nutrición es evitarla:",
+    "o": [
+     "Durante todo el primer año de vida",
+     "Únicamente durante el primer mes de vida",
+     "Hasta los 3 años de edad, sin excepción",
+     "Solo en las comidas principales, no en las meriendas"
+    ],
+    "c": 0,
+    "e": "La recomendación general es evitar añadir sal a la alimentación durante el primer año de vida completo, ya que el riñón del bebé aún no está preparado para procesar un exceso de sodio, y los alimentos naturales (leche, frutas, verduras, carnes) ya contienen el sodio necesario. A partir del año se puede introducir de forma muy moderada, aunque sigue recomendándose limitar su consumo durante el resto de la infancia."
+   },
+   {
+    "d": "media",
+    "q": "El llamado 'plato de Harvard' (Healthy Eating Plate), usado como alternativa didáctica a la pirámide alimentaria, representa la proporción recomendada de alimentos mediante:",
+    "o": [
+     "Escalones de una pirámide alimentaria clásica, organizada en niveles según la frecuencia de consumo semanal de cada grupo",
+     "Secciones de un plato: la mitad de frutas y verduras, y el resto repartido entre cereales integrales y proteínas",
+     "Colores de un semáforo asociados a cada comida del día",
+     "Dos únicos grupos: alimentos sólidos y líquidos"
+    ],
+    "c": 1,
+    "e": "El plato de Harvard organiza visualmente la alimentación en un plato dividido en secciones: la mitad debe ocuparla la fruta y la verdura, y la otra mitad se reparte entre cereales integrales (una cuarta parte) y proteínas saludables (la otra cuarta parte), con agua como bebida de referencia. Es un recurso cada vez más usado en el aula como alternativa más intuitiva a la clásica pirámide de niveles."
+   },
+   {
+    "d": "facil",
+    "q": "La anemia ferropénica en la primera infancia se relaciona principalmente con un aporte insuficiente de:",
+    "o": [
+     "Vitamina C",
+     "Hierro",
+     "Calcio",
+     "Vitamina D"
+    ],
+    "c": 1,
+    "e": "La anemia ferropénica, uno de los déficits nutricionales más frecuentes en la primera infancia, se debe a un aporte insuficiente de hierro, mineral esencial para la formación de hemoglobina; puede prevenirse ofreciendo alimentos ricos en hierro (carnes, legumbres, cereales enriquecidos) combinados con vitamina C, que favorece su absorción, como en un plato de lentejas acompañado de una naranja de postre."
+   },
+   {
+    "d": "media",
+    "q": "La vitamina D, necesaria para la correcta absorción del calcio y la salud ósea, se obtiene principalmente mediante:",
+    "o": [
+     "El consumo exclusivo de lácteos",
+     "La exposición moderada de la piel a la luz solar",
+     "El consumo exclusivo de cítricos",
+     "La práctica de ejercicio físico, sin relación con la alimentación o el sol"
+    ],
+    "c": 1,
+    "e": "A diferencia de la mayoría de vitaminas, la vitamina D se sintetiza principalmente en la piel gracias a la exposición moderada a la luz solar, y solo en menor medida se obtiene de la dieta (pescado azul, huevo, lácteos enriquecidos); por eso los paseos y juegos al aire libre en Infantil no solo tienen valor motor y social, sino también un papel en la síntesis de esta vitamina."
+   },
+   {
+    "d": "dificil",
+    "q": "Por su contenido relativamente elevado en mercurio, las guías de seguridad alimentaria recomiendan limitar en la dieta infantil especies como:",
+    "o": [
+     "Pez espada, atún rojo, tiburón y lucio",
+     "Sardina, boquerón y merluza",
+     "Salmón y trucha de piscifactoría",
+     "Bacalao y gallo"
+    ],
+    "c": 0,
+    "e": "Especies como el pez espada, el atún rojo, el tiburón (cazón, marrajo) o el lucio acumulan niveles relativamente altos de mercurio, un metal pesado que puede afectar al desarrollo neurológico infantil, por lo que las autoridades sanitarias recomiendan evitarlas o limitarlas mucho en la dieta de niños pequeños, embarazadas y lactantes, priorizando pescados con menor contenido en mercurio como la merluza o el boquerón."
+   },
+   {
+    "d": "facil",
+    "q": "El consumo de fibra a través de frutas, verduras y cereales integrales contribuye fundamentalmente a:",
+    "o": [
+     "Un correcto tránsito intestinal y una mayor sensación de saciedad",
+     "Un aumento exclusivo de la masa muscular",
+     "Una mejora exclusiva de la agudeza visual",
+     "La prevención exclusiva de la caries dental mediante la eliminación completa de restos de comida"
+    ],
+    "c": 0,
+    "e": "La fibra alimentaria, presente en frutas, verduras, legumbres y cereales integrales, favorece un tránsito intestinal saludable (previniendo el estreñimiento, frecuente en la infancia) y aumenta la sensación de saciedad, contribuyendo además a regular los niveles de glucosa en sangre; su ausencia en dietas muy basadas en alimentos refinados suele traducirse en un mayor riesgo de estreñimiento infantil."
+   },
+   {
+    "d": "media",
+    "q": "La normativa europea de etiquetado obliga a declarar de forma destacada un listado de alérgenos alimentarios; entre ellos figuran:",
+    "o": [
+     "Gluten, huevo, leche, frutos de cáscara, pescado y marisco",
+     "Únicamente el gluten y la lactosa",
+     "Exclusivamente los colorantes artificiales",
+     "Solo los conservantes de origen químico"
+    ],
+    "c": 0,
+    "e": "La normativa europea (Reglamento 1169/2011) obliga a declarar de forma destacada catorce alérgenos e intolerancias de declaración obligatoria, entre ellos el gluten, el huevo, la leche, los frutos de cáscara, el pescado, el marisco, la soja o los frutos secos, información especialmente relevante en el etiquetado de los menús y productos que se ofrecen en el comedor escolar."
+   },
+   {
+    "d": "dificil",
+    "q": "Las principales guías alimentarias recomiendan, de forma orientativa, un consumo diario mínimo de frutas y verduras de:",
+    "o": [
+     "2 raciones al día",
+     "5 raciones al día",
+     "8 raciones al día",
+     "1 ración a la semana"
+    ],
+    "c": 1,
+    "e": "La recomendación clásica de 'cinco al día' (five a day) orienta a un consumo diario de al menos cinco raciones combinadas entre frutas y verduras, repartidas por ejemplo en una pieza de fruta en el desayuno, otra en el almuerzo de media mañana, verdura en la comida y en la cena, y una ración adicional como postre o merienda, con el objetivo de asegurar un aporte suficiente de vitaminas, minerales y fibra."
+   },
+   {
+    "d": "facil",
+    "q": "Los yogures y otros alimentos fermentados aportan, entre otros beneficios, microorganismos vivos conocidos como:",
+    "o": [
+     "Probióticos",
+     "Antioxidantes",
+     "Aminoácidos esenciales",
+     "Oligoelementos"
+    ],
+    "c": 0,
+    "e": "Los probióticos son microorganismos vivos (como determinadas cepas de lactobacilos y bifidobacterias) presentes en alimentos fermentados como el yogur o el kéfir, que contribuyen a mantener el equilibrio de la flora intestinal; por ejemplo, tras un tratamiento con antibióticos, que altera esa flora, se recomienda a veces reforzar el consumo de alimentos probióticos."
+   },
+   {
+    "d": "media",
+    "q": "Frente a las grasas saturadas, las grasas insaturadas presentes en el aceite de oliva o el pescado azul se consideran, en términos generales:",
+    "o": [
+     "Más perjudiciales para la salud cardiovascular",
+     "Más beneficiosas para la salud cardiovascular",
+     "Idénticas en sus efectos metabólicos",
+     "Irrelevantes desde el punto de vista nutricional"
+    ],
+    "c": 1,
+    "e": "Las grasas insaturadas (monoinsaturadas y poliinsaturadas), presentes en el aceite de oliva, los frutos secos o el pescado azul, se asocian a efectos beneficiosos sobre el perfil lipídico y la salud cardiovascular, mientras que un consumo excesivo de grasas saturadas (presentes en bollería industrial, embutidos grasos o mantequilla) se relaciona con un mayor riesgo cardiovascular a largo plazo."
+   },
+   {
+    "d": "dificil",
+    "q": "El mantenimiento de la 'cadena de frío' en la conservación de alimentos en la cocina y el comedor escolar tiene como finalidad principal:",
+    "o": [
+     "Mejorar el sabor, la textura y la presentación visual de los platos servidos en el comedor",
+     "Evitar la proliferación de microorganismos causantes de toxiinfecciones alimentarias",
+     "Reducir el gasto energético del centro educativo",
+     "Facilitar el transporte de mercancías al centro"
+    ],
+    "c": 1,
+    "e": "Mantener la cadena de frío (conservar los alimentos perecederos a la temperatura adecuada desde su recepción hasta su consumo) es una medida esencial de seguridad alimentaria: evita que los microorganismos patógenos se multipliquen hasta niveles peligrosos, reduciendo el riesgo de toxiinfecciones alimentarias, especialmente relevantes en colectivos vulnerables como la infancia."
+   },
+   {
+    "d": "facil",
+    "q": "La información sobre alergias e intolerancias alimentarias del alumnado debe quedar recogida, entre otros documentos, en:",
+    "o": [
+     "El expediente o ficha individual del alumno o alumna",
+     "Ningún documento oficial del centro",
+     "Únicamente en un cuaderno personal del docente",
+     "Exclusivamente en la agenda familiar, sin conocimiento del centro"
+    ],
+    "c": 0,
+    "e": "La información sanitaria relevante, como las alergias o intolerancias alimentarias, debe recogerse de forma oficial en el expediente o ficha individual del alumnado, y comunicarse de forma coordinada a todo el personal implicado (tutoría, comedor, sustituciones), de manera que no dependa de la memoria de una única persona ni de un simple cuaderno informal."
+   },
+   {
+    "d": "media",
+    "q": "Antes de los 4-5 años, no se recomienda ofrecer frutos secos enteros en la alimentación infantil principalmente por riesgo de:",
+    "o": [
+     "Reacción alérgica inmediata y grave en la práctica totalidad de los niños que los consuman",
+     "Atragantamiento, por lo que deben ofrecerse triturados o en crema",
+     "Intolerancia congénita a la lactosa",
+     "Exceso de vitamina E en el organismo"
+    ],
+    "c": 1,
+    "e": "Los frutos secos enteros suponen un riesgo elevado de atragantamiento en niños pequeños por su forma, dureza y tamaño, por lo que hasta los 4-5 años se recomienda ofrecerlos triturados, molidos o en crema (por ejemplo, crema de cacahuete o de almendra) en lugar de enteros, manteniendo así su valor nutricional sin el riesgo asociado."
+   },
+   {
+    "d": "moidificil",
+    "q": "El seguimiento del crecimiento infantil mediante tablas o curvas de percentiles de peso y talla permite, fundamentalmente:",
+    "o": [
+     "Comparar la evolución de un niño con los valores de referencia de una población y detectar posibles desviaciones",
+     "Determinar de forma exacta el coeficiente intelectual del niño y su nivel de desarrollo cognitivo global",
+     "Sustituir cualquier valoración médica posterior",
+     "Establecer directamente su rendimiento escolar futuro"
+    ],
+    "c": 0,
+    "e": "Las curvas de percentiles (por ejemplo, los patrones de crecimiento infantil de la OMS) permiten situar el peso y la talla de un niño en relación con los valores de referencia de una población de la misma edad y sexo, y hacer un seguimiento de su evolución en el tiempo, lo que ayuda a detectar precozmente posibles desviaciones (por defecto o por exceso) que aconsejen una valoración médica más detallada, sin sustituir por sí solas ese diagnóstico."
    }
   ]
  },
@@ -611,6 +851,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "El efecto Pigmalión (descrito por Rosenthal y Jacobson) alude a cómo las expectativas del docente sobre un alumno pueden influir, de forma no intencionada, en su rendimiento real: si el docente espera más de un niño (por ejemplo, por creerlo más capaz), tiende a darle más atención y oportunidades, lo que a menudo mejora su desempeño real; lo contrario ocurre con expectativas bajas."
+   },
+   {
+    "d": "facil",
+    "q": "Según Erikson, la primera crisis psicosocial, que se desarrolla aproximadamente entre el nacimiento y los 18 meses, es:",
+    "o": [
+     "Confianza frente a desconfianza",
+     "Autonomía frente a vergüenza y duda",
+     "Iniciativa frente a culpa",
+     "Industria frente a inferioridad"
+    ],
+    "c": 0,
+    "e": "Erikson sitúa la primera crisis psicosocial, confianza básica frente a desconfianza, entre el nacimiento y los 18 meses aproximadamente: si el bebé recibe cuidados consistentes y sensibles ante sus necesidades (alimento, contacto, consuelo), desarrolla un sentimiento básico de confianza en el mundo y en las personas que le rodean; unos cuidados erráticos o negligentes, en cambio, favorecen la desconfianza."
+   },
+   {
+    "d": "media",
+    "q": "Según la teoría psicosexual de Freud, la etapa fálica, situada aproximadamente entre los 3 y los 6 años, se caracteriza por:",
+    "o": [
+     "El interés por el control voluntario de esfínteres y por las conductas de retención y expulsión",
+     "El interés por los propios genitales y la aparición del complejo de Edipo/Electra",
+     "El predominio del placer oral",
+     "Un periodo de latencia de los impulsos sexuales"
+    ],
+    "c": 1,
+    "e": "En la etapa fálica (3-6 años) de la teoría psicosexual de Freud, el interés del niño se centra en sus propios genitales y en las diferencias entre sexos, y aparece el llamado complejo de Edipo (en el niño) o de Electra (en la niña): una atracción inconsciente hacia el progenitor del sexo opuesto y cierta rivalidad con el del mismo sexo, que se resuelve normalmente mediante la identificación con este último."
+   },
+   {
+    "d": "dificil",
+    "q": "Según el paradigma de la 'situación extraña' de Ainsworth, los patrones de apego identificados clásicamente son:",
+    "o": [
+     "Seguro, inseguro-evitativo, inseguro-ambivalente y desorganizado",
+     "Seguro, dependiente, independiente y mixto",
+     "Estable, inestable, tardío y precoz",
+     "Fuerte, débil, intermitente y nulo"
+    ],
+    "c": 0,
+    "e": "A partir del procedimiento de la 'situación extraña', Mary Ainsworth y sus colaboradores identificaron inicialmente tres patrones de apego —seguro, inseguro-evitativo e inseguro-ambivalente (o resistente)— a los que estudios posteriores añadieron un cuarto patrón, el apego desorganizado, asociado a menudo a experiencias de cuidado inconsistente o atemorizante."
+   },
+   {
+    "d": "facil",
+    "q": "El procedimiento experimental conocido como 'situación extraña', usado para evaluar el tipo de apego infantil, fue desarrollado por:",
+    "o": [
+     "Mary Ainsworth",
+     "Jean Piaget",
+     "Sigmund Freud",
+     "Arnold Gesell"
+    ],
+    "c": 0,
+    "e": "Mary Ainsworth diseñó el procedimiento de la 'situación extraña', en el que se observa la reacción del bebé (normalmente entre 12 y 18 meses) ante breves separaciones y reencuentros con su figura de apego en presencia de una persona desconocida, para clasificar el tipo de vínculo afectivo establecido."
+   },
+   {
+    "d": "media",
+    "q": "Se considera que un recién nacido presenta 'bajo peso al nacer' cuando su peso es inferior a:",
+    "o": [
+     "1.000 gramos",
+     "2.500 gramos",
+     "3.500 gramos",
+     "4.000 gramos"
+    ],
+    "c": 1,
+    "e": "Se define como bajo peso al nacer un peso inferior a 2.500 gramos, con independencia de la edad gestacional; dentro de esta categoría se distingue además el muy bajo peso (menos de 1.500 gramos) y el extremadamente bajo peso (menos de 1.000 gramos), asociados a un mayor riesgo de complicaciones y a la necesidad de un seguimiento más estrecho."
+   },
+   {
+    "d": "dificil",
+    "q": "Se considera que un recién nacido es prematuro cuando el parto se produce antes de:",
+    "o": [
+     "Las 42 semanas de gestación",
+     "Las 37 semanas de gestación",
+     "Las 30 semanas de gestación",
+     "Las 20 semanas de gestación"
+    ],
+    "c": 1,
+    "e": "Se define como prematuro o pretérmino al recién nacido antes de completar las 37 semanas de gestación, frente al nacido a término (entre las 37 y las 42 semanas) o postérmino (después de las 42 semanas); cuanto menor es la edad gestacional al nacer, mayor suele ser el riesgo de complicaciones médicas y la necesidad de cuidados especializados."
+   },
+   {
+    "d": "facil",
+    "q": "Según la teoría maduracionista de Arnold Gesell, el desarrollo infantil sigue una secuencia:",
+    "o": [
+     "Determinada exclusivamente por el aprendizaje y la práctica",
+     "Genéticamente programada, con un orden y ritmo básicamente universales",
+     "Totalmente impredecible e individual",
+     "Determinada exclusivamente por el entorno cultural"
+    ],
+    "c": 1,
+    "e": "Gesell defendió una postura maduracionista según la cual el desarrollo sigue una secuencia genéticamente programada y básicamente universal (gatear antes de andar, balbucear antes de hablar), de modo que el entrenamiento no puede adelantar significativamente una conducta si el sistema nervioso del niño no ha madurado lo suficiente para ella."
+   },
+   {
+    "d": "media",
+    "q": "Según el modelo clásico de temperamento de Thomas y Chess, los tres perfiles temperamentales básicos descritos en la infancia son:",
+    "o": [
+     "Fácil, difícil y de activación lenta ('lento para entrar en calor')",
+     "Introvertido, extrovertido y ambivertido, clasificación propia de teorías de personalidad adulta",
+     "Seguro, evitativo y ambivalente",
+     "Sanguíneo, colérico y melancólico"
+    ],
+    "c": 0,
+    "e": "Thomas y Chess, a partir de su estudio longitudinal de Nueva York, describieron tres perfiles temperamentales básicos en la infancia: el niño 'fácil' (ritmos regulares, buen humor habitual, adaptación sencilla a lo nuevo), el 'difícil' (ritmos irregulares, reacciones intensas, adaptación costosa) y el de 'activación lenta' o 'lento para entrar en calor' (retraído inicialmente ante lo nuevo, pero que se adapta bien con tiempo)."
+   },
+   {
+    "d": "dificil",
+    "q": "La capacidad de reconocerse a sí mismo en un espejo (autorreconocimiento, evaluada mediante la prueba de la marca o 'rouge test') suele consolidarse en torno a:",
+    "o": [
+     "Los 3-4 meses",
+     "Los 18-24 meses",
+     "Los 4-5 años",
+     "No se adquiere antes de los 6 años"
+    ],
+    "c": 1,
+    "e": "La prueba de la marca o 'rouge test' (se coloca una marca de color en la cara del niño frente a un espejo, sin que lo note, y se observa si intenta tocarse la propia cara al verse) muestra que el autorreconocimiento en el espejo suele consolidarse entre los 18 y los 24 meses, un hito relevante en el desarrollo de la conciencia de sí mismo."
+   },
+   {
+    "d": "facil",
+    "q": "La ansiedad ante el desconocido (o angustia del octavo mes), es decir, el malestar del bebé ante personas no familiares, suele aparecer en torno a:",
+    "o": [
+     "Las 2 semanas de vida",
+     "Los 8-9 meses",
+     "Los 4 años",
+     "No aparece en la etapa infantil"
+    ],
+    "c": 1,
+    "e": "La ansiedad ante el desconocido, también llamada angustia del octavo mes, suele aparecer en torno a los 8-9 meses de vida, coincidiendo con la consolidación del vínculo de apego y con la capacidad de distinguir claramente a las figuras familiares de las personas extrañas; es un hito evolutivo normal, no un signo de alarma."
+   },
+   {
+    "d": "media",
+    "q": "La capacidad de comprender que otra persona puede tener creencias falsas o distintas a la realidad (teoría de la mente, evaluada mediante tareas de falsa creencia) se consolida, de forma orientativa, en torno a:",
+    "o": [
+     "Los 8 meses",
+     "Los 4 años",
+     "Los 8 años",
+     "Los 12 años"
+    ],
+    "c": 1,
+    "e": "La teoría de la mente, es decir, la capacidad de atribuir a otras personas creencias, deseos o intenciones distintos de los propios (incluso creencias falsas), se consolida de forma orientativa en torno a los 4 años, momento en el que la mayoría de los niños supera con éxito tareas clásicas de falsa creencia como la de 'Sally y Ana', en las que hay que predecir dónde buscará un objeto alguien que no vio que lo cambiaron de sitio."
+   },
+   {
+    "d": "dificil",
+    "q": "Según la clasificación de Mildred Parten sobre los tipos de juego infantil, la secuencia evolutiva desde el juego más individual hasta el más social sigue el orden:",
+    "o": [
+     "Solitario, paralelo, asociativo y cooperativo",
+     "Cooperativo, asociativo, paralelo y solitario",
+     "Paralelo, cooperativo, solitario y asociativo",
+     "Asociativo, solitario, cooperativo y paralelo"
+    ],
+    "c": 0,
+    "e": "Parten describió una secuencia evolutiva en el juego infantil que va de lo más individual a lo más social: el juego solitario (el niño juega solo, sin interactuar), el juego paralelo (juega junto a otros, con materiales similares, pero sin interacción directa), el juego asociativo (hay cierta interacción y préstamo de materiales, pero sin objetivo común) y, finalmente, el juego cooperativo (organizado en torno a una meta compartida, con roles diferenciados)."
+   },
+   {
+    "d": "facil",
+    "q": "El gateo, como forma de desplazamiento autónomo previa a la marcha, suele aparecer de forma orientativa en torno a:",
+    "o": [
+     "Los 2-3 meses",
+     "Los 8-9 meses",
+     "Los 18 meses",
+     "Los 3 años"
+    ],
+    "c": 1,
+    "e": "El gateo suele aparecer de forma orientativa en torno a los 8-9 meses, aunque con una gran variabilidad individual (algunos niños no llegan a gatear y pasan directamente a otras formas de desplazamiento antes de andar), como una etapa intermedia entre el control postural sentado y la marcha autónoma."
+   },
+   {
+    "d": "media",
+    "q": "La marcha autónoma (caminar sin apoyo) se alcanza, de forma orientativa, en torno a:",
+    "o": [
+     "Los 4-5 meses",
+     "Los 12-15 meses",
+     "Los 24-30 meses",
+     "Los 4 años"
+    ],
+    "c": 1,
+    "e": "La marcha autónoma suele alcanzarse de forma orientativa entre los 12 y los 15 meses, si bien existe un amplio rango de normalidad (algunos niños andan hacia los 10 meses y otros hacia los 18, sin que ello indique ningún problema), en un proceso que va afinándose progresivamente en equilibrio y coordinación durante los meses siguientes."
+   },
+   {
+    "d": "dificil",
+    "q": "El balbuceo reduplicado (repetición de sílabas como 'ba-ba-ba' o 'ma-ma-ma'), precursor del habla, suele aparecer en torno a:",
+    "o": [
+     "Las 2 semanas de vida",
+     "Los 6-7 meses",
+     "Los 3 años",
+     "No aparece antes del habla"
+    ],
+    "c": 1,
+    "e": "El balbuceo reduplicado, en el que el bebé repite de forma continuada la misma sílaba ('ba-ba-ba', 'da-da-da'), suele aparecer en torno a los 6-7 meses de vida, y se considera un precursor fonológico del habla: mediante estas vocalizaciones el bebé va ensayando y afinando el control de los órganos articulatorios que después usará para pronunciar palabras reales."
+   },
+   {
+    "d": "facil",
+    "q": "Las primeras palabras con significado suelen aparecer, de forma orientativa, en torno a:",
+    "o": [
+     "Los 3 meses",
+     "Los 12 meses",
+     "Los 3 años",
+     "Los 5 años"
+    ],
+    "c": 1,
+    "e": "Las primeras palabras con significado (habitualmente palabras sencillas y funcionales como 'mamá', 'agua' o 'papá') suelen aparecer de forma orientativa en torno al primer año de vida, aunque la comprensión del lenguaje (el niño entiende más palabras de las que es capaz de pronunciar) es previa y más amplia que la producción."
+   },
+   {
+    "d": "media",
+    "q": "Las combinaciones de dos palabras (por ejemplo, 'quiero agua'), propias del llamado 'habla telegráfica', suelen aparecer en torno a:",
+    "o": [
+     "Los 6 meses",
+     "Los 18-24 meses",
+     "Los 4 años",
+     "Los 6 años"
+    ],
+    "c": 1,
+    "e": "El habla telegráfica, caracterizada por combinaciones de dos palabras que omiten elementos gramaticales como artículos o preposiciones (por ejemplo, 'quiero agua' en lugar de 'quiero un poco de agua'), suele aparecer en torno a los 18-24 meses, marcando el paso de la etapa de la palabra-frase a un lenguaje progresivamente más complejo y gramaticalmente estructurado."
+   },
+   {
+    "d": "dificil",
+    "q": "La dentición temporal o de leche (20 piezas dentales) suele completarse, de forma orientativa, en torno a:",
+    "o": [
+     "Los 6 meses",
+     "Los 3 años",
+     "Los 6 años",
+     "Los 12 años"
+    ],
+    "c": 1,
+    "e": "La dentición temporal o de leche, formada por 20 piezas, comienza a erupcionar en torno a los 6 meses y suele completarse hacia los 3 años de edad; a partir de los 6 años empieza a sustituirse progresivamente por la dentición definitiva, con la caída de los primeros dientes de leche."
+   },
+   {
+    "d": "facil",
+    "q": "El síndrome alcohólico fetal, causado por el consumo de alcohol durante el embarazo, puede provocar en el niño, entre otras consecuencias:",
+    "o": [
+     "Ninguna consecuencia relevante para el desarrollo físico, cognitivo o conductual del niño",
+     "Alteraciones del crecimiento, rasgos faciales característicos y afectación cognitiva",
+     "Únicamente problemas dentales",
+     "Exclusivamente alteraciones en la visión"
+    ],
+    "c": 1,
+    "e": "El consumo de alcohol durante el embarazo es una de las principales causas evitables de discapacidad intelectual y puede provocar el síndrome alcohólico fetal, caracterizado por alteraciones del crecimiento prenatal y posnatal, rasgos faciales característicos (por ejemplo, un surco nasolabial poco marcado) y diversas afectaciones cognitivas y conductuales, lo que explica las recomendaciones sanitarias de evitar cualquier consumo de alcohol durante la gestación."
+   },
+   {
+    "d": "moidificil",
+    "q": "El término 'teratógeno' hace referencia a:",
+    "o": [
+     "Cualquier agente externo capaz de provocar alteraciones en el desarrollo del embrión o del feto",
+     "Un tipo de reflejo arcaico presente en el recién nacido que desaparece con la maduración del sistema nervioso",
+     "Una etapa concreta del desarrollo cognitivo según Piaget",
+     "Un instrumento de evaluación del desarrollo motor"
+    ],
+    "c": 0,
+    "e": "Un teratógeno es cualquier agente externo (sustancias químicas como el alcohol o determinados fármacos, infecciones como la rubeola, radiaciones) capaz de provocar alteraciones en el desarrollo del embrión o del feto durante el embarazo; su efecto depende, entre otros factores, del momento concreto de la gestación en que se produce la exposición, siendo el periodo embrionario el de mayor vulnerabilidad por la formación de los órganos."
    }
   ]
  },
@@ -953,6 +1433,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "La observación directa y sistemática constituye la principal técnica de evaluación señalada por la normativa gallega para Educación Infantil, complementada por otras técnicas e instrumentos (entrevistas con la familia, análisis de producciones del alumnado...), en lugar de exámenes escritos o pruebas estandarizadas."
+   },
+   {
+    "d": "facil",
+    "q": "El documento que recoge las señas de identidad, valores y objetivos generales de un centro educativo se denomina:",
+    "o": [
+     "Proyecto Educativo de Centro (PEC)",
+     "Programación General Anual (PGA)",
+     "Reglamento de Régimen Interno (RRI)",
+     "Memoria final de curso"
+    ],
+    "c": 0,
+    "e": "El Proyecto Educativo de Centro (PEC) es el documento marco que recoge las señas de identidad del centro, sus valores, sus objetivos generales y las líneas pedagógicas fundamentales, sirviendo de referencia para el resto de documentos institucionales, como las programaciones didácticas o la Programación General Anual."
+   },
+   {
+    "d": "media",
+    "q": "La Programación General Anual (PGA) de un centro tiene como finalidad principal:",
+    "o": [
+     "Sustituir al Proyecto Educativo de Centro",
+     "Concretar para cada curso escolar las actuaciones y la organización derivadas del Proyecto Educativo",
+     "Regular exclusivamente la convivencia, la disciplina y el régimen sancionador interno del centro",
+     "Evaluar al profesorado"
+    ],
+    "c": 1,
+    "e": "La Programación General Anual (PGA) concreta, para cada curso escolar, las actuaciones, los horarios, los proyectos y la organización derivados de las líneas generales establecidas en el Proyecto Educativo de Centro, adaptándolas a las circunstancias concretas de ese año (por ejemplo, incorporando los proyectos de innovación previstos o el calendario de actividades complementarias)."
+   },
+   {
+    "d": "dificil",
+    "q": "Los momentos de evaluación que se contemplan a lo largo del proceso educativo en Infantil son, de forma general:",
+    "o": [
+     "Evaluación inicial, continua y final",
+     "Evaluación inicial y final, sin evaluación continua",
+     "Solo evaluación final de curso",
+     "Evaluación diaria mediante examen escrito"
+    ],
+    "c": 0,
+    "e": "El proceso evaluador en Educación Infantil contempla, de forma general, una evaluación inicial (para conocer el punto de partida del alumnado al comienzo de curso o de una unidad), una evaluación continua o formativa (a lo largo de todo el proceso, para ajustar la intervención educativa) y una evaluación final (que recoge los resultados globales del proceso), sin que ninguna de ellas se limite a una prueba puntual."
+   },
+   {
+    "d": "facil",
+    "q": "La evaluación en Educación Infantil se caracteriza por ser fundamentalmente:",
+    "o": [
+     "Sumativa y numérica",
+     "Global, continua y formativa",
+     "Externa y estandarizada",
+     "Inexistente en esta etapa"
+    ],
+    "c": 1,
+    "e": "La evaluación en Educación Infantil es global (se refiere al conjunto de capacidades del niño, no a áreas aisladas), continua (a lo largo de todo el proceso educativo, no solo al final) y formativa (orientada a mejorar la intervención educativa), y se aleja de modelos sumativos o de calificación numérica propios de otras etapas."
+   },
+   {
+    "d": "media",
+    "q": "El Diseño Universal para el Aprendizaje (DUA) propone, como principio metodológico:",
+    "o": [
+     "Diseñar la enseñanza pensando en un alumnado homogéneo",
+     "Diseñar desde el inicio propuestas flexibles que se adapten a la diversidad del alumnado",
+     "Aplicar adaptaciones específicas únicamente cuando surge una dificultad puntual y aislada",
+     "Excluir del aula ordinaria al alumnado con necesidades específicas"
+    ],
+    "c": 1,
+    "e": "El Diseño Universal para el Aprendizaje (DUA) propone diseñar desde el principio propuestas didácticas flexibles, con múltiples formas de representación, de acción/expresión y de motivación, que se ajusten a la diversidad real del alumnado, en lugar de diseñar para un alumnado homogéneo y aplicar después adaptaciones puntuales cuando surge una dificultad."
+   },
+   {
+    "d": "media",
+    "q": "Entre los instrumentos habituales para recoger la observación sistemática en Infantil se encuentran:",
+    "o": [
+     "El diario de aula, las escalas de observación y las listas de control",
+     "Exclusivamente el examen escrito trimestral, corregido y calificado de forma numérica",
+     "Solo pruebas estandarizadas externas",
+     "Únicamente la opinión de la familia"
+    ],
+    "c": 0,
+    "e": "La observación sistemática, técnica principal de evaluación en Infantil, se apoya en instrumentos como el diario de aula (registro narrativo de lo observado), las escalas de observación (valoran el grado de consecución de determinados indicadores) o las listas de control, que permiten recoger información de forma organizada a lo largo del tiempo, más allá de la simple impresión subjetiva del docente."
+   },
+   {
+    "d": "facil",
+    "q": "El órgano de participación de la comunidad educativa en el que están representados familias, profesorado y, en su caso, personal de administración y servicios es:",
+    "o": [
+     "El Consejo Escolar",
+     "El Claustro de profesorado",
+     "La Comisión de Coordinación Pedagógica",
+     "La Inspección educativa"
+    ],
+    "c": 0,
+    "e": "El Consejo Escolar es el órgano colegiado de participación de la comunidad educativa en el gobierno del centro, en el que están representados el profesorado, las familias, y en su caso el alumnado (en etapas donde proceda) y el personal de administración y servicios, con competencias como la aprobación de determinados documentos institucionales."
+   },
+   {
+    "d": "media",
+    "q": "El Claustro de profesorado es el órgano:",
+    "o": [
+     "De participación exclusiva de las familias, sin ninguna intervención del profesorado ni del alumnado",
+     "De carácter técnico integrado por todo el profesorado del centro, con competencias sobre los aspectos educativos",
+     "De representación exclusiva del alumnado en el gobierno del centro, sin intervención del profesorado ni de las familias",
+     "De gestión económica del centro"
+    ],
+    "c": 1,
+    "e": "El Claustro de profesorado es el órgano de carácter técnico, integrado por la totalidad del profesorado que presta servicio en el centro, con competencias relacionadas con los aspectos educativos y pedagógicos (por ejemplo, aprobar los aspectos docentes de la Programación General Anual), a diferencia del Consejo Escolar, en el que también participan otros sectores de la comunidad educativa."
+   },
+   {
+    "d": "dificil",
+    "q": "La Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE), modifica a la Ley Orgánica anterior que databa de:",
+    "o": [
+     "1990 (LOGSE)",
+     "2002 (LOCE)",
+     "2006 (LOE)",
+     "2013 (LOMCE)"
+    ],
+    "c": 2,
+    "e": "La Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE), modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE), que sigue siendo la ley educativa de referencia en su articulado general, mientras que deroga expresamente la Ley Orgánica 8/2013 (LOMCE), que había modificado también la LOE en 2013."
+   },
+   {
+    "d": "facil",
+    "q": "El informe de tránsito entre el segundo ciclo de Educación Infantil y la Educación Primaria tiene como finalidad:",
+    "o": [
+     "Calificar numéricamente al alumnado",
+     "Facilitar la continuidad educativa mediante el traspaso de información relevante sobre el alumnado",
+     "Sustituir la evaluación final de la etapa",
+     "Evaluar exclusivamente al desempeño docente del profesorado de Infantil durante todo el curso escolar completo"
+    ],
+    "c": 1,
+    "e": "El informe de tránsito entre el segundo ciclo de Educación Infantil y la Educación Primaria tiene como finalidad facilitar la continuidad del proceso educativo, trasladando al nuevo centro o al nuevo tutor información relevante sobre el desarrollo, los aprendizajes y las necesidades del alumnado, evitando así partir de cero en el conocimiento de cada niño o niña."
+   },
+   {
+    "d": "media",
+    "q": "La atención a la diversidad en Educación Infantil implica, entre otros aspectos:",
+    "o": [
+     "Aplicar el mismo tratamiento educativo a todo el alumnado sin excepción",
+     "Adaptar la respuesta educativa a las características y necesidades individuales del alumnado",
+     "Derivar de forma inmediata a un centro específico a cualquier alumno con dificultades",
+     "Limitarse a las necesidades educativas especiales asociadas a discapacidad"
+    ],
+    "c": 1,
+    "e": "La atención a la diversidad en Educación Infantil implica adaptar la respuesta educativa —metodología, materiales, ritmos, organización del aula— a las características y necesidades individuales de todo el alumnado, y no únicamente de quienes presentan necesidades educativas especiales asociadas a discapacidad, ya que la diversidad es una característica inherente a cualquier grupo de niños y niñas."
+   },
+   {
+    "d": "dificil",
+    "q": "El marco europeo de referencia (Recomendación del Consejo de la Unión Europea de 2018), en el que se basan las competencias clave del currículo LOMLOE, establece un total de:",
+    "o": [
+     "5 competencias clave",
+     "6 competencias clave",
+     "8 competencias clave",
+     "10 competencias clave"
+    ],
+    "c": 2,
+    "e": "El marco europeo de competencias clave para el aprendizaje permanente, actualizado por la Recomendación del Consejo de la Unión Europea de 2018 y asumido por la LOMLOE, establece un total de 8 competencias clave (comunicación lingüística, plurilingüe, matemática y en ciencia-tecnología-ingeniería, digital, personal-social-aprender a aprender, ciudadana, emprendedora, y conciencia y expresión culturales), cuyas bases se empiezan a sentar de forma adaptada ya en Educación Infantil."
+   },
+   {
+    "d": "facil",
+    "q": "La Comisión de Coordinación Pedagógica (CCP) tiene entre sus funciones:",
+    "o": [
+     "Coordinar la elaboración y el seguimiento de las programaciones didácticas y otros aspectos pedagógicos del centro",
+     "Gestionar exclusivamente el comedor escolar",
+     "Sustituir por completo al Consejo Escolar y asumir la totalidad de sus competencias de gobierno y participación",
+     "Evaluar el rendimiento económico del centro"
+    ],
+    "c": 0,
+    "e": "La Comisión de Coordinación Pedagógica (CCP) tiene entre sus funciones coordinar la elaboración, el seguimiento y, en su caso, la revisión de las programaciones didácticas y de otros aspectos pedagógicos del centro, velando por la coherencia entre los distintos ciclos, niveles y equipos docentes."
+   },
+   {
+    "d": "media",
+    "q": "El principio de 'globalización' en la metodología de Infantil implica que:",
+    "o": [
+     "Cada contenido se trabaja de forma aislada y secuencial",
+     "Los aprendizajes se abordan de forma conjunta e interrelacionada, partiendo de situaciones significativas para el niño",
+     "Solo se atiende al desarrollo cognitivo, dejando de lado lo afectivo y social",
+     "Se prioriza desde el inicio de la etapa el trabajo por asignaturas independientes y compartimentadas, sin conexión entre ellas"
+    ],
+    "c": 1,
+    "e": "El principio de globalización, propio de la metodología de Infantil, implica abordar los aprendizajes de forma conjunta e interrelacionada, partiendo de situaciones, centros de interés o proyectos significativos para el niño, en lugar de fragmentar la enseñanza en contenidos aislados y desconectados entre sí, ya que así es como el niño pequeño percibe y aprende sobre la realidad que le rodea."
+   },
+   {
+    "d": "dificil",
+    "q": "El primer ciclo de Educación Infantil (0-3 años), a diferencia del segundo ciclo, no tiene carácter:",
+    "o": [
+     "Educativo",
+     "Gratuito y universal en todo el territorio del Estado",
+     "Voluntario",
+     "Ninguna de las anteriores opciones resulta correcta en el conjunto del territorio"
+    ],
+    "c": 1,
+    "e": "El primer ciclo de Educación Infantil (0-3 años) tiene carácter educativo y voluntario, igual que el segundo ciclo, pero no está generalizado como gratuito ni universal en todo el territorio del Estado, ya que su desarrollo (número de plazas públicas, grado de gratuidad) depende en gran medida de cada comunidad autónoma y de cada ayuntamiento, a diferencia del segundo ciclo, que tiende hacia una mayor generalización y gratuidad."
+   },
+   {
+    "d": "facil",
+    "q": "La 'Propuesta pedagógica', documento específico del primer ciclo de Educación Infantil, es elaborada por:",
+    "o": [
+     "Las familias exclusivamente, sin ninguna intervención del equipo educativo del centro ni de la Administración educativa",
+     "El equipo educativo del centro, respetando los criterios de la Administración educativa",
+     "La Inspección educativa",
+     "El Ayuntamiento exclusivamente"
+    ],
+    "c": 1,
+    "e": "La Propuesta pedagógica es el documento específico del primer ciclo de Educación Infantil que concreta el currículo, adaptándolo a las características de los niños y niñas de 0 a 3 años; es elaborada por el equipo educativo del centro, respetando los criterios establecidos por la Administración educativa correspondiente."
+   },
+   {
+    "d": "media",
+    "q": "La coordinación entre el primer y el segundo ciclo de Educación Infantil resulta relevante principalmente para:",
+    "o": [
+     "Garantizar la continuidad y coherencia del proceso educativo del alumnado",
+     "Unificar obligatoriamente ambos ciclos en un único centro educativo bajo una sola dirección",
+     "Eliminar las diferencias metodológicas entre ambos ciclos",
+     "No tiene ninguna relevancia práctica"
+    ],
+    "c": 0,
+    "e": "La coordinación entre el primer y el segundo ciclo de Educación Infantil, aunque a menudo se desarrollan en centros o etapas administrativas distintas, resulta relevante para garantizar la continuidad y la coherencia del proceso educativo del alumnado, evitando rupturas bruscas en la metodología o en las rutinas al pasar de un ciclo a otro."
+   },
+   {
+    "d": "dificil",
+    "q": "El Real Decreto 95/2022, que establece la ordenación y las enseñanzas mínimas de Educación Infantil, se publicó el:",
+    "o": [
+     "1 de febrero de 2022",
+     "1 de febrero de 2021",
+     "8 de septiembre de 2022",
+     "30 de mayo de 2023"
+    ],
+    "c": 0,
+    "e": "El Real Decreto 95/2022, que establece a nivel estatal la ordenación y las enseñanzas mínimas de Educación Infantil, se publicó el 1 de febrero de 2022, fecha que conviene no confundir con la del Decreto 150/2022 gallego (8 de septiembre de 2022) ni con la de la Orden autonómica que lo desarrolla (30 de mayo de 2023)."
+   },
+   {
+    "d": "moidificil",
+    "q": "El Decreto 150/2022 que regula el currículo de Educación Infantil en Galicia fue publicado el:",
+    "o": [
+     "8 de septiembre de 2022",
+     "1 de febrero de 2022",
+     "29 de diciembre de 2020",
+     "30 de mayo de 2023"
+    ],
+    "c": 0,
+    "e": "El Decreto 150/2022, que desarrolla el currículo de Educación Infantil en la Comunidad Autónoma de Galicia en aplicación de la LOMLOE y del Real Decreto 95/2022, se publicó el 8 de septiembre de 2022, fecha distinta tanto de la del Real Decreto estatal (1 de febrero de 2022) como de la de la Orden que posteriormente lo desarrolla (30 de mayo de 2023)."
+   },
+   {
+    "d": "moidificil",
+    "q": "La Orden de 30 de mayo de 2023, que desarrolla el Decreto 150/2022, regula, entre otros aspectos:",
+    "o": [
+     "La evaluación, el calendario escolar y aspectos organizativos del segundo ciclo de Educación Infantil en Galicia",
+     "Exclusivamente el currículo, la ordenación y las enseñanzas mínimas de toda la Educación Primaria en España",
+     "La ordenación universitaria en Galicia",
+     "El estatuto básico del empleado público"
+    ],
+    "c": 0,
+    "e": "La Orden de 30 de mayo de 2023 desarrolla el Decreto 150/2022 y regula aspectos organizativos y de funcionamiento del segundo ciclo de Educación Infantil en Galicia, como la evaluación, el calendario escolar o determinados aspectos de la organización de las enseñanzas, completando así el marco normativo iniciado por el Real Decreto estatal y continuado por el Decreto autonómico."
    }
   ]
  },
@@ -1199,6 +1919,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "La metacognición (la capacidad de reflexionar sobre los propios procesos de pensamiento, como saber si se ha entendido algo o qué estrategia usar para recordar) se encuentra en un estado muy inicial y limitado durante la etapa infantil, y se desarrolla de forma más clara y consciente en etapas educativas posteriores, como Primaria."
+   },
+   {
+    "d": "facil",
+    "q": "Según Piaget, los procesos mediante los cuales el niño incorpora nueva información a los esquemas ya existentes y modifica estos esquemas para ajustarse a la nueva información se denominan, respectivamente:",
+    "o": [
+     "Asimilación y acomodación",
+     "Acomodación y asimilación",
+     "Equilibración y adaptación",
+     "Maduración y aprendizaje"
+    ],
+    "c": 0,
+    "e": "Piaget distingue dos procesos complementarios de adaptación cognitiva: la asimilación, mediante la cual el niño incorpora la nueva información a los esquemas mentales ya existentes, y la acomodación, mediante la cual esos esquemas se modifican para ajustarse a la nueva información cuando esta no encaja del todo. Por ejemplo, un niño que llama 'guau-guau' a todos los animales de cuatro patas está asimilando; cuando aprende a diferenciar un gato de un perro, está acomodando su esquema."
+   },
+   {
+    "d": "media",
+    "q": "El concepto piagetiano de 'esquema' hace referencia a:",
+    "o": [
+     "Una estructura mental organizada que representa una acción o un conocimiento y que se puede aplicar a distintas situaciones",
+     "Un dibujo, garabato o representación gráfica realizada libremente por el niño en una actividad de expresión plástica",
+     "Un trastorno del desarrollo cognitivo",
+     "Un tipo de reflejo arcaico"
+    ],
+    "c": 0,
+    "e": "Un esquema, en la teoría de Piaget, es una estructura mental organizada que representa una acción, un objeto o un conocimiento, y que el niño puede aplicar y generalizar a distintas situaciones similares; por ejemplo, el esquema de 'agarrar' que un bebé aplica tanto a un sonajero como a un dedo o a una cuchara."
+   },
+   {
+    "d": "dificil",
+    "q": "¿Cuál de las siguientes secuencias corresponde al orden de los subestadios del periodo sensoriomotor descrito por Piaget?",
+    "o": [
+     "Reflejos, reacciones circulares primarias, reacciones circulares secundarias, coordinación de esquemas secundarios, reacciones circulares terciarias, invención de nuevos medios",
+     "Reacciones circulares terciarias, reflejos, invención de nuevos medios, reacciones circulares primarias, coordinación de esquemas, reacciones secundarias",
+     "Invención de nuevos medios, reflejos, reacciones circulares secundarias, coordinación de esquemas, reacciones primarias, reacciones terciarias",
+     "Coordinación de esquemas secundarios, reflejos, reacciones circulares terciarias, invención de nuevos medios, reacciones primarias, reacciones secundarias (orden alterado respecto al propuesto por Piaget)"
+    ],
+    "c": 0,
+    "e": "Piaget describió seis subestadios dentro del periodo sensoriomotor, en este orden: los reflejos innatos, las reacciones circulares primarias (centradas en el propio cuerpo), las reacciones circulares secundarias (centradas en efectos sobre el entorno), la coordinación de esquemas secundarios (conducta intencional), las reacciones circulares terciarias (experimentación activa con variaciones) y, por último, la invención de nuevos medios mediante combinación mental, que da paso ya al pensamiento representacional."
+   },
+   {
+    "d": "facil",
+    "q": "El 'centramiento', característico del pensamiento preoperacional, consiste en:",
+    "o": [
+     "Atender simultáneamente a todas las dimensiones relevantes de un problema",
+     "Fijarse en un único aspecto de la situación, ignorando otros igualmente relevantes",
+     "La capacidad de planificar varias acciones a la vez",
+     "Un tipo de juego motor"
+    ],
+    "c": 1,
+    "e": "El centramiento es la tendencia del pensamiento preoperacional a fijarse en un único aspecto llamativo de una situación (por ejemplo, la altura de un líquido en un vaso), ignorando otras dimensiones igualmente relevantes (como su anchura), lo que explica errores característicos de esta etapa, como la falta de conservación de cantidad."
+   },
+   {
+    "d": "media",
+    "q": "La 'descentración', propia ya de las operaciones concretas, permite al niño:",
+    "o": [
+     "Fijarse solo en un aspecto perceptivo llamativo de la situación",
+     "Considerar simultáneamente varias dimensiones o aspectos de un problema",
+     "Perder por completo la capacidad de atención",
+     "Regresar a un pensamiento puramente sensoriomotor"
+    ],
+    "c": 1,
+    "e": "La descentración, que se consolida con la llegada de las operaciones concretas, es la capacidad de considerar simultáneamente varias dimensiones o aspectos relevantes de un problema (por ejemplo, la altura y la anchura de un vaso a la vez), superando el centramiento típico del pensamiento preoperacional y permitiendo razonamientos lógicos más complejos, como la conservación de cantidad."
+   },
+   {
+    "d": "dificil",
+    "q": "Dentro de la noción de conservación, y siguiendo el llamado 'desfase horizontal' descrito por Piaget, la conservación de la cantidad numérica suele adquirirse, en comparación con la del peso y el volumen:",
+    "o": [
+     "Más tarde que la del peso y el volumen",
+     "Antes que la del peso y el volumen",
+     "Exactamente en el mismo momento que todas las demás",
+     "Nunca antes de la adolescencia"
+    ],
+    "c": 1,
+    "e": "Según el 'desfase horizontal' (décalage horizontal) descrito por Piaget, las distintas nociones de conservación no se adquieren todas a la vez, sino en un orden progresivo: la conservación numérica se consolida antes (en torno a los 5-6 años), seguida de la de masa y longitud (hacia los 6-7 años), la del peso (hacia los 9-10 años) y, por último, la del volumen (hacia los 11-12 años), pese a implicar en el fondo el mismo tipo de razonamiento lógico."
+   },
+   {
+    "d": "facil",
+    "q": "El 'artificialismo infantil', propio del pensamiento preoperacional, consiste en creer que:",
+    "o": [
+     "Los fenómenos naturales tienen vida propia y voluntad",
+     "Los fenómenos naturales han sido fabricados o provocados intencionadamente por personas",
+     "Todo objeto inanimado puede hablar",
+     "El niño no distingue en ningún caso ni bajo ninguna circunstancia la fantasía de la realidad"
+    ],
+    "c": 1,
+    "e": "El artificialismo infantil es la creencia, típica del pensamiento preoperacional, de que los fenómenos naturales (la lluvia, las montañas, las nubes) han sido fabricados o provocados de forma intencionada por personas, de un modo similar a como se construyen los objetos; por ejemplo, un niño de 4 años puede afirmar que 'los bomberos hacen la lluvia con sus mangueras'."
+   },
+   {
+    "d": "media",
+    "q": "Vygotski y Piaget mantuvieron posturas distintas respecto al llamado 'habla egocéntrica' (el niño habla en voz alta mientras juega, sin dirigirse a nadie en concreto); para Vygotski esta habla cumple principalmente una función:",
+    "o": [
+     "De autorregulación y planificación del propio pensamiento y la propia conducta",
+     "Puramente social, dirigida siempre de forma exclusiva a un interlocutor real presente",
+     "Patológica, indicativa de un trastorno del lenguaje",
+     "Idéntica a la que le atribuía Piaget"
+    ],
+    "c": 0,
+    "e": "Mientras que Piaget consideraba el habla egocéntrica una simple manifestación del egocentrismo intelectual, sin función real, Vygotski defendió que cumple una importante función de autorregulación y planificación del propio pensamiento y de la propia conducta, y que con el tiempo se interioriza hasta convertirse en pensamiento verbal silencioso. Por ejemplo, un niño que dice en voz alta 'ahora pongo esta pieza aquí' mientras hace un puzle está usando el lenguaje para guiar su propia acción."
+   },
+   {
+    "d": "dificil",
+    "q": "Según Bruner, los modos de representación del conocimiento se desarrollan siguiendo el orden:",
+    "o": [
+     "Enactivo, icónico y simbólico",
+     "Simbólico, icónico y enactivo",
+     "Icónico, simbólico y enactivo",
+     "Simbólico, enactivo e icónico"
+    ],
+    "c": 0,
+    "e": "Bruner describió tres modos de representación del conocimiento que se desarrollan en este orden: el enactivo (a través de la acción y la manipulación directa de los objetos), el icónico (a través de imágenes mentales) y el simbólico (a través del lenguaje y otros sistemas de símbolos abstractos), modos que no desaparecen al aparecer el siguiente, sino que coexisten y se usan de forma combinada."
+   },
+   {
+    "d": "facil",
+    "q": "El modo de representación 'enactivo' descrito por Bruner se basa fundamentalmente en:",
+    "o": [
+     "La acción y la manipulación directa de los objetos",
+     "El uso exclusivo del lenguaje abstracto",
+     "Imágenes mentales sin ninguna acción física",
+     "Símbolos matemáticos formales"
+    ],
+    "c": 0,
+    "e": "El modo de representación enactivo, el primero en aparecer según Bruner, se basa en la acción y la manipulación directa de los objetos: el niño 'conoce' una cosa a través de lo que puede hacer con ella (apretar, sacudir, morder), antes de poder representarla mediante imágenes mentales o símbolos abstractos."
+   },
+   {
+    "d": "media",
+    "q": "Las funciones ejecutivas (control inhibitorio, memoria de trabajo y flexibilidad cognitiva) comienzan a desarrollarse de forma especialmente notable durante:",
+    "o": [
+     "El periodo sensoriomotor exclusivamente",
+     "La etapa preescolar (3-6 años)",
+     "Exclusivamente en la adolescencia",
+     "No existen antes de la etapa adulta"
+    ],
+    "c": 1,
+    "e": "Aunque tienen su origen en la maduración del córtex prefrontal a lo largo de toda la infancia y adolescencia, las funciones ejecutivas —control inhibitorio (resistir un impulso), memoria de trabajo (retener y manipular información) y flexibilidad cognitiva (cambiar de estrategia)— experimentan un desarrollo especialmente notable durante la etapa preescolar (3-6 años), como se observa cuando un niño de 5 años empieza a ser capaz de esperar su turno sin ayuda externa."
+   },
+   {
+    "d": "dificil",
+    "q": "La capacidad de reconocer de forma inmediata, sin contar, pequeñas cantidades de objetos (por ejemplo, ver 3 puntos y saber que son 3 sin contarlos uno a uno) se denomina:",
+    "o": [
+     "Subitización",
+     "Conservación numérica",
+     "Seriación",
+     "Clasificación jerárquica"
+    ],
+    "c": 0,
+    "e": "La subitización es la capacidad de percibir y reconocer de forma inmediata y sin contar pequeñas cantidades de elementos (habitualmente hasta 3 o 4), una habilidad temprana en el desarrollo del pensamiento numérico que precede y facilita el aprendizaje posterior del conteo y de operaciones matemáticas más complejas."
+   },
+   {
+    "d": "facil",
+    "q": "La 'seriación', capacidad de ordenar elementos según una dimensión (por ejemplo, de más corto a más largo), se consolida plenamente:",
+    "o": [
+     "Ya en el periodo sensoriomotor, antes incluso de la aparición del lenguaje oral",
+     "Hacia el final de la etapa infantil y principio de las operaciones concretas",
+     "Solo en la adolescencia",
+     "Nunca se llega a consolidar"
+    ],
+    "c": 1,
+    "e": "La seriación, es decir, la capacidad de ordenar de forma lógica y sistemática un conjunto de elementos según una dimensión (por ejemplo, ordenar palos de más corto a más largo sin tanteo por ensayo-error), se consolida plenamente hacia el final de la etapa infantil y el inicio de las operaciones concretas, siendo una de las capacidades lógicas que se trabajan progresivamente en el segundo ciclo de Infantil como preparación para etapas posteriores."
+   },
+   {
+    "d": "media",
+    "q": "La 'clasificación jerárquica' (por ejemplo, entender que todas las rosas son flores, pero no todas las flores son rosas) resulta, para un niño de Infantil, una tarea:",
+    "o": [
+     "Muy sencilla desde el nacimiento",
+     "Compleja, y su dominio pleno se relaciona con el paso a las operaciones concretas",
+     "Idéntica en dificultad a clasificar por un único criterio simple, como el color",
+     "Innecesaria para el desarrollo cognitivo"
+    ],
+    "c": 1,
+    "e": "La clasificación jerárquica, que exige comprender simultáneamente relaciones de inclusión de clases (que todas las rosas son flores, pero no todas las flores son rosas), resulta una tarea compleja para el niño de Infantil, más difícil que una clasificación simple por un único criterio perceptivo como el color o el tamaño; su dominio pleno se relaciona con el acceso a las operaciones concretas, ya avanzada la etapa de Primaria."
+   },
+   {
+    "d": "dificil",
+    "q": "El 'método clínico' empleado por Piaget para estudiar el pensamiento infantil consistía fundamentalmente en:",
+    "o": [
+     "Aplicar tests estandarizados de inteligencia con baremos poblacionales",
+     "Plantear preguntas y problemas flexibles al niño, ajustando las siguientes preguntas en función de sus respuestas",
+     "Observar exclusivamente el comportamiento del niño en situaciones de juego libre, sin ningún tipo de interacción verbal directa",
+     "Analizar únicamente registros fisiológicos como la frecuencia cardíaca"
+    ],
+    "c": 1,
+    "e": "El método clínico de Piaget consistía en plantear al niño preguntas y pequeños problemas (por ejemplo, sobre la conservación de cantidad), adaptando de forma flexible las siguientes preguntas en función de las respuestas anteriores, con el objetivo de comprender el razonamiento subyacente del niño más que de obtener una simple puntuación cuantitativa, como sí ocurre con los tests estandarizados de inteligencia."
+   },
+   {
+    "d": "facil",
+    "q": "El paradigma de la 'habituación', utilizado en investigación con bebés, se basa en el hecho de que un bebé:",
+    "o": [
+     "Deja de prestar atención a un estímulo repetido y vuelve a mirar si el estímulo cambia",
+     "Aumenta siempre y de forma progresiva su atención cuanto más veces ve el mismo estímulo repetido",
+     "No presenta ninguna reacción diferencial ante estímulos nuevos",
+     "Solo reacciona a estímulos auditivos, nunca visuales"
+    ],
+    "c": 0,
+    "e": "El paradigma de la habituación se basa en que un bebé, al presentarle repetidamente el mismo estímulo, va perdiendo interés y reduciendo el tiempo que lo mira (se habitúa); si entonces se le presenta un estímulo distinto y el bebé vuelve a mirarlo con más atención (deshabituación), se interpreta que es capaz de discriminar entre ambos estímulos, lo que permite estudiar capacidades perceptivas y cognitivas incluso en bebés que aún no hablan."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'participación guiada', propuesto por Barbara Rogoff dentro de una perspectiva sociocultural del desarrollo, hace referencia a:",
+    "o": [
+     "El aprendizaje puramente individual y aislado, sin colaboración ni guía de adultos o de compañeros más expertos, propio de una visión individualista",
+     "La colaboración entre niños y adultos en actividades cotidianas culturalmente organizadas, compartiendo la responsabilidad del aprendizaje",
+     "Una técnica exclusiva de evaluación psicométrica",
+     "Un tipo de reflejo arcaico del recién nacido"
+    ],
+    "c": 1,
+    "e": "Barbara Rogoff, desde una perspectiva sociocultural próxima a la de Vygotski, acuñó el concepto de 'participación guiada' para describir los procesos mediante los cuales niños y adultos colaboran y comparten responsabilidad en actividades cotidianas culturalmente organizadas, aprendiendo el niño a través de su implicación progresiva en tareas reales junto a personas más expertas, como cuando un niño pequeño ayuda a poner la mesa siguiendo el ejemplo de un adulto."
+   },
+   {
+    "d": "dificil",
+    "q": "Las 'reacciones circulares secundarias', en las que el bebé repite intencionadamente una acción para reproducir un efecto interesante sobre el entorno (por ejemplo, sacudir un sonajero para seguir oyendo el sonido), se sitúan, dentro del periodo sensoriomotor, aproximadamente entre:",
+    "o": [
+     "Los 0 y el mes de vida",
+     "Los 4 y los 8 meses",
+     "Los 12 y los 18 meses",
+     "Los 18 y los 24 meses"
+    ],
+    "c": 1,
+    "e": "Las reacciones circulares secundarias, en las que el bebé repite de forma intencionada una acción para reproducir un efecto interesante que ha descubierto por azar sobre el entorno (como sacudir un sonajero para seguir oyendo el sonido), se sitúan aproximadamente entre los 4 y los 8 meses de vida, tercer subestadio del periodo sensoriomotor, y suponen ya un primer indicio de intencionalidad en la conducta del bebé."
+   },
+   {
+    "d": "facil",
+    "q": "La irreversibilidad del pensamiento preoperacional se refiere a la dificultad del niño para:",
+    "o": [
+     "Recordar sucesos pasados",
+     "Imaginar mentalmente el proceso inverso de una transformación",
+     "Reconocer a personas familiares",
+     "Moverse físicamente hacia atrás o caminar de espaldas sin perder el equilibrio"
+    ],
+    "c": 1,
+    "e": "La irreversibilidad es la dificultad del pensamiento preoperacional para imaginar mentalmente el proceso inverso de una transformación observada; por ejemplo, un niño que ve trasvasar un líquido de un vaso ancho a uno estrecho no consigue imaginar mentalmente el proceso contrario (volver a verter el líquido en el vaso original), lo que contribuye a su dificultad para comprender la conservación de la cantidad."
+   },
+   {
+    "d": "moidificil",
+    "q": "El 'desfase horizontal' (décalage horizontal) descrito por Piaget hace referencia a que:",
+    "o": [
+     "Todas las nociones de conservación (número, masa, peso, volumen) se adquieren exactamente al mismo tiempo y en un único momento evolutivo",
+     "Una misma capacidad lógica, como la conservación, se aplica antes a unos contenidos que a otros pese a implicar el mismo razonamiento",
+     "El desarrollo cognitivo avanza siempre en línea recta, sin ninguna variación ni diferencia entre tareas",
+     "Se trata de un concepto exclusivo de la teoría de Vygotski"
+    ],
+    "c": 1,
+    "e": "El desfase horizontal (décalage horizontal) es un concepto de Piaget que señala cómo una misma capacidad u operación lógica —por ejemplo, la conservación— no se aplica de forma simultánea a todos los contenidos, sino que aparece antes en unos (la cantidad numérica) que en otros (el peso o el volumen), pese a exigir en el fondo el mismo tipo de razonamiento lógico subyacente, lo que muestra que el desarrollo cognitivo no es tan uniforme como sugeriría una lectura rígida de los estadios."
    }
   ]
  },
@@ -1445,6 +2405,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Enseñar a toser o estornudar tapándose con el codo (en lugar de con la mano, que después toca otros objetos y superficies) forma parte de los hábitos de higiene relacionados con la prevención del contagio de enfermedades transmisibles, y es un hábito sencillo y adecuado para trabajar desde Infantil de forma lúdica."
+   },
+   {
+    "d": "facil",
+    "q": "El correcto lavado de manos, según las recomendaciones sanitarias, debe mantenerse, frotando bien con jabón, durante un tiempo mínimo aproximado de:",
+    "o": [
+     "2-3 segundos",
+     "20 segundos",
+     "2 minutos",
+     "10 minutos"
+    ],
+    "c": 1,
+    "e": "Las guías sanitarias recomiendan frotar bien las manos con agua y jabón durante un mínimo de unos 20 segundos, cubriendo palmas, dorsos, espacios entre los dedos y uñas, tiempo aproximado al que se tarda en cantar mentalmente una canción corta (como el 'cumpleaños feliz' dos veces), un truco que suele emplearse en el aula para que el alumnado calcule el tiempo adecuado de forma lúdica."
+   },
+   {
+    "d": "media",
+    "q": "La posición recomendada para dormir a un bebé, con el fin de reducir el riesgo de síndrome de muerte súbita del lactante (SMSL), es:",
+    "o": [
+     "Boca abajo",
+     "Boca arriba",
+     "De lado, sujeto con cojines",
+     "Es indiferente la postura"
+    ],
+    "c": 1,
+    "e": "Colocar al bebé boca arriba para dormir (posición supina) es la medida individual más eficaz para reducir el riesgo de síndrome de muerte súbita del lactante (SMSL), recomendación conocida internacionalmente como 'back to sleep'; se desaconsejan tanto la posición boca abajo como, de forma habitual, la posición de lado, por ser menos estable y poder derivar hacia la posición prona."
+   },
+   {
+    "d": "dificil",
+    "q": "Según las guías pediátricas de referencia, el número de horas de sueño recomendadas (incluyendo siestas) para un niño de 3 a 5 años se sitúa, de forma orientativa, entre:",
+    "o": [
+     "4 y 6 horas",
+     "10 y 13 horas",
+     "16 y 18 horas",
+     "20 y 22 horas"
+    ],
+    "c": 1,
+    "e": "Las guías pediátricas de referencia (como las de la National Sleep Foundation o la Academia Americana de Pediatría) sitúan las necesidades de sueño de los niños de 3 a 5 años, incluyendo siestas, de forma orientativa entre 10 y 13 horas diarias, una cifra sensiblemente menor que la de los bebés (que pueden necesitar 12-17 horas) pero notablemente mayor que la de un adulto."
+   },
+   {
+    "d": "facil",
+    "q": "La llamada 'caries del biberón', frecuente en la primera infancia, se relaciona principalmente con:",
+    "o": [
+     "El uso prolongado del biberón nocturno con líquidos azucarados (leche, zumos)",
+     "El exceso de ejercicio físico",
+     "La falta de sueño",
+     "El uso continuado del chupete durante el día, sin ningún líquido ni alimento asociado"
+    ],
+    "c": 0,
+    "e": "La 'caries del biberón' (o caries de la primera infancia) se relaciona con el uso prolongado del biberón nocturno con leche, zumos u otros líquidos azucarados, que bañan los dientes durante horas mientras el niño duerme, favoreciendo la desmineralización del esmalte; suele afectar especialmente a los incisivos superiores, los primeros dientes en aparecer."
+   },
+   {
+    "d": "media",
+    "q": "La cantidad de pasta dentífrica con flúor recomendada para el cepillado de un niño menor de 3 años es, de forma orientativa:",
+    "o": [
+     "Una cantidad similar a un guisante",
+     "Una cantidad del tamaño de un grano de arroz",
+     "Todo el cepillo cubierto de pasta",
+     "No debe usarse pasta con flúor en ningún caso antes de los 6 años"
+    ],
+    "c": 1,
+    "e": "Para menores de 3 años se recomienda usar una cantidad de pasta dentífrica con flúor del tamaño aproximado de un grano de arroz, cantidad que aumenta a partir de esa edad hasta el tamaño de un guisante (entre los 3 y los 6 años), con el fin de aprovechar los beneficios del flúor sobre el esmalte minimizando el riesgo de ingesta excesiva si el niño traga parte de la pasta."
+   },
+   {
+    "d": "dificil",
+    "q": "Según las recomendaciones de la OMS sobre el uso de pantallas en la primera infancia, para niños de 2 a 4 años el tiempo de pantalla recreativo no debería superar:",
+    "o": [
+     "30 minutos al día",
+     "1 hora al día",
+     "3 horas al día",
+     "No existe ningún límite recomendado"
+    ],
+    "c": 1,
+    "e": "La OMS recomienda que, entre los 2 y los 4 años, el tiempo de pantalla recreativo (televisión, tabletas, videojuegos) no supere 1 hora al día, siendo preferible que sea menor cuanto más pequeño es el niño, y priorizando siempre actividades de juego activo, lectura compartida y movimiento frente al tiempo de pantalla."
+   },
+   {
+    "d": "facil",
+    "q": "Según la OMS, antes de los 2 años de edad, el tiempo de pantalla recreativo recomendado es:",
+    "o": [
+     "1 hora al día",
+     "2 horas al día",
+     "Ningún tiempo de pantalla recreativo",
+     "4 horas al día, siempre que el contenido sea educativo"
+    ],
+    "c": 2,
+    "e": "Según las directrices de la OMS sobre actividad física, sueño y comportamiento sedentario en la primera infancia, antes de los 2 años de edad no se recomienda ningún tiempo de pantalla recreativo, dada la importancia de priorizar en esa etapa la interacción social directa, el juego activo y el desarrollo sensoriomotor."
+   },
+   {
+    "d": "media",
+    "q": "Según las directrices de la OMS sobre actividad física en la primera infancia, los niños y niñas de 3 a 4 años deberían realizar, a lo largo del día, actividad física de cualquier intensidad durante un mínimo de:",
+    "o": [
+     "30 minutos",
+     "180 minutos (3 horas)",
+     "10 minutos",
+     "No existe recomendación específica para esta edad"
+    ],
+    "c": 1,
+    "e": "La OMS recomienda que los niños y niñas de 3 a 4 años realicen, a lo largo del día, un mínimo de 180 minutos (3 horas) de actividad física de cualquier intensidad, repartidos en distintos momentos de la jornada (juego libre, psicomotricidad, desplazamientos activos), y no de forma concentrada en una única sesión."
+   },
+   {
+    "d": "dificil",
+    "q": "Dentro de esos minutos diarios de actividad física recomendados para niños de 3 a 4 años, la OMS recomienda que al menos una parte sea de intensidad moderada a vigorosa, en concreto:",
+    "o": [
+     "15 minutos",
+     "60 minutos",
+     "150 minutos",
+     "No se especifica ninguna intensidad concreta"
+    ],
+    "c": 1,
+    "e": "Dentro de esos 180 minutos diarios de actividad física recomendados para niños de 3 a 4 años, la OMS especifica que al menos 60 minutos deberían corresponder a actividad física de intensidad moderada a vigorosa (correr, saltar, perseguir), mientras que el resto puede ser de intensidad más ligera (caminar, jugar tranquilamente de forma activa)."
+   },
+   {
+    "d": "facil",
+    "q": "La técnica de primeros auxilios para ayudar a un niño que se está atragantando con un objeto y no puede toser ni respirar incluye, entre otras maniobras:",
+    "o": [
+     "Golpes en la espalda y compresiones abdominales o torácicas adaptadas a la edad",
+     "Darle de beber agua o algún líquido inmediatamente para intentar que trague el objeto",
+     "Colocarlo boca abajo sin ninguna otra actuación",
+     "Esperar sin intervenir a que el objeto salga solo"
+    ],
+    "c": 0,
+    "e": "Ante un atragantamiento grave en el que el niño no puede toser, hablar ni respirar, las técnicas de primeros auxilios incluyen golpes secos entre los omóplatos y compresiones abdominales o torácicas (adaptadas según la edad, por ejemplo compresiones torácicas en lactantes menores de un año en lugar de abdominales), maniobras que todo el personal educativo debería conocer mediante formación específica en primeros auxilios."
+   },
+   {
+    "d": "media",
+    "q": "Ante una quemadura leve en un niño, la primera medida de actuación recomendada es:",
+    "o": [
+     "Aplicar hielo directamente sobre la piel",
+     "Enfriar la zona con agua corriente templada o fría durante varios minutos",
+     "Aplicar pasta de dientes o remedios caseros similares",
+     "Reventar cualquier ampolla que se haya formado"
+    ],
+    "c": 1,
+    "e": "Ante una quemadura leve, la primera medida recomendada es enfriar la zona afectada con agua corriente templada o fría (nunca helada) durante varios minutos, lo que ayuda a detener el proceso térmico y a reducir el dolor y la extensión de la lesión, evitando remedios caseros sin base científica como la pasta de dientes, que pueden empeorar la herida o favorecer una infección."
+   },
+   {
+    "d": "dificil",
+    "q": "Ante un caso de pediculosis (piojos) detectado en el aula, el protocolo habitual del centro incluye:",
+    "o": [
+     "La exclusión permanente del alumnado afectado durante todo el curso",
+     "Informar a las familias afectadas y recomendar el tratamiento adecuado, sin estigmatizar al alumnado",
+     "Ignorar la situación por no ser competencia del centro",
+     "Aplicar directamente tratamiento farmacológico el propio profesorado, sin informar a la familia"
+    ],
+    "c": 1,
+    "e": "Ante un caso de pediculosis (piojos), detectado con relativa frecuencia en las aulas de Infantil, el protocolo habitual consiste en informar de forma discreta a las familias afectadas y recomendar el tratamiento específico adecuado, evitando tanto la exclusión prolongada e innecesaria del alumnado como cualquier actitud que pueda generar estigma hacia el niño o la niña."
+   },
+   {
+    "d": "facil",
+    "q": "Las rutinas estables (horarios regulares de comida, sueño, actividades) en el aula de Infantil contribuyen fundamentalmente a:",
+    "o": [
+     "Generar en el niño una sensación de seguridad y previsibilidad",
+     "Limitar de forma negativa la creatividad infantil",
+     "No tienen ninguna relación con el bienestar emocional",
+     "Ser exclusivamente un recurso de control disciplinario"
+    ],
+    "c": 0,
+    "e": "Las rutinas estables (horarios regulares de llegada, comida, descanso y actividades) generan en el niño pequeño una sensación de seguridad y previsibilidad, ya que sabe qué va a ocurrir a continuación, lo que reduce la ansiedad y facilita tanto la adaptación al centro como la disposición para el aprendizaje, sin que ello suponga necesariamente rigidez ni limitación de la creatividad."
+   },
+   {
+    "d": "media",
+    "q": "La desinfección periódica de los juguetes y materiales de uso compartido en el aula de Infantil tiene como finalidad principal:",
+    "o": [
+     "Mejorar el aspecto estético del material",
+     "Reducir la transmisión de enfermedades infecciosas entre el alumnado",
+     "Sustituir la necesidad de lavado de manos",
+     "Cumplir un simple requisito administrativo y burocrático exigido por la normativa"
+    ],
+    "c": 1,
+    "e": "La desinfección periódica de juguetes y materiales de uso compartido (especialmente los que los niños más pequeños se llevan a la boca) reduce la transmisión de virus y bacterias entre el alumnado, complementando, y no sustituyendo, otras medidas de higiene como el lavado frecuente de manos."
+   },
+   {
+    "d": "dificil",
+    "q": "El factor de protección solar (FPS) mínimo recomendado habitualmente para la piel infantil es:",
+    "o": [
+     "FPS 6",
+     "FPS 15",
+     "FPS 30 o superior",
+     "No se recomienda ningún factor de protección concreto"
+    ],
+    "c": 2,
+    "e": "Se recomienda habitualmente un factor de protección solar (FPS) de 30 o superior para la piel infantil, dada su mayor sensibilidad a la radiación ultravioleta, combinado con otras medidas de fotoprotección como buscar la sombra en las horas centrales del día y usar ropa, gorro y gafas de sol adecuados."
+   },
+   {
+    "d": "facil",
+    "q": "La educación vial (cruzar por el paso de peatones, uso del cinturón o de la silla infantil en el coche) forma parte de la educación para la salud en su vertiente de:",
+    "o": [
+     "Prevención de accidentes y seguridad",
+     "Educación artística",
+     "Desarrollo exclusivamente motor",
+     "Contenido ajeno a la etapa de Infantil"
+    ],
+    "c": 0,
+    "e": "La educación vial (aprender a cruzar por el paso de peatones, la importancia de la silla infantil homologada o del cinturón de seguridad en el coche, el reconocimiento de algunas señales básicas) forma parte de la educación para la salud en su vertiente de prevención de accidentes y seguridad, un ámbito de especial relevancia dado que los accidentes de tráfico son una de las principales causas de lesión infantil evitable."
+   },
+   {
+    "d": "media",
+    "q": "La exclusión temporal del centro escolar de un niño con una enfermedad infecciosa contagiosa (por ejemplo, varicela en fase de contagio) tiene como finalidad principal:",
+    "o": [
+     "Castigar al alumnado enfermo",
+     "Evitar el contagio al resto de la comunidad educativa mientras dura el periodo de riesgo",
+     "Reducir la carga de trabajo del profesorado",
+     "Cumplir un simple trámite administrativo y burocrático, sin relación real con la prevención sanitaria"
+    ],
+    "c": 1,
+    "e": "La exclusión temporal del centro de un niño con una enfermedad infecciosa contagiosa (como la varicela durante su fase de máximo contagio, hasta que las lesiones cutáneas están costrosas) tiene como finalidad evitar la propagación de la enfermedad al resto del alumnado y del personal, especialmente relevante en aulas con niños muy pequeños y con contacto físico frecuente."
+   },
+   {
+    "d": "dificil",
+    "q": "Como criterio orientativo habitual en los protocolos escolares, se considera fiebre, a efectos de valorar la asistencia al centro, una temperatura corporal igual o superior a:",
+    "o": [
+     "36 ºC",
+     "37,5-38 ºC",
+     "39,9 ºC",
+     "41 ºC"
+    ],
+    "c": 1,
+    "e": "Como criterio orientativo habitual en los protocolos escolares (que pueden variar ligeramente según el centro o la comunidad autónoma), se considera fiebre una temperatura corporal a partir de aproximadamente 37,5-38 ºC, umbral que suele usarse como referencia para valorar si un niño debe permanecer en casa o puede acudir al centro."
+   },
+   {
+    "d": "facil",
+    "q": "Disponer de un 'rincón' o zona con materiales de primeros auxilios accesible y conocido por todo el personal del centro responde al principio de:",
+    "o": [
+     "Organización espacial sin relación con la salud",
+     "Prevención y respuesta rápida ante posibles incidencias de salud",
+     "Decoración del aula",
+     "Evaluación curricular del alumnado"
+    ],
+    "c": 1,
+    "e": "Disponer de un botiquín o rincón de primeros auxilios accesible, ordenado y conocido por todo el personal del centro (no solo por quien atiende directamente al niño) responde al principio de prevención y de respuesta rápida y eficaz ante cualquier incidencia de salud que pueda surgir durante la jornada escolar."
+   },
+   {
+    "d": "moidificil",
+    "q": "La correcta técnica de lavado de manos recomendada por las autoridades sanitarias incluye, entre otros pasos, frotar:",
+    "o": [
+     "Únicamente las palmas de las manos",
+     "Palmas, dorsos, espacios interdigitales, muñecas y uñas",
+     "Solo los dedos, sin llegar a las palmas",
+     "Exclusivamente bajo agua fría, sin jabón"
+    ],
+    "c": 1,
+    "e": "La técnica correcta de lavado de manos recomendada por las autoridades sanitarias no se limita a mojar y frotar las palmas: incluye frotar también los dorsos, los espacios interdigitales, las muñecas y las uñas, zonas donde con frecuencia quedan restos de suciedad y microorganismos si el lavado se hace de forma apresurada o incompleta."
    }
   ]
  },
@@ -1811,6 +3011,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Las rutinas cotidianas de autocuidado y participación —vestirse, alimentarse por sí mismo, recoger los materiales tras una actividad— favorecen directamente la autonomía infantil, ya que ofrecen ocasiones repetidas para practicar la toma de decisiones y el control sobre las propias acciones, en lugar de que el adulto realice esas tareas por el niño."
+   },
+   {
+    "d": "facil",
+    "q": "La ansiedad ante extraños, manifestada como recelo o llanto del bebé ante rostros desconocidos, suele aparecer en torno a:",
+    "o": [
+     "Los 6-8 meses de edad",
+     "Los 2 años de edad",
+     "El primer mes de vida",
+     "Los 4 años de edad"
+    ],
+    "c": 0,
+    "e": "La ansiedad ante extraños es una reacción emocional normativa que suele emerger entre los 6 y los 8 meses de vida, cuando el bebé ya ha consolidado un apego claro hacia su figura de referencia y es capaz de discriminar entre rostros conocidos y desconocidos, mostrando recelo o búsqueda de protección ante una persona que no reconoce, como al llorar en brazos de un familiar poco frecuentado."
+   },
+   {
+    "d": "media",
+    "q": "El objeto transicional, descrito por Donald Winnicott (un peluche o una mantita a los que el niño se apega especialmente), cumple la función de:",
+    "o": [
+     "Ayudar al niño a tolerar la ausencia progresiva de la madre, representándola simbólicamente",
+     "Servir como refuerzo positivo dentro de un programa de condicionamiento operante para modificar conductas",
+     "Facilitar exclusivamente el desarrollo de la motricidad fina a través de su manipulación repetida",
+     "Sustituir de manera permanente y necesaria el vínculo de apego con la figura materna original"
+    ],
+    "c": 0,
+    "e": "Winnicott denominó 'objeto transicional' a un objeto (habitualmente un peluche, una mantita o un trapo) al que el niño se apega intensamente entre el primer y el segundo año de vida, y que le ayuda a tolerar la ausencia progresiva de la madre al representarla simbólicamente; por ejemplo, muchos niños solo consiguen dormirse si tienen consigo ese objeto concreto, que actúa como puente emocional entre la dependencia total y la autonomía."
+   },
+   {
+    "d": "media",
+    "q": "La ansiedad de separación, es decir, el malestar del bebé al alejarse su figura de apego, suele alcanzar su mayor intensidad hacia:",
+    "o": [
+     "Los 12-18 meses, remitiendo de forma gradual hacia los 2-3 años",
+     "Las primeras semanas de vida",
+     "Los 5-6 años, coincidiendo con el inicio de la escolaridad obligatoria",
+     "La adolescencia"
+    ],
+    "c": 0,
+    "e": "La ansiedad de separación suele intensificarse tras la aparición de la ansiedad ante extraños y alcanza su punto álgido aproximadamente entre los 12 y los 18 meses, remitiendo de forma gradual a medida que el niño desarrolla la permanencia del objeto y la confianza en que la figura de apego regresará, en torno a los 2-3 años, aunque puede reaparecer puntualmente ante cambios importantes como el inicio de la escuela infantil."
+   },
+   {
+    "d": "dificil",
+    "q": "Según los estudios normativos sobre patrones de apego en población general, ¿qué proporción aproximada de niños y niñas presenta un patrón de apego seguro?",
+    "o": [
+     "Alrededor del 60-65%",
+     "Alrededor del 15-20%",
+     "Alrededor del 90-95%",
+     "Alrededor del 30-35%"
+    ],
+    "c": 0,
+    "e": "Los estudios normativos sobre distribución de los patrones de apego en población general (no clínica) sitúan el apego seguro como el más frecuente, en torno al 60-65% de los casos, quedando el resto repartido entre los patrones inseguro-evitativo, inseguro-ambivalente y desorganizado, cada uno de ellos claramente minoritario en comparación con el seguro."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'modelos internos de trabajo' o 'modelos representacionales', propuesto por Bowlby dentro de la teoría del apego, hace referencia a:",
+    "o": [
+     "Las representaciones mentales que el niño construye sobre sí mismo y los demás a partir del apego",
+     "El conjunto de reflejos arcaicos presentes en el recién nacido que desaparecen durante los primeros meses de vida",
+     "Las fases motoras previas a la adquisición de la marcha autónoma descritas por los estudios evolutivos clásicos",
+     "Un tipo de material didáctico manipulativo empleado específicamente en las aulas del segundo ciclo de infantil"
+    ],
+    "c": 0,
+    "e": "Bowlby propuso que, a partir de las experiencias repetidas con su figura de apego, el niño construye 'modelos internos de trabajo': representaciones mentales sobre sí mismo (por ejemplo, 'merezco ser cuidado') y sobre los demás ('las personas responden cuando las necesito') que guían sus expectativas y su forma de relacionarse en el futuro, incluso más allá de la infancia."
+   },
+   {
+    "d": "facil",
+    "q": "¿Qué autora describió las fases de 'separación-individuación' por las que el bebé va diferenciándose progresivamente de la figura materna?",
+    "o": [
+     "Margaret Mahler",
+     "Anna Freud",
+     "Melanie Klein",
+     "Virginia Satir"
+    ],
+    "c": 0,
+    "e": "Margaret Mahler describió el proceso de 'separación-individuación', mediante el cual el bebé pasa de una fase inicial de fusión simbiótica con la madre a una progresiva diferenciación y autonomía psicológica, distinguiendo subfases como la de acercamiento ('rapprochement'), en la que el niño oscila entre alejarse a explorar y regresar en busca de la madre."
+   },
+   {
+    "d": "dificil",
+    "q": "Según Kohlberg, el razonamiento moral típico de la mayoría de los niños en la etapa infantil se sitúa en el nivel:",
+    "o": [
+     "Preconvencional, orientado a la obediencia y al castigo o al propio interés",
+     "Convencional, orientado a mantener el orden social y a cumplir las expectativas del grupo de referencia",
+     "Postconvencional, basado en principios éticos universales elaborados de forma autónoma y reflexiva",
+     "Ninguno de los niveles morales propuestos por Kohlberg resulta aplicable antes de los seis años de edad"
+    ],
+    "c": 0,
+    "e": "Kohlberg planteó tres grandes niveles de desarrollo moral (preconvencional, convencional y postconvencional), cada uno con dos estadios; en la etapa infantil predomina el nivel preconvencional, en el que el niño juzga lo bueno o lo malo en función de las consecuencias directas de sus actos —evitar el castigo u obtener una recompensa—, sin haber interiorizado todavía normas sociales más abstractas."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'autoeficacia', desarrollado por Albert Bandura, hace referencia a:",
+    "o": [
+     "La creencia de una persona en su propia capacidad para lograr con éxito una tarea determinada",
+     "La capacidad motriz general del niño para ejecutar movimientos coordinados de precisión creciente",
+     "Un tipo de refuerzo negativo empleado dentro de los programas de modificación de conducta infantil",
+     "La memoria a corto plazo necesaria para retener instrucciones verbales sencillas del adulto"
+    ],
+    "c": 0,
+    "e": "La autoeficacia, concepto desarrollado por Bandura dentro de su teoría social cognitiva, es la creencia que una persona tiene sobre su propia capacidad para organizar y ejecutar con éxito las acciones necesarias para lograr una tarea determinada; un niño con alta autoeficacia ante el dibujo, por ejemplo, persistirá más tiempo intentando representar algo difícil en lugar de abandonar al primer intento fallido."
+   },
+   {
+    "d": "media",
+    "q": "El 'locus de control', concepto propuesto por Julian Rotter, distingue entre personas que atribuyen lo que les ocurre principalmente a:",
+    "o": [
+     "Factores internos (el propio esfuerzo) o externos (la suerte, otras personas)",
+     "La herencia genética exclusivamente, sin ninguna influencia de factores ambientales o educativos",
+     "El azar puro, sin que exista ninguna otra explicación posible para lo que le ocurre a la persona",
+     "La edad cronológica del niño exclusivamente, sin relación con su experiencia previa de aprendizaje"
+    ],
+    "c": 0,
+    "e": "El locus de control, propuesto por Julian Rotter, distingue entre un locus interno (la persona atribuye lo que le sucede principalmente a su propio esfuerzo y decisiones) y un locus externo (lo atribuye a la suerte, al azar o a la actuación de otras personas); fomentar progresivamente un locus de control más interno en el aula infantil favorece la motivación y la percepción de control sobre el propio aprendizaje."
+   },
+   {
+    "d": "media",
+    "q": "Según las investigaciones de Carol Dweck sobre la 'mentalidad de crecimiento', elogiar al niño por el esfuerzo y el proceso ('has trabajado mucho') en lugar de por rasgos fijos ('eres muy listo') tiende a:",
+    "o": [
+     "Fomentar la persistencia ante la dificultad y una motivación orientada al aprendizaje",
+     "Reducir siempre el rendimiento académico posterior del niño en cualquier tarea que se le proponga",
+     "No producir ningún efecto diferencial reseñable sobre la motivación o la conducta del niño",
+     "Provocar de forma necesaria e inevitable una baja autoestima duradera en el niño"
+    ],
+    "c": 0,
+    "e": "Dweck mostró que elogiar el esfuerzo y el proceso ('has trabajado mucho para conseguirlo') en lugar de rasgos fijos como la inteligencia ('eres muy listo') fomenta en el niño una mentalidad de crecimiento: la creencia de que las capacidades pueden mejorar con la práctica, lo que se traduce en mayor persistencia ante la dificultad, mientras que el elogio centrado en rasgos fijos puede generar miedo al fracaso y evitación de retos."
+   },
+   {
+    "d": "moidificil",
+    "q": "Ordenando cronológicamente y con sus rangos de edad aproximados correctos, ¿cuál de las siguientes secuencias de estadios psicosociales de Erikson es la correcta para los primeros años de vida?",
+    "o": [
+     "Confianza (0-1 año), autonomía (1-3 años), iniciativa (3-6 años)",
+     "Autonomía (0-1 año), confianza (1-3 años), iniciativa (3-6 años)",
+     "Confianza (0-2 años), iniciativa (2-4 años), autonomía (4-6 años)",
+     "Iniciativa (0-1 año), autonomía (1-3 años), confianza (3-6 años)"
+    ],
+    "c": 0,
+    "e": "Erikson estableció una secuencia fija de estadios psicosociales: confianza básica frente a desconfianza (aproximadamente 0-1 año), autonomía frente a vergüenza y duda (1-3 años) e iniciativa frente a culpa (3-6 años), cada uno construido sobre la resolución más o menos favorable del anterior; alterar ese orden invertiría la lógica evolutiva del modelo, que va de la confianza más básica hacia una progresiva capacidad de emprender e iniciar acciones propias."
+   },
+   {
+    "d": "dificil",
+    "q": "En el desarrollo emocional infantil, la diferencia esencial entre 'vergüenza' y 'culpa' como emociones autoconscientes es que:",
+    "o": [
+     "La vergüenza implica una valoración negativa global de uno mismo, y la culpa, una acción concreta considerada incorrecta",
+     "Ambos términos son sinónimos exactos, sin ninguna diferencia psicológica relevante entre ellos en la literatura especializada",
+     "La culpa aparece siempre antes que la vergüenza a lo largo de todo el proceso de desarrollo emocional infantil",
+     "Ninguna de las dos emociones autoconscientes aparece antes del inicio de la etapa de la adolescencia humana"
+    ],
+    "c": 0,
+    "e": "La vergüenza implica una valoración negativa global de uno mismo ('soy malo'), asociada a menudo al deseo de esconderse, mientras que la culpa se centra en una acción concreta considerada incorrecta ('he hecho algo malo'), lo que suele favorecer conductas reparadoras como pedir perdón; distinguir ambas emociones ayuda al educador a intervenir de forma más constructiva, orientando al niño hacia la culpa reparadora en lugar de hacia la vergüenza paralizante."
+   },
+   {
+    "d": "facil",
+    "q": "La resiliencia infantil puede definirse como:",
+    "o": [
+     "La capacidad de afrontar y superar situaciones adversas, saliendo fortalecido de ellas",
+     "La ausencia total y permanente de cualquier dificultad a lo largo de toda la vida del niño",
+     "Un rasgo de personalidad fijo, presente por igual y en el mismo grado en todos los niños",
+     "Un sinónimo exacto y equivalente del concepto de inteligencia cognitiva general medida por tests"
+    ],
+    "c": 0,
+    "e": "La resiliencia es la capacidad de afrontar y superar adecuadamente situaciones adversas o de estrés, saliendo fortalecido de ellas en lugar de quedar marcado negativamente de forma permanente; no es un rasgo fijo ni igual en todos los niños, sino que se construye y se favorece a través de factores protectores como un vínculo de apego seguro, el apoyo social y experiencias de autoeficacia."
+   },
+   {
+    "d": "media",
+    "q": "Las emociones autoconscientes o secundarias (orgullo, vergüenza, culpa, celos), a diferencia de las emociones básicas, requieren para su aparición:",
+    "o": [
+     "Cierto grado de autoconciencia y de comprensión de normas o expectativas sociales",
+     "Ningún requisito cognitivo adicional respecto a las emociones básicas",
+     "Estar presentes ya desde el nacimiento, igual que ocurre con las emociones básicas",
+     "Depender exclusivamente de factores genéticos, sin ninguna influencia del entorno social"
+    ],
+    "c": 0,
+    "e": "Las emociones autoconscientes o secundarias, como el orgullo, la vergüenza, la culpa o los celos, requieren un cierto grado de autoconciencia (saberse a uno mismo como sujeto diferenciado) y de comprensión de normas o expectativas sociales, por lo que aparecen más tarde en el desarrollo que las emociones básicas como la alegría o el miedo, presentes ya desde los primeros meses de vida."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según los estudios de Michael Lewis sobre el desarrollo emocional, las emociones autoconscientes evaluativas como el orgullo o la vergüenza comienzan a manifestarse de forma más clara en torno a:",
+    "o": [
+     "Los 18-24 meses de edad",
+     "Los 6-8 meses de edad",
+     "Los 3-4 meses de edad",
+     "Los 4-5 años de edad"
+    ],
+    "c": 0,
+    "e": "Michael Lewis situó la aparición más clara de las emociones autoconscientes evaluativas, como el orgullo o la vergüenza, en torno a los 18-24 meses de edad, coincidiendo con la consolidación del reconocimiento de uno mismo (por ejemplo, en la prueba del espejo) y con una mayor comprensión de las normas y expectativas que los adultos tienen sobre su conducta."
+   },
+   {
+    "d": "facil",
+    "q": "¿Qué autora es especialmente conocida por describir distintos estilos educativos parentales (autoritario, permisivo, democrático o con autoridad, y negligente)?",
+    "o": [
+     "Diana Baumrind",
+     "Mary Ainsworth",
+     "Anna Freud",
+     "Nancy Eisenberg"
+    ],
+    "c": 0,
+    "e": "Diana Baumrind es especialmente conocida por su clasificación de los estilos educativos parentales en función de dos dimensiones —el control o exigencia y el afecto o sensibilidad—, distinguiendo el estilo autoritario, el permisivo, el democrático o con autoridad, y, en desarrollos posteriores de su modelo, el negligente."
+   },
+   {
+    "d": "media",
+    "q": "El estilo educativo democrático o 'con autoridad' descrito por Baumrind se caracteriza por combinar:",
+    "o": [
+     "Un nivel alto de afecto y comunicación con un nivel también alto de normas y exigencias razonadas",
+     "Ausencia total de normas y exigencias, combinada con un nivel muy alto de afecto y complacencia constante hacia el niño",
+     "Normas muy rígidas y estrictas, aplicadas con escaso afecto o explicación al niño",
+     "Ausencia simultánea tanto de afecto como de normas o exigencias hacia el niño"
+    ],
+    "c": 0,
+    "e": "El estilo educativo democrático o 'con autoridad' combina un nivel alto de afecto, calidez y comunicación con el hijo, con un nivel también alto de normas y exigencias, que se explican y razonan en lugar de imponerse arbitrariamente; la investigación asocia este estilo con mejores resultados en autoestima, autorregulación y competencia social que el autoritario, el permisivo o el negligente."
+   },
+   {
+    "d": "moidificil",
+    "q": "Dentro de la distribución habitual de los patrones de apego en población normativa, ¿cuál de las siguientes cifras se aproxima más al porcentaje de niños con patrón de apego inseguro-evitativo?",
+    "o": [
+     "Alrededor del 20%",
+     "Alrededor del 60%",
+     "Alrededor del 45%",
+     "Alrededor del 5%"
+    ],
+    "c": 0,
+    "e": "En la distribución habitual de los patrones de apego en población normativa, tras el patrón seguro (mayoritario, en torno al 60-65%), el patrón inseguro-evitativo suele situarse en torno al 20% de los casos, seguido por el inseguro-ambivalente y el desorganizado, ambos claramente minoritarios; estas cifras varían algo entre estudios y culturas, pero la jerarquía de frecuencias se mantiene de forma consistente."
+   },
+   {
+    "d": "facil",
+    "q": "Dentro de la teoría de las inteligencias múltiples de Howard Gardner, la inteligencia relacionada con el autoconocimiento y la comprensión de las propias emociones se denomina:",
+    "o": [
+     "Inteligencia intrapersonal",
+     "Inteligencia lingüístico-verbal",
+     "Inteligencia espacial",
+     "Inteligencia lógico-matemática"
+    ],
+    "c": 0,
+    "e": "Howard Gardner denominó 'inteligencia intrapersonal' a la capacidad de conocerse a uno mismo, comprender las propias emociones, motivaciones y limitaciones, y utilizar esa información para regular la propia conducta; junto a la inteligencia interpersonal (comprender a los demás), forma parte de lo que también se ha denominado inteligencia emocional."
+   },
+   {
+    "d": "dificil",
+    "q": "En la teoría psicoanalítica freudiana, el complejo de Edipo (en el niño) y el complejo de Electra (en la niña), propios de la fase fálica, se resuelven típicamente mediante:",
+    "o": [
+     "La identificación del niño con el progenitor del mismo sexo",
+     "El rechazo permanente y definitivo hacia ambos progenitores por igual",
+     "La fusión simbiótica definitiva y permanente con la figura materna",
+     "La aparición del lenguaje oral como mecanismo de resolución del conflicto"
+    ],
+    "c": 0,
+    "e": "Según la teoría psicoanalítica freudiana, el complejo de Edipo (deseo inconsciente del niño hacia la madre y rivalidad con el padre) y su equivalente en la niña, el complejo de Electra, propios de la fase fálica, se resuelven típicamente mediante la identificación del niño o la niña con el progenitor del mismo sexo, proceso a través del cual interioriza normas, valores y el propio modelo de género."
    }
   ]
  },
@@ -2057,6 +3497,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Los trastornos específicos del lenguaje (TEL) se caracterizan por una dificultad significativa y persistente en la adquisición del lenguaje (puede afectar tanto a la comprensión como a la producción) que no se explica por una discapacidad intelectual, un déficit sensorial (por ejemplo, sordera) ni un trastorno neurológico evidente, y que no suele resolverse de forma espontánea, sino que requiere valoración e intervención logopédica especializada."
+   },
+   {
+    "d": "facil",
+    "q": "La etapa holofrástica del desarrollo del lenguaje, en la que una sola palabra expresa una idea completa, es propia de:",
+    "o": [
+     "Los 12-18 meses de edad",
+     "El primer mes de vida",
+     "Los 4 años de edad",
+     "Los 6-8 meses de edad"
+    ],
+    "c": 0,
+    "e": "La etapa holofrástica, situada aproximadamente entre los 12 y los 18 meses, se caracteriza porque una sola palabra ('agua') funciona como una frase completa y expresa una intención comunicativa compleja ('quiero agua', '¿dónde está el agua?'), cuyo significado real solo puede interpretarse atendiendo al contexto y a la entonación con que el niño la pronuncia."
+   },
+   {
+    "d": "media",
+    "q": "El fenómeno de 'sobreextensión' semántica, frecuente en las primeras palabras infantiles (por ejemplo, llamar 'guau' a todos los animales de cuatro patas), consiste en:",
+    "o": [
+     "Aplicar una palabra conocida a un conjunto más amplio de referentes de los que le corresponden realmente",
+     "Aplicar una palabra nueva únicamente al referente exacto y original que motivó su primer aprendizaje",
+     "Inventar palabras completamente nuevas sin ninguna relación con el vocabulario que emplean los adultos de su entorno",
+     "No emplear ninguna palabra hasta haber comprendido por completo su significado adulto exacto y preciso"
+    ],
+    "c": 0,
+    "e": "La sobreextensión semántica consiste en aplicar una palabra ya conocida a un conjunto de referentes más amplio del que realmente le corresponde, basándose en algún rasgo perceptivo compartido (forma, tamaño, sonido): un niño que ha aprendido la palabra 'guau' para el perro de casa puede usarla también para gatos, vacas o caballos, porque todos comparten el rasgo de ser animales de cuatro patas."
+   },
+   {
+    "d": "dificil",
+    "q": "La prueba del 'wug test', diseñada por Jean Berko Gleason, se utilizó para demostrar que los niños:",
+    "o": [
+     "Aplican de forma productiva reglas morfológicas a palabras inventadas que nunca han escuchado antes",
+     "Se limitan exclusivamente a repetir palabras tal como las han escuchado previamente a los adultos de su entorno",
+     "Carecen por completo de cualquier tipo de conocimiento gramatical implícito antes de cumplir los seis años",
+     "Aprenden el lenguaje exclusivamente mediante mecanismos de condicionamiento operante y refuerzo externo"
+    ],
+    "c": 0,
+    "e": "En el 'wug test', Jean Berko Gleason mostraba a los niños un dibujo de un animal inventado ('esto es un wug') y les pedía que completaran una frase sobre dos de esos animales ('ahora hay dos...'); la mayoría de los niños respondía correctamente 'wugs', demostrando que no se limitan a repetir palabras oídas, sino que han interiorizado y aplican de forma productiva reglas morfológicas generales, incluso a palabras completamente nuevas."
+   },
+   {
+    "d": "media",
+    "q": "El fenómeno de 'mapeo rápido' o 'fast mapping', descrito por Susan Carey, hace referencia a la capacidad infantil de:",
+    "o": [
+     "Incorporar el significado aproximado de una palabra nueva tras una sola exposición breve a ella",
+     "Memorizar listas completas y extensas de vocabulario nuevo mediante repetición mecánica prolongada en el tiempo",
+     "Aprender exclusivamente palabras relacionadas con objetos que puede tocar físicamente",
+     "Olvidar rápidamente cualquier palabra nueva que escucha una sola vez"
+    ],
+    "c": 0,
+    "e": "El 'mapeo rápido' o fast mapping, descrito por Susan Carey, es la capacidad que muestran los niños pequeños de incorporar una hipótesis inicial sobre el significado de una palabra nueva tras una única y breve exposición a ella en un contexto significativo, sin necesidad de una explicación detallada ni de múltiples repeticiones; este mecanismo ayuda a explicar la rapidez con la que crece el vocabulario infantil durante los primeros años."
+   },
+   {
+    "d": "facil",
+    "q": "Los estudios de DeCasper y Fifer sobre la percepción prenatal del lenguaje mostraron que los recién nacidos:",
+    "o": [
+     "Prefieren y reconocen la voz de su madre frente a la de otras mujeres desconocidas",
+     "No son capaces de percibir ni procesar ningún tipo de sonido antes de producirse el nacimiento",
+     "Prefieren siempre la voz del padre antes que la de la madre",
+     "Reaccionan de forma idéntica ante cualquier voz humana"
+    ],
+    "c": 0,
+    "e": "DeCasper y Fifer demostraron, mediante un experimento en el que los bebés modificaban su succión para 'elegir' qué grabación escuchar, que los recién nacidos prefieren y reconocen la voz de su madre frente a la de otras mujeres, lo que indica que la percepción auditiva del lenguaje, especialmente de su prosodia y entonación, comienza ya durante la etapa prenatal."
+   },
+   {
+    "d": "dificil",
+    "q": "Michael Halliday describió distintas funciones que cumple el lenguaje infantil temprano; entre ellas, la función 'instrumental' se refiere a:",
+    "o": [
+     "El uso del lenguaje para satisfacer necesidades y obtener cosas del entorno",
+     "El uso del lenguaje para expresar y afirmar la propia identidad e individualidad frente a los demás",
+     "El uso del lenguaje para explorar y preguntar sobre el mundo",
+     "El uso del lenguaje para imaginar y crear historias de fantasía"
+    ],
+    "c": 0,
+    "e": "Halliday identificó varias funciones que cumple el lenguaje infantil temprano, entre ellas la instrumental (usar el lenguaje para satisfacer necesidades y obtener algo del entorno, como decir 'agua' para pedir de beber), junto a otras como la reguladora (controlar la conducta de otros), la interaccional, la personal, la heurística (para explorar y preguntar) y la imaginativa."
+   },
+   {
+    "d": "media",
+    "q": "La hipótesis del 'periodo crítico' para la adquisición del lenguaje, defendida por Eric Lenneberg, plantea que:",
+    "o": [
+     "Existe una ventana temporal, hasta aproximadamente la pubertad, favorable para adquirir el lenguaje con naturalidad",
+     "No existe ninguna relación demostrada entre la edad de primera exposición y la facilidad para adquirir plenamente un idioma nuevo",
+     "El lenguaje puede adquirirse con exactamente la misma facilidad y rapidez a cualquier edad de la vida humana",
+     "El lenguaje únicamente puede adquirirse durante el periodo de vida previo al propio nacimiento"
+    ],
+    "c": 0,
+    "e": "Lenneberg planteó la hipótesis del periodo crítico, según la cual existe una ventana temporal, aproximadamente hasta la pubertad, especialmente favorable para la adquisición natural y plena del lenguaje, apoyándose en casos de privación lingüística extrema y en la mayor facilidad infantil para aprender lenguas frente a la de los adultos; pasado ese periodo, la adquisición resultaría notablemente más difícil y menos completa."
+   },
+   {
+    "d": "facil",
+    "q": "El bilingüismo simultáneo se diferencia del bilingüismo sucesivo en que en el simultáneo:",
+    "o": [
+     "El niño está expuesto a dos lenguas desde el nacimiento o los primeros meses de vida",
+     "El niño aprende primero una lengua materna y, años más tarde, adquiere sobre esa base una segunda lengua",
+     "Solo se adquiere una de las dos lenguas de forma completa",
+     "No existe ninguna diferencia relevante entre ambos tipos"
+    ],
+    "c": 0,
+    "e": "En el bilingüismo simultáneo el niño está expuesto a dos lenguas desde el nacimiento o los primeros meses de vida y las va desarrollando de forma paralela, mientras que en el bilingüismo sucesivo o consecutivo adquiere primero una lengua materna y, años después (por ejemplo, al empezar la escolarización), una segunda lengua sobre una base lingüística ya establecida."
+   },
+   {
+    "d": "media",
+    "q": "La 'longitud media del enunciado' (LME o MLU), indicador propuesto por Roger Brown para valorar el desarrollo gramatical infantil, se calcula a partir de:",
+    "o": [
+     "El número medio de morfemas que contienen los enunciados que produce el niño en una muestra de habla",
+     "El número total de palabras distintas y diferentes que el niño reconoce y comprende, aunque no las produzca",
+     "La velocidad de pronunciación de las palabras, medida en sílabas por segundo",
+     "El número de horas diarias que el niño pasa hablando con adultos"
+    ],
+    "c": 0,
+    "e": "La longitud media del enunciado (LME), propuesta por Roger Brown, se calcula dividiendo el número total de morfemas presentes en una muestra representativa de habla espontánea del niño entre el número de enunciados, y se utiliza como un indicador más preciso del desarrollo gramatical que la simple edad cronológica, ya que refleja la complejidad creciente de las producciones infantiles."
+   },
+   {
+    "d": "dificil",
+    "q": "Katherine Nelson distinguió, en función del vocabulario inicial predominante, entre un estilo 'referencial' y un estilo 'expresivo' de adquisición del lenguaje; el estilo referencial se caracteriza por:",
+    "o": [
+     "Un vocabulario inicial compuesto mayoritariamente por nombres de objetos y personas",
+     "Un vocabulario inicial compuesto mayoritariamente por frases sociales hechas y rutinas",
+     "La ausencia total de diferencias individuales en el vocabulario inicial",
+     "Un vocabulario inicial centrado exclusivamente en verbos de acción"
+    ],
+    "c": 0,
+    "e": "Nelson observó diferencias individuales en el estilo de adquisición del vocabulario inicial: el estilo referencial se caracteriza por un vocabulario compuesto mayoritariamente por nombres de objetos y personas ('pelota', 'mamá'), orientado a etiquetar el mundo, mientras que el estilo expresivo incluye más frases sociales hechas y fórmulas rutinarias ('no', 'quiero eso', 'adiós'), orientadas a la interacción social."
+   },
+   {
+    "d": "media",
+    "q": "La 'atención conjunta', es decir, la capacidad de compartir el foco de atención con otra persona sobre un mismo objeto o evento, es considerada por autores como Michael Tomasello un requisito importante para:",
+    "o": [
+     "El desarrollo del lenguaje, al facilitar que el niño relacione palabras nuevas con sus referentes compartidos",
+     "El desarrollo exclusivo de la motricidad gruesa, sin ninguna relación con las capacidades comunicativas del niño",
+     "La aparición del reflejo de prensión palmar",
+     "El desarrollo de la lateralidad manual"
+    ],
+    "c": 0,
+    "e": "La atención conjunta —por ejemplo, cuando el adulto señala un objeto y el niño sigue esa dirección con la mirada mientras el adulto lo nombra— es considerada un requisito social importante para el desarrollo del lenguaje, ya que facilita que el niño relacione correctamente las palabras nuevas con sus referentes compartidos en el entorno, en lugar de aprenderlas de forma aislada y descontextualizada."
+   },
+   {
+    "d": "facil",
+    "q": "Dentro del balbuceo, se distingue el balbuceo 'reduplicado' (repetición de la misma sílaba: ba-ba-ba) del balbuceo 'variegado' (combinación de sílabas distintas: ba-da-mu), siendo el segundo:",
+    "o": [
+     "Posterior en el desarrollo y más próximo a la estructura del habla adulta",
+     "Anterior en el desarrollo y propio ya del periodo neonatal, antes incluso del balbuceo reduplicado",
+     "Idéntico al primero, sin ninguna diferencia real",
+     "Exclusivo de niños con dificultades de lenguaje"
+    ],
+    "c": 0,
+    "e": "El balbuceo reduplicado (repetir la misma sílaba, 'ba-ba-ba') suele preceder al balbuceo variegado o no reduplicado (combinar sílabas distintas, 'ba-da-mu'), que aparece algo más tarde y se considera más próximo a la estructura variada del habla adulta, constituyendo un paso evolutivo dentro de la etapa prelingüística."
+   },
+   {
+    "d": "moidificil",
+    "q": "De forma orientativa, ¿en torno a qué número de palabras productivas suele situarse el vocabulario expresivo de un niño hacia los 18 meses, justo antes de la explosión del vocabulario?",
+    "o": [
+     "Alrededor de 50 palabras",
+     "Alrededor de 5 palabras",
+     "Alrededor de 300 palabras",
+     "Alrededor de 1000 palabras"
+    ],
+    "c": 0,
+    "e": "De forma orientativa y con amplia variabilidad individual, el vocabulario expresivo de un niño suele situarse en torno a las 50 palabras hacia los 18 meses, cifra que se considera un umbral aproximado a partir del cual suele desencadenarse la 'explosión del vocabulario', un periodo de crecimiento muy rápido del número de palabras producidas."
+   },
+   {
+    "d": "dificil",
+    "q": "De forma orientativa, ¿en torno a qué número de palabras suele situarse el vocabulario expresivo de un niño hacia los 2 años de edad?",
+    "o": [
+     "Entre 200 y 300 palabras aproximadamente",
+     "Entre 10 y 20 palabras aproximadamente",
+     "Entre 2000 y 3000 palabras aproximadamente",
+     "Entre 50 y 60 palabras aproximadamente"
+    ],
+    "c": 0,
+    "e": "De forma orientativa, tras la explosión del vocabulario iniciada en torno a los 18 meses, el vocabulario expresivo de un niño de 2 años suele situarse aproximadamente entre 200 y 300 palabras, cifra que sigue creciendo de manera acelerada durante los años siguientes hasta alcanzar varios miles de palabras al final de la etapa infantil."
+   },
+   {
+    "d": "facil",
+    "q": "La capacidad de narrar una historia sencilla con un principio, un desarrollo y un final reconocibles suele consolidarse, de forma orientativa, hacia:",
+    "o": [
+     "Los 4 años de edad",
+     "Los 12 meses de edad",
+     "El primer mes de vida",
+     "Nunca antes de la etapa de Educación Primaria"
+    ],
+    "c": 0,
+    "e": "La capacidad de narrar una historia sencilla con una estructura reconocible (principio, desarrollo y final) suele consolidarse, de forma orientativa y progresivamente más elaborada, hacia los 4 años de edad, apoyándose en experiencias previas como escuchar cuentos, participar en conversaciones y jugar simbólicamente a representar secuencias de sucesos."
+   },
+   {
+    "d": "media",
+    "q": "En el desarrollo de la conciencia fonológica, la capacidad de segmentar palabras en sílabas suele preceder, en general, a la capacidad de:",
+    "o": [
+     "Segmentar y manipular fonemas individuales dentro de una palabra",
+     "Reconocer y producir con precisión las primeras palabras dotadas de sentido comunicativo claro",
+     "Comprender órdenes sencillas de dos elementos",
+     "Producir el primer balbuceo canónico"
+    ],
+    "c": 0,
+    "e": "En el desarrollo de la conciencia fonológica, la segmentación de palabras en sílabas (percibir que 'ma-ri-po-sa' tiene cuatro partes) resulta más accesible y suele preceder, en general, a la conciencia fonémica, es decir, a la capacidad de segmentar y manipular los fonemas individuales dentro de una palabra, una habilidad más compleja que se afianza más tarde y que está estrechamente relacionada con el aprendizaje posterior de la lectoescritura."
+   },
+   {
+    "d": "dificil",
+    "q": "En el desarrollo fonológico típico, los sonidos bilabiales y nasales (como /p/, /b/, /m/) se adquieren, en comparación con sonidos vibrantes como la /r/ múltiple, de forma:",
+    "o": [
+     "Más temprana, mientras que sonidos como la /r/ múltiple suelen consolidarse más tardíamente",
+     "Más tardía que la /r/ múltiple, que se considera uno de los primeros sonidos consonánticos en adquirirse en español",
+     "Simultánea, sin ningún orden de adquisición identificable",
+     "Aleatoria, sin relación con la complejidad articulatoria del sonido"
+    ],
+    "c": 0,
+    "e": "En el desarrollo fonológico típico, los sonidos que requieren un punto de articulación más sencillo, como los bilabiales y nasales (/p/, /b/, /m/), se adquieren de forma más temprana, mientras que sonidos articulatoriamente más complejos, como la vibrante múltiple /rr/ (en palabras como 'perro'), suelen consolidarse bastante más tarde, en ocasiones no hasta los 5-6 años, sin que ello se considere necesariamente un trastorno del habla."
+   },
+   {
+    "d": "media",
+    "q": "La 'lectura dialógica', estrategia de lectura compartida de álbumes ilustrados con el niño, se caracteriza principalmente por:",
+    "o": [
+     "Convertir al niño en narrador activo mediante preguntas abiertas del adulto",
+     "Leer el cuento de principio a fin sin ninguna interacción verbal con el niño durante toda la sesión de lectura",
+     "Prohibir cualquier pregunta o comentario hasta terminar el cuento completo",
+     "Sustituir por completo la lectura de cuentos por el visionado de vídeos"
+    ],
+    "c": 0,
+    "e": "La lectura dialógica convierte al niño en narrador activo del cuento: el adulto formula preguntas abiertas ('¿qué crees que pasará ahora?'), amplía las respuestas del niño y le anima a participar, en contraste con una lectura tradicional pasiva y unidireccional en la que el adulto se limita a leer el texto sin interacción, siendo una estrategia especialmente eficaz para enriquecer el vocabulario y la comprensión."
+   },
+   {
+    "d": "facil",
+    "q": "La ecolalia (repetición de palabras o frases oídas) en niños muy pequeños que están adquiriendo el lenguaje se considera:",
+    "o": [
+     "Una conducta frecuente y transitoria dentro del desarrollo típico a determinadas edades",
+     "Siempre y en cualquier caso un signo inequívoco de un trastorno grave y permanente del lenguaje",
+     "Un fenómeno exclusivo de la etapa adulta",
+     "Una conducta que jamás aparece en el desarrollo normal"
+    ],
+    "c": 0,
+    "e": "La ecolalia (repetir palabras o frases que se acaban de oír, sin necesariamente comprender su significado completo) es una conducta relativamente frecuente y transitoria dentro del desarrollo típico del lenguaje en niños muy pequeños; solo cuando persiste de forma marcada más allá de lo esperable para la edad y se acompaña de otras dificultades se considera un posible signo de alerta que requiere valoración especializada."
+   },
+   {
+    "d": "moidificil",
+    "q": "Dentro de los signos de alerta en el desarrollo del lenguaje, la ausencia total de balbuceo canónico se considera, de forma orientativa, motivo de valoración especializada a partir de:",
+    "o": [
+     "Los 12 meses de edad",
+     "Los 3 meses de edad",
+     "Los 4 años de edad",
+     "Los 6 meses de edad"
+    ],
+    "c": 0,
+    "e": "Dado que el balbuceo canónico suele aparecer entre los 6 y los 8 meses, su ausencia total mantenida hasta aproximadamente los 12 meses de edad se considera, de forma orientativa, un posible signo de alerta en el desarrollo del lenguaje que aconseja una valoración especializada, ya que el balbuceo es un precursor importante de la producción de las primeras palabras."
    }
   ]
  },
@@ -2423,6 +4103,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "La escala de Brunet-Lézine es un instrumento estandarizado clásico, utilizado tradicionalmente para valorar el desarrollo psicomotor en la primera infancia, que evalúa distintas áreas (motricidad, coordinación, lenguaje, sociabilidad) comparando el desempeño del niño con baremos por edad."
+   },
+   {
+    "d": "facil",
+    "q": "El reflejo de Moro (reacción de sobresalto con extensión de brazos ante un estímulo brusco o pérdida de sostén), presente en el recién nacido, suele desaparecer o inhibirse en torno a:",
+    "o": [
+     "Los 4-6 meses de edad",
+     "Los 2 años de edad",
+     "Nunca desaparece",
+     "Los 8 años de edad"
+    ],
+    "c": 0,
+    "e": "El reflejo de Moro es una reacción arcaica presente en el recién nacido consistente en la extensión brusca de brazos y piernas, seguida de una flexión de recogida, ante un estímulo repentino como un ruido fuerte o la sensación de pérdida de sostén; suele inhibirse de forma progresiva entre los 4 y los 6 meses de vida, y su persistencia más allá de esa edad puede ser objeto de valoración neurológica."
+   },
+   {
+    "d": "media",
+    "q": "El reflejo de marcha automática (el bebé, sostenido en vertical con los pies apoyados, realiza movimientos alternantes parecidos a caminar) está presente ya en el recién nacido y:",
+    "o": [
+     "Desaparece hacia el segundo o tercer mes de vida, antes de la marcha voluntaria posterior",
+     "Permanece activo de forma continua y sin cambios hasta la adquisición completa de la marcha autónoma independiente",
+     "Aparece por primera vez hacia los 12 meses de edad",
+     "Es idéntico a la marcha voluntaria que el bebé mostrará a partir del año"
+    ],
+    "c": 0,
+    "e": "El reflejo de marcha automática, presente ya en el recién nacido, consiste en movimientos alternantes de las piernas parecidos al caminar cuando se sostiene al bebé en posición vertical con los pies en contacto con una superficie; este reflejo se inhibe hacia el segundo o tercer mes de vida y no debe confundirse con la marcha voluntaria, que es un logro motor distinto adquirido más adelante, en torno a los 12-15 meses."
+   },
+   {
+    "d": "dificil",
+    "q": "El reflejo tónico-cervical asimétrico (RTCA), también llamado 'postura del esgrimista' porque el bebé extiende el brazo del lado hacia el que gira la cabeza y flexiona el contrario, suele inhibirse en torno a:",
+    "o": [
+     "Los 4-6 meses de edad",
+     "Los 12 meses de edad",
+     "Nunca se inhibe durante la infancia",
+     "Los 3 años de edad"
+    ],
+    "c": 0,
+    "e": "El reflejo tónico-cervical asimétrico (RTCA) o 'postura del esgrimista' hace que el bebé, al girar la cabeza hacia un lado, extienda el brazo y la pierna de ese mismo lado mientras flexiona los del lado contrario; suele inhibirse hacia los 4-6 meses de vida, y su integración adecuada se considera un requisito previo para lograr hitos motores posteriores como el volteo o el gateo cruzado."
+   },
+   {
+    "d": "facil",
+    "q": "El gateo, como forma de desplazamiento previa a la marcha, suele aparecer de forma orientativa en torno a:",
+    "o": [
+     "Los 8-10 meses de edad",
+     "Los 2 años de edad",
+     "El primer mes de vida",
+     "Los 4 años de edad"
+    ],
+    "c": 0,
+    "e": "El gateo suele aparecer, de forma orientativa, entre los 8 y los 10 meses de vida, como una forma eficaz de desplazamiento autónomo previa a la marcha; no obstante, no se considera un hito universalmente obligatorio, ya que algunos niños con desarrollo típico pasan directamente de estar sentados a ponerse de pie y caminar sin haber gateado apenas."
+   },
+   {
+    "d": "media",
+    "q": "La capacidad de correr con una coordinación similar a la del adulto, alternando adecuadamente los apoyos, suele consolidarse plenamente en torno a:",
+    "o": [
+     "Los 2 años de edad",
+     "Los 6 meses de edad",
+     "El primer mes de vida",
+     "Los 8 años de edad, sin ningún progreso previo"
+    ],
+    "c": 0,
+    "e": "Aunque el niño empieza a correr de forma torpe e inestable poco después de consolidar la marcha, una carrera con una coordinación ya bastante similar a la del adulto suele lograrse en torno a los 2 años de edad, perfeccionándose progresivamente en los años siguientes en aspectos como la velocidad, los cambios de dirección o el esquivar obstáculos."
+   },
+   {
+    "d": "media",
+    "q": "En la secuencia habitual de desarrollo de las habilidades de lanzar y atrapar objetos, ¿qué habilidad suele consolidarse antes?",
+    "o": [
+     "Lanzar un objeto con cierta precisión, que precede a atrapar un objeto en movimiento",
+     "Atrapar un objeto en movimiento con precisión, que precede siempre a la capacidad de lanzar con cualquier intención",
+     "Ambas habilidades aparecen exactamente al mismo tiempo",
+     "Ninguna de las dos aparece antes de la etapa escolar"
+    ],
+    "c": 0,
+    "e": "En la secuencia habitual del desarrollo motor, lanzar un objeto con cierta precisión suele consolidarse antes que atrapar un objeto en movimiento, ya que esta última habilidad exige además anticipar la trayectoria del objeto y coordinar la respuesta motriz con la percepción visual en un tiempo muy ajustado, algo que resulta más complejo para el niño pequeño."
+   },
+   {
+    "d": "media",
+    "q": "En el desarrollo de la autonomía en el vestido, los niños suelen conseguir, de forma general, primero:",
+    "o": [
+     "Quitarse prendas sencillas, antes que ponérselas o abrochar botones",
+     "Abrochar botones pequeños, antes que quitarse cualquier prenda",
+     "Atarse los cordones de los zapatos, antes que quitarse un calcetín",
+     "Ponerse el abrigo solo, antes que quitarse cualquier prenda sencilla"
+    ],
+    "c": 0,
+    "e": "En el desarrollo de la autonomía en el vestido, los niños suelen conseguir antes quitarse prendas sencillas (un gorro, un calcetín) que ponérselas, ya que quitarse ropa exige menos precisión motriz y planificación; habilidades más finas como abrochar botones pequeños o atarse los cordones se consolidan bastante más tarde, ya avanzada la etapa infantil."
+   },
+   {
+    "d": "dificil",
+    "q": "Rhoda Kellogg describió una secuencia evolutiva en el dibujo infantil que comienza con el garabato desordenado y evoluciona hacia:",
+    "o": [
+     "El garabato controlado y, después, el garabato con nombre",
+     "Directamente el dibujo figurativo detallado propio de un adulto",
+     "La escritura convencional de letras del alfabeto",
+     "Ninguna evolución identificable, ya que el garabato es siempre igual"
+    ],
+    "c": 0,
+    "e": "Rhoda Kellogg describió una secuencia evolutiva en el dibujo infantil que va del garabato desordenado (trazos sin control motor claro) al garabato controlado (el niño ya domina mejor el trazo y repite patrones) y, más adelante, al garabato con nombre, en el que el niño atribuye verbalmente un significado a lo que ha dibujado aunque el trazo aún no sea reconocible objetivamente, antes de llegar a representaciones más figurativas."
+   },
+   {
+    "d": "media",
+    "q": "Se habla de 'dominancia lateral cruzada' cuando:",
+    "o": [
+     "El predominio de mano, ojo y pie no coincide en el mismo lado del cuerpo",
+     "El niño usa exclusivamente la mano izquierda para todas las actividades",
+     "El niño usa exclusivamente la mano derecha para todas las actividades",
+     "No existe ningún tipo de predominio lateral detectable en ningún niño en ninguna edad"
+    ],
+    "c": 0,
+    "e": "La dominancia lateral cruzada se produce cuando el predominio de mano, ojo y pie no coincide en el mismo lado del cuerpo (por ejemplo, un niño diestro de mano pero con predominio de ojo izquierdo), a diferencia de la lateralidad homogénea, en la que todos los segmentos dominantes coinciden en el mismo lado; algunos estudios la han relacionado con mayores dificultades en tareas de orientación espacial o en el aprendizaje de la lectoescritura, aunque la evidencia no es concluyente."
+   },
+   {
+    "d": "dificil",
+    "q": "Según los estudios de Piaget sobre la representación del espacio, el niño construye primero relaciones espaciales de tipo:",
+    "o": [
+     "Topológico (proximidad, separación, orden), antes que relaciones proyectivas o euclidianas",
+     "Euclidiano, es decir, basado en medidas y distancias exactas, antes que cualquier otra relación espacial",
+     "Proyectivo (perspectiva), antes que cualquier relación topológica",
+     "Ninguna relación espacial se desarrolla antes de los 6 años"
+    ],
+    "c": 0,
+    "e": "Piaget mostró que el niño construye primero relaciones espaciales de tipo topológico, como la proximidad, la separación, el orden o el interior/exterior (por ejemplo, saber que un objeto está 'dentro' de una caja), antes de acceder progresivamente a relaciones espaciales proyectivas (la perspectiva, el punto de vista de otro) y, más tarde aún, euclidianas (medidas exactas y sistemas de coordenadas), estas últimas ya en etapas posteriores del desarrollo cognitivo."
+   },
+   {
+    "d": "facil",
+    "q": "¿Qué autor francés, asociado a la educación psicomotriz, relacionó estrechamente el desarrollo psicomotor adecuado con la prevención de futuras dificultades de aprendizaje escolar?",
+    "o": [
+     "Pierre Vayer",
+     "B. F. Skinner",
+     "Noam Chomsky",
+     "Abraham Maslow"
+    ],
+    "c": 0,
+    "e": "Pierre Vayer, autor de referencia en la educación psicomotriz, defendió que un desarrollo psicomotor adecuado durante la etapa infantil (esquema corporal, lateralidad, estructuración espacio-temporal) constituye una base preventiva importante frente a futuras dificultades de aprendizaje escolar, especialmente en tareas como la lectoescritura o el cálculo."
+   },
+   {
+    "d": "media",
+    "q": "La diferencia entre 'esquema corporal' e 'imagen corporal' reside principalmente en que:",
+    "o": [
+     "El esquema corporal es la representación funcional del cuerpo; la imagen corporal añade su valoración afectiva y subjetiva",
+     "Ambos términos son sinónimos exactos y completamente intercambiables, sin ninguna diferencia conceptual relevante entre ellos",
+     "La imagen corporal es exclusivamente motriz, sin ningún componente afectivo",
+     "El esquema corporal solo existe en la edad adulta"
+    ],
+    "c": 0,
+    "e": "El esquema corporal hace referencia a la representación funcional y postural del propio cuerpo, necesaria para organizar el movimiento (saber dónde está cada parte del cuerpo y cómo moverla), mientras que la imagen corporal incluye además la valoración afectiva, subjetiva y a menudo cultural que la persona hace de su propio cuerpo, un aspecto más ligado a la autoestima y que se desarrolla algo más tarde."
+   },
+   {
+    "d": "dificil",
+    "q": "El sistema vestibular, situado en el oído interno, cumple una función esencial en el desarrollo psicomotor relacionada con:",
+    "o": [
+     "El equilibrio y la percepción de la posición y el movimiento de la cabeza en el espacio",
+     "La percepción exclusiva y detallada de los sonidos y ruidos que proceden del entorno inmediato del bebé",
+     "El sentido del gusto y el olfato",
+     "La regulación exclusiva del apetito"
+    ],
+    "c": 0,
+    "e": "El sistema vestibular, situado en el oído interno, aporta información esencial sobre el equilibrio y sobre la posición y el movimiento de la cabeza en el espacio, contribuyendo de forma decisiva al control postural y al equilibrio estático y dinámico; actividades como los balanceos o los giros controlados, frecuentes en las sesiones de psicomotricidad, estimulan precisamente este sistema."
+   },
+   {
+    "d": "facil",
+    "q": "La kinestesia o sensibilidad propioceptiva permite al niño:",
+    "o": [
+     "Percibir la posición y el movimiento de su propio cuerpo sin necesidad de mirarlo",
+     "Percibir de forma exclusiva y única los estímulos sonoros procedentes del entorno cercano",
+     "Percibir exclusivamente el sabor de los alimentos",
+     "Percibir exclusivamente los colores y las formas visuales"
+    ],
+    "c": 0,
+    "e": "La kinestesia o sensibilidad propioceptiva permite al niño percibir la posición y el movimiento de su propio cuerpo (por ejemplo, saber dónde tiene el brazo) sin necesidad de mirarlo directamente, gracias a receptores situados en músculos, tendones y articulaciones; esta información es fundamental para ajustar los movimientos con precisión, como al llevarse una cuchara a la boca sin derramar la comida."
+   },
+   {
+    "d": "media",
+    "q": "La mielinización progresiva de las fibras nerviosas a lo largo de la infancia se relaciona directamente con:",
+    "o": [
+     "Una mayor velocidad y precisión en la transmisión de los impulsos nerviosos",
+     "Una disminución progresiva de las capacidades motrices del niño",
+     "La aparición de los reflejos arcaicos del recién nacido",
+     "Un proceso neurológico que finaliza por completo antes incluso de producirse el nacimiento del bebé"
+    ],
+    "c": 0,
+    "e": "La mielinización, es decir, el progresivo recubrimiento de las fibras nerviosas con la vaina de mielina, aumenta la velocidad y la precisión de la transmisión de los impulsos nerviosos; este proceso, que continúa activamente durante la infancia (y no finaliza antes del nacimiento), favorece movimientos cada vez más rápidos, coordinados y precisos a medida que el niño crece."
+   },
+   {
+    "d": "moidificil",
+    "q": "El reflejo de Moro se considera clínicamente relevante si persiste, sin inhibirse, más allá de:",
+    "o": [
+     "Los 6 meses de edad",
+     "Las 2 primeras semanas de vida",
+     "Los 3 años de edad",
+     "Los 10 años de edad"
+    ],
+    "c": 0,
+    "e": "Dado que el reflejo de Moro suele inhibirse de forma fisiológica entre los 4 y los 6 meses de vida, su persistencia clara más allá de aproximadamente los 6 meses de edad se considera un dato clínicamente relevante que puede orientar hacia la conveniencia de una valoración neurológica más detallada del bebé."
+   },
+   {
+    "d": "dificil",
+    "q": "La escala de Bayley (Bayley Scales of Infant and Toddler Development) es un instrumento estandarizado, similar en su finalidad a la escala de Brunet-Lézine, que se emplea para:",
+    "o": [
+     "Evaluar de forma estandarizada el desarrollo cognitivo, motor y del lenguaje en bebés y niños pequeños",
+     "Evaluar de forma exclusiva el cociente intelectual únicamente en niños ya en edad escolar mediante pruebas verbales estandarizadas",
+     "Evaluar únicamente el rendimiento académico en lectoescritura",
+     "Evaluar exclusivamente trastornos del espectro autista mediante entrevista clínica"
+    ],
+    "c": 0,
+    "e": "La escala de Bayley es un instrumento estandarizado, de uso frecuente junto a otros como la escala de Brunet-Lézine, que permite evaluar de forma sistemática el desarrollo cognitivo, motor y del lenguaje de bebés y niños pequeños, comparando su desempeño con baremos normativos por edad, y resulta de utilidad para la detección temprana de posibles retrasos en el desarrollo."
+   },
+   {
+    "d": "moidificil",
+    "q": "¿En torno a qué edad suele consolidarse una carrera ya coordinada, capaz de esquivar obstáculos sencillos sin perder el equilibrio?",
+    "o": [
+     "Los 3-4 años de edad",
+     "Los 6-8 meses de edad",
+     "El primer año de vida",
+     "Los 8-10 años de edad"
+    ],
+    "c": 0,
+    "e": "Aunque el niño empieza a correr de forma básica en torno a los 2 años, una carrera ya coordinada y suficientemente controlada como para esquivar obstáculos sencillos sin perder el equilibrio suele consolidarse algo más tarde, hacia los 3-4 años, integrándose progresivamente con otras habilidades motrices como el salto o el cambio rápido de dirección."
+   },
+   {
+    "d": "facil",
+    "q": "El reflejo de búsqueda o 'rooting' (el bebé gira la cabeza y abre la boca al rozarle la mejilla) cumple, junto al reflejo de succión, una función principalmente:",
+    "o": [
+     "Alimentaria, al facilitar que el bebé localice el pecho o el biberón",
+     "Exclusivamente motriz, sin ninguna relación real con la función de alimentación del bebé",
+     "Exclusivamente visual",
+     "Exclusivamente relacionada con el sueño"
+    ],
+    "c": 0,
+    "e": "El reflejo de búsqueda o rooting (el bebé gira la cabeza hacia el lado en que se le roza la mejilla y abre la boca) actúa junto al reflejo de succión con una función principalmente alimentaria, facilitando que el recién nacido localice el pecho materno o la tetina del biberón y pueda alimentarse de forma eficaz desde los primeros días de vida."
+   },
+   {
+    "d": "dificil",
+    "q": "La pinza tridigital (sujetar un objeto con el pulgar, el índice y el corazón), necesaria para sostener correctamente un lápiz, suele afinarse de forma progresiva a lo largo de:",
+    "o": [
+     "Toda la etapa infantil, consolidándose de forma más funcional hacia los 4-5 años",
+     "Únicamente durante los primeros tres meses de vida del bebé, sin ningún cambio posterior",
+     "El periodo prenatal exclusivamente",
+     "Nunca llega a consolidarse antes de la adolescencia"
+    ],
+    "c": 0,
+    "e": "La pinza tridigital, que implica sujetar un objeto con el pulgar, el índice y el dedo corazón, resulta especialmente relevante para sostener correctamente un lápiz o unas tijeras; se va afinando de forma progresiva a lo largo de la etapa infantil, consolidándose de manera ya bastante funcional hacia los 4-5 años, aunque sigue perfeccionándose después con la práctica de la escritura."
    }
   ]
  },
@@ -2669,6 +4589,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "El estatus sociométrico de un niño dentro de su grupo de iguales (popular, rechazado, ignorado o controvertido), estudiado mediante técnicas sociométricas (por ejemplo, preguntando a los niños con quién les gustaría jugar), puede asociarse con distintos patrones de ajuste social y emocional, y ofrece al docente información valiosa —no un dato fijo e inmodificable— para orientar intervenciones que favorezcan la inclusión de todo el alumnado."
+   },
+   {
+    "d": "facil",
+    "q": "El reconocimiento de expresiones faciales básicas en otras personas (alegría, enfado, tristeza) comienza a manifestarse, de forma incipiente, ya:",
+    "o": [
+     "Hacia el final del primer año de vida",
+     "Únicamente a partir de los 6 años",
+     "Nunca antes de la adolescencia",
+     "Solo tras la escolarización obligatoria"
+    ],
+    "c": 0,
+    "e": "Ya hacia el final del primer año de vida los bebés muestran cierta capacidad para discriminar y reaccionar de forma distinta ante expresiones faciales básicas como la alegría, el enfado o la tristeza en otras personas, lo que se pone de manifiesto, por ejemplo, en el fenómeno de referencia social: el bebé mira la expresión de su cuidador ante una situación ambigua (como un juguete nuevo) para decidir cómo reaccionar él mismo."
+   },
+   {
+    "d": "media",
+    "q": "Robert Selman propuso una secuencia de niveles de 'toma de perspectiva social', comenzando en la etapa infantil por un nivel:",
+    "o": [
+     "Egocéntrico, en el que el niño apenas distingue su propio punto de vista del de los demás",
+     "Ya plenamente recíproco y abstracto desde los primeros años",
+     "Basado exclusivamente en normas legales y sociales complejas",
+     "Inexistente por completo, ya que la toma de perspectiva social no aparece nunca antes del inicio de la adolescencia"
+    ],
+    "c": 0,
+    "e": "Selman describió una secuencia evolutiva de niveles de toma de perspectiva social; en la etapa infantil predomina un nivel egocéntrico o indiferenciado, en el que el niño reconoce que los demás pueden tener pensamientos distintos a los suyos, pero le cuesta todavía distinguir con claridad su propia perspectiva de la ajena, una capacidad que se irá refinando en niveles posteriores durante la infancia intermedia y la adolescencia."
+   },
+   {
+    "d": "dificil",
+    "q": "El 'juego de reglas', cuarta y última categoría de juego descrita por Piaget, se caracteriza porque los jugadores:",
+    "o": [
+     "Aceptan y respetan de forma compartida normas fijadas de antemano que regulan la actividad del grupo",
+     "Actúan de forma completamente libre y espontánea, sin que exista ninguna norma compartida que limite la acción del grupo",
+     "Repiten movimientos motores sin ningún componente social",
+     "Representan papeles imaginarios sin ninguna norma explícita"
+    ],
+    "c": 0,
+    "e": "El juego de reglas, la última de las categorías de juego descritas por Piaget (tras el juego de ejercicio, el simbólico y el de construcción), se caracteriza porque los jugadores aceptan y respetan de forma compartida unas normas fijadas de antemano que regulan la actividad del grupo (por ejemplo, en un juego de corro o en un juego de mesa sencillo); su plena comprensión y aceptación suele consolidarse hacia el final de la etapa infantil y principios de la Primaria, cuando el niño ya ha superado buena parte de su egocentrismo inicial."
+   },
+   {
+    "d": "facil",
+    "q": "La conducta prosocial en la etapa infantil, como ayudar, compartir o consolar a otro, se define principalmente como:",
+    "o": [
+     "Una acción voluntaria en beneficio de otro, sin buscar necesariamente una recompensa inmediata",
+     "Cualquier conducta motriz que se realice en presencia de otros niños, exista o no una intención de ayudar",
+     "Una conducta exclusivamente motivada por evitar un castigo",
+     "Una conducta que solo aparece a partir de la adolescencia"
+    ],
+    "c": 0,
+    "e": "La conducta prosocial —ayudar a un compañero a recoger, compartir un juguete, consolar a alguien que llora— se define como una acción voluntaria realizada en beneficio de otra persona, sin que medie necesariamente la búsqueda de una recompensa inmediata; sus primeras manifestaciones aparecen ya en el segundo año de vida y se van haciendo progresivamente más frecuentes y deliberadas a lo largo de la etapa infantil."
+   },
+   {
+    "d": "media",
+    "q": "Sara Smilansky describió el 'juego sociodramático', una forma avanzada de juego simbólico compartido, cuyos criterios incluyen, entre otros:",
+    "o": [
+     "La adopción de roles, objetos imaginarios y la interacción verbal entre jugadores",
+     "La ausencia total de interacción verbal entre los participantes",
+     "La imposibilidad total de emplear objetos que no sean réplicas exactas y detalladas de los objetos reales",
+     "Un componente exclusivamente motor, sin ningún elemento de representación"
+    ],
+    "c": 0,
+    "e": "Sara Smilansky identificó varios criterios que caracterizan el juego sociodramático, una forma avanzada de juego simbólico compartido: la adopción de roles ('yo soy la mamá'), el uso de objetos imaginarios o sustitutos (una caja que hace de coche), la interacción verbal sostenida entre los jugadores y una cierta persistencia en el tiempo, en contraste con formas de juego simbólico más simples y solitarias propias de edades anteriores."
+   },
+   {
+    "d": "dificil",
+    "q": "Las técnicas sociométricas empleadas para conocer las relaciones entre iguales dentro de un grupo suelen basarse en:",
+    "o": [
+     "Preguntar a cada niño a quién elegiría y a quién no para jugar",
+     "Analizar de forma exclusiva y única el rendimiento académico y curricular de cada niño en el aula",
+     "Medir exclusivamente la altura y el peso de cada niño del grupo",
+     "Observar exclusivamente el tiempo que cada niño duerme en casa"
+    ],
+    "c": 0,
+    "e": "Las técnicas sociométricas suelen basarse en preguntar de forma individual a cada niño, mediante nominaciones positivas ('¿con quién te gusta jugar?') y a veces negativas ('¿con quién te gusta jugar menos?'), lo que permite construir un mapa de las relaciones sociales del grupo y detectar niños especialmente populares, rechazados, ignorados o controvertidos, información valiosa para orientar la intervención educativa."
+   },
+   {
+    "d": "facil",
+    "q": "Las normas básicas de cortesía social, como saludar o dar las gracias, se adquieren en la etapa infantil principalmente a través de:",
+    "o": [
+     "La observación y el modelado de los adultos, junto con la práctica guiada",
+     "La maduración biológica de forma exclusiva, sin ninguna influencia real del entorno social o familiar",
+     "La lectura autónoma de manuales de comportamiento",
+     "Un proceso instantáneo que no requiere ninguna práctica previa"
+    ],
+    "c": 0,
+    "e": "Las normas básicas de cortesía social, como saludar, dar las gracias o pedir las cosas por favor, se adquieren en la etapa infantil principalmente a través de la observación y el modelado de los adultos de referencia (el niño ve cómo se comportan y lo imita) junto con la práctica guiada y el refuerzo social, más que por maduración biológica espontánea o por un aprendizaje formal explícito."
+   },
+   {
+    "d": "media",
+    "q": "Según Selman, las primeras formas de amistad en la etapa infantil suelen basarse en un nivel de:",
+    "o": [
+     "Amistad momentánea, definida por el juego compartido físicamente en un momento dado",
+     "Amistad basada en compromisos morales estables y duraderos en el tiempo",
+     "Amistad basada exclusivamente en valores y creencias compartidos",
+     "Ausencia total y completa de cualquier forma de amistad reconocible antes del inicio de la adolescencia"
+    ],
+    "c": 0,
+    "e": "Según Selman, las primeras formas de amistad en la etapa infantil corresponden a un nivel de 'amistad momentánea', en el que un compañero se considera amigo simplemente porque está jugando con él en ese momento y comparte el mismo espacio físico, sin que exista todavía una noción de compromiso, reciprocidad o continuidad más allá de la situación concreta; esa noción se desarrollará en niveles posteriores."
+   },
+   {
+    "d": "dificil",
+    "q": "Dentro de los perfiles de niños con estatus sociométrico de 'rechazado', la investigación distingue habitualmente entre:",
+    "o": [
+     "Rechazados-agresivos (confrontación frecuente) y rechazados-retraídos (aislamiento)",
+     "Rechazados-listos y rechazados-torpes, en función exclusivamente de su rendimiento académico",
+     "Rechazados-altos y rechazados-bajos, en función de su estatura física",
+     "No existe ninguna diferenciación posible dentro del estatus de rechazado"
+    ],
+    "c": 0,
+    "e": "La investigación sobre estatus sociométrico distingue habitualmente, dentro de los niños con estatus de 'rechazado', entre los rechazados-agresivos, que muestran conductas frecuentes de confrontación, imposición o agresividad hacia sus iguales, y los rechazados-retraídos o pasivos, que se aíslan y evitan la interacción social; ambos perfiles requieren intervenciones educativas diferenciadas y ajustadas a sus necesidades específicas."
+   },
+   {
+    "d": "media",
+    "q": "Diversos estudios observacionales sobre el juego infantil han constatado que la tendencia a agruparse espontáneamente con compañeros del mismo sexo:",
+    "o": [
+     "Comienza a manifestarse en edades tempranas y se acentúa con el tiempo",
+     "No se produce nunca durante la etapa infantil",
+     "Solo aparece a partir de la adolescencia",
+     "Es una conducta exclusiva y única de las niñas, y que nunca se observa en los niños"
+    ],
+    "c": 0,
+    "e": "Diversos estudios observacionales, como los de Eleanor Maccoby, han constatado que la tendencia a agruparse espontáneamente con compañeros del mismo sexo durante el juego libre comienza a manifestarse ya en edades tempranas de la etapa infantil (en torno a los 3 años) y tiende a acentuarse progresivamente con el tiempo, un fenómeno conocido como segregación de género en el juego, presente tanto en niños como en niñas."
+   },
+   {
+    "d": "facil",
+    "q": "El papel del educador o educadora como mediador social en el aula de Infantil implica, entre otras funciones:",
+    "o": [
+     "Ayudar a los niños a poner nombre a sus emociones y a encontrar estrategias para relacionarse con los demás",
+     "Resolver siempre de forma completa e inmediata cualquier situación social, sin ninguna participación de los niños implicados",
+     "Evitar cualquier tipo de interacción entre los niños del grupo",
+     "Limitarse exclusivamente a la transmisión de contenidos académicos"
+    ],
+    "c": 0,
+    "e": "El papel del educador como mediador social en el aula de Infantil implica ayudar a los niños a poner nombre a sus emociones, ofrecer modelos de conducta social adecuados y acompañar, sin sustituir, los procesos de resolución de conflictos y de relación entre iguales, favoreciendo así que vayan desarrollando progresivamente sus propias competencias sociales."
+   },
+   {
+    "d": "dificil",
+    "q": "La comparación social explícita entre iguales (compararse en logros o habilidades con los compañeros) suele hacerse más patente, de forma orientativa, a partir de:",
+    "o": [
+     "Los 5-6 años de edad",
+     "Los 6-8 meses de edad",
+     "El primer año de vida",
+     "Los 12-18 meses de edad"
+    ],
+    "c": 0,
+    "e": "Aunque existen precursores más tempranos, la comparación social explícita entre iguales —fijarse en si un compañero ha hecho 'mejor' un dibujo o ha corrido 'más rápido'— se hace más patente, de forma orientativa, a partir de los 5-6 años de edad, coincidiendo con una mayor capacidad de descentración y con el desarrollo de un autoconcepto más diferenciado y comparativo."
+   },
+   {
+    "d": "moidificil",
+    "q": "De forma orientativa, ¿en torno a qué edad empiezan los niños a reconocer y a nombrar con cierta precisión las emociones básicas (alegría, tristeza, enfado) que observan en otras personas?",
+    "o": [
+     "Los 2-3 años de edad",
+     "Los 6-8 meses de edad",
+     "Los 8-9 años de edad",
+     "El primer mes de vida"
+    ],
+    "c": 0,
+    "e": "De forma orientativa, los niños empiezan a reconocer y a nombrar con cierta precisión las emociones básicas que observan en otras personas en torno a los 2-3 años de edad, apoyándose en el vocabulario emocional que van adquiriendo y en las explicaciones que los adultos les ofrecen sobre lo que sienten los demás, capacidad que se irá refinando notablemente en los años posteriores."
+   },
+   {
+    "d": "media",
+    "q": "La timidez infantil, entendida como una mayor inhibición o retraimiento ante situaciones sociales nuevas, debe considerarse, dentro de unos límites razonables, como:",
+    "o": [
+     "Una variante temperamental normal, presente en distintos grados en la población",
+     "Un trastorno grave y clínicamente significativo que requiere siempre tratamiento inmediato y especializado",
+     "Una conducta que jamás se manifiesta antes de los 6 años",
+     "Un signo inequívoco de maltrato o negligencia familiar"
+    ],
+    "c": 0,
+    "e": "La timidez infantil, entendida como una mayor inhibición o cautela ante personas o situaciones sociales nuevas, se considera, dentro de unos límites razonables, una variante temperamental normal presente en distintos grados en la población infantil, y no un trastorno en sí misma; solo cuando interfiere de forma marcada y persistente en la vida cotidiana del niño se plantea la necesidad de una valoración más específica."
+   },
+   {
+    "d": "facil",
+    "q": "Los hermanos y hermanas mayores cumplen, en muchas ocasiones, un papel relevante en el desarrollo social del niño pequeño al actuar como:",
+    "o": [
+     "Modelos de conducta social que el niño observa e imita de forma espontánea",
+     "Figuras sin ninguna influencia relevante en el desarrollo social",
+     "Sustitutos exclusivos, permanentes y necesarios de la figura de apego principal en cualquier circunstancia",
+     "Una fuente exclusiva de conflictos, sin ningún aspecto positivo"
+    ],
+    "c": 0,
+    "e": "Los hermanos y hermanas mayores cumplen con frecuencia un papel relevante en el desarrollo social del niño pequeño al actuar como modelos de conducta que este observa e imita de forma espontánea (aprendizaje vicario), además de ofrecerle oportunidades tempranas de interacción, negociación y juego compartido dentro del propio hogar, antes incluso de la escolarización."
+   },
+   {
+    "d": "dificil",
+    "q": "Las conductas de exclusión social entre iguales en Infantil (dejar a alguien sistemáticamente fuera del juego) se diferencian del acoso o 'bullying' propiamente dicho en que este último implica, además:",
+    "o": [
+     "Intencionalidad de dañar, repetición sistemática y desequilibrio de poder entre las partes",
+     "Exactamente los mismos elementos y características, sin ninguna diferencia relevante entre ambos fenómenos sociales",
+     "Una conducta que solo puede darse entre adultos, nunca entre niños pequeños",
+     "La ausencia total de cualquier componente social o relacional"
+    ],
+    "c": 0,
+    "e": "Aunque en Infantil pueden observarse conductas puntuales de exclusión social, el concepto de acoso o 'bullying' propiamente dicho exige, además, una intencionalidad clara de dañar, una repetición sistemática en el tiempo y un desequilibrio de poder entre quien agrede y quien es agredido; por ello conviene ser prudente al aplicar ese término a conflictos puntuales y propios del proceso normal de socialización en estas edades tempranas."
+   },
+   {
+    "d": "media",
+    "q": "La relación de apego que un niño establece con su educadora o educador de referencia en la escuela infantil, aunque distinta de la familiar, puede considerarse:",
+    "o": [
+     "Un vínculo de apego secundario relevante, con valor de seguridad emocional en la escuela",
+     "Una relación idéntica en todos sus aspectos y funciones al apego establecido con la figura materna",
+     "Irrelevante para el bienestar emocional del niño en el aula",
+     "Un vínculo que sustituye por completo el apego familiar"
+    ],
+    "c": 0,
+    "e": "La relación de apego que un niño establece con su educadora o educador de referencia, aunque distinta en intensidad y función de la establecida con las figuras familiares, puede considerarse un vínculo de apego secundario relevante, que aporta al niño seguridad emocional dentro del contexto escolar y facilita su adaptación, su exploración del entorno y su disposición a aprender."
+   },
+   {
+    "d": "moidificil",
+    "q": "De forma orientativa, ¿a qué edad suelen los niños ser capaces de participar en un juego reglado sencillo, comprendiendo y respetando turnos fijados de antemano?",
+    "o": [
+     "Los 5-6 años de edad",
+     "Los 12-18 meses de edad",
+     "Los 2 años de edad",
+     "Los 3 meses de edad"
+    ],
+    "c": 0,
+    "e": "De forma orientativa, la capacidad de participar en un juego reglado sencillo, comprendiendo y respetando turnos y normas fijadas de antemano (como en un juego de mesa básico o un juego de corro con reglas), suele consolidarse hacia los 5-6 años, coincidiendo con la superación progresiva del egocentrismo y con una mayor capacidad de autorregulación de la propia conducta."
+   },
+   {
+    "d": "facil",
+    "q": "La toma de conciencia temprana de las diferencias étnicas o culturales entre personas comienza a manifestarse en los niños:",
+    "o": [
+     "Ya durante la etapa infantil, de forma progresiva y en interacción con el entorno",
+     "Nunca antes de la adolescencia",
+     "Solo a partir de los estudios universitarios",
+     "Únicamente y de forma exclusiva si existe algún tipo grave de conflicto dentro del entorno familiar"
+    ],
+    "c": 0,
+    "e": "La toma de conciencia de las diferencias étnicas, culturales o de otro tipo entre las personas comienza a manifestarse ya durante la etapa infantil, de forma progresiva y en estrecha interacción con las actitudes, comentarios y modelos que el niño observa en su entorno social y familiar, por lo que la escuela infantil tiene un papel importante en la promoción de actitudes de respeto y valoración de la diversidad desde edades tempranas."
+   },
+   {
+    "d": "dificil",
+    "q": "A medida que el niño crece a lo largo de la etapa infantil, la resolución de conflictos entre iguales tiende a evolucionar, en términos generales, desde:",
+    "o": [
+     "Estrategias más físicas y directas hacia estrategias progresivamente más verbales y negociadas",
+     "Estrategias exclusivamente verbales hacia estrategias exclusivamente físicas",
+     "Un patrón idéntico e invariable a lo largo de toda la etapa infantil",
+     "La resolución exclusiva y permanente por parte del adulto en todos los casos posibles, sin ninguna evolución"
+    ],
+    "c": 0,
+    "e": "A medida que el niño crece a lo largo de la etapa infantil y desarrolla mayor capacidad de autorregulación y de lenguaje, la resolución de conflictos entre iguales tiende a evolucionar, en términos generales, desde estrategias más físicas y directas (empujar, quitar el juguete) propias de las primeras edades, hacia estrategias progresivamente más verbales y negociadas (pedir, proponer un turno, buscar una alternativa), aunque siempre con apoyo educativo."
    }
   ]
  },
@@ -2915,6 +5075,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "La elaboración de protocolos de limpieza y desinfección de materiales y juguetes, especialmente relevante en el primer ciclo de Infantil, responde a criterios de prevención de riesgos sanitarios e higiene, dado que bebés y niños pequeños tienden a explorar los objetos llevándoselos a la boca, lo que exige una limpieza más frecuente y rigurosa que en etapas posteriores."
+   },
+   {
+    "d": "facil",
+    "q": "Loris Malaguzzi, impulsor de la experiencia educativa de Reggio Emilia, empleó la expresión 'los cien lenguajes del niño' para referirse a:",
+    "o": [
+     "La diversidad de lenguajes y materiales con los que el niño representa su pensamiento",
+     "Un método concreto para la enseñanza de idiomas extranjeros",
+     "Cien materiales curriculares obligatorios en cualquier aula",
+     "Un test estandarizado y ampliamente validado de evaluación específica del lenguaje infantil"
+    ],
+    "c": 0,
+    "e": "Loris Malaguzzi, impulsor de la experiencia educativa de Reggio Emilia, utilizó la expresión 'los cien lenguajes del niño' para señalar que el pensamiento infantil puede expresarse y representarse a través de múltiples formas y materiales —el dibujo, la arcilla, la luz y la sombra, el cuerpo, la música— y no solo mediante la palabra oral o escrita, defendiendo así una amplia diversidad de materiales y lenguajes expresivos en el aula."
+   },
+   {
+    "d": "media",
+    "q": "En la experiencia educativa de Reggio Emilia, el 'atelier' o taller, junto con la figura del 'atelierista', tiene como función principal:",
+    "o": [
+     "Ofrecer un espacio y acompañamiento especializados para la experimentación artística del alumnado",
+     "Sustituir por completo y de forma permanente el resto de espacios y materiales disponibles en el aula ordinaria",
+     "Ser un espacio de uso exclusivo para el profesorado, sin acceso del alumnado",
+     "Centrarse únicamente en la enseñanza formal de la escritura"
+    ],
+    "c": 0,
+    "e": "En Reggio Emilia, el 'atelier' es un espacio y taller específico, dotado de materiales variados (pintura, arcilla, materiales reciclados, luz), en el que el 'atelierista', una figura con formación artística, acompaña y enriquece los procesos de experimentación, expresión y representación gráfico-plástica del alumnado, en estrecha coordinación con el resto del equipo educativo del centro."
+   },
+   {
+    "d": "dificil",
+    "q": "El 'triángulo de Pikler', mobiliario de madera para la trepa y el movimiento libre, forma parte de la propuesta pedagógica de:",
+    "o": [
+     "Emmi Pikler, centrada en el respeto al movimiento libre y autónomo del bebé",
+     "María Montessori, centrada específicamente en el material sensorial de carácter autocorrectivo",
+     "Friedrich Fröbel, centrado en los dones o Gaben",
+     "Rudolf Steiner, fundador de la pedagogía Waldorf"
+    ],
+    "c": 0,
+    "e": "El triángulo de Pikler, una estructura de madera con peldaños que permite trepar, es un elemento característico de la propuesta pedagógica de Emmi Pikler, centrada en el respeto al movimiento libre y espontáneo del bebé: el adulto no coloca al bebé en posturas que este todavía no domina por sí mismo, sino que le ofrece un entorno seguro y estimulante para que desarrolle su motricidad a su propio ritmo."
+   },
+   {
+    "d": "media",
+    "q": "Los juguetes de inspiración Waldorf, elaborados habitualmente con materiales naturales (madera, lana, algodón) y con formas y rasgos poco definidos, buscan principalmente:",
+    "o": [
+     "Dejar un mayor margen a la imaginación y a la proyección simbólica del niño sobre el objeto",
+     "Ofrecer la máxima definición, realismo y detalle posible en cada elemento concreto del juguete",
+     "Sustituir el juego simbólico por actividades exclusivamente académicas",
+     "Reducir al mínimo cualquier posibilidad de manipulación del material"
+    ],
+    "c": 0,
+    "e": "Los juguetes de inspiración Waldorf, elaborados con materiales naturales y con formas y rasgos deliberadamente poco definidos (una muñeca sin rasgos faciales detallados, por ejemplo), buscan dejar un mayor margen a la imaginación y a la proyección simbólica del niño sobre el objeto, que puede así atribuirle libremente distintos estados de ánimo o significados según el momento del juego."
+   },
+   {
+    "d": "facil",
+    "q": "El uso educativo de material reciclado o de desecho (tapones, cajas, rollos de cartón) en el aula de Infantil favorece principalmente:",
+    "o": [
+     "La creatividad, la sostenibilidad y el uso de recursos de bajo coste",
+     "Únicamente y de forma exclusiva el ahorro económico del centro, sin ningún otro valor pedagógico",
+     "La sustitución completa de cualquier otro tipo de material del aula",
+     "Exclusivamente el área de matemáticas avanzadas"
+    ],
+    "c": 0,
+    "e": "El uso educativo de material reciclado o de desecho (tapones, cajas de cartón, rollos de papel) favorece la creatividad y la sostenibilidad ambiental, y ofrece recursos de bajo coste con múltiples posibilidades de uso, ya que al no tener una función predeterminada estimula la imaginación del niño de forma similar al material no estructurado."
+   },
+   {
+    "d": "dificil",
+    "q": "El material 'semiestructurado', categoría intermedia entre el material estructurado y el no estructurado, se caracteriza por:",
+    "o": [
+     "Tener un diseño orientativo que admite usos y combinaciones diversas por el niño",
+     "Tener un único uso posible, de carácter completamente predeterminado y sin ninguna flexibilidad de uso",
+     "Carecer por completo de cualquier diseño o intención educativa previa",
+     "Ser exclusivo del segundo ciclo de Educación Primaria"
+    ],
+    "c": 0,
+    "e": "El material semiestructurado, categoría intermedia entre el material estructurado (con un uso muy definido, como un puzle) y el no estructurado (sin ningún uso predeterminado, como una caja), tiene un diseño y una finalidad orientativa —por ejemplo, unas piezas geométricas de construcción— pero admite usos, combinaciones y creaciones diversas según la iniciativa del niño."
+   },
+   {
+    "d": "media",
+    "q": "La organización del aula en 'talleres' rotativos se diferencia de la organización por 'rincones' fijos principalmente en que en los talleres:",
+    "o": [
+     "Todo el grupo rota por distintas propuestas de actividad dirigida en un periodo determinado",
+     "El alumnado permanece siempre en el mismo espacio físico durante todo el curso escolar completo",
+     "No existe ningún tipo de material específico asociado a la actividad",
+     "Solo participa un único niño de forma individual y exclusiva"
+    ],
+    "c": 0,
+    "e": "A diferencia de los rincones, que suelen estar disponibles de forma más continuada para el juego y la elección libre del alumnado, la organización en talleres implica habitualmente que todo el grupo (o subgrupos) rota por distintas propuestas de actividad más dirigida durante un periodo de tiempo determinado, con materiales y objetivos específicos para cada taller."
+   },
+   {
+    "d": "facil",
+    "q": "Los materiales de estimulación multisensorial (texturas, sonidos, luces) empleados especialmente en el primer ciclo de Infantil tienen como finalidad principal:",
+    "o": [
+     "Favorecer el desarrollo perceptivo y sensorial del bebé a través de distintos canales",
+     "Sustituir por completo y de forma permanente el contacto físico y afectivo directo con el adulto",
+     "Ser utilizados exclusivamente por el alumnado del segundo ciclo",
+     "Centrarse únicamente en el desarrollo del lenguaje oral"
+    ],
+    "c": 0,
+    "e": "Los materiales de estimulación multisensorial (texturas variadas, sonajeros, luces de colores suaves) empleados especialmente en el primer ciclo de Infantil favorecen el desarrollo perceptivo y sensorial del bebé a través de distintos canales —tacto, vista, oído—, complementando, y nunca sustituyendo, el contacto físico y afectivo directo con el adulto."
+   },
+   {
+    "d": "dificil",
+    "q": "El criterio de 'polivalencia' a la hora de seleccionar materiales para el aula de Infantil hace referencia a que el material:",
+    "o": [
+     "Admite múltiples usos y posibilidades de juego, en lugar de una única función",
+     "Solo puede emplearse en un área curricular muy concreta, específica y determinada de antemano",
+     "Es siempre de gran tamaño y de uso exclusivo en psicomotricidad",
+     "Debe sustituirse cada semana independientemente de su uso real"
+    ],
+    "c": 0,
+    "e": "El criterio de polivalencia valora positivamente que un material admita múltiples usos y posibilidades de juego —unos bloques de construcción pueden servir para apilar, clasificar por tamaños, contar o representar una historia—, en lugar de materiales con una única función predeterminada que limitan las posibilidades de exploración y aprendizaje del alumnado."
+   },
+   {
+    "d": "media",
+    "q": "Materiales de aula como el panel de asistencia, el calendario o el cuadro de encargados del día tienen, entre otras, la finalidad de:",
+    "o": [
+     "Apoyar visualmente las rutinas diarias y la autonomía del alumnado en su gestión",
+     "Sustituir por completo y de forma definitiva la programación didáctica elaborada por el docente",
+     "Ser utilizados exclusivamente por el equipo directivo del centro",
+     "No tener ninguna relación con el desarrollo de la autonomía infantil"
+    ],
+    "c": 0,
+    "e": "Materiales como el panel de asistencia, el calendario visual o el cuadro de encargados del día apoyan de forma visual las rutinas diarias del aula (quién ha venido, qué día es, quién reparte hoy el material) y favorecen la autonomía y la participación activa del alumnado en su gestión, además de introducir de forma vivencial nociones temporales y de responsabilidad compartida."
+   },
+   {
+    "d": "facil",
+    "q": "El espacio exterior o patio del centro de Infantil, equipado con elementos naturales (arena, agua, plantas) además de los juegos convencionales, se considera:",
+    "o": [
+     "Un recurso educativo de primer orden, y no solo un espacio de recreo o descanso",
+     "Un espacio sin ningún valor pedagógico, de uso exclusivamente recreativo",
+     "Un lugar que debe evitarse siempre por motivos de seguridad, en cualquier circunstancia posible",
+     "Un espacio reservado en exclusiva para actividades deportivas regladas"
+    ],
+    "c": 0,
+    "e": "El espacio exterior o patio, especialmente cuando se equipa con elementos naturales como arena, agua o zonas verdes además del equipamiento de juego convencional, se considera un recurso educativo de primer orden y no un mero espacio de recreo o descanso, ya que ofrece oportunidades de juego, exploración sensorial y contacto con el medio natural difíciles de reproducir dentro del aula."
+   },
+   {
+    "d": "dificil",
+    "q": "En relación con la seguridad de los juguetes con piezas pequeñas desmontables, la normativa europea exige habitualmente una advertencia de no idoneidad para menores de:",
+    "o": [
+     "36 meses, por riesgo de atragantamiento",
+     "6 meses, por riesgo de alergias cutáneas",
+     "12 años, por riesgo de descarga eléctrica",
+     "10 años, por riesgo de deslumbramiento"
+    ],
+    "c": 0,
+    "e": "La normativa europea de seguridad de los juguetes exige que aquellos que incluyen piezas pequeñas desmontables incorporen una advertencia de no idoneidad para menores de 36 meses, dado el riesgo de atragantamiento asociado a la tendencia de los bebés y niños muy pequeños a llevarse los objetos a la boca; esta advertencia debe tenerse muy en cuenta al seleccionar materiales para las aulas del primer ciclo de Infantil."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'recursos didácticos' resulta más amplio que el de 'materiales curriculares', ya que el primero incluye, además de los materiales u objetos, también:",
+    "o": [
+     "Los espacios, el tiempo, las personas y otros elementos que apoyan la enseñanza-aprendizaje",
+     "Únicamente y de forma exclusiva los libros de texto empleados habitualmente dentro del aula ordinaria",
+     "Exclusivamente el mobiliario inventariable del centro",
+     "Solo los materiales de psicomotricidad de gran tamaño"
+    ],
+    "c": 0,
+    "e": "El concepto de 'recursos didácticos' resulta más amplio que el de 'materiales curriculares' propiamente dichos, ya que incluye, además de los objetos y materiales, también los espacios, el tiempo, las personas (el propio docente, las familias, otros profesionales) y cualquier otro elemento que apoye y enriquezca el proceso de enseñanza-aprendizaje del alumnado."
+   },
+   {
+    "d": "dificil",
+    "q": "Al seleccionar materiales de psicomotricidad de gran tamaño (módulos, colchonetas), además de la seguridad, conviene priorizar especialmente criterios de:",
+    "o": [
+     "Polivalencia y durabilidad, dado su elevado coste y su uso intensivo",
+     "Uso exclusivo durante un único curso escolar completo, tras el cual deben desecharse siempre",
+     "Coste mínimo exclusivamente, sin atender a ningún otro criterio",
+     "Diseño exclusivamente estético, sin relación con su funcionalidad motriz"
+    ],
+    "c": 0,
+    "e": "Al seleccionar materiales de psicomotricidad de gran tamaño, además de la seguridad, conviene priorizar especialmente criterios de polivalencia (que admitan configuraciones y usos diversos) y de durabilidad, dado su elevado coste de adquisición y su uso intensivo y prolongado a lo largo de varios cursos escolares, lo que hace especialmente rentable una buena elección inicial."
+   },
+   {
+    "d": "facil",
+    "q": "Materiales de expresión plástica como las témperas, las ceras o la arcilla se clasifican, según su naturaleza de uso, como material:",
+    "o": [
+     "Fungible, ya que se consumen o se gastan con el uso habitual",
+     "Inventariable, ya que no se consumen nunca con el uso",
+     "Exclusivo del área de psicomotricidad",
+     "Prohibido de forma expresa en todas las aulas del primer ciclo de Infantil"
+    ],
+    "c": 0,
+    "e": "Materiales de expresión plástica como las témperas, las ceras, la plastilina o la arcilla se clasifican como material fungible, ya que se consumen o se gastan progresivamente con el uso habitual y deben reponerse con cierta periodicidad, a diferencia del material inventariable, como los caballetes o las bandejas de trabajo, que tiene una vida útil mucho más prolongada."
+   },
+   {
+    "d": "media",
+    "q": "El uso de espejos de tamaño adecuado en el aula de Infantil se relaciona especialmente con el desarrollo de:",
+    "o": [
+     "La autoconciencia corporal y el conocimiento del propio esquema corporal",
+     "Exclusivamente y de forma única la competencia matemática y lógica del alumnado",
+     "Únicamente la comprensión lectora",
+     "Ningún aspecto relevante del desarrollo infantil"
+    ],
+    "c": 0,
+    "e": "El uso de espejos de tamaño adecuado y colocados a la altura del niño en el aula de Infantil se relaciona especialmente con el desarrollo de la autoconciencia corporal y con el conocimiento progresivo del propio esquema corporal, permitiendo al niño observar y explorar su propia imagen, sus movimientos y sus expresiones faciales de forma directa."
+   },
+   {
+    "d": "moidificil",
+    "q": "Siguiendo el mismo criterio de seguridad relativo a piezas pequeñas desmontables en los juguetes, ¿cuál de las siguientes edades es la que efectivamente recoge la normativa europea como umbral de advertencia?",
+    "o": [
+     "36 meses",
+     "18 meses",
+     "72 meses",
+     "9 meses"
+    ],
+    "c": 0,
+    "e": "La normativa europea de seguridad de los juguetes fija en 36 meses el umbral de edad a partir del cual un juguete con piezas pequeñas desmontables puede considerarse seguro frente al riesgo de atragantamiento, por lo que los juguetes destinados a edades inferiores deben carecer de ese tipo de piezas o superar controles de seguridad específicos adicionales."
+   },
+   {
+    "d": "dificil",
+    "q": "El material audiovisual (vídeos, aplicaciones interactivas) y el material manipulativo (bloques, puzles, piezas de encaje) se diferencian principalmente en que el segundo:",
+    "o": [
+     "Implica una manipulación física y directa del objeto, propia del aprendizaje sensoriomotor",
+     "Nunca puede combinarse en ningún caso con actividades de expresión oral o corporal del niño",
+     "Resulta siempre menos adecuado que el audiovisual para la etapa infantil",
+     "No permite ningún tipo de aprendizaje matemático o lógico"
+    ],
+    "c": 0,
+    "e": "El material manipulativo, como los bloques de construcción, los puzles o las piezas de encaje, implica una manipulación física y directa del objeto por parte del niño, coherente con el aprendizaje sensoriomotor propio de la etapa infantil, mientras que el material audiovisual ofrece una experiencia más mediada y pasiva, por lo que ambos deben complementarse de forma equilibrada y no sustituirse el uno al otro de forma sistemática."
+   },
+   {
+    "d": "facil",
+    "q": "Los instrumentos musicales sencillos (panderetas, claves, xilófonos) empleados en el aula de Infantil favorecen especialmente:",
+    "o": [
+     "La expresión musical, el ritmo y la coordinación motriz asociada a su manejo",
+     "Exclusivamente y de forma única el desarrollo de la lectoescritura formal y convencional",
+     "Únicamente el cálculo matemático avanzado",
+     "Ningún aspecto relevante del desarrollo infantil"
+    ],
+    "c": 0,
+    "e": "Los instrumentos musicales sencillos, como panderetas, claves o xilófonos, favorecen especialmente la expresión musical, la percepción y reproducción del ritmo, y la coordinación motriz asociada a su manejo (por ejemplo, golpear con precisión una clave siguiendo un pulso), además de contribuir al disfrute estético y a la expresión emocional a través de la música."
+   },
+   {
+    "d": "moidificil",
+    "q": "Dentro de los llamados 'periodos sensibles' descritos por Montessori, el periodo sensible del orden, especialmente relevante para justificar la organización estable de los materiales en el aula, se sitúa aproximadamente en:",
+    "o": [
+     "Entre el primer y el tercer año de vida",
+     "Entre los 6 y los 8 años de edad",
+     "Durante el periodo prenatal exclusivamente",
+     "Entre los 10 y los 12 años de edad"
+    ],
+    "c": 0,
+    "e": "Montessori describió el periodo sensible del orden como una fase, situada aproximadamente entre el primer y el tercer año de vida, en la que el niño muestra una especial necesidad de estabilidad, rutina y orden en su entorno (saber dónde está cada cosa, seguir la misma secuencia de acciones); este periodo justifica pedagógicamente la importancia de mantener los materiales del aula organizados de forma estable y predecible, con un lugar fijo para cada elemento."
    }
   ]
  },
@@ -3161,6 +5561,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "El enfoque de 'proceso frente a producto' en la valoración de la expresión plástica infantil defiende que el adulto debe priorizar la experiencia, la exploración sensorial y el proceso creativo vivido por el niño mientras crea, más que el resultado estético final; por eso no tiene sentido, en Infantil, puntuar numéricamente un dibujo o compararlo con un modelo predefinido, sino valorar el disfrute y el aprendizaje que ha supuesto la actividad."
+   },
+   {
+    "d": "facil",
+    "q": "Según Viktor Lowenfeld, la etapa esquemática del dibujo infantil se sitúa aproximadamente entre los 7 y los 9 años y se caracteriza principalmente por:",
+    "o": [
+     "La repetición de un esquema o fórmula fija para representar cada elemento, que el niño repite con pequeñas variaciones cada vez que dibuja",
+     "La ausencia total de intención representativa en el trazo, propia únicamente de los primeros meses del garabateo descontrolado",
+     "La representación fotográfica y proporcionada de la realidad, propia del pseudonaturalismo hacia los 12 años",
+     "El abandono progresivo de la figura humana en favor de composiciones exclusivamente abstractas y geométricas"
+    ],
+    "c": 0,
+    "e": "La etapa esquemática (7-9 años aprox.), según Lowenfeld, se caracteriza porque el niño llega a fijar un esquema o fórmula gráfica estable para representar cada elemento de su entorno (una persona, una casa, un árbol) y tiende a repetirlo con pequeñas variaciones cada vez que lo dibuja, a diferencia de la etapa preesquemática, en la que los símbolos gráficos cambiaban de una representación a otra sin llegar a fijarse. Por ejemplo, un niño en esta etapa dibujará 'su' casa siempre de la misma manera característica (tejado triangular, puerta central, dos ventanas), incorporando ese esquema como un símbolo reconocible y estable."
+   },
+   {
+    "d": "media",
+    "q": "La psicóloga Rhoda Kellogg, a partir del análisis de miles de dibujos infantiles, identificó que el garabateo se compone inicialmente de:",
+    "o": [
+     "20 tipos básicos de garabatos (trazos elementales) que se combinan progresivamente en diagramas y formas más complejas",
+     "Únicamente líneas rectas horizontales y verticales, sin que aparezca ningún trazo curvo hasta los 5 años, una teoría hoy superada porque el garabateo temprano sí incluye ya trazos curvos y circulares desde el principio",
+     "Copias directas de dibujos realizados por adultos, que el niño reproduce de memoria desde el primer trazo",
+     "Doce formas geométricas regulares, aprendidas mediante la observación de material escolar estructurado"
+    ],
+    "c": 0,
+    "e": "Rhoda Kellogg, tras analizar cientos de miles de dibujos infantiles de distintas culturas, identificó 20 tipos básicos de garabatos (puntos, líneas rectas, curvas, en zigzag, en espiral, etc.) que constituyen los elementos elementales de todo el desarrollo gráfico posterior: estos 20 garabatos básicos se combinan progresivamente en diagramas, después en combinaciones de diagramas y, finalmente, en agregados que darán lugar a formas más complejas como el mandala, el sol o la figura humana."
+   },
+   {
+    "d": "dificil",
+    "q": "Según la clasificación de Georges-Henri Luquet sobre las fases del dibujo infantil, el 'realismo fortuito' se diferencia del 'realismo fallido' (o 'manqué') en que:",
+    "o": [
+     "En el realismo fortuito el niño descubre por casualidad un parecido entre su garabato y algo real, mientras que en el fallido intenta representar algo concreto pero fracasa por limitaciones motrices",
+     "En el realismo fortuito el niño copia con exactitud un modelo presentado por el adulto, mientras que en el realismo fallido dibuja siempre de memoria y sin modelo, confundiendo así este proceso de copia dirigida con la verdadera observación espontánea que describe el realismo fortuito",
+     "El realismo fortuito aparece cronológicamente después del realismo intelectual pleno, mientras que el fallido lo precede por varios años",
+     "Ambos términos designan la misma fase evolutiva, y solo cambia el nombre según el autor que los describe"
+    ],
+    "c": 0,
+    "e": "Luquet distingue, dentro del llamado 'realismo intelectual' primitivo, dos momentos previos a la intención representativa plena: el 'realismo fortuito', en el que el niño descubre por azar un parecido entre un trazo que ya había hecho (a veces sin intención inicial) y algún objeto real, y a partir de ahí le pone nombre; y el 'realismo fallido' o 'manqué', en el que el niño ya intenta desde el principio representar algo concreto, pero el resultado se aleja del modelo por sus limitaciones motrices y de planificación gráfica, no por falta de intención."
+   },
+   {
+    "d": "media",
+    "q": "En la secuencia evolutiva descrita por Kellogg, la figura del 'mandala' (forma organizada en torno a un centro, con ejes que la cruzan) suele preceder evolutivamente a:",
+    "o": [
+     "La figura del sol, de la que después derivará la representación de la figura humana",
+     "El esquema de la casa con tejado a dos aguas, que aparece ya en la primera fase del garabato descontrolado",
+     "El paisaje con línea de horizonte, que es la primera combinación de diagramas descrita por la autora",
+     "El dibujo con perspectiva y profundidad, propio de los primeros meses de vida del bebé"
+    ],
+    "c": 0,
+    "e": "En la secuencia evolutiva de Kellogg, el mandala (una forma organizada en torno a un punto o eje central, con divisiones simétricas) es una de las combinaciones de diagramas más tempranas y estables; a partir de esta estructura circular con ejes que la cruzan, el niño deriva la figura del sol (un círculo del que parten líneas radiales hacia fuera) y, posteriormente, esta estructura radial sirve de base para las primeras representaciones de la figura humana, en las que la cabeza (círculo) se convierte en el elemento central del que 'salen' directamente las extremidades."
+   },
+   {
+    "d": "facil",
+    "q": "La evolución de la prensión del útil gráfico (lápiz, ceras) en la etapa infantil avanza generalmente:",
+    "o": [
+     "Desde una prensión palmar, con toda la mano, hacia una prensión digital más fina, tipo pinza",
+     "Desde una prensión digital tipo pinza, muy precisa, hacia una prensión palmar más tosca y menos controlada",
+     "De forma idéntica en todas las edades, sin ninguna evolución observable en el agarre del útil",
+     "Comenzando siempre por el uso sistemático de la mano no dominante durante el primer año"
+    ],
+    "c": 0,
+    "e": "La prensión del útil gráfico evoluciona típicamente desde un agarre palmar, en el que el niño sujeta el lápiz o la cera con toda la mano cerrada en torno a él y mueve principalmente el brazo y el hombro, hacia un agarre digital cada vez más fino, tipo pinza (con los dedos pulgar, índice y corazón), que permite un control mucho más preciso del trazo y está estrechamente relacionado con la maduración de la motricidad fina de la mano."
+   },
+   {
+    "d": "media",
+    "q": "Es habitual observar que los niños pequeños, mientras dibujan, giren el papel varias veces en distintas direcciones; esta conducta se explica porque:",
+    "o": [
+     "Aún no han consolidado una orientación espacial estable del soporte y dibujan siguiendo la comodidad del gesto en cada momento",
+     "Están copiando intencionadamente un modelo que el adulto ha colocado en distintos ángulos delante de ellos, una hipótesis descartada porque el niño pequeño gira el papel incluso cuando no hay ningún modelo delante de él",
+     "Se trata siempre de un signo claro de trastorno visual que debe derivarse de inmediato al especialista",
+     "Buscan deliberadamente crear un efecto artístico de perspectiva múltiple, propio de etapas posteriores"
+    ],
+    "c": 0,
+    "e": "Girar el papel repetidamente mientras se dibuja es una conducta muy habitual en los primeros años, porque el niño aún no ha consolidado una organización espacial estable del soporte gráfico (no distingue todavía de forma fija un 'arriba' y un 'abajo' del papel) y orienta el papel según le resulte más cómodo realizar cada trazo con su propio gesto motor, sin que esto implique ningún problema visual ni una búsqueda intencionada de perspectiva."
+   },
+   {
+    "d": "dificil",
+    "q": "El uso del color de forma convencional y ligado al objeto representado (por ejemplo, colorear siempre el sol de amarillo o las hojas de verde) suele consolidarse, según diversos autores, en torno a:",
+    "o": [
+     "Los 6-7 años, coincidiendo con el final de la etapa preesquemática y el inicio de la esquemática",
+     "Los 2-3 años, nada más iniciarse la fase del garabato controlado dentro del garabateo",
+     "Los 9-10 años, coincidiendo ya con el inicio de la etapa del pseudonaturalismo, una idea rechazada porque el pseudonaturalismo se sitúa mucho después, entre los 11 y los 13 años según la propia secuencia de Lowenfeld",
+     "El primer año de vida, incluso antes de que aparezca cualquier trazo gráfico intencionado"
+    ],
+    "c": 0,
+    "e": "El uso convencional del color, ligado de forma estable a cada objeto representado (el sol amarillo, las hojas verdes, el cielo azul), suele consolidarse en torno a los 6-7 años, coincidiendo aproximadamente con el paso de la etapa preesquemática a la esquemática; antes de esa edad, en cambio, los niños suelen elegir los colores más por motivos afectivos, de preferencia personal o de disponibilidad del material que por su correspondencia realista con el objeto dibujado."
+   },
+   {
+    "d": "facil",
+    "q": "El trabajo con materiales tridimensionales (plastilina, arcilla, construcciones con bloques) en Educación Infantil favorece de forma especial:",
+    "o": [
+     "La noción de volumen y la coordinación óculo-manual en un espacio de tres dimensiones",
+     "Exclusivamente la memorización de vocabulario relacionado con los colores primarios",
+     "El aprendizaje directo de la lectoescritura convencional sin ningún paso intermedio",
+     "La adquisición de nociones puramente auditivas, sin ninguna implicación motriz"
+    ],
+    "c": 0,
+    "e": "Trabajar con materiales tridimensionales como la plastilina, la arcilla o las construcciones con bloques favorece de manera especial la construcción de la noción de volumen (frente al plano bidimensional del dibujo) y exige una coordinación óculo-manual y una manipulación mucho más compleja, al tener que dar forma al material y sostener el equilibrio de las piezas en las tres dimensiones del espacio."
+   },
+   {
+    "d": "media",
+    "q": "Cuando un adulto propone a un niño de Infantil un modelo cerrado a copiar (por ejemplo, una ficha con un dibujo ya hecho para colorear dentro de las líneas) de forma sistemática, esta práctica:",
+    "o": [
+     "Puede limitar el desarrollo de la creatividad y la expresión personal si sustituye de forma reiterada a la producción libre y espontánea",
+     "Es siempre la forma más recomendable de trabajar la expresión plástica en todas las edades de la etapa infantil",
+     "No tiene ninguna influencia relevante sobre la creatividad ni sobre la expresión personal del alumnado, una afirmación que los estudios sobre expresión plástica infantil no respaldan en ningún caso",
+     "Favorece en mayor medida que el dibujo libre el desarrollo expresivo y la iniciativa personal del niño"
+    ],
+    "c": 0,
+    "e": "Proponer de forma sistemática fichas con modelos cerrados para colorear dentro de unas líneas ya trazadas por un adulto, en sustitución reiterada del dibujo libre, puede limitar el desarrollo de la creatividad y la capacidad de expresión personal del niño, ya que reduce sus oportunidades de tomar decisiones propias sobre la composición, el color o la forma; por ello se recomienda que este tipo de fichas tenga un peso reducido frente a las actividades de expresión libre y espontánea."
+   },
+   {
+    "d": "dificil",
+    "q": "En la clasificación de Lowenfeld, la etapa del 'pseudonaturalismo' se sitúa aproximadamente en torno a los 11-13 años, mientras que la etapa anterior, la del 'realismo', corresponde a:",
+    "o": [
+     "Los 9-11 años, con mayor atención al detalle y consciencia de las proporciones, aunque persisten rigideces",
+     "Los 4-7 años, coincidiendo exactamente con la etapa preesquemática descrita por el mismo autor, cuando en realidad las rigideces compositivas del realismo persisten hasta bien entrada la etapa siguiente",
+     "Los 2-4 años, coincidiendo directamente con la fase final del garabateo sin intención representativa",
+     "Los 14-16 años, es decir, una etapa posterior al propio pseudonaturalismo en la secuencia evolutiva"
+    ],
+    "c": 0,
+    "e": "En la clasificación de Lowenfeld, tras la etapa esquemática (7-9 años) se sitúa la etapa del realismo (aproximadamente 9-11 años), en la que el niño presta ya mayor atención al detalle y muestra cierta consciencia de las proporciones y de la perspectiva, aunque las figuras conservan todavía rigideces; posteriormente, entre los 11 y los 13 años, se sitúa el pseudonaturalismo, con un mayor acercamiento a la representación realista y proporcionada del cuerpo humano."
+   },
+   {
+    "d": "facil",
+    "q": "La figura radial del 'sol' (un círculo del que parten líneas hacia fuera) es considerada por autores como Kellogg:",
+    "o": [
+     "Una de las formas más universales y tempranas en el dibujo infantil de todas las culturas",
+     "Una forma exclusiva de los niños que reciben una formación artística reglada desde muy pequeños",
+     "Una representación que, según sus estudios, solo aparece por primera vez después de los 8 años",
+     "Un trazo aislado que nunca guarda relación con las posteriores representaciones de la figura humana"
+    ],
+    "c": 0,
+    "e": "La figura radial del sol (un círculo central del que parten líneas hacia fuera) aparece, según los estudios de Kellogg sobre miles de dibujos de distintas culturas, como una de las formas más universales y tempranas del repertorio gráfico infantil, presente prácticamente en todas las tradiciones culturales estudiadas, lo que sugiere que responde a una tendencia evolutiva compartida más que a un aprendizaje cultural específico."
+   },
+   {
+    "d": "media",
+    "q": "La búsqueda espontánea de la simetría en las composiciones plásticas infantiles (por ejemplo, repetir el mismo elemento a ambos lados de un eje) suele hacerse más evidente:",
+    "o": [
+     "A partir de la etapa esquemática, cuando el niño empieza a organizar y ordenar conscientemente los elementos del espacio gráfico",
+     "Únicamente durante la primera fase del garabato descontrolado, y desaparece por completo después, circunstancia que ningún estudio transcultural sobre el dibujo infantil ha llegado a confirmar",
+     "Solo en aquellos niños que han recibido formación artística reglada de tipo académico específico",
+     "Nunca llega a aparecer de forma espontánea durante ninguno de los años de la etapa infantil"
+    ],
+    "c": 0,
+    "e": "La búsqueda espontánea de la simetría en las composiciones (por ejemplo, repetir un mismo elemento a ambos lados de una figura o de un eje central) se hace más evidente a partir de la etapa esquemática, cuando el niño empieza a organizar y planificar conscientemente la distribución de los elementos en el espacio gráfico, superando la disposición más aleatoria propia de etapas anteriores."
+   },
+   {
+    "d": "moidificil",
+    "q": "La investigadora Maureen Cox, en sus estudios sobre el dibujo infantil, cuestionó la idea de que los primeros dibujos fueran meros ejercicios motores, defendiendo que:",
+    "o": [
+     "Desde etapas muy tempranas existe ya una intención comunicativa y representativa por parte del niño, más allá del simple placer motriz",
+     "El dibujo infantil carece de cualquier componente representativo o comunicativo hasta bien entrados los 10 años de edad",
+     "Los niños dibujan siempre copiando modelos adultos presentados de forma explícita, desde el primer trazo hasta los 6 años",
+     "La motricidad fina no guarda relación alguna con la calidad ni con la evolución del trazo gráfico infantil"
+    ],
+    "c": 0,
+    "e": "Maureen Cox, en sus investigaciones sobre el desarrollo del dibujo infantil, cuestionó la visión que reducía los primeros trazos a un mero ejercicio motor sin significado, defendiendo que, desde etapas muy tempranas, existe ya en el niño una intención comunicativa y representativa, aunque sus limitaciones motrices y de planificación gráfica le impidan plasmar con fidelidad aquello que quiere representar; es decir, la intención representativa precede a menudo a la capacidad técnica de lograrla."
+   },
+   {
+    "d": "media",
+    "q": "En el currículo de Educación Infantil de Galicia (Decreto 150/2022), la expresión plástica se integra fundamentalmente dentro del área relativa a:",
+    "o": [
+     "Los lenguajes: comunicación y representación de la realidad",
+     "El crecimiento en armonía, área centrada en el desarrollo motor y en los hábitos de salud y autonomía",
+     "Una asignatura curricular independiente y exclusiva denominada expresamente 'Plástica'",
+     "El descubrimiento y la exploración del entorno, sin conexión curricular con los demás lenguajes"
+    ],
+    "c": 0,
+    "e": "En el currículo de Educación Infantil de Galicia establecido por el Decreto 150/2022, no existe un área independiente de 'Plástica', sino que la expresión plástica se integra, junto con otros lenguajes (musical, corporal, audiovisual y de las tecnologías de la información y la comunicación), dentro del área de 'Los lenguajes: comunicación y representación de la realidad', que aborda de forma conjunta las distintas formas en que el niño se expresa y comunica."
+   },
+   {
+    "d": "dificil",
+    "q": "La principal diferencia entre la etapa preesquemática (4-7 años) y la etapa esquemática (7-9 años) del dibujo, según Lowenfeld, radica en que:",
+    "o": [
+     "En la preesquemática los símbolos gráficos cambian de una vez a otra, mientras que en la esquemática el niño fija y repite un esquema estable para cada elemento",
+     "En la preesquemática aparece ya el detalle proporcionado y realista, que desaparece completamente al llegar a la etapa esquemática, lo cual contradice la propia definición de etapa esquemática que da el autor en su obra",
+     "La preesquemática es cronológicamente posterior a la esquemática dentro de la secuencia descrita por Lowenfeld",
+     "No existe ninguna diferencia relevante entre ambas etapas, que Lowenfeld describe como sinónimas y equivalentes"
+    ],
+    "c": 0,
+    "e": "La diferencia esencial entre la etapa preesquemática (4-7 años) y la esquemática (7-9 años) radica en la estabilidad del símbolo gráfico: en la preesquemática, el niño realiza ya representaciones intencionadas, pero los símbolos que usa para un mismo elemento (por ejemplo, una persona) pueden cambiar considerablemente de un dibujo a otro; en la esquemática, en cambio, el niño llega a fijar un esquema estable y reconocible que repite de forma consistente cada vez que representa ese mismo elemento."
+   },
+   {
+    "d": "media",
+    "q": "El uso de materiales de desecho y elementos naturales (corchos, hojas, piedras, cajas) en las actividades plásticas de Infantil aporta, entre otros beneficios:",
+    "o": [
+     "El desarrollo de la creatividad a partir de materiales no estructurados y la sensibilización hacia el cuidado del entorno",
+     "Un coste económico que resulta siempre y en todo caso superior al de los materiales comerciales específicos",
+     "La imposibilidad de trabajar de forma paralela la psicomotricidad fina de manos y dedos",
+     "Resultados prácticamente idénticos entre todos los niños del grupo, al tratarse de material predefinido"
+    ],
+    "c": 0,
+    "e": "Incorporar materiales de desecho (cajas, tapones, cartones) y elementos naturales (hojas, piedras, ramas) a las actividades plásticas favorece el desarrollo de la creatividad a partir de materiales no estructurados, que admiten múltiples usos y transformaciones, y contribuye además a sensibilizar al alumnado hacia la reutilización y el cuidado del entorno, con un coste económico habitualmente inferior al de los materiales comerciales específicos."
+   },
+   {
+    "d": "facil",
+    "q": "El dibujo de la familia, solicitado con frecuencia en Educación Infantil, se emplea a menudo como:",
+    "o": [
+     "Un recurso que, además de trabajar la expresión plástica, puede aportar información sobre cómo vive el niño sus relaciones afectivas",
+     "Un ejercicio exclusivamente de precisión motriz, sin ningún tipo de valor expresivo o afectivo asociado",
+     "Una prueba estandarizada y validada para medir de forma objetiva el coeficiente intelectual del niño",
+     "Una actividad que, por su naturaleza, debe evitarse siempre en cualquier aula de Educación Infantil"
+    ],
+    "c": 0,
+    "e": "El dibujo de la familia, una actividad plástica habitual en Infantil, no se limita a un ejercicio de precisión motriz: el tamaño relativo de las figuras, su ubicación, la presencia o ausencia de determinados miembros o los colores empleados pueden aportar al educador información valiosa, siempre interpretada con prudencia, sobre cómo vive el niño sus vínculos y relaciones afectivas dentro del núcleo familiar."
+   },
+   {
+    "d": "dificil",
+    "q": "Dentro de la etapa del garabateo, la fase de 'garabato controlado' se caracteriza fundamentalmente porque el niño:",
+    "o": [
+     "Descubre la relación entre su movimiento y el trazo que deja sobre el papel, y empieza a repetir y controlar determinados movimientos de forma deliberada",
+     "Ya nombra sus producciones antes incluso de empezar a realizarlas y planifica de antemano el resultado final, cuando en realidad la fase de garabato con nombre es la que incorpora ya la intención de nombrar la producción",
+     "Abandona por completo, desde esta misma fase, cualquier interés por el propio movimiento motor",
+     "Dibuja ya figuras humanas completas, proporcionadas y con todos sus elementos anatómicos diferenciados"
+    ],
+    "c": 0,
+    "e": "En la fase de 'garabato controlado', dentro de la etapa del garabateo, el niño descubre la relación causal entre su propio movimiento y el trazo que va dejando sobre el papel; a partir de ese descubrimiento, empieza a repetir determinados movimientos de forma deliberada (círculos, líneas), ejerciendo ya un cierto control visual y motor sobre su producción, aunque todavía sin intención representativa explícita, que llegará en la fase posterior del garabato con nombre."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según la secuencia clásica de Lowenfeld, ¿cuál de las siguientes correspondencias entre etapa y edad aproximada es la correcta?",
+    "o": [
+     "Garabateo (2-4 años), preesquemática (4-7 años), esquemática (7-9 años)",
+     "Garabateo (0-2 años), preesquemática (2-4 años), esquemática (4-6 años)",
+     "Garabateo (4-6 años), preesquemática (6-8 años), esquemática (8-10 años)",
+     "Garabateo (3-5 años), preesquemática (5-9 años), esquemática (9-11 años)"
+    ],
+    "c": 0,
+    "e": "La secuencia clásica de Lowenfeld sitúa la etapa del garabateo entre los 2 y los 4 años (con sus subfases de garabato descontrolado, controlado y con nombre), la etapa preesquemática entre los 4 y los 7 años (primeras representaciones intencionadas, como el 'renacuajo') y la etapa esquemática entre los 7 y los 9 años (fijación de un esquema estable para cada elemento); conocer estas franjas de edad con precisión es importante porque orienta las expectativas evolutivas ante las producciones plásticas del alumnado de cada nivel."
+   },
+   {
+    "d": "media",
+    "q": "El desarrollo de la motricidad fina (control del gesto, fuerza y precisión de la mano) tiene una relación especialmente estrecha con:",
+    "o": [
+     "La evolución del trazo gráfico y, por tanto, con la calidad y complejidad de las producciones plásticas infantiles",
+     "Exclusivamente el desarrollo del lenguaje oral, sin ninguna conexión con las producciones gráficas del niño",
+     "El desarrollo socioafectivo del niño, entendido como un proceso completamente ajeno a la evolución del trazo",
+     "Aspectos generales de la personalidad que no guardan ninguna relación directa con la expresión plástica"
+    ],
+    "c": 0,
+    "e": "El desarrollo de la motricidad fina —el control progresivo de la fuerza, la precisión y la coordinación de los movimientos de la mano y los dedos— guarda una relación especialmente estrecha con la evolución del trazo gráfico: a medida que mejora ese control, los trazos se vuelven más precisos, controlados y variados, lo que repercute directamente en la complejidad y el detalle de las producciones plásticas del niño."
    }
   ]
  },
@@ -3407,6 +6047,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Los juegos de construcción (cubos, piezas de encaje, bloques de madera) favorecen el desarrollo de nociones espaciales (arriba-abajo, dentro-fuera), la seriación por tamaño o forma al elegir qué piezas encajan o se sostienen mejor, y la resolución práctica de problemas (cómo lograr que una torre no se caiga), todo ello de forma lúdica y significativa."
+   },
+   {
+    "d": "facil",
+    "q": "Según la teoría de Piaget, la etapa evolutiva que corresponde a la Educación Infantil (aproximadamente de 2 a 7 años) es la denominada:",
+    "o": [
+     "Etapa preoperacional, caracterizada por el pensamiento simbólico y ciertas limitaciones como el egocentrismo cognitivo",
+     "Etapa de las operaciones formales, con capacidad de razonamiento abstracto e hipotético",
+     "Etapa sensoriomotora, centrada exclusivamente en los reflejos innatos",
+     "Etapa de las operaciones concretas, con dominio pleno de la conservación de cantidad"
+    ],
+    "c": 0,
+    "e": "El estadio preoperacional (aproximadamente de 2 a 7 años), en la teoría de Piaget, coincide con la etapa de Educación Infantil y se caracteriza por la aparición del pensamiento simbólico (el niño puede representar mentalmente objetos y situaciones ausentes), junto con ciertas limitaciones típicas de este momento evolutivo, como el egocentrismo cognitivo (dificultad para adoptar el punto de vista de otra persona), la centración y la falta de reversibilidad del pensamiento, que se superarán progresivamente al entrar en el estadio de las operaciones concretas."
+   },
+   {
+    "d": "media",
+    "q": "En los clásicos experimentos de Piaget sobre la conservación de la cantidad, cuando se vierte el líquido de un vaso ancho y bajo a otro vaso alto y estrecho, un niño de 4 años en fase preoperacional suele responder que:",
+    "o": [
+     "Hay más líquido en el vaso alto, porque se deja guiar por la apariencia perceptiva (la altura) sin considerar que la cantidad no ha cambiado",
+     "La cantidad de líquido sigue siendo exactamente la misma en ambos vasos, mostrando ya conservación, una respuesta que en realidad corresponde ya al pensamiento operatorio concreto propio de niños mayores de 6-7 años",
+     "Hay menos líquido en el vaso alto, porque razona correctamente sobre el volumen",
+     "Es incapaz de emitir ningún juicio sobre la cantidad de líquido"
+    ],
+    "c": 0,
+    "e": "En la fase preoperacional, un niño de 4 años suele guiarse por la apariencia perceptiva más llamativa de la situación —en este caso, la mayor altura del líquido en el vaso estrecho— y concluye que hay 'más' líquido, sin ser capaz todavía de considerar simultáneamente que la disminución de la anchura compensa el aumento de la altura; esta dificultad para conservar la cantidad ante cambios en la forma del recipiente, pese a no añadirse ni quitarse líquido, es uno de los experimentos más citados de Piaget y desaparece progresivamente al llegar al estadio de las operaciones concretas, hacia los 6-7 años."
+   },
+   {
+    "d": "dificil",
+    "q": "Entre los principios del conteo descritos por Gelman y Gallistel, el 'principio de orden estable' establece que:",
+    "o": [
+     "Las palabras-número deben recitarse siempre en la misma secuencia fija (uno, dos, tres...), sin alterar su orden de una vez a otra",
+     "Cada elemento contado debe recibir una y solo una palabra-número, sin repetir ni saltar ningún elemento, principio que en realidad se denomina correspondencia uno a uno o biunívoca, y no orden estable",
+     "El último número pronunciado representa el total de elementos de la colección",
+     "Da igual el orden en que se cuenten los elementos, el resultado final será siempre el mismo"
+    ],
+    "c": 0,
+    "e": "El principio de orden estable, uno de los cinco principios del conteo descritos por Gelman y Gallistel, establece que la secuencia de palabras-número empleada para contar debe mantenerse siempre en el mismo orden fijo (uno, dos, tres, cuatro...), sin alterarlo de una ocasión a otra, aunque en las primeras edades los niños puedan cometer errores como omitir o repetir algún número de la serie antes de dominarla por completo."
+   },
+   {
+    "d": "media",
+    "q": "El principio de conteo llamado 'irrelevancia del orden' hace referencia a que:",
+    "o": [
+     "El resultado del conteo (el cardinal final) es el mismo independientemente del elemento por el que se empiece a contar dentro de la colección",
+     "Los números deben recitarse siempre comenzando por el elemento situado más a la izquierda, una regla que no se corresponde con ninguno de los cinco principios de conteo descritos por estos autores",
+     "No importa si se cuenta cada elemento una o varias veces",
+     "Los elementos deben contarse siempre en el mismo orden espacial en cada ocasión"
+    ],
+    "c": 0,
+    "e": "El principio de irrelevancia del orden establece que el resultado final del conteo (el cardinal de la colección) no depende del elemento concreto por el que se empiece a contar ni del orden espacial en que se recorran los objetos: si se cuentan cinco canicas empezando por la de la izquierda o por la de la derecha, el resultado será siempre cinco, siempre que se respete la correspondencia uno a uno y no se repita ni se omita ningún elemento."
+   },
+   {
+    "d": "facil",
+    "q": "Trabajar cuantificadores básicos como 'mucho/poco', 'todos/ninguno/alguno' en Infantil tiene como finalidad principal:",
+    "o": [
+     "Iniciar al niño en comparaciones globales de cantidad antes de que domine el conteo exacto y el número",
+     "Sustituir por completo el aprendizaje posterior de los números",
+     "Trabajar exclusivamente contenidos de lengua extranjera",
+     "Evaluar la motricidad fina del alumnado"
+    ],
+    "c": 0,
+    "e": "Trabajar cuantificadores básicos como 'mucho/poco' o 'todos/ninguno/alguno' permite a los niños de Infantil iniciar comparaciones globales de cantidad, de tipo perceptivo e intuitivo, en un momento en el que todavía no dominan el conteo exacto ni el concepto formal de número; estos cuantificadores constituyen así un puente previo hacia la cuantificación numérica precisa."
+   },
+   {
+    "d": "media",
+    "q": "El trabajo de nociones temporales básicas (antes-después, ayer-hoy-mañana, las rutinas diarias) en Infantil forma parte del desarrollo lógico-matemático porque:",
+    "o": [
+     "Contribuye a construir la noción de secuencia y orden, estrechamente relacionada con la seriación y con la estructuración del pensamiento lógico",
+     "No guarda ninguna relación con las capacidades lógico-matemáticas, una afirmación que ignora la estrecha conexión entre secuenciación temporal y ordenación lógica que subyace a la seriación",
+     "Se trabaja exclusivamente en el área de psicomotricidad",
+     "Sustituye al trabajo de las nociones espaciales"
+    ],
+    "c": 0,
+    "e": "El trabajo de nociones temporales (antes-después, ayer-hoy-mañana) a través de las rutinas diarias del aula contribuye a construir la noción de secuencia y orden, un concepto lógico estrechamente relacionado con la seriación (ordenar elementos según un criterio) y con la estructuración general del pensamiento lógico, ya que exige establecer relaciones de sucesión entre distintos momentos o elementos."
+   },
+   {
+    "d": "dificil",
+    "q": "El clásico problema piagetiano en el que se muestran a un niño ocho margaritas y dos rosas, y se le pregunta si hay más margaritas o más flores, evalúa la capacidad de:",
+    "o": [
+     "Inclusión de clases, es decir, comprender que una subclase (margaritas) está incluida en una clase más amplia (flores) simultáneamente",
+     "Correspondencia biunívoca entre dos conjuntos de objetos, un principio distinto que consiste en asignar una sola palabra-número a cada elemento, sin relación con la inclusión jerárquica",
+     "Conservación del número al transformar la disposición espacial de los elementos",
+     "Seriación de elementos según un criterio de tamaño creciente"
+    ],
+    "c": 0,
+    "e": "El problema de la inclusión de clases (mostrar ocho margaritas y dos rosas y preguntar si hay más margaritas o más flores) evalúa si el niño es capaz de comprender simultáneamente que las margaritas forman una subclase incluida dentro de una clase más amplia (las flores); un niño en fase preoperacional suele responder que 'hay más margaritas', porque compara la subclase con la otra subclase (rosas) en lugar de compararla con el conjunto total, mostrando así que todavía no domina esta operación lógica de inclusión jerárquica."
+   },
+   {
+    "d": "media",
+    "q": "Actividades como descubrir que un grupo de 5 objetos puede formarse juntando 3 y 2, o 4 y 1, inician en Infantil el trabajo de:",
+    "o": [
+     "La composición y descomposición de cantidades pequeñas, base intuitiva de la suma y la resta posteriores",
+     "La medida de magnitudes continuas como la longitud, un contenido que en Infantil se trabaja de forma independiente y bastante posterior a la composición de cantidades pequeñas",
+     "La clasificación jerárquica de conjuntos",
+     "El reconocimiento de figuras geométricas tridimensionales"
+    ],
+    "c": 0,
+    "e": "Descubrir que un grupo de cinco objetos puede formarse combinando distintas parejas de cantidades (3 y 2, o 4 y 1) constituye una primera aproximación intuitiva, apoyada en la manipulación, a la composición y descomposición de cantidades pequeñas, que sienta las bases sobre las que más adelante se construirán formalmente las operaciones de suma y resta."
+   },
+   {
+    "d": "facil",
+    "q": "El hecho de que un niño de Infantil reconozca y escriba correctamente el signo gráfico '5' no implica necesariamente que:",
+    "o": [
+     "Comprenda realmente el significado cuantitativo (cardinal) que representa ese número",
+     "Sepa pronunciar la palabra 'cinco'",
+     "Haya memorizado la forma del trazo",
+     "Pueda copiar el número de un modelo"
+    ],
+    "c": 0,
+    "e": "Reconocer y trazar correctamente el signo gráfico '5' es una habilidad de tipo simbólico-gráfico que no implica necesariamente que el niño comprenda el significado cardinal que ese signo representa, es decir, que asocie ese símbolo con la cantidad concreta de cinco elementos; por ello en Infantil conviene trabajar de forma paralela el reconocimiento de la grafía y la comprensión de la cantidad que representa, sin dar por supuesto que una garantiza la otra."
+   },
+   {
+    "d": "media",
+    "q": "El trabajo con series y patrones sencillos (por ejemplo, una secuencia de cuentas rojo-azul-rojo-azul) en Infantil favorece principalmente:",
+    "o": [
+     "El reconocimiento y la anticipación de regularidades, una capacidad estrechamente ligada al razonamiento lógico-matemático posterior",
+     "Exclusivamente el desarrollo del lenguaje oral, cuando en realidad el reconocimiento de patrones exige sobre todo atención visual y razonamiento lógico, no solo lenguaje",
+     "La memorización de vocabulario de colores sin ninguna finalidad lógica",
+     "El desarrollo motor grueso mediante desplazamientos"
+    ],
+    "c": 0,
+    "e": "Trabajar series y patrones sencillos, como una secuencia de cuentas que se repite siguiendo una regla (rojo-azul-rojo-azul), favorece el reconocimiento y la anticipación de regularidades, una capacidad estrechamente ligada al razonamiento lógico-matemático posterior, ya que exige identificar la estructura que se repite y predecir qué elemento vendría a continuación."
+   },
+   {
+    "d": "dificil",
+    "q": "Según el modelo de representación del conocimiento de Jerome Bruner, aplicado al aprendizaje matemático en Infantil, el orden en que conviene presentar un concepto nuevo es:",
+    "o": [
+     "Primero de forma enactiva (manipulando objetos reales), después icónica (mediante imágenes o dibujos) y finalmente simbólica (con números y signos)",
+     "Primero de forma simbólica (números abstractos), después icónica y por último enactiva, un orden invertido que dificultaría la comprensión, ya que el símbolo abstracto carece de significado sin la experiencia manipulativa previa",
+     "Únicamente de forma icónica, sin pasar nunca por la manipulación ni por los símbolos",
+     "El orden es indiferente y no influye en la comprensión del concepto"
+    ],
+    "c": 0,
+    "e": "Bruner propone que el aprendizaje de un concepto nuevo avanza de forma más sólida cuando se presenta primero de forma enactiva, manipulando objetos y materiales reales, después de forma icónica, apoyándose en imágenes, dibujos o representaciones gráficas del concepto, y finalmente de forma simbólica, mediante números, signos y lenguaje matemático abstracto; en Infantil el trabajo se sitúa sobre todo en las dos primeras fases, preparando el terreno para la simbolización posterior."
+   },
+   {
+    "d": "moidificil",
+    "q": "El fenómeno de 'centración', descrito por Piaget como característico del pensamiento preoperacional, explica los errores en las tareas de conservación porque el niño:",
+    "o": [
+     "Se fija exclusivamente en una sola dimensión perceptiva llamativa (por ejemplo, la altura del líquido) sin considerar simultáneamente otras dimensiones relevantes (como la anchura)",
+     "Es incapaz de percibir ninguna característica física de los objetos, cuando en realidad el niño preoperacional sí percibe con normalidad las características físicas de los objetos, solo falla al integrarlas",
+     "Aplica correctamente la reversibilidad del pensamiento a cualquier transformación",
+     "Solo se produce en niños con dificultades de aprendizaje diagnosticadas"
+    ],
+    "c": 0,
+    "e": "La centración es la tendencia del pensamiento preoperacional a fijarse en un único rasgo perceptivo especialmente llamativo de una situación (por ejemplo, la altura del líquido en un vaso) ignorando otras dimensiones que también son relevantes (como su anchura); esta focalización en un solo aspecto explica muchos de los errores característicos en las tareas de conservación, y se supera progresivamente con la capacidad de descentración propia del pensamiento operatorio concreto."
+   },
+   {
+    "d": "media",
+    "q": "Aplicar el aprendizaje significativo de Ausubel al ámbito lógico-matemático en Infantil implica, entre otros aspectos:",
+    "o": [
+     "Conectar los nuevos conceptos matemáticos con los conocimientos y experiencias previas del niño, de modo que se integren en su estructura cognitiva",
+     "Presentar los conceptos matemáticos de forma aislada, sin relacionarlos con nada que el niño conozca previamente, una práctica que precisamente contradice el principio central del aprendizaje significativo defendido por este mismo autor",
+     "Basarse exclusivamente en la repetición memorística sin comprensión",
+     "Evitar cualquier tipo de manipulación de material concreto"
+    ],
+    "c": 0,
+    "e": "Aplicar el aprendizaje significativo de Ausubel al ámbito lógico-matemático implica partir siempre de los conocimientos y experiencias previas del niño y conectar con ellos los conceptos nuevos, de modo que estos se integren de forma comprensiva en su estructura cognitiva existente, en lugar de presentarse como contenidos aislados que solo pueden memorizarse mecánicamente sin comprensión real."
+   },
+   {
+    "d": "facil",
+    "q": "El juego simbólico (por ejemplo, usar un palo como si fuera un teléfono) contribuye al desarrollo lógico-matemático porque:",
+    "o": [
+     "Ejercita la capacidad de representar mentalmente un objeto o situación mediante otro, una habilidad de base para la abstracción numérica posterior",
+     "Sustituye completamente la necesidad de manipular material real y concreto, una afirmación que invierte la relación real, ya que el juego simbólico complementa la manipulación sin eliminarla en ningún caso",
+     "Se relaciona exclusivamente con el desarrollo del lenguaje escrito",
+     "No guarda relación alguna con el pensamiento lógico"
+    ],
+    "c": 0,
+    "e": "El juego simbólico, en el que un objeto (un palo) se utiliza representando a otro (un teléfono), ejercita la capacidad de sustituir mentalmente un elemento por otro y de operar con representaciones en lugar de con la realidad directa; esta capacidad de representación simbólica constituye una base cognitiva importante sobre la que se apoyará después la capacidad de abstracción propia del pensamiento numérico."
+   },
+   {
+    "d": "dificil",
+    "q": "Según la periodización clásica de Piaget, ¿cuál de las siguientes correspondencias entre estadio y rango de edad es la correcta?",
+    "o": [
+     "Sensoriomotor (0-2 años), preoperacional (2-7 años), operaciones concretas (7-11 años), operaciones formales (a partir de 11-12 años)",
+     "Sensoriomotor (0-4 años), preoperacional (4-8 años), operaciones concretas (8-12 años), operaciones formales (a partir de 12-14 años)",
+     "Sensoriomotor (0-1 año), preoperacional (1-6 años), operaciones concretas (6-9 años), operaciones formales (a partir de 9 años)",
+     "Sensoriomotor (0-3 años), preoperacional (3-9 años), operaciones concretas (9-13 años), operaciones formales (a partir de 13 años)"
+    ],
+    "c": 0,
+    "e": "Piaget establece cuatro grandes estadios del desarrollo cognitivo: el sensoriomotor (0-2 años, dominado por la acción y los reflejos), el preoperacional (2-7 años, con aparición del pensamiento simbólico pero con limitaciones como el egocentrismo o la centración), el de las operaciones concretas (7-11 años, con capacidad de conservación y reversibilidad aplicadas a situaciones concretas) y el de las operaciones formales (a partir de los 11-12 años, con razonamiento abstracto e hipotético-deductivo)."
+   },
+   {
+    "d": "media",
+    "q": "Antes de trabajar la seriación propiamente dicha (ordenar varios elementos según un criterio), en Infantil conviene trabajar primero la comparación de cantidades entre solo dos elementos ('más que', 'menos que', 'igual que'), porque:",
+    "o": [
+     "Constituye la base perceptiva y lógica más sencilla sobre la que se apoyará después la ordenación de series con más de dos elementos",
+     "Es una capacidad completamente independiente que no guarda relación con la seriación posterior, una idea que contradice el principio didáctico de ir de lo más simple (comparar dos elementos) a lo más complejo (ordenar varios)",
+     "Resulta más compleja cognitivamente que ordenar directamente cinco o seis elementos",
+     "Solo se trabaja en el segundo ciclo de Primaria"
+    ],
+    "c": 0,
+    "e": "Comparar cantidades entre solo dos elementos ('más que', 'menos que', 'igual que') constituye la base perceptiva y lógica más sencilla sobre la que se apoyará después la ordenación de series con más de dos elementos; por ello resulta pedagógicamente adecuado trabajar primero estas comparaciones simples antes de plantear tareas de seriación con varios objetos, que exigen mantener en mente varias relaciones simultáneamente."
+   },
+   {
+    "d": "facil",
+    "q": "Plantear a niños de Infantil pequeños problemas cotidianos con apoyo manipulativo (por ejemplo, '¿cuántas galletas nos faltan si somos 5 y hay 3?') resulta especialmente adecuado porque:",
+    "o": [
+     "Permite iniciar el razonamiento lógico-matemático de forma contextualizada, apoyándose en objetos reales antes de recurrir al cálculo abstracto",
+     "Debe evitarse siempre en Infantil por ser un contenido exclusivo de Primaria, un criterio que reduce de forma injustificada la resolución de problemas a la etapa de Educación Primaria exclusivamente",
+     "Solo tiene sentido si se realiza mediante fichas escritas sin manipulación",
+     "No aporta ningún beneficio cognitivo en estas edades"
+    ],
+    "c": 0,
+    "e": "Plantear problemas cotidianos sencillos con apoyo manipulativo, como calcular cuántas galletas faltan repartiendo objetos reales, permite iniciar el razonamiento lógico-matemático de forma contextualizada y significativa para el niño, apoyándose en la manipulación de objetos concretos antes de exigirle un cálculo puramente abstracto y descontextualizado, que resultaría prematuro en estas edades."
+   },
+   {
+    "d": "dificil",
+    "q": "El uso cardinal del número (que responde a '¿cuántos hay?') se diferencia de su uso ordinal (que responde a '¿en qué posición está?') en que:",
+    "o": [
+     "El cardinal expresa la cantidad total de una colección, mientras que el ordinal expresa la posición relativa de un elemento dentro de una serie ordenada",
+     "Ambos usos son sinónimos y se refieren exactamente al mismo aspecto del número",
+     "El ordinal siempre se adquiere antes que el cardinal en el desarrollo infantil",
+     "El cardinal solo se aplica a conjuntos de más de diez elementos"
+    ],
+    "c": 0,
+    "e": "El uso cardinal del número responde a la pregunta '¿cuántos hay?' y expresa la cantidad total de elementos de una colección (por ejemplo, 'hay cinco lápices'), mientras que el uso ordinal responde a '¿en qué posición está?' y expresa el lugar relativo que ocupa un elemento dentro de una serie ordenada (por ejemplo, 'es el quinto de la fila'); ambos usos del número, aunque relacionados, expresan aspectos distintos y se van diferenciando progresivamente en el desarrollo infantil."
+   },
+   {
+    "d": "moidificil",
+    "q": "La capacidad de reversibilidad del pensamiento, que permite al niño comprender que una transformación (como verter un líquido) puede deshacerse mentalmente volviendo al estado inicial, se consolida generalmente, según Piaget, en torno a:",
+    "o": [
+     "Los 6-7 años, coincidiendo con el paso al estadio de las operaciones concretas",
+     "Los 2-3 años, al inicio de la etapa preoperacional",
+     "Los 9-10 años exclusivamente, nunca antes",
+     "El primer año de vida, durante el periodo sensoriomotor"
+    ],
+    "c": 0,
+    "e": "La reversibilidad del pensamiento, es decir, la capacidad de comprender mentalmente que una transformación (como verter un líquido de un recipiente a otro) puede deshacerse volviendo al estado inicial, se consolida en torno a los 6-7 años, coincidiendo con el paso del estadio preoperacional al de las operaciones concretas; antes de esa edad, el pensamiento del niño tiende a ser más rígido y centrado en los estados sucesivos de la transformación que en el proceso reversible que los conecta."
+   },
+   {
+    "d": "media",
+    "q": "El enfoque constructivista del desarrollo lógico-matemático en Infantil defiende que los conceptos matemáticos se construyen fundamentalmente:",
+    "o": [
+     "A partir de la acción y la experimentación directa del niño sobre objetos y situaciones reales, más que mediante la transmisión verbal de conceptos abstractos",
+     "Mediante la memorización repetida de definiciones formales enunciadas por el docente, una descripción que prescinde por completo del papel activo y mediador que este enfoque atribuye al adulto y al grupo de iguales",
+     "Exclusivamente a través de fichas de lápiz y papel desde el primer ciclo",
+     "Sin ninguna intervención ni mediación por parte del adulto"
+    ],
+    "c": 0,
+    "e": "El enfoque constructivista defiende que los conceptos lógico-matemáticos no se transmiten verbalmente de forma directa, sino que se construyen fundamentalmente a partir de la acción del propio niño sobre objetos y situaciones reales —manipulando, comparando, clasificando, contando— con la mediación del adulto, que acompaña y enriquece esa experiencia, más que mediante la simple memorización de definiciones o reglas enunciadas por el docente."
    }
   ]
  },
@@ -3653,6 +6533,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "Diversas corrientes pedagógicas actuales, entre ellas la pedagogía sistémica, coinciden en señalar la importancia de que el docente adopte, frente al alumnado y las familias, una actitud de respeto, escucha activa y reconocimiento de la diversidad de historias y contextos personales, evitando juzgar o imponer un único modelo de familia o de infancia como el único válido."
+   },
+   {
+    "d": "facil",
+    "q": "Howard Gardner es el autor de la teoría de las inteligencias múltiples, que defiende que:",
+    "o": [
+     "La inteligencia no es una capacidad única, sino que existen diversos tipos relativamente independientes (lingüística, lógico-matemática, musical, corporal-cinestésica, entre otras)",
+     "La inteligencia es una capacidad única y medible exclusivamente mediante pruebas de cociente intelectual",
+     "Solo existen dos tipos de inteligencia: la verbal y la matemática",
+     "La inteligencia es fija desde el nacimiento y no puede desarrollarse mediante la educación"
+    ],
+    "c": 0,
+    "e": "Howard Gardner formuló la teoría de las inteligencias múltiples, según la cual la inteligencia no constituye una capacidad única y global, sino un conjunto de capacidades relativamente independientes entre sí (lingüística, lógico-matemática, musical, espacial, corporal-cinestésica, interpersonal, intrapersonal y naturalista, entre otras identificadas posteriormente), lo que implica que un mismo niño puede destacar en unas y presentar más dificultades en otras, y que la escuela debería atender a esta diversidad de capacidades."
+   },
+   {
+    "d": "facil",
+    "q": "Albert Bandura, a través de su teoría del aprendizaje social, defendió que gran parte del aprendizaje infantil se produce:",
+    "o": [
+     "Por observación e imitación de modelos (aprendizaje vicario), sin necesidad de experimentar directamente las consecuencias",
+     "Únicamente mediante el condicionamiento clásico de estímulos y respuestas, un mecanismo que Bandura consideró insuficiente por sí solo para explicar la rapidez con la que los niños adquieren conductas complejas por observación",
+     "Exclusivamente a través de la maduración biológica, sin influencia del entorno social",
+     "Solo puede producirse tras haber recibido un refuerzo material directo"
+    ],
+    "c": 0,
+    "e": "Bandura defendió, a través de su teoría del aprendizaje social (o aprendizaje vicario), que gran parte del aprendizaje infantil se produce mediante la observación e imitación de modelos —adultos, compañeros o incluso personajes mediáticos— sin necesidad de que el niño experimente directamente las consecuencias de la conducta observada; su célebre experimento del 'muñeco Bobo' mostró cómo los niños imitaban conductas agresivas que habían visto realizar a un adulto modelo, incluso sin haber recibido ningún refuerzo directo por hacerlo."
+   },
+   {
+    "d": "media",
+    "q": "David Ausubel es el autor de la teoría del aprendizaje significativo, que sostiene que un aprendizaje resulta más duradero cuando:",
+    "o": [
+     "Se relaciona de forma sustancial con los conocimientos previos que ya posee el aprendiz, integrándose en su estructura cognitiva",
+     "Se memoriza literalmente y de forma mecánica, sin ninguna conexión con lo ya sabido, un procedimiento que Ausubel calificó expresamente como aprendizaje repetitivo, opuesto al aprendizaje significativo que él mismo defendía",
+     "Se presenta siempre mediante castigo si no se produce correctamente",
+     "Se produce exclusivamente mediante ensayo y error aleatorio"
+    ],
+    "c": 0,
+    "e": "Ausubel sostiene que un aprendizaje resulta significativo, y por tanto más duradero y funcional, cuando el nuevo contenido se relaciona de forma sustancial y no arbitraria con los conocimientos previos que ya posee el aprendiz, integrándose en su estructura cognitiva existente; frente a esto, sitúa el aprendizaje memorístico o repetitivo, en el que la nueva información se incorpora sin ninguna conexión significativa con lo ya sabido y resulta, por ello, mucho más frágil y fácil de olvidar."
+   },
+   {
+    "d": "dificil",
+    "q": "Una de las diferencias fundamentales entre las teorías de Piaget y Vygotski sobre la relación entre desarrollo y aprendizaje es que:",
+    "o": [
+     "Para Piaget el desarrollo cognitivo precede y condiciona al aprendizaje, mientras que para Vygotski el aprendizaje, mediado socialmente, puede impulsar y adelantar el desarrollo",
+     "Para Piaget el aprendizaje precede siempre al desarrollo, mientras que para Vygotski el desarrollo es completamente independiente del aprendizaje",
+     "Ambos autores defienden exactamente la misma relación entre desarrollo y aprendizaje, sin ninguna diferencia",
+     "Vygotski niega por completo la existencia de estadios evolutivos, a diferencia de Piaget"
+    ],
+    "c": 0,
+    "e": "Una diferencia clásica entre ambos autores es que Piaget considera que el desarrollo cognitivo sigue su propio curso madurativo y que es este desarrollo el que hace posible determinados aprendizajes (el aprendizaje va 'a remolque' del desarrollo), mientras que Vygotski defiende que el aprendizaje, especialmente cuando se produce con la mediación de otras personas dentro de la Zona de Desarrollo Próximo, puede impulsar y adelantar el propio desarrollo cognitivo del niño."
+   },
+   {
+    "d": "dificil",
+    "q": "El método de Decroly organiza el proceso didáctico en torno a tres fases fundamentales, que son:",
+    "o": [
+     "Observación, asociación y expresión",
+     "Observación, memorización y evaluación",
+     "Motivación, ejercitación y calificación",
+     "Presentación, repetición y examen"
+    ],
+    "c": 0,
+    "e": "Decroly organiza su método didáctico en torno a tres fases sucesivas: la observación (contacto directo del niño con los objetos, seres o hechos reales), la asociación (relacionar lo observado en el espacio y en el tiempo con otros conocimientos, estableciendo comparaciones y clasificaciones) y la expresión (comunicar lo aprendido, tanto de forma concreta —dibujo, modelado— como abstracta —lenguaje oral y escrito—)."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'periodos sensibles', central en la obra de Montessori, hace referencia a:",
+    "o": [
+     "Fases evolutivas de especial receptividad en las que el niño muestra un interés y una facilidad extraordinarios para adquirir determinadas capacidades",
+     "Los momentos del día en que el niño se muestra más cansado o irritable, una lectura errónea que confunde los periodos sensibles con simples variaciones del estado de ánimo a lo largo de la jornada escolar",
+     "Etapas en las que el niño rechaza sistemáticamente cualquier tipo de aprendizaje",
+     "Periodos de vacaciones escolares establecidos en el calendario del centro"
+    ],
+    "c": 0,
+    "e": "Los 'periodos sensibles' en la obra de Montessori son fases evolutivas transitorias en las que el niño muestra un interés y una facilidad extraordinarios para adquirir determinadas capacidades (por ejemplo, el orden, el lenguaje o el refinamiento sensorial); según Montessori, si el ambiente educativo aprovecha estos periodos ofreciendo los estímulos y materiales adecuados en el momento oportuno, el aprendizaje correspondiente se produce con especial facilidad y naturalidad."
+   },
+   {
+    "d": "moidificil",
+    "q": "Respecto al lenguaje egocéntrico (el niño que habla en voz alta mientras juega, sin dirigirse a nadie en concreto), Piaget y Vygotski mantienen interpretaciones distintas: mientras que para Piaget refleja una limitación del pensamiento infantil aún no socializado, para Vygotski:",
+    "o": [
+     "Constituye una herramienta que el niño utiliza para regular y planificar su propia conducta, precursora del lenguaje interior",
+     "Es exactamente el mismo fenómeno y ambos autores lo interpretan de idéntica manera, cuando en realidad ambos autores ofrecen lecturas claramente distintas sobre la función de ese habla dirigida a uno mismo",
+     "Se trata de un signo de trastorno del lenguaje que debe corregirse de inmediato",
+     "Solo aparece en niños con un desarrollo cognitivo por debajo de la media"
+    ],
+    "c": 0,
+    "e": "Mientras que para Piaget el lenguaje egocéntrico refleja una limitación transitoria del pensamiento infantil, todavía centrado en el propio punto de vista y no plenamente socializado, para Vygotski este habla en voz alta que el niño dirige a sí mismo mientras actúa constituye una auténtica herramienta psicológica que le ayuda a regular, planificar y controlar su propia conducta, y que con el tiempo se interioriza dando lugar al lenguaje interior o pensamiento verbal del adulto."
+   },
+   {
+    "d": "facil",
+    "q": "Jan Amos Comenius, considerado precursor de la pedagogía moderna con su obra 'Didáctica Magna', defendió el principio de:",
+    "o": [
+     "Enseñar todo a todos, promoviendo una educación universal y accesible",
+     "Reservar la educación exclusivamente a las clases sociales privilegiadas",
+     "Suprimir por completo el uso de imágenes en la enseñanza",
+     "La educación exclusivamente memorística en lenguas clásicas"
+    ],
+    "c": 0,
+    "e": "Comenius, en su obra 'Didáctica Magna' (siglo XVII), formuló el principio de 'enseñar todo a todos' (omnes omnia), defendiendo una educación universal y accesible, independientemente del origen social del alumnado, y proponiendo además métodos que se apoyaran en los sentidos y en imágenes (como su obra ilustrada 'Orbis Sensualium Pictus'), en lugar de basarse exclusivamente en la memorización de textos."
+   },
+   {
+    "d": "media",
+    "q": "Johann Heinrich Pestalozzi defendió una educación integral del niño basada en el desarrollo armónico de tres dimensiones, resumidas en la expresión:",
+    "o": [
+     "'Cabeza, corazón y manos', integrando lo intelectual, lo afectivo y lo práctico-manual",
+     "'Cuerpo, mente y espíritu', de raíz exclusivamente religiosa, una fórmula que en realidad corresponde a corrientes religiosas alejadas del enfoque integral y laico propio de Pestalozzi",
+     "'Disciplina, obediencia y silencio'",
+     "'Memoria, repetición y examen'"
+    ],
+    "c": 0,
+    "e": "Pestalozzi defendió una educación integral y armónica del niño, resumida en la fórmula 'cabeza, corazón y manos' (Kopf, Herz, Hand), que integra el desarrollo intelectual (cabeza), el desarrollo afectivo y moral (corazón) y el desarrollo práctico y manual (manos), oponiéndose a una educación centrada exclusivamente en la instrucción intelectual memorística."
+   },
+   {
+    "d": "dificil",
+    "q": "Rosa y Carolina Agazzi, pedagogas italianas, desarrollaron un método propio caracterizado especialmente por:",
+    "o": [
+     "El 'museo didáctico' o 'museo de los objetos pobres', con material cotidiano de escaso valor recogido y ordenado por los propios niños, y el uso de 'contrasegni' o contraseñas personales",
+     "El diseño de materiales sensoriales autocorrectivos de alta precisión, financiados con fondos propios",
+     "La creación de las primeras 'Case dei Bambini' en barrios populares de Roma",
+     "El desarrollo exclusivo de la educación musical mediante instrumentos de placas"
+    ],
+    "c": 0,
+    "e": "Las hermanas Rosa y Carolina Agazzi desarrollaron en Italia un método propio, próximo en el tiempo al de Montessori pero con rasgos diferenciados, basado en el 'museo didáctico' (también llamado 'museo de los objetos pobres'), en el que se recogían, clasificaban y ordenaban objetos cotidianos de escaso o nulo valor económico (botones, piedras, tapones) aportados por los propios niños, y en el uso de 'contrasegni' o contraseñas personales (símbolos o dibujos) con los que cada niño identificaba sus pertenencias y su lugar en el aula."
+   },
+   {
+    "d": "media",
+    "q": "La 'Zona de Desarrollo Próximo' (ZDP), concepto central de la teoría de Vygotski, se define como:",
+    "o": [
+     "La distancia entre lo que el niño es capaz de hacer de forma autónoma y lo que puede lograr con la ayuda de un adulto o de un compañero más capaz",
+     "El conjunto de aprendizajes que el niño ya domina completamente sin ninguna ayuda, una definición que ignora precisamente el papel de la ayuda externa, que es el elemento central que define esta zona según Vygotski",
+     "El periodo evolutivo comprendido entre el nacimiento y los dos años de edad",
+     "La distancia física entre el niño y el material didáctico dentro del aula"
+    ],
+    "c": 0,
+    "e": "La Zona de Desarrollo Próximo (ZDP) es, según Vygotski, la distancia entre el nivel de desarrollo real del niño, medido por lo que es capaz de resolver de forma autónoma, y su nivel de desarrollo potencial, medido por lo que es capaz de lograr con la ayuda, guía o colaboración de un adulto o de un compañero más capaz; es precisamente en esa zona donde resulta más eficaz la intervención educativa, mediante el proceso conocido como andamiaje."
+   },
+   {
+    "d": "facil",
+    "q": "El concepto de 'permanencia del objeto', descrito por Piaget dentro del estadio sensoriomotor, hace referencia a la capacidad del bebé para:",
+    "o": [
+     "Comprender que un objeto sigue existiendo aunque desaparezca de su campo de visión",
+     "Clasificar objetos según su color y su forma, una capacidad relacionada más bien con la seriación y la clasificación lógica que con la permanencia del objeto descrita en el estadio sensoriomotor",
+     "Realizar operaciones de suma y resta sencillas",
+     "Comprender el punto de vista de otra persona distinta a la suya"
+    ],
+    "c": 0,
+    "e": "La permanencia del objeto, concepto desarrollado por Piaget dentro del estadio sensoriomotor (0-2 años), hace referencia a la capacidad del bebé para comprender que un objeto sigue existiendo aunque haya desaparecido de su campo visual (por ejemplo, un juguete tapado con una tela); antes de adquirir esta capacidad, hacia los 8-9 meses aproximadamente, el bebé se comporta como si el objeto hubiera dejado de existir al desaparecer de su vista."
+   },
+   {
+    "d": "dificil",
+    "q": "En la teoría de Piaget, la diferencia entre 'asimilación' y 'acomodación' consiste en que:",
+    "o": [
+     "La asimilación incorpora nueva información a los esquemas cognitivos ya existentes, mientras que la acomodación modifica esos esquemas cuando la nueva información no encaja en ellos",
+     "La asimilación modifica los esquemas existentes, mientras que la acomodación los mantiene siempre inalterados",
+     "Ambos términos designan exactamente el mismo proceso cognitivo",
+     "La acomodación solo se produce durante el estadio de las operaciones formales"
+    ],
+    "c": 0,
+    "e": "En la teoría de Piaget, la asimilación es el proceso por el cual el niño incorpora nueva información o experiencias a los esquemas cognitivos que ya posee, interpretándola en función de ellos, mientras que la acomodación es el proceso complementario por el cual esos esquemas se modifican y ajustan cuando la nueva información no encaja bien en los esquemas existentes; la combinación equilibrada de ambos procesos (equilibración) es lo que permite el progreso cognitivo."
+   },
+   {
+    "d": "media",
+    "q": "El 'tanteo experimental', concepto propio de la pedagogía de Freinet, defiende que el niño aprende fundamentalmente:",
+    "o": [
+     "Mediante la experimentación activa por ensayo y error, extrayendo sus propias conclusiones de la experiencia directa",
+     "Únicamente mediante la explicación verbal previa del adulto, sin ninguna experimentación, un planteamiento que Freinet rechazó de forma explícita por considerarlo opuesto a la experimentación activa que él mismo defendía",
+     "A través de la repetición memorística de fórmulas ya elaboradas",
+     "Solo cuando se le castiga tras cometer un error"
+    ],
+    "c": 0,
+    "e": "El 'tanteo experimental', concepto propio de la pedagogía de Freinet, defiende que el niño construye su conocimiento fundamentalmente a través de la experimentación activa, por ensayo y error, extrayendo sus propias conclusiones de la experiencia directa con los objetos y las situaciones, en lugar de recibir el conocimiento ya elaborado y transmitido verbalmente por el adulto antes de cualquier experimentación propia."
+   },
+   {
+    "d": "media",
+    "q": "La pedagogía Waldorf, fundada por Rudolf Steiner, concede en la primera infancia una importancia especial a:",
+    "o": [
+     "El ritmo, la repetición de rutinas y la imitación del adulto como vías naturales de aprendizaje",
+     "La evaluación mediante exámenes estandarizados desde los primeros años, una práctica claramente alejada del enfoque Waldorf, que retrasa deliberadamente cualquier evaluación de tipo académico formal",
+     "El uso intensivo de pantallas y dispositivos digitales en el aula",
+     "La instrucción académica formal de la lectoescritura desde los tres años"
+    ],
+    "c": 0,
+    "e": "La pedagogía Waldorf, fundada por Rudolf Steiner sobre la base filosófica de la antroposofía, concede en la primera infancia una importancia especial al ritmo (organización repetitiva y previsible de las jornadas y las estaciones), a la repetición de rutinas y cuentos, y a la imitación del adulto como vía natural de aprendizaje en estas primeras edades, retrasando deliberadamente la instrucción académica formal, como la lectoescritura, a etapas posteriores."
+   },
+   {
+    "d": "facil",
+    "q": "Carl Rogers, desde el enfoque humanista, defendió que el papel del docente debe orientarse principalmente hacia:",
+    "o": [
+     "Facilitar el aprendizaje creando un clima de aceptación, empatía y confianza, más que imponer contenidos de forma directiva",
+     "Ejercer una autoridad estrictamente directiva basada en el castigo, una postura que Rogers identificó como propia de un modelo educativo directivo que él mismo criticó abiertamente",
+     "Limitarse a transmitir información sin ningún tipo de relación afectiva con el alumnado",
+     "Evaluar exclusivamente mediante pruebas objetivas estandarizadas"
+    ],
+    "c": 0,
+    "e": "Carl Rogers, desde el enfoque humanista de la psicología, trasladó al ámbito educativo la idea de que el docente debe actuar principalmente como facilitador del aprendizaje, creando un clima de aceptación incondicional, empatía y confianza que permita al alumnado desarrollarse y aprender de forma autónoma, en lugar de limitarse a transmitir contenidos de manera puramente directiva y autoritaria."
+   },
+   {
+    "d": "moidificil",
+    "q": "Una diferencia relevante entre los métodos de Montessori y de Decroly es que:",
+    "o": [
+     "Montessori enfatiza el trabajo individual con material sensorial autocorrectivo, mientras que Decroly propone un enfoque globalizador organizado en centros de interés, con mayor peso del trabajo grupal",
+     "Ambos métodos son idénticos en su organización del material y del espacio",
+     "Decroly rechaza cualquier forma de globalización del aprendizaje, a diferencia de Montessori",
+     "Montessori propone los centros de interés, mientras que Decroly desarrolló el material sensorial autocorrectivo"
+    ],
+    "c": 0,
+    "e": "Montessori pone el acento en el trabajo individual del niño con un material sensorial cuidadosamente diseñado y autocorrectivo, dentro de un ambiente preparado que respeta su ritmo propio, mientras que Decroly propone un enfoque globalizador del aprendizaje, organizado en torno a centros de interés vinculados a las necesidades básicas del niño, con mayor presencia del trabajo en grupo y de la relación entre los distintos contenidos escolares."
+   },
+   {
+    "d": "dificil",
+    "q": "Dentro de la periodización de Piaget, el estadio sensoriomotor abarca aproximadamente:",
+    "o": [
+     "De 0 a 2 años",
+     "De 0 a 4 años",
+     "De 2 a 4 años",
+     "De 1 a 3 años"
+    ],
+    "c": 0,
+    "e": "El estadio sensoriomotor, primero de los cuatro estadios descritos por Piaget, abarca aproximadamente desde el nacimiento hasta los 2 años de edad, y se caracteriza porque el bebé conoce el mundo fundamentalmente a través de sus percepciones sensoriales y de sus acciones motrices sobre los objetos, antes de que se desarrolle plenamente el pensamiento simbólico propio del estadio siguiente, el preoperacional."
+   },
+   {
+    "d": "media",
+    "q": "Emmi Pikler defendió que el desarrollo motor del bebé debe favorecerse principalmente mediante:",
+    "o": [
+     "La libertad de movimiento del propio niño, dejando que alcance por sí mismo las distintas posturas (sentarse, gatear, ponerse de pie) sin colocarlo el adulto en posturas que aún no domina",
+     "La colocación temprana y sistemática del bebé en posturas avanzadas para acelerar su desarrollo",
+     "El uso constante de andadores y dispositivos que sujeten al bebé",
+     "La ausencia total de vínculo afectivo durante los cuidados"
+    ],
+    "c": 0,
+    "e": "Emmi Pikler, pediatra y pedagoga húngara, defendió el principio de la libertad de movimiento (motricidad libre): el bebé debe poder alcanzar por sí mismo, a su propio ritmo y sin ayuda ni forzamiento del adulto, las distintas posturas de su desarrollo motor (girarse, sentarse, gatear, ponerse de pie), evitando colocarlo en posturas que todavía no domina de forma autónoma, ya que ello podría generar posiciones inestables o inadecuadas para su nivel madurativo real."
+   },
+   {
+    "d": "moidificil",
+    "q": "Respecto al papel del lenguaje en el desarrollo del pensamiento, mientras que para Piaget el lenguaje es sobre todo una manifestación del pensamiento ya alcanzado, para Vygotski:",
+    "o": [
+     "El lenguaje actúa como una auténtica herramienta psicológica que organiza y transforma el propio pensamiento, no solo como su reflejo",
+     "El lenguaje no tiene ninguna relación con el desarrollo del pensamiento, una afirmación que contradice la propia base de la psicología del desarrollo, para la que lenguaje y pensamiento están estrechamente vinculados",
+     "El pensamiento se desarrolla siempre con total independencia del lenguaje, en ambos autores por igual",
+     "El lenguaje aparece únicamente después de completado el desarrollo cognitivo, nunca antes"
+    ],
+    "c": 0,
+    "e": "Mientras que Piaget concibe el lenguaje sobre todo como una manifestación externa del pensamiento, que se desarrolla de forma relativamente independiente y refleja el nivel cognitivo ya alcanzado, Vygotski defiende que el lenguaje funciona como una auténtica herramienta psicológica que organiza, dirige y transforma activamente el propio pensamiento, de modo que el desarrollo cognitivo y el desarrollo del lenguaje están estrechamente entrelazados y se influyen mutuamente desde edades tempranas."
    }
   ]
  },
@@ -3899,6 +7019,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "La memoria musical infantil (recordar y reproducir melodías o ritmos sencillos) se desarrolla principalmente a través de la repetición frecuente y lúdica de canciones y juegos musicales en contextos significativos y agradables para el niño, y no mediante un único visionado puntual de un vídeo ni mediante la memorización de teoría musical abstracta, poco adecuada a esta edad."
+   },
+   {
+    "d": "facil",
+    "q": "El método pedagógico-musical de Edgar Willems parte de la idea de que la educación musical debe basarse, antes que en la instrucción técnica, en:",
+    "o": [
+     "El desarrollo de la musicalidad innata del niño a través de una vía sensorial y afectiva, antes de pasar a los aspectos intelectuales y técnicos",
+     "La lectura de partituras desde el primer contacto musical, un enfoque que en realidad corresponde a métodos de conservatorio clásico, alejados de la propuesta sensorial y afectiva de Willems",
+     "La ejecución instrumental virtuosa desde edades tempranas",
+     "La ausencia total de canto y de audición musical"
+    ],
+    "c": 0,
+    "e": "Edgar Willems defiende que la educación musical debe partir del desarrollo de la musicalidad innata del niño, siguiendo una vía predominantemente sensorial y afectiva (la sensibilización al sonido, al ritmo y a la melodía a través de la experiencia vivida) antes de abordar los aspectos más intelectuales y técnicos de la música, como la lectura de partituras o la teoría musical formal, que se introducen progresivamente en etapas posteriores."
+   },
+   {
+    "d": "media",
+    "q": "El método de Maurice Martenot concede especial importancia, antes de cualquier actividad musical propiamente dicha, a:",
+    "o": [
+     "Ejercicios breves de relajación y de control de la respiración, en sesiones cortas y muy concentradas",
+     "Sesiones de varias horas de duración centradas en la teoría musical escrita, una descripción que se ajusta más a un curso de canto coral para adultos que al método breve y concentrado ideado por Martenot",
+     "El uso exclusivo de instrumentos de viento metal",
+     "La memorización de la biografía de grandes compositores"
+    ],
+    "c": 0,
+    "e": "Maurice Martenot concede especial importancia, antes de cualquier actividad musical propiamente dicha, a breves ejercicios de relajación física y de control de la respiración, organizados en sesiones cortas pero muy concentradas (los llamados 'jalones' o etapas breves de trabajo), ya que consideraba que un estado corporal relajado y una atención bien centrada son condición previa para un aprendizaje musical eficaz."
+   },
+   {
+    "d": "dificil",
+    "q": "En el lenguaje musical, los conceptos de 'pulso', 'acento' y 'ritmo' se diferencian en que:",
+    "o": [
+     "El pulso es la pulsación regular y constante de base, el acento es el refuerzo periódico de determinados pulsos, y el ritmo es la organización particular de las duraciones sobre esa base",
+     "Los tres términos son sinónimos exactos y se refieren siempre al mismo fenómeno musical, una confusión habitual que iguala erróneamente estos tres conceptos, cuando en realidad cada uno describe un aspecto distinto de la organización temporal de la música",
+     "El acento es la pulsación de base, mientras que el pulso es su refuerzo periódico",
+     "El ritmo es siempre constante e igual al pulso, sin ninguna variación posible"
+    ],
+    "c": 0,
+    "e": "El pulso es la pulsación regular y constante que sirve de base temporal a una pieza musical (comparable a los latidos de un reloj); el acento es el refuerzo periódico que recae sobre determinados pulsos, dándoles mayor intensidad (por ejemplo, cada tres pulsos en un compás ternario); y el ritmo es la organización particular de las duraciones de los sonidos (largos, cortos) que se despliega sobre esa base de pulso y acento, dando a cada pieza su fisonomía característica."
+   },
+   {
+    "d": "media",
+    "q": "Las cuatro cualidades básicas del sonido que se trabajan en Educación Infantil son:",
+    "o": [
+     "Altura (agudo-grave), intensidad (fuerte-suave), timbre (la 'voz' propia de cada fuente sonora) y duración (largo-corto)",
+     "Melodía, armonía, forma y estilo",
+     "Compás, tonalidad, escala y acorde",
+     "Solfeo, dictado, transcripción y lectura"
+    ],
+    "c": 0,
+    "e": "Las cuatro cualidades básicas del sonido trabajadas en Infantil son la altura (si un sonido es agudo o grave), la intensidad (si es fuerte o suave), el timbre (la característica que permite distinguir la fuente sonora, como diferenciar la voz de un compañero de la de un instrumento) y la duración (si el sonido es largo o corto); estas cuatro cualidades constituyen la base para las primeras actividades de discriminación auditiva en el aula."
+   },
+   {
+    "d": "dificil",
+    "q": "Entre las cualidades del sonido, la 'altura' se diferencia de la 'intensidad' en que:",
+    "o": [
+     "La altura se refiere a si un sonido es agudo o grave, mientras que la intensidad se refiere a si un sonido es fuerte o suave",
+     "La altura se refiere a si un sonido es fuerte o suave, mientras que la intensidad se refiere a si es agudo o grave, una idea contraria a la evidencia, ya que ambas cualidades del sonido son independientes entre sí y pueden combinarse de cualquier manera",
+     "Ambas cualidades designan exactamente el mismo aspecto del sonido",
+     "La altura solo puede percibirse con instrumentos electrónicos"
+    ],
+    "c": 0,
+    "e": "La altura hace referencia a si un sonido es agudo (más 'alto') o grave (más 'bajo'), una cualidad relacionada con la frecuencia de la vibración sonora, mientras que la intensidad hace referencia a si un sonido es fuerte o suave, una cualidad relacionada con la amplitud de esa vibración; son, por tanto, dos dimensiones independientes del sonido: un sonido puede ser agudo y suave a la vez, o grave y fuerte, sin que ambas cualidades varíen necesariamente juntas."
+   },
+   {
+    "d": "facil",
+    "q": "Las canciones infantiles más adecuadas para los primeros niveles de Infantil suelen caracterizarse por presentar:",
+    "o": [
+     "Un ámbito melódico reducido, es decir, un número limitado de notas cercanas entre sí, adaptado al registro vocal todavía en desarrollo del niño",
+     "Un amplio ámbito melódico de varias octavas, similar al del repertorio operístico, un rango vocal que corresponde más bien al repertorio adulto y que resultaría muy difícil de entonar con afinación para un niño pequeño",
+     "Ausencia total de melodía, únicamente ritmo hablado",
+     "Un tempo siempre extremadamente rápido"
+    ],
+    "c": 0,
+    "e": "Las canciones adecuadas para los primeros niveles de Infantil suelen presentar un ámbito melódico reducido, es decir, se mueven dentro de un número limitado de notas cercanas entre sí (a menudo apenas una quinta o sexta), adaptándose así al registro vocal todavía limitado y en desarrollo del niño pequeño, lo que facilita que pueda cantarlas con comodidad y afinación."
+   },
+   {
+    "d": "media",
+    "q": "El uso de grafías musicales no convencionales (dibujos, símbolos o pictogramas que representan sonidos largos, cortos, fuertes o suaves) en Infantil tiene como finalidad principal:",
+    "o": [
+     "Iniciar la representación gráfica del sonido de forma accesible, antes de introducir la notación musical convencional en etapas posteriores",
+     "Sustituir definitivamente el aprendizaje de la notación musical convencional en cualquier etapa, una idea que invierte la finalidad real de estas grafías, pensadas precisamente como paso previo y no como sustituto definitivo de la notación convencional",
+     "Evaluar exclusivamente la capacidad de dibujo del alumnado",
+     "Trabajar contenidos exclusivos del área de lengua extranjera"
+    ],
+    "c": 0,
+    "e": "El uso de grafías musicales no convencionales —dibujos, líneas onduladas, puntos grandes o pequeños que representan visualmente sonidos largos o cortos, fuertes o suaves— permite iniciar de forma accesible y comprensible la idea de representar gráficamente el sonido, sin necesidad de conocer todavía la notación musical convencional (pentagrama, figuras), que se introducirá de forma progresiva en etapas educativas posteriores."
+   },
+   {
+    "d": "media",
+    "q": "Las actividades de 'paisaje sonoro' (identificar y explorar los sonidos del entorno cercano: la calle, el patio, la naturaleza) contribuyen especialmente a:",
+    "o": [
+     "Desarrollar la escucha activa y la discriminación auditiva a partir de sonidos cotidianos y no exclusivamente musicales",
+     "Sustituir por completo el trabajo con instrumentos musicales convencionales, una afirmación que contradice el propio objetivo de estas actividades, que buscan precisamente ampliar la escucha más allá de lo puramente instrumental",
+     "Reducir la capacidad de atención del alumnado",
+     "Trabajar únicamente aspectos motrices sin ninguna relación con la audición"
+    ],
+    "c": 0,
+    "e": "Las actividades de 'paisaje sonoro', en las que el alumnado identifica y explora los sonidos presentes en su entorno cercano (el tráfico, los pájaros, el viento, las voces del patio), contribuyen especialmente a desarrollar la escucha activa y la capacidad de discriminación auditiva, ampliando la educación musical más allá de los sonidos estrictamente musicales hacia el paisaje sonoro cotidiano que rodea al niño."
+   },
+   {
+    "d": "facil",
+    "q": "En Educación Infantil, se considera que los primeros y más accesibles 'instrumentos musicales' del niño son:",
+    "o": [
+     "Su propia voz y su propio cuerpo, mediante el canto y la percusión corporal",
+     "Instrumentos electrónicos con teclado, desde el nacimiento",
+     "Instrumentos de cuerda frotada, como el violín, desde el nacimiento",
+     "Instrumentos de viento metal de gran tamaño"
+    ],
+    "c": 0,
+    "e": "En Educación Infantil se considera que la voz y el propio cuerpo del niño son sus primeros y más accesibles 'instrumentos musicales', ya que están siempre disponibles y no requieren ningún material externo: mediante el canto y la percusión corporal (palmas, pies, chasquidos, golpes en distintas partes del cuerpo) el niño puede experimentar de forma inmediata con el ritmo, la intensidad y el timbre sonoro."
+   },
+   {
+    "d": "dificil",
+    "q": "El 'tempo' (velocidad general de una pieza musical: rápido o lento) se diferencia del 'pulso' en que:",
+    "o": [
+     "El pulso es la pulsación regular que marca la base rítmica, mientras que el tempo indica la velocidad general a la que se sucede esa pulsación",
+     "Ambos términos son completamente sinónimos y designan lo mismo, una confusión frecuente que iguala erróneamente la velocidad general de la pieza con la pulsación regular que le sirve de base",
+     "El tempo se refiere exclusivamente a la intensidad del sonido, no a su velocidad",
+     "El pulso solo existe en la música instrumental, nunca en el canto"
+    ],
+    "c": 0,
+    "e": "El pulso es la pulsación regular de base que marca el tiempo musical, mientras que el tempo indica la velocidad general a la que se sucede esa pulsación (más rápida o más lenta); así, una misma canción puede interpretarse manteniendo siempre su mismo pulso interno, pero a un tempo distinto (más deprisa o más despacio), lo que cambiará la sensación general de velocidad de la pieza sin alterar su estructura rítmica de base."
+   },
+   {
+    "d": "media",
+    "q": "La inclusión del folclore infantil propio de Galicia (cantigas de berce, xogos populares cantados, ritmos de muiñeira adaptados) en el aula de Infantil resulta especialmente valiosa porque:",
+    "o": [
+     "Conecta al alumnado con su patrimonio cultural y lingüístico más próximo, además de aportar un repertorio sencillo y significativo",
+     "Debe sustituir por completo cualquier repertorio de otras culturas o tradiciones, una idea que ignora el valor educativo y cultural del repertorio propio frente a repertorios ajenos a la realidad cercana del alumnado",
+     "No aporta ningún valor educativo adicional frente a otras canciones",
+     "Solo puede trabajarse en la etapa de Educación Primaria"
+    ],
+    "c": 0,
+    "e": "Incorporar el folclore infantil propio de Galicia —cantigas de berce, xogos populares cantados, ritmos de muiñeira adaptados a la edad— en el aula de Infantil conecta al alumnado con su patrimonio cultural y lingüístico más próximo, aportando además un repertorio sencillo, significativo y cercano a su realidad cotidiana, sin que ello suponga excluir otras tradiciones musicales que también enriquecen la educación musical del alumnado."
+   },
+   {
+    "d": "facil",
+    "q": "Para los primeros contactos sonoros de bebés y niños muy pequeños suelen emplearse instrumentos sencillos como:",
+    "o": [
+     "Sonajeros, tambores pequeños y campanas, de manejo fácil y respuesta sonora inmediata",
+     "Pianos de cola de tamaño estándar",
+     "Instrumentos de viento que requieren técnica de soplido compleja",
+     "Instrumentos electrónicos con múltiples funciones programables"
+    ],
+    "c": 0,
+    "e": "Para los primeros contactos sonoros de bebés y niños muy pequeños se emplean instrumentos sencillos de manejo fácil y respuesta sonora inmediata, como sonajeros, tambores pequeños o campanas, que no requieren ninguna técnica instrumental compleja y permiten al niño explorar de forma autónoma la relación entre su propia acción (agitar, golpear) y el sonido resultante."
+   },
+   {
+    "d": "media",
+    "q": "La audición musical 'activa', frente a la escucha meramente 'pasiva', se caracteriza en Infantil porque el niño:",
+    "o": [
+     "Participa mientras escucha, respondiendo con movimiento, gesto, percusión corporal o identificación de elementos musicales concretos",
+     "Permanece siempre en silencio absoluto y sin ningún tipo de respuesta corporal, una idea que contradice el sentido de las actividades de escucha activa, pensadas justamente para implicar al niño de forma participativa",
+     "No necesita prestar ninguna atención a lo que escucha",
+     "Solo puede realizarse con música de tipo clásico instrumental"
+    ],
+    "c": 0,
+    "e": "La audición musical activa se diferencia de la escucha meramente pasiva en que el niño participa mientras escucha, respondiendo con movimiento corporal, gestos, percusión corporal o identificando elementos musicales concretos (un instrumento, un cambio de intensidad, una repetición), en lugar de limitarse a permanecer sentado y en silencio sin ninguna implicación activa con lo que está oyendo."
+   },
+   {
+    "d": "moidificil",
+    "q": "Si se comparan los métodos musicales de Orff, Kodály, Dalcroze y Willems, puede afirmarse de forma general que:",
+    "o": [
+     "Orff prioriza el cuerpo y los instrumentos de placas, Kodály la voz cantada y el folclore, Dalcroze el movimiento rítmico corporal (euritmia) y Willems la sensibilización auditiva y afectiva previa a lo técnico",
+     "Los cuatro métodos son idénticos entre sí en su punto de partida y en sus materiales",
+     "Kodály prioriza los instrumentos de placas, mientras que Orff se centra exclusivamente en la voz",
+     "Willems y Dalcroze comparten un enfoque idéntico basado únicamente en la lectura de partituras"
+    ],
+    "c": 0,
+    "e": "De forma general, puede afirmarse que Orff prioriza el uso del cuerpo (percusión corporal), la palabra y los instrumentos de placas de fácil manejo; Kodály otorga un papel central a la voz cantada y al folclore de la propia cultura; Dalcroze se centra en el movimiento rítmico corporal a través de la euritmia; y Willems pone el acento en la sensibilización auditiva y afectiva del niño como paso previo a cualquier aprendizaje técnico o intelectual de la música."
+   },
+   {
+    "d": "media",
+    "q": "Las actividades de danza y movimiento asociadas a la música en Infantil contribuyen especialmente al desarrollo de:",
+    "o": [
+     "La lateralidad y el esquema corporal, al exigir la coordinación de los distintos segmentos del cuerpo en el espacio",
+     "Exclusivamente la memoria a corto plazo de tipo verbal, una idea que ignora la implicación de todo el cuerpo, y no solo de la memoria verbal, en las actividades de danza y movimiento",
+     "El vocabulario matemático abstracto",
+     "La motricidad fina de la mano, sin relación con el cuerpo global"
+    ],
+    "c": 0,
+    "e": "Las actividades de danza y movimiento asociadas a la música exigen coordinar distintos segmentos del cuerpo en el espacio y diferenciar el lado derecho del izquierdo al seguir determinados desplazamientos o gestos, lo que contribuye de forma especial al desarrollo de la lateralidad y a la consolidación del esquema corporal, además de trabajar el sentido del ritmo de forma vivida y corporal."
+   },
+   {
+    "d": "facil",
+    "q": "El uso de audiciones de música tranquila (por ejemplo, ciertas piezas clásicas) en momentos de transición o de relajación en el aula de Infantil tiene como finalidad principal:",
+    "o": [
+     "Favorecer un clima de calma y contribuir a la autorregulación emocional del alumnado en esos momentos concretos",
+     "Sustituir por completo el trabajo sistemático de educación musical",
+     "Evaluar exclusivamente el gusto musical del alumnado",
+     "Aumentar deliberadamente el nivel de activación y excitación del grupo"
+    ],
+    "c": 0,
+    "e": "Utilizar audiciones de música tranquila, como ciertas piezas del repertorio clásico, en momentos de transición entre actividades o de relajación, favorece un clima de calma en el aula y contribuye a que el alumnado aprenda progresivamente a autorregular su nivel de activación emocional, sin que ello sustituya el trabajo sistemático y variado de la educación musical a lo largo de la jornada escolar."
+   },
+   {
+    "d": "dificil",
+    "q": "El llamado 'método de la lengua materna', propio del enfoque Suzuki, defiende que el aprendizaje musical (especialmente instrumental) debe producirse:",
+    "o": [
+     "De forma similar a como el niño aprende su lengua materna, por inmersión, escucha repetida e imitación, antes de acceder a la lectura de partituras",
+     "Exclusivamente a través del estudio previo y exhaustivo de la teoría musical escrita, un planteamiento contrario al propio método Suzuki, que precisamente pospone la lectura de partituras a una fase posterior del aprendizaje",
+     "Sin ningún tipo de escucha musical previa a la ejecución instrumental",
+     "Únicamente en la edad adulta, nunca en la infancia"
+    ],
+    "c": 0,
+    "e": "El llamado 'método de la lengua materna', propio del enfoque Suzuki, defiende que el aprendizaje musical, y en especial el instrumental, debe producirse de forma similar a como el niño aprende a hablar su lengua materna: mediante una escucha repetida y temprana, la imitación constante del entorno musical y la práctica guiada, dejando la lectura formal de partituras para un momento posterior, una vez que el niño ya domina de forma práctica los elementos musicales básicos."
+   },
+   {
+    "d": "media",
+    "q": "Ofrecer al alumnado de Infantil experiencias con una amplia variedad de timbres (voz, cuerpo, instrumentos, sonidos del entorno) tiene como finalidad principal:",
+    "o": [
+     "Enriquecer y afinar la capacidad de discriminación auditiva y el reconocimiento de distintas fuentes sonoras",
+     "Limitar la capacidad de atención auditiva del alumnado",
+     "Sustituir el trabajo de la voz cantada por el uso exclusivo de instrumentos",
+     "Evitar cualquier tipo de silencio durante las actividades musicales"
+    ],
+    "c": 0,
+    "e": "Ofrecer experiencias sonoras con una amplia variedad de timbres —la propia voz, el cuerpo, distintos instrumentos y los sonidos del entorno— enriquece y afina la capacidad de discriminación auditiva del alumnado, ayudándole a reconocer y diferenciar distintas fuentes sonoras entre sí, una habilidad perceptiva de base para la educación musical posterior."
+   },
+   {
+    "d": "moidificil",
+    "q": "Una de las herramientas características del método Kodály, distinta del enfoque instrumental propio de Orff, es:",
+    "o": [
+     "La fononimia, es decir, el uso de signos manuales que representan la altura de las notas, junto con un sistema de solfeo relativo apoyado en sílabas",
+     "El empleo exclusivo de xilófonos y metalófonos de placas desmontables, una descripción que corresponde más bien a un taller exclusivo de percusión, sin el componente vocal y de solfeo relativo propio de Kodály",
+     "El rechazo absoluto del canto en cualquiera de sus actividades",
+     "El uso obligatorio de la notación musical convencional desde el primer contacto"
+    ],
+    "c": 0,
+    "e": "Frente al enfoque más instrumental de Orff, Kodály desarrolló herramientas propias como la fononimia (un conjunto de signos manuales que, colocados a distinta altura, representan visualmente la altura de las notas mientras se cantan) junto con un sistema de solfeo relativo apoyado en sílabas (do, re, mi...), que facilitan al niño interiorizar de forma corporal y vocal las relaciones entre los sonidos antes de acceder a la notación musical convencional."
+   },
+   {
+    "d": "media",
+    "q": "En el currículo de Educación Infantil de Galicia, el lenguaje musical se trabaja de forma transversal e integrada, generalmente junto con otros lenguajes expresivos, dentro del área relativa a:",
+    "o": [
+     "Los lenguajes: comunicación y representación de la realidad",
+     "El crecimiento en armonía, sin relación con los demás lenguajes",
+     "Una asignatura independiente y exclusiva denominada 'Música'",
+     "El descubrimiento y la exploración del entorno físico, natural y social"
+    ],
+    "c": 0,
+    "e": "En el currículo de Educación Infantil de Galicia no existe una asignatura independiente de 'Música', sino que el lenguaje musical se trabaja de forma transversal e integrada, junto con los demás lenguajes expresivos (plástico, corporal, audiovisual), dentro del área de 'Los lenguajes: comunicación y representación de la realidad', abordando de manera conjunta las distintas formas en que el alumnado se expresa y se comunica."
    }
   ]
  },
@@ -4145,6 +7505,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "Ante preguntas o comentarios de contenido sexual inapropiados para la edad —que en ocasiones surgen por la exposición a contenidos inadecuados fuera del centro (por ejemplo, en internet o la televisión)—, el profesorado debe acoger la situación con calma, sin alarma ni juicio hacia el niño, informar a la familia si procede, y mantenerse atento a posibles indicadores adicionales que pudieran requerir una valoración especializada, evitando tanto ignorar la situación como interrogar de forma insistente al niño."
+   },
+   {
+    "d": "media",
+    "q": "A diferencia de la identidad de género básica, que suele alcanzarse hacia los 2-3 años, la 'constancia de género' (comprender que el propio género es estable y no cambia aunque varíe la ropa, el peinado o el juego) se consolida generalmente:",
+    "o": [
+     "Algo más tarde, hacia los 5-7 años, coincidiendo aproximadamente con el final de la etapa de Infantil",
+     "En el primer año de vida, antes que la propia identidad de género, una edad que corresponde en realidad al periodo previo a cualquier reconocimiento verbal del propio género, y no a su posterior constancia",
+     "Nunca llega a consolidarse durante la infancia",
+     "Exclusivamente en la adolescencia, a partir de los 12 años"
+    ],
+    "c": 0,
+    "e": "La identidad de género básica —el reconocerse a uno mismo como niño o niña— suele alcanzarse hacia los 2-3 años, pero la comprensión de que esa identidad es estable en el tiempo y no depende de factores externos como la ropa, el peinado o el tipo de juegos (la llamada 'constancia de género') requiere un desarrollo cognitivo algo mayor y se consolida generalmente algo más tarde, hacia los 5-7 años, coincidiendo aproximadamente con el final de la etapa de Educación Infantil."
+   },
+   {
+    "d": "media",
+    "q": "El principio de que 'mi cuerpo es mío', trabajado en la educación afectivo-sexual de Infantil, se traduce en la práctica educativa, entre otras cosas, en:",
+    "o": [
+     "No obligar a un niño a dar besos o abrazos a otras personas si no lo desea, aunque se trate de familiares",
+     "Exigir siempre muestras físicas de cariño a familiares y visitas como norma de cortesía, una norma social que en realidad contradice el propio principio de autonomía corporal que se busca transmitir al niño en Infantil",
+     "Prohibir cualquier contacto físico afectivo entre el alumnado y el profesorado",
+     "Ignorar por completo las preferencias del niño respecto al contacto físico"
+    ],
+    "c": 0,
+    "e": "El principio de que 'mi cuerpo es mío' implica reconocer al niño como titular de su propio cuerpo y respetar su decisión sobre el contacto físico que desea o no desea recibir; en la práctica educativa, esto se traduce, por ejemplo, en no obligar a un niño a dar un beso o un abrazo a un familiar o a una visita si no lo desea, ofreciendo alternativas (como un saludo verbal o con la mano), de modo que aprenda desde pequeño que tiene derecho a decidir sobre su propio cuerpo."
+   },
+   {
+    "d": "dificil",
+    "q": "Según la teoría psicosexual clásica de Sigmund Freud, la etapa infantil (aproximadamente entre los 3 y los 6 años) coincide con la denominada:",
+    "o": [
+     "Fase fálica, en la que el interés se centra en la zona genital y aparece el llamado complejo de Edipo",
+     "Fase oral, centrada exclusivamente en la succión y la alimentación, una fase que Freud sitúa más bien en el primer año de vida, centrada en la succión, y no en el tramo de edad propio de Infantil",
+     "Fase anal, centrada en el control de esfínteres",
+     "Fase de latencia, en la que se produce un descenso del interés sexual"
+    ],
+    "c": 0,
+    "e": "En la teoría psicosexual clásica de Freud, la etapa comprendida aproximadamente entre los 3 y los 6 años corresponde a la fase fálica, en la que, según esta teoría, el interés y la energía libidinal se centran en la zona genital y aparece el llamado complejo de Edipo (en el caso del niño varón) o complejo de Electra (en el caso de la niña); esta fase iría seguida, según Freud, de un periodo de latencia en el que el interés sexual descendería hasta la pubertad."
+   },
+   {
+    "d": "media",
+    "q": "En educación afectivo-sexual conviene distinguir entre 'sexo' y 'género', ya que:",
+    "o": [
+     "El sexo hace referencia a las características biológicas con las que se nace, mientras que el género hace referencia a la construcción social y cultural asociada a ser hombre o mujer",
+     "Ambos términos son exactamente sinónimos y no existe ninguna diferencia conceptual entre ellos",
+     "El género se refiere exclusivamente a características biológicas, mientras que el sexo es una construcción social",
+     "El sexo es un concepto que solo se aplica a la especie humana adulta"
+    ],
+    "c": 0,
+    "e": "El sexo hace referencia a las características biológicas con las que se nace (anatómicas, cromosómicas, hormonales), mientras que el género hace referencia a la construcción social y cultural que una determinada sociedad asocia a ser hombre o mujer (roles, expectativas, comportamientos considerados 'propios' de cada sexo); distinguir ambos conceptos permite comprender que muchas diferencias observadas entre niños y niñas responden más a construcciones culturales que a determinaciones biológicas."
+   },
+   {
+    "d": "dificil",
+    "q": "Para distinguir la curiosidad sexual exploratoria normativa de una posible señal de alarma en la etapa infantil, un elemento especialmente relevante es que la conducta preocupante:",
+    "o": [
+     "Muestra un conocimiento sexual explícito o detallado que no se corresponde con lo esperable para la edad del niño, más allá de la simple curiosidad corporal",
+     "Se produce ocasionalmente y de forma espontánea durante el juego libre, un dato que, aislado y sin otros elementos de contexto, no permite por sí solo diferenciar la curiosidad normativa de una señal de alarma",
+     "Desaparece con facilidad cuando el adulto redirige la atención del niño hacia otra actividad",
+     "Es compartida por varios niños del grupo por igual, de forma esporádica"
+    ],
+    "c": 0,
+    "e": "Un elemento especialmente relevante para distinguir la curiosidad sexual exploratoria normativa de una posible señal de alarma es el grado de conocimiento sexual explícito o detallado que muestra la conducta del niño: cuando ese conocimiento va claramente más allá de lo esperable para su edad y desarrollo (por ejemplo, reproducir conductas o vocabulario sexual adulto muy específico), constituye un indicio que debe llamar la atención del profesorado, a diferencia de la curiosidad corporal espontánea y ocasional propia de estas edades."
+   },
+   {
+    "d": "media",
+    "q": "Ante juegos exploratorios entre iguales de contenido corporal (como 'jugar a médicos'), habituales en algún momento de la etapa infantil, la actitud educativa más adecuada es:",
+    "o": [
+     "Entenderlos, en general, como parte de la curiosidad normativa del desarrollo, estableciendo con naturalidad los límites necesarios sin dramatizar ni culpabilizar",
+     "Sancionar siempre con severidad a todos los niños implicados en el juego",
+     "Ignorarlos por completo sin establecer ningún límite ni orientación",
+     "Informar automáticamente a los servicios de protección de menores en todos los casos, sin valorar el contexto"
+    ],
+    "c": 0,
+    "e": "Los juegos exploratorios entre iguales de contenido corporal, como 'jugar a médicos', son relativamente habituales en algún momento de la etapa infantil y suelen entenderse, en general, como parte de la curiosidad normativa del desarrollo; la actitud educativa más adecuada consiste en establecer con naturalidad los límites necesarios (por ejemplo, recordar que el cuerpo de cada uno se respeta) sin dramatizar la situación ni culpabilizar a los niños implicados."
+   },
+   {
+    "d": "facil",
+    "q": "Entre las estrategias básicas de prevención del abuso sexual infantil trabajadas de forma adaptada en Infantil se incluyen normas sencillas como:",
+    "o": [
+     "'Mi cuerpo es mío', diferenciar los secretos buenos de los malos, y saber a qué adulto de confianza pedir ayuda",
+     "Memorizar el número de teléfono de emergencias antes de aprender a hablar, una respuesta desproporcionada que confunde el establecimiento de límites educativos con una sanción disciplinaria hacia todo el grupo implicado",
+     "Aprender a defenderse físicamente de cualquier adulto desconocido",
+     "Desconfiar sistemáticamente de todos los adultos, incluida la propia familia"
+    ],
+    "c": 0,
+    "e": "Entre las estrategias básicas de prevención del abuso sexual infantil trabajadas de forma sencilla y adaptada a la edad en Infantil se incluyen normas como 'mi cuerpo es mío' (nadie debe tocarlo si el niño no quiere), la diferenciación entre secretos buenos (una sorpresa de cumpleaños) y secretos malos (algo que le hace sentir mal y que un adulto le pide guardar en secreto), y saber identificar a qué adulto de confianza puede acudir a pedir ayuda si algo le preocupa."
+   },
+   {
+    "d": "dificil",
+    "q": "Entre los posibles indicadores de un abuso sexual infantil, conviene diferenciar los de tipo físico (por ejemplo, molestias o lesiones en la zona genital sin explicación clara) de los de tipo comportamental, entre los que se incluyen:",
+    "o": [
+     "Cambios bruscos de conducta, retraimiento inusual, conductas sexualizadas impropias de la edad o miedo repentino hacia una persona concreta",
+     "Un desarrollo motor y del lenguaje acorde a lo esperado para la edad, un desarrollo evolutivo esperable que, precisamente por ser normativo, no constituye en sí mismo un indicador de riesgo o de alerta",
+     "Buen rendimiento escolar mantenido de forma estable",
+     "Interés habitual por participar en juegos grupales con normalidad"
+    ],
+    "c": 0,
+    "e": "Junto a los indicadores físicos de un posible abuso sexual infantil (como molestias o lesiones en la zona genital sin explicación médica clara), existen indicadores de tipo comportamental que también deben tenerse en cuenta, como cambios bruscos e inexplicados de conducta, un retraimiento inusual, la aparición de conductas sexualizadas que no corresponden al nivel evolutivo del niño, o un miedo repentino y desproporcionado hacia una persona concreta; ninguno de estos indicadores es concluyente por sí solo, pero su presencia debe motivar una atención especial y, si procede, la activación del protocolo correspondiente."
+   },
+   {
+    "d": "media",
+    "q": "El marco normativo español de protección a la infancia frente a la violencia (LOPIVI) establece para el personal docente, entre otras obligaciones, el deber de:",
+    "o": [
+     "Comunicar a las autoridades competentes cualquier indicio razonable de maltrato o abuso hacia un menor del que tenga conocimiento",
+     "Investigar personalmente y en solitario cualquier sospecha antes de informar a nadie, una actuación que contradice el propio sentido de la norma, que exige comunicar la sospecha a las autoridades y no investigarla en solitario",
+     "Guardar siempre en secreto absoluto cualquier sospecha de abuso, sin comunicarla",
+     "Actuar únicamente si la familia del menor solicita expresamente la intervención del centro"
+    ],
+    "c": 0,
+    "e": "La Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia (LOPIVI) establece, entre otras obligaciones, el deber del personal docente y de otros profesionales en contacto habitual con menores de comunicar a las autoridades competentes (servicios sociales, Fiscalía, fuerzas y cuerpos de seguridad) cualquier indicio razonable de maltrato o abuso del que tengan conocimiento en el ejercicio de sus funciones, sin que corresponda al centro educativo investigar por sí mismo ni determinar la existencia del abuso."
+   },
+   {
+    "d": "media",
+    "q": "La coordinación y corresponsabilidad entre la familia y la escuela en materia de educación afectivo-sexual en Infantil resulta especialmente relevante porque:",
+    "o": [
+     "Permite ofrecer al niño mensajes coherentes y evita contradicciones entre lo que se trabaja en el aula y lo que se transmite en el entorno familiar",
+     "La familia debe quedar completamente al margen de cualquier contenido trabajado en el centro escolar",
+     "La escuela debe sustituir por completo el papel educativo de la familia en este ámbito",
+     "No existe ninguna relación entre ambos contextos educativos en esta materia"
+    ],
+    "c": 0,
+    "e": "La coordinación y corresponsabilidad entre la familia y la escuela en materia de educación afectivo-sexual permite ofrecer al niño mensajes coherentes entre ambos contextos, evitando contradicciones que podrían generarle confusión (por ejemplo, que en el aula se fomente un vocabulario anatómico correcto y en casa se transmita justo lo contrario), sin que ello suponga que la escuela sustituya el papel educativo propio de la familia, sino que lo complementa."
+   },
+   {
+    "d": "facil",
+    "q": "El respeto a la diversidad afectivo-sexual (por ejemplo, la existencia de familias formadas por dos madres o dos padres) en la etapa infantil se trabaja principalmente:",
+    "o": [
+     "Mostrando con naturalidad esa diversidad como una realidad social más, sin necesidad de explicaciones sexuales explícitas impropias de la edad",
+     "Evitando cualquier mención a la diversidad familiar hasta la etapa de Secundaria, un silencio que dejaría sin abordar una realidad social presente ya en muchas de las aulas de Educación Infantil",
+     "Explicando de forma detallada y explícita aspectos sexuales adultos no adecuados para la edad",
+     "Presentando esa diversidad como una excepción anómala que debe corregirse"
+    ],
+    "c": 0,
+    "e": "El respeto a la diversidad afectivo-sexual, incluidas las familias homoparentales, se trabaja en Infantil mostrando con naturalidad esa diversidad como una realidad social más (por ejemplo, a través de cuentos con distintos modelos familiares), sin necesidad de entrar en explicaciones sexuales explícitas impropias de la edad: el objetivo en esta etapa no es explicar la orientación sexual de las personas adultas, sino normalizar y respetar la variedad de formas de familia y de afecto que existen."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según los 'Estándares de Educación Sexual para Europa' (OMS/BZgA), que orientan por franjas de edad los contenidos de la educación sexual, los contenidos previstos para el tramo de 0 a 4 años se centran especialmente en:",
+    "o": [
+     "El disfrute corporal, el placer de tocar y ser tocado con cariño, y el reconocimiento de las partes del cuerpo, incluidos los genitales",
+     "La explicación detallada de los métodos anticonceptivos disponibles, un contenido que estos estándares reservan para tramos de edad muy posteriores, propios de la adolescencia y no de la primera infancia",
+     "El estudio de las infecciones de transmisión sexual y su prevención",
+     "El análisis crítico de la pornografía y los medios de comunicación"
+    ],
+    "c": 0,
+    "e": "Los 'Estándares de Educación Sexual para Europa', elaborados por la OMS junto con el Centro Federal Alemán de Educación para la Salud (BZgA), organizan los contenidos de la educación sexual por franjas de edad; para el tramo de 0 a 4 años se contemplan especialmente aspectos como el disfrute y el conocimiento del propio cuerpo, el placer de tocar y ser tocado con cariño de forma adecuada, y el reconocimiento progresivo de las distintas partes del cuerpo, incluidos los genitales, dejando para tramos de edad posteriores contenidos más complejos como la reproducción o la prevención de infecciones de transmisión sexual."
+   },
+   {
+    "d": "media",
+    "q": "El respeto a la intimidad corporal en momentos como el cambio de ropa o el aseo en el aula de Infantil debe traducirse, entre otras medidas, en:",
+    "o": [
+     "Organizar espacios y tiempos que preserven razonablemente la intimidad del niño, evitando exposiciones innecesarias, sin generar por ello alarma ni rigidez excesiva",
+     "Exigir siempre la presencia simultánea de todo el grupo durante estos momentos, sin ninguna consideración a la intimidad",
+     "Prohibir por completo que el personal del centro colabore en tareas de higiene y cambio",
+     "Delegar exclusivamente en las familias cualquier cuidado relacionado con el aseo del niño"
+    ],
+    "c": 0,
+    "e": "El respeto a la intimidad corporal en momentos como el cambio de ropa o el aseo debe traducirse en organizar razonablemente los espacios y los tiempos para preservar la intimidad del niño, evitando exposiciones innecesarias frente al resto del grupo, sin que ello implique una rigidez excesiva ni genere en el niño una sensación de alarma o de vergüenza hacia su propio cuerpo, sino un acompañamiento natural y respetuoso de estas rutinas de cuidado."
+   },
+   {
+    "d": "media",
+    "q": "El juego simbólico en el que los niños representan roles familiares (jugar a 'papás y mamás') se considera, desde el punto de vista afectivo-sexual:",
+    "o": [
+     "Una actividad normativa que permite al niño explorar y comprender los vínculos afectivos y los roles familiares que observa a su alrededor",
+     "Una conducta que siempre debe evitarse y reconducirse hacia otro tipo de juego, una postura que privaría al niño de una vía habitual y valiosa para explorar y comprender los vínculos afectivos que observa a su alrededor",
+     "Un indicador automático de haber sufrido algún tipo de abuso",
+     "Una actividad sin ninguna relación con el desarrollo afectivo del niño"
+    ],
+    "c": 0,
+    "e": "El juego simbólico en el que los niños representan roles familiares, como 'jugar a papás y mamás', se considera una actividad normativa del desarrollo, a través de la cual el niño reproduce, explora y trata de comprender los vínculos afectivos, los roles y las dinámicas familiares que observa cotidianamente a su alrededor, del mismo modo que en otros juegos simbólicos representa otras situaciones sociales que le resultan significativas."
+   },
+   {
+    "d": "dificil",
+    "q": "Enseñar a los niños de Infantil a nombrar correctamente, con vocabulario anatómico preciso, las distintas partes de su cuerpo, incluidos los genitales, se considera especialmente relevante porque:",
+    "o": [
+     "Facilita que el niño pueda comunicar con claridad cualquier situación de malestar o de posible abuso, reduciendo su vulnerabilidad frente a este tipo de situaciones",
+     "No aporta ninguna ventaja frente al uso de eufemismos o diminutivos infantiles",
+     "Debe evitarse siempre en Infantil por resultar inapropiado para la edad",
+     "Solo tiene sentido a partir de la adolescencia"
+    ],
+    "c": 0,
+    "e": "Enseñar a los niños a nombrar correctamente, con vocabulario anatómico preciso, las distintas partes de su cuerpo, incluidos los genitales (en lugar de recurrir exclusivamente a diminutivos o eufemismos), facilita que puedan comunicar con claridad a un adulto cualquier situación de malestar corporal o una posible situación de abuso, reduciendo así su vulnerabilidad, ya que disponen de las palabras adecuadas para explicar lo que les ocurre sin ambigüedad."
+   },
+   {
+    "d": "media",
+    "q": "Trabajar la identificación y expresión de las emociones (alegría, miedo, tristeza, enfado) forma parte de la educación afectivo-sexual en Infantil porque:",
+    "o": [
+     "El reconocimiento y la gestión emocional constituyen una base necesaria para establecer relaciones afectivas sanas y respetuosas con uno mismo y con los demás",
+     "Las emociones no guardan ninguna relación con la dimensión afectivo-sexual de la persona, una afirmación que desconoce la estrecha relación entre la gestión emocional y el establecimiento de vínculos afectivos sanos y respetuosos",
+     "Se trata de un contenido que corresponde exclusivamente al área de psicomotricidad",
+     "Debe trabajarse únicamente a partir de la etapa de Educación Primaria"
+    ],
+    "c": 0,
+    "e": "Trabajar la identificación y expresión de las emociones básicas (alegría, miedo, tristeza, enfado) forma parte de la educación afectivo-sexual en Infantil porque el reconocimiento y la gestión adecuada de las propias emociones constituyen una base necesaria para establecer relaciones afectivas sanas, empáticas y respetuosas, tanto con uno mismo como con los demás, en línea con el carácter integral que debe tener esta educación en la etapa infantil."
+   },
+   {
+    "d": "facil",
+    "q": "El modo en que las personas adultas del entorno del niño (familia, profesorado) expresan el afecto y resuelven los conflictos entre sí influye en la educación afectivo-sexual infantil porque:",
+    "o": [
+     "Los niños aprenden en gran medida por observación e imitación de los modelos de relación afectiva que ven a su alrededor",
+     "Los niños no prestan ninguna atención a las relaciones entre las personas adultas de su entorno, una idea que ignora el papel central del aprendizaje por observación en la construcción de los modelos afectivos que el niño interioriza",
+     "Solo influye lo que se les explica de forma verbal y directa, nunca lo observado",
+     "Esta influencia desaparece por completo a partir de los 3 años de edad"
+    ],
+    "c": 0,
+    "e": "Los niños aprenden en gran medida por observación e imitación de los modelos de relación afectiva que ven en las personas adultas de su entorno (familia, profesorado): la forma en que estas expresan el cariño, resuelven los conflictos o se comunican entre sí influye de manera significativa en cómo el niño va construyendo, de forma implícita, su propio modelo de relación afectiva con los demás."
+   },
+   {
+    "d": "dificil",
+    "q": "La curiosidad y observación espontánea de las diferencias anatómicas entre niños y niñas (por ejemplo, al compartir el aseo o el cambio de ropa) suele aparecer de forma habitual en torno a:",
+    "o": [
+     "Los 3-4 años, en el marco de la curiosidad exploratoria propia de esta etapa del desarrollo",
+     "El primer mes de vida, antes de cualquier otro tipo de curiosidad corporal",
+     "Los 10-12 años, coincidiendo con el inicio de la pubertad",
+     "Nunca se produce esta observación durante la etapa de Infantil"
+    ],
+    "c": 0,
+    "e": "La curiosidad y observación espontánea de las diferencias anatómicas entre niños y niñas, por ejemplo al compartir momentos de aseo o de cambio de ropa en el aula, suele manifestarse de forma habitual en torno a los 3-4 años, dentro de la curiosidad exploratoria general propia de esta etapa del desarrollo, y debe abordarse por parte del profesorado con naturalidad, ofreciendo información sencilla y adecuada a la edad cuando el niño la solicita."
+   },
+   {
+    "d": "facil",
+    "q": "Ante una situación compleja relacionada con la educación afectivo-sexual o una posible situación de riesgo, el profesorado de Infantil cuenta habitualmente con el apoyo de:",
+    "o": [
+     "Los equipos de orientación y otros servicios especializados del centro o de la zona, a quienes puede consultar y derivar el caso",
+     "Ningún recurso de apoyo, debiendo resolver la situación siempre en solitario, una circunstancia que dejaría al profesorado sin ningún respaldo profesional, en contra de lo que establecen los protocolos habituales de los centros",
+     "Exclusivamente recursos externos ajenos por completo al sistema educativo",
+     "Un protocolo que prohíbe expresamente pedir asesoramiento a otros profesionales"
+    ],
+    "c": 0,
+    "e": "El profesorado de Infantil no debe afrontar en solitario situaciones complejas relacionadas con la educación afectivo-sexual o con una posible situación de riesgo: cuenta habitualmente con el apoyo de los equipos de orientación educativa y psicopedagógica y de otros servicios especializados (sociales, sanitarios) del centro o de la zona, a los que puede consultar, pedir asesoramiento y, si procede, derivar el caso siguiendo el protocolo establecido."
+   },
+   {
+    "d": "media",
+    "q": "Ante reacciones de vergüenza o rechazo hacia el propio cuerpo que a veces manifiestan los niños de Infantil, la actitud educativa recomendable es:",
+    "o": [
+     "Transmitir una imagen positiva y natural del propio cuerpo, evitando comentarios o gestos de rechazo por parte de las personas adultas del entorno",
+     "Reforzar esa vergüenza como una actitud deseable y a fomentar en todos los casos, una actitud que reforzaría precisamente la vergüenza corporal que se busca evitar, con un efecto contrario al pretendido",
+     "Ignorar por completo estas reacciones sin ofrecer ningún acompañamiento",
+     "Ridiculizar la reacción del niño delante del resto del grupo para corregirla"
+    ],
+    "c": 0,
+    "e": "Ante reacciones de vergüenza o rechazo hacia el propio cuerpo que a veces manifiestan los niños, la actitud educativa recomendable consiste en transmitir una imagen positiva, respetuosa y natural del propio cuerpo, evitando que las personas adultas del entorno emitan comentarios, gestos o expresiones de rechazo que puedan reforzar esa vergüenza, ya que la imagen corporal que el niño construye en estos primeros años influye en su autoestima y en su relación futura con su propio cuerpo."
    }
   ]
  },
@@ -4391,6 +7991,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "La investigación muestra que la cantidad y la calidad del lenguaje al que está expuesto el niño (el llamado 'input lingüístico': con cuánta gente habla, qué tan variado es ese lenguaje, si se le hacen preguntas abiertas) se relaciona directamente con un desarrollo más rico de su vocabulario y de sus estructuras gramaticales, siendo uno de los factores ambientales más influyentes en la adquisición del lenguaje."
+   },
+   {
+    "d": "facil",
+    "q": "El balbuceo, como fase característica de la etapa prelingüística del desarrollo del lenguaje, suele aparecer aproximadamente:",
+    "o": [
+     "Entre los 6 y los 8 meses de vida",
+     "En el primer mes de vida",
+     "A partir de los 18 meses",
+     "Únicamente después de la aparición de las primeras palabras"
+    ],
+    "c": 0,
+    "e": "El balbuceo (repetición de sílabas como 'ba-ba-ba' o 'ma-ma-ma') es una fase característica de la etapa prelingüística que suele aparecer aproximadamente entre los 6 y los 8 meses de vida, cuando el bebé empieza a experimentar de forma más controlada con los sonidos del habla, antes incluso de comprender su significado y mucho antes de que aparezcan las primeras palabras con intención comunicativa, en torno al año de edad."
+   },
+   {
+    "d": "media",
+    "q": "Jerome Bruner, con el concepto de 'sistema de apoyo para la adquisición del lenguaje' (LASS), destacó principalmente el papel de:",
+    "o": [
+     "Los mecanismos innatos y universales de la gramática, que por sí solos bastarían para explicar la adquisición del lenguaje según Chomsky",
+     "La interacción social y el andamiaje que el adulto ofrece al niño en contextos comunicativos compartidos",
+     "El refuerzo y la imitación como únicos mecanismos de aprendizaje",
+     "La maduración biológica exclusivamente, sin intervención del entorno"
+    ],
+    "c": 1,
+    "e": "Bruner, frente al innatismo puro de Chomsky, propuso el concepto de LASS (Language Acquisition Support System) para señalar que la adquisición del lenguaje no depende solo de una capacidad innata, sino también del andamiaje que el adulto ofrece en situaciones de interacción compartida y rutinaria (juegos de dar y tomar, rutinas de baño), ajustando su lenguaje al nivel del niño para facilitar su progreso."
+   },
+   {
+    "d": "dificil",
+    "q": "El dispositivo de adquisición del lenguaje (LAD) propuesto por Noam Chomsky sostiene fundamentalmente que:",
+    "o": [
+     "El lenguaje se aprende exclusivamente por imitación y refuerzo del entorno, sin que exista ninguna predisposición biológica específica de la especie",
+     "Existe una capacidad innata y específicamente humana que predispone al niño a adquirir cualquier lengua a la que esté expuesto",
+     "El lenguaje depende únicamente de la interacción social sin ninguna base biológica",
+     "Los niños nacen sin ninguna predisposición hacia el lenguaje"
+    ],
+    "c": 1,
+    "e": "Chomsky defendió, frente al conductismo, la existencia de un dispositivo de adquisición del lenguaje (LAD), una capacidad innata y específicamente humana que predispone al niño a extraer y aplicar reglas gramaticales de la lengua a la que está expuesto, explicando así la rapidez con la que los niños adquieren estructuras complejas pese a un input a menudo incompleto o poco sistemático."
+   },
+   {
+    "d": "facil",
+    "q": "Según el enfoque conductista de B. F. Skinner, la adquisición del lenguaje en el niño se explica principalmente por:",
+    "o": [
+     "Un dispositivo innato exclusivo de la especie humana, que actuaría con independencia total de cualquier estímulo o refuerzo ambiental",
+     "La imitación y el refuerzo que el entorno proporciona a las emisiones verbales del niño",
+     "El desarrollo espontáneo de estructuras cognitivas internas",
+     "La interacción social como único factor relevante"
+    ],
+    "c": 1,
+    "e": "Skinner, desde el conductismo, explicó la adquisición del lenguaje como un comportamiento aprendido mediante la imitación de modelos adultos y el refuerzo (verbal o gestual) que el entorno proporciona a las emisiones del niño que se aproximan a la lengua correcta, una postura después criticada por autores como Chomsky por no explicar la creatividad lingüística infantil."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'andamiaje' (scaffolding) aplicado al desarrollo del lenguaje, derivado de la zona de desarrollo próximo de Vygotsky, hace referencia a:",
+    "o": [
+     "Dejar al niño desarrollar el lenguaje en completa soledad, sin ningún tipo de mediación, modelo o intervención por parte de los adultos de su entorno",
+     "El apoyo ajustado y temporal que el adulto ofrece para que el niño alcance logros lingüísticos que aún no domina de forma autónoma",
+     "Un método de enseñanza exclusivamente memorístico",
+     "La ausencia de cualquier intervención adulta en el aula"
+    ],
+    "c": 1,
+    "e": "El andamiaje es el apoyo ajustado y temporal que un adulto o un compañero más capaz ofrece al niño para que consiga realizar, con ayuda, una tarea lingüística que todavía no domina de forma autónoma (completar una frase, encontrar la palabra adecuada), dentro de su zona de desarrollo próximo, retirando progresivamente ese apoyo a medida que el niño gana autonomía."
+   },
+   {
+    "d": "dificil",
+    "q": "En el desarrollo típico del lenguaje, la aparición de las primeras palabras con intención comunicativa suele situarse aproximadamente en torno a:",
+    "o": [
+     "Los 8 meses de edad",
+     "Los 12 meses de edad",
+     "Los 15 meses de edad",
+     "Los 24 meses de edad"
+    ],
+    "c": 1,
+    "e": "En el desarrollo típico del lenguaje, las primeras palabras con intención comunicativa clara (como 'mamá' o 'agua' usadas de forma referencial) suelen aparecer aproximadamente en torno a los 12 meses de edad, tras la etapa prelingüística de balbuceo, aunque existe variabilidad individual normal en torno a esa edad de referencia."
+   },
+   {
+    "d": "facil",
+    "q": "El 'lenguaje telegráfico', propio de una fase del desarrollo lingüístico infantil, se caracteriza por:",
+    "o": [
+     "El uso de frases completas con todos los nexos gramaticales y con una pronunciación ya plenamente ajustada a la norma adulta convencional",
+     "La combinación de dos o tres palabras clave, omitiendo artículos, nexos y otros elementos gramaticales",
+     "La ausencia total de cualquier combinación de palabras",
+     "El dominio ya completo de la conjugación verbal"
+    ],
+    "c": 1,
+    "e": "El lenguaje telegráfico es una fase característica del desarrollo lingüístico en la que el niño combina dos o tres palabras clave con contenido semántico ('nene agua', 'papá coche') omitiendo artículos, preposiciones y otros nexos gramaticales, de forma similar a como se redactaba antiguamente un telegrama, de ahí su nombre."
+   },
+   {
+    "d": "media",
+    "q": "La hipótesis 'silábico-alfabética', fase intermedia descrita por Ferreiro y Teberosky en la evolución de la escritura infantil, se caracteriza porque el niño:",
+    "o": [
+     "Utiliza grafismos sin ninguna relación con los sonidos de la palabra",
+     "Combina, dentro de una misma palabra, letras que representan sílabas completas con otras que ya representan fonemas individuales",
+     "Domina ya de forma estable y completa la correspondencia entre cada fonema y su letra correspondiente, sin cometer ningún tipo de error",
+     "Escribe exclusivamente vocales, sin ninguna consonante"
+    ],
+    "c": 1,
+    "e": "En la hipótesis silábico-alfabética, fase de transición entre la silábica y la alfabética, el niño combina dentro de una misma palabra letras que aún representan una sílaba completa con otras letras que ya representan fonemas individuales, un momento de conflicto cognitivo productivo en el que coexisten ambas lógicas antes de consolidar la correspondencia alfabética completa."
+   },
+   {
+    "d": "dificil",
+    "q": "La hipótesis 'alfabética', última fase descrita por Ferreiro y Teberosky en la evolución de la escritura infantil, implica que el niño:",
+    "o": [
+     "Ha comprendido que a cada fonema le corresponde una letra, aunque cometa errores ortográficos",
+     "Todavía no relaciona en absoluto sonido y letra",
+     "Escribe una única letra por cada sílaba de la palabra, sin relacionar aún los sonidos con fonemas individuales concretos",
+     "Es incapaz de escribir ninguna palabra completa"
+    ],
+    "c": 0,
+    "e": "En la hipótesis alfabética, última fase del proceso descrito por Ferreiro y Teberosky, el niño ha comprendido que existe una correspondencia sistemática entre cada fonema y una letra o grafema, por lo que ya escribe de forma alfabética, aunque todavía puede cometer errores ortográficos (por ejemplo, escribir 'caza' por 'casa'), propios de la norma convencional que se sigue afinando en Primaria."
+   },
+   {
+    "d": "facil",
+    "q": "Las repeticiones y vacilaciones al hablar (disfluencias) que muchos niños de 2 a 5 años presentan de forma pasajera deben, en general, considerarse:",
+    "o": [
+     "Un trastorno grave del habla que requiere corrección inmediata, sistemática y derivación urgente a un especialista en logopedia",
+     "Una manifestación frecuente y transitoria del desarrollo normal del lenguaje en esa franja de edad",
+     "Un signo inequívoco de tartamudez crónica",
+     "Motivo automático de derivación urgente sin más valoración"
+    ],
+    "c": 1,
+    "e": "Las disfluencias (repeticiones de sílabas o palabras, vacilaciones) que muchos niños presentan entre los 2 y los 5 años, cuando su capacidad de pensar va por delante de su capacidad articulatoria, suelen ser una manifestación frecuente y transitoria del desarrollo normal del lenguaje, y no un trastorno; conviene no corregir ni presionar al niño, y observar su evolución antes de una derivación."
+   },
+   {
+    "d": "media",
+    "q": "La 'dislalia', trastorno del habla relativamente frecuente en Infantil, se define como:",
+    "o": [
+     "Una dificultad para articular correctamente uno o varios fonemas, sin causa neurológica o sensorial",
+     "Un trastorno generalizado y grave que afecta a la comprensión global de cualquier mensaje oral o escrito",
+     "La incapacidad total para emitir cualquier sonido",
+     "Un problema exclusivamente relacionado con el vocabulario"
+    ],
+    "c": 0,
+    "e": "La dislalia es la dificultad para articular correctamente uno o varios fonemas (por ejemplo, sustituir la 'r' por la 'l', o no pronunciar bien la 's'), sin que exista una causa neurológica, sensorial o anatómica que la explique; es uno de los trastornos del habla más frecuentes en Infantil y en muchos casos se resuelve de forma espontánea o con intervención logopédica específica."
+   },
+   {
+    "d": "facil",
+    "q": "Las siglas TEL o TDL hacen referencia, en el ámbito del lenguaje infantil, a:",
+    "o": [
+     "El trastorno del espectro autista",
+     "El trastorno específico o del desarrollo del lenguaje",
+     "Una técnica de enseñanza de la lectoescritura",
+     "Un método de evaluación psicomotriz"
+    ],
+    "c": 1,
+    "e": "TEL (trastorno específico del lenguaje) o TDL (trastorno del desarrollo del lenguaje), términos que han ido sustituyéndose en la literatura más reciente, hacen referencia a una dificultad significativa y persistente en la adquisición del lenguaje que no se explica por otras causas como discapacidad auditiva, intelectual o trastornos generalizados del desarrollo, y que requiere una intervención específica."
+   },
+   {
+    "d": "dificil",
+    "q": "El tamaño aproximado del vocabulario expresivo de un niño con un desarrollo lingüístico típico se sitúa, en torno a los 3 años de edad, alrededor de:",
+    "o": [
+     "200 palabras",
+     "500 palabras",
+     "1.000 palabras",
+     "3.000 palabras"
+    ],
+    "c": 2,
+    "e": "Diversos estudios de desarrollo lingüístico sitúan el vocabulario expresivo de un niño con desarrollo típico en torno a las 1.000 palabras aproximadamente a los 3 años de edad, tras el fenómeno conocido como 'explosión del vocabulario' que suele producirse entre los 18 y los 24 meses, cifra que sigue creciendo con rapidez en los años siguientes."
+   },
+   {
+    "d": "media",
+    "q": "Basil Bernstein, en su teoría sociolingüística, distinguió entre 'código restringido' y 'código elaborado' para referirse a:",
+    "o": [
+     "Dos idiomas diferentes que un niño bilingüe puede dominar",
+     "Dos formas de uso del lenguaje, más contextual y sencilla una, y más explícita y compleja sintácticamente la otra, relacionadas con el contexto social y familiar",
+     "Dos alfabetos distintos de escritura",
+     "Dos trastornos del lenguaje de distinta gravedad"
+    ],
+    "c": 1,
+    "e": "Bernstein diferenció el código restringido, más ligado al contexto inmediato, con frases más cortas y significados implícitos compartidos, del código elaborado, más explícito, descontextualizado y sintácticamente más complejo, y relacionó el mayor o menor acceso a uno u otro código con las prácticas lingüísticas del entorno social y familiar del niño, con implicaciones para su adaptación al lenguaje académico escolar."
+   },
+   {
+    "d": "facil",
+    "q": "Las retahílas, adivinanzas y canciones de la tradición oral popular, trabajadas en Infantil, aportan especialmente:",
+    "o": [
+     "Un contacto lúdico con el ritmo, la rima y el patrimonio cultural del lenguaje",
+     "Únicamente contenidos matemáticos avanzados",
+     "Ningún valor para el desarrollo lingüístico",
+     "Un contenido exclusivo de la etapa de Primaria"
+    ],
+    "c": 0,
+    "e": "Las retahílas, adivinanzas y canciones de la tradición oral popular (por ejemplo, para elegir quién empieza un juego, o las canciones para dormir) ofrecen al niño un contacto lúdico con el ritmo, la rima y la musicalidad del lenguaje, además de transmitir patrimonio cultural oral que se ha ido pasando de generación en generación."
+   },
+   {
+    "d": "moidificil",
+    "q": "La combinación de dos palabras en un mismo enunciado (por ejemplo, 'quiero agua'), marcando el inicio de la etapa lingüística propiamente dicha, suele situarse aproximadamente entre:",
+    "o": [
+     "Los 6 y los 9 meses",
+     "Los 12 y los 15 meses",
+     "Los 18 y los 24 meses",
+     "Los 36 y los 42 meses"
+    ],
+    "c": 2,
+    "e": "La combinación de dos palabras en un mismo enunciado ('quiero agua', 'nene cae'), que marca el paso de la etapa holofrástica (una sola palabra con valor de frase completa) a un lenguaje ya combinatorio, suele situarse aproximadamente entre los 18 y los 24 meses de edad, coincidiendo con la llamada explosión del vocabulario."
+   },
+   {
+    "d": "media",
+    "q": "El 'habla egocéntrica' o 'habla privada' que emiten los niños pequeños mientras juegan, hablando en voz alta consigo mismos, fue interpretada de forma diferente por Piaget y por Vygotsky: mientras Piaget la consideraba un signo de inmadurez cognitiva, Vygotsky sostuvo que:",
+    "o": [
+     "No tiene ninguna función relevante en el desarrollo",
+     "Cumple una función de autorregulación y planificación de la propia conducta, precursora del pensamiento verbal interiorizado",
+     "Es idéntica en todo a la comunicación social dirigida a otros",
+     "Debe corregirse siempre para evitar que se mantenga en el tiempo"
+    ],
+    "c": 1,
+    "e": "Frente a Piaget, que interpretaba el habla egocéntrica como una manifestación de la incapacidad infantil para adoptar la perspectiva del otro, Vygotsky defendió que este habla privada cumple una función reguladora y de planificación de la propia acción ('ahora pongo este bloque aquí'), y que con el desarrollo se interioriza progresivamente hasta convertirse en pensamiento verbal silencioso, en lugar de desaparecer sin más por simple maduración."
+   },
+   {
+    "d": "facil",
+    "q": "Al seleccionar libros y cuentos adecuados para el alumnado de Infantil, resulta especialmente importante valorar:",
+    "o": [
+     "Que el texto sea extenso y con vocabulario técnico complejo",
+     "La calidad y proporción de la ilustración, la brevedad y sencillez del texto, y la adecuación temática a la edad",
+     "Que el libro carezca por completo de ilustraciones",
+     "Que el formato sea idéntico al de los libros de texto de Primaria"
+    ],
+    "c": 1,
+    "e": "Al seleccionar literatura infantil adecuada conviene valorar la calidad y el peso de la ilustración (a menudo protagonista junto al texto o incluso más que él), la brevedad y sencillez del texto acorde a la capacidad atencional de la edad, y una temática y un vocabulario adaptados al momento evolutivo del alumnado, con formatos resistentes y manejables para los más pequeños."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según los hitos habituales del desarrollo fonológico, la adquisición completa y estable de fonemas de articulación más compleja, como la vibrante múltiple /r/, suele consolidarse, en un desarrollo típico, en torno a:",
+    "o": [
+     "Los 2 años",
+     "Los 3 años",
+     "Los 4-5 años",
+     "Los 9-10 años"
+    ],
+    "c": 2,
+    "e": "Los fonemas de articulación más compleja, como la vibrante múltiple /rr/ (en palabras como 'perro'), suelen ser de los últimos en consolidarse en el desarrollo fonológico típico, situándose su adquisición estable en torno a los 4-5 años, mientras que otros fonemas más sencillos desde el punto de vista articulatorio se consolidan bastante antes; por ello no debe alarmar su ausencia en niños de 3 años."
+   },
+   {
+    "d": "media",
+    "q": "El método TPR (Total Physical Response o Respuesta Física Total), aplicable a la iniciación a una segunda lengua en Infantil, se basa fundamentalmente en:",
+    "o": [
+     "La memorización de listas de vocabulario sin apoyo gestual",
+     "Asociar el lenguaje oral en la nueva lengua con la acción física y el movimiento, respondiendo el niño con el cuerpo antes de producir habla",
+     "La lectoescritura formal desde el primer contacto con la lengua extranjera",
+     "Evitar cualquier tipo de apoyo gestual o visual"
+    ],
+    "c": 1,
+    "e": "El método TPR asocia el lenguaje oral en la nueva lengua con la acción física: el docente da una instrucción sencilla ('salta', 'toca la mesa') y el niño responde con el cuerpo, sin necesidad de producir aún habla en esa lengua, lo que reduce la ansiedad ante la producción oral y aprovecha el carácter motriz y vivencial propio del aprendizaje en la etapa infantil."
    }
   ]
  },
@@ -4637,6 +8477,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Observar cómo se mueve y se expresa corporalmente cada niño (si se mueve con soltura o con inhibición, si busca el contacto con otros niños o se mantiene aislado) permite al docente conocer mejor su desarrollo motor, emocional y relacional, información valiosa para ajustar la intervención educativa a las necesidades de cada niño."
+   },
+   {
+    "d": "facil",
+    "q": "Patricia Stokoe es reconocida especialmente por su aportación al desarrollo de:",
+    "o": [
+     "La psicomotricidad relacional en Francia, disciplina desarrollada de forma independiente por Bernard Aucouturier",
+     "La expresión corporal como disciplina pedagógica y artística en el ámbito hispanohablante",
+     "La teoría del apego infantil",
+     "El método Montessori de educación sensorial"
+    ],
+    "c": 1,
+    "e": "Patricia Stokoe, bailarina y pedagoga argentina, es reconocida como una de las principales impulsoras de la expresión corporal como disciplina pedagógica y artística en el ámbito hispanohablante, desarrollando un enfoque centrado en la exploración creativa del propio movimiento, alejado de la técnica de danza reglada, y muy influyente en la formación de docentes de Infantil."
+   },
+   {
+    "d": "media",
+    "q": "Rudolf Laban, referente teórico del movimiento expresivo, identificó varios factores o componentes básicos del movimiento entre los que se encuentran:",
+    "o": [
+     "Únicamente la velocidad y la dirección del desplazamiento por el espacio del aula",
+     "El espacio, el tiempo, el peso (o fuerza) y la fluidez del movimiento",
+     "Solo la altura y la anchura del cuerpo",
+     "Exclusivamente el color y la textura de la ropa"
+    ],
+    "c": 1,
+    "e": "Rudolf Laban, autor de referencia en el análisis del movimiento expresivo, identificó como factores básicos del movimiento el espacio (dónde se mueve), el tiempo (rápido o lento), el peso o fuerza (ligero o pesado) y la fluidez (libre o controlada), una base conceptual muy utilizada después para diseñar propuestas de expresión corporal en el aula."
+   },
+   {
+    "d": "dificil",
+    "q": "El 'diálogo tónico-emocional', concepto vinculado a los trabajos de Henri Wallon, hace referencia a:",
+    "o": [
+     "La comunicación exclusivamente verbal entre adulto y bebé, sin ningún componente corporal ni gestual implicado en el intercambio",
+     "La comunicación primitiva que se establece a través del tono muscular y el contacto corporal entre el bebé y el adulto, antes del lenguaje verbal",
+     "Un trastorno del tono muscular sin relación con lo emocional",
+     "Una técnica exclusiva de danza contemporánea"
+    ],
+    "c": 1,
+    "e": "El diálogo tónico-emocional, concepto vinculado a Henri Wallon, describe la comunicación primitiva y preverbal que se establece entre el bebé y el adulto a través del tono muscular y el contacto corporal (cómo se le coge en brazos, cómo responde el bebé con su propio tono), una forma de comunicación corporal que precede y sienta las bases afectivas para la comunicación verbal posterior."
+   },
+   {
+    "d": "facil",
+    "q": "En el enfoque de la psicomotricidad vivenciada propuesto por Bernard Aucouturier, una sesión suele estructurarse típicamente en varias fases, entre ellas:",
+    "o": [
+     "Un ritual de entrada, juego motor y simbólico, y representación y relajación final",
+     "Una única fase idéntica sin ninguna estructura interna a lo largo de toda la sesión, curso tras curso",
+     "Exclusivamente ejercicios de mesa y lápiz y papel",
+     "Solo una fase de evaluación individual cronometrada"
+    ],
+    "c": 0,
+    "e": "Aucouturier propone estructurar la sesión de psicomotricidad vivenciada en varias fases características: un ritual de entrada que marca el inicio, un momento central de juego motor, simbólico y sensoriomotor, y una fase final de representación (dibujo, verbalización de lo vivido) y relajación, que ayuda a los niños a volver progresivamente a la calma."
+   },
+   {
+    "d": "media",
+    "q": "Las técnicas de relajación adaptadas a Infantil (por ejemplo, mediante juegos de imaginería como 'ser una muñeca de trapo') tienen como finalidad principal:",
+    "o": [
+     "Aumentar de forma deliberada la tensión muscular del niño tras un momento de actividad física intensa",
+     "Favorecer la distensión muscular y la autorregulación emocional tras un momento de actividad intensa",
+     "Sustituir por completo el juego motor",
+     "No tienen ninguna utilidad pedagógica en esta etapa"
+    ],
+    "c": 1,
+    "e": "Las técnicas de relajación adaptadas a la edad, apoyadas a menudo en juegos de imaginería sencilla ('ponte flojo como una muñeca de trapo', 'derrítete como un helado'), buscan favorecer la distensión muscular tras un momento de actividad física intensa y contribuir a la autorregulación emocional del niño, ayudándole a experimentar la diferencia entre tensión y relajación en su propio cuerpo."
+   },
+   {
+    "d": "dificil",
+    "q": "La duración orientativa habitual de una sesión de psicomotricidad o expresión corporal en el segundo ciclo de Educación Infantil suele situarse aproximadamente en torno a:",
+    "o": [
+     "10-15 minutos",
+     "30-45 minutos",
+     "60-90 minutos",
+     "Más de dos horas"
+    ],
+    "c": 1,
+    "e": "La duración orientativa de una sesión de psicomotricidad o expresión corporal en el segundo ciclo de Infantil suele situarse aproximadamente entre 30 y 45 minutos, un tiempo suficiente para incluir las distintas fases de la sesión (ritual de entrada, actividad central, representación y relajación) sin superar la capacidad atencional y física propia de esta etapa."
+   },
+   {
+    "d": "facil",
+    "q": "La 'lateralidad', proceso relacionado con el desarrollo psicomotor que también influye en la expresión corporal, se define como:",
+    "o": [
+     "El predominio funcional de un lado del cuerpo sobre el otro",
+     "La capacidad de mover ambos lados del cuerpo de forma idéntica, simétrica y simultánea en cualquier tarea motriz",
+     "Un trastorno exclusivo del lenguaje",
+     "La capacidad de saltar con los dos pies juntos"
+    ],
+    "c": 0,
+    "e": "La lateralidad es el predominio funcional de un lado del cuerpo sobre el otro (ser diestro o zurdo de mano, de pie o de ojo), un proceso que se va definiendo a lo largo de la etapa infantil y que influye en la organización espacial del propio cuerpo y del movimiento, relevante también para actividades de expresión corporal que impliquen nociones de derecha e izquierda."
+   },
+   {
+    "d": "media",
+    "q": "El teatro de sombras, actividad que puede introducirse en Infantil de forma sencilla, consiste en:",
+    "o": [
+     "Proyectar la silueta del cuerpo mediante un foco de luz sobre una tela, explorando formas y movimiento",
+     "Una técnica exclusivamente pictórica, realizada siempre con pinceles, témperas y papel, sin ningún componente corporal",
+     "Un juego sin relación con la expresión corporal",
+     "Una actividad que requiere obligatoriamente oscuridad total y equipamiento profesional complejo"
+    ],
+    "c": 0,
+    "e": "El teatro de sombras consiste en proyectar mediante un foco de luz la silueta del propio cuerpo o de figuras recortadas sobre una pantalla o una tela, permitiendo explorar de forma lúdica las formas que puede adoptar el cuerpo y el movimiento, y puede introducirse en Infantil con medios sencillos, como una linterna y una sábana."
+   },
+   {
+    "d": "dificil",
+    "q": "El concepto de 'proxémica', formulado por el antropólogo Edward T. Hall, resulta relevante para la expresión corporal porque estudia:",
+    "o": [
+     "El uso del espacio personal y social en la comunicación no verbal",
+     "Exclusivamente la velocidad y la aceleración de los movimientos corporales realizados durante el juego libre",
+     "Solo el vocabulario relacionado con el cuerpo",
+     "Un aspecto sin relación con la comunicación corporal"
+    ],
+    "c": 0,
+    "e": "La proxémica, concepto formulado por el antropólogo Edward T. Hall, estudia el uso y la percepción del espacio personal y social en la comunicación no verbal entre personas (la distancia que mantenemos según el tipo de relación), un aspecto relevante para trabajar en el aula las nociones de espacio propio y espacio compartido en las actividades de expresión corporal grupales."
+   },
+   {
+    "d": "facil",
+    "q": "El 'juego dramático', frente al juego simbólico más espontáneo, se caracteriza por:",
+    "o": [
+     "Una mayor elaboración, con roles y un hilo argumental compartido",
+     "La ausencia total de cualquier componente de representación o de asignación de roles entre los participantes del grupo",
+     "Ser idéntico en todo al juego simbólico sin ninguna diferencia",
+     "Excluir siempre la participación de más de un niño"
+    ],
+    "c": 0,
+    "e": "El juego dramático supone un paso de mayor elaboración respecto al juego simbólico más espontáneo e individual: implica la asignación de roles entre varios niños, un cierto hilo argumental compartido (representar 'la visita al médico' con distintos personajes) y una organización previa mínima, acercándose ya a formas iniciales de teatro infantil."
+   },
+   {
+    "d": "media",
+    "q": "La distinción, dentro de la teoría del movimiento de Laban, entre 'espacio personal' (el que rodea inmediatamente al cuerpo) y 'espacio total' o general (el espacio compartido del aula) resulta útil en expresión corporal para:",
+    "o": [
+     "Trabajar de forma diferenciada el movimiento en el propio sitio y el desplazamiento compartido",
+     "Eliminar cualquier posibilidad de desplazamiento durante todas las sesiones de expresión corporal programadas",
+     "Limitar la actividad exclusivamente al espacio personal",
+     "No tiene ninguna aplicación práctica en el aula"
+    ],
+    "c": 0,
+    "e": "Distinguir entre el espacio personal (el que rodea inmediatamente al cuerpo y se puede ocupar sin desplazarse, como al estirar los brazos) y el espacio total o general (el espacio compartido del aula por el que uno se desplaza) permite diseñar actividades progresivas de expresión corporal, empezando por el movimiento en el propio sitio antes de trabajar el desplazamiento y la relación espacial con los compañeros."
+   },
+   {
+    "d": "dificil",
+    "q": "La lateralidad suele considerarse, en un desarrollo típico, suficientemente definida y estable aproximadamente hacia:",
+    "o": [
+     "Los 2 años",
+     "Los 4-6 años",
+     "Los 8-10 años",
+     "Los 12 años"
+    ],
+    "c": 1,
+    "e": "Aunque el proceso comienza antes, la lateralidad suele considerarse, en un desarrollo típico, suficientemente definida y estable aproximadamente hacia los 4-6 años, coincidiendo con el final de la etapa de Infantil, por lo que forzar una lateralidad determinada de forma prematura no se considera una práctica recomendable."
+   },
+   {
+    "d": "facil",
+    "q": "El término 'kinésica' hace referencia al estudio de:",
+    "o": [
+     "Los gestos, posturas y movimientos corporales como comunicación no verbal",
+     "Exclusivamente la anatomía muscular implicada en cada gesto o postura corporal",
+     "El vocabulario técnico de la danza clásica",
+     "Los trastornos del lenguaje oral"
+    ],
+    "c": 0,
+    "e": "La kinésica es la disciplina que estudia los gestos, las posturas corporales y los movimientos como forma de comunicación no verbal (un gesto de asentimiento, una postura de rechazo), un campo de conocimiento relevante para entender y trabajar la expresión corporal como un auténtico lenguaje comunicativo en el aula de Infantil."
+   },
+   {
+    "d": "media",
+    "q": "El uso de disfraces sencillos como recurso en las sesiones de expresión corporal favorece especialmente:",
+    "o": [
+     "La caracterización de un personaje, facilitando su representación corporal y verbal",
+     "Impedir por completo cualquier movimiento del niño durante toda la sesión de expresión corporal programada",
+     "Sustituir la necesidad de trabajar el esquema corporal",
+     "Un uso exclusivamente decorativo sin ninguna función expresiva"
+    ],
+    "c": 0,
+    "e": "Los disfraces sencillos (un sombrero, una capa, una tela de un color) actúan como recurso de caracterización que facilita que el niño se meta más fácilmente en el papel de un personaje, apoyando la representación corporal, gestual y verbal de ese rol, y contribuyendo también al desarrollo de la desinhibición y la creatividad expresiva."
+   },
+   {
+    "d": "dificil",
+    "q": "El principio pedagógico de alternar momentos de tensión (actividad intensa) y momentos de distensión (relajación) a lo largo de una sesión de expresión corporal responde principalmente a:",
+    "o": [
+     "Respetar el ritmo fisiológico y atencional del niño, evitando tanto la sobreexcitación sostenida como la inactividad prolongada",
+     "Una moda pedagógica sin base en el desarrollo infantil",
+     "La necesidad exclusiva de ahorrar tiempo de sesión",
+     "Un principio aplicable únicamente en Educación Primaria"
+    ],
+    "c": 0,
+    "e": "Alternar momentos de mayor activación (juego motor intenso) con momentos de distensión y relajación a lo largo de la sesión respeta el ritmo fisiológico y la capacidad atencional propios de la edad, evitando tanto una sobreexcitación sostenida que dificultaría la vuelta a la calma como una inactividad prolongada poco adecuada a la necesidad de movimiento característica de esta etapa."
+   },
+   {
+    "d": "facil",
+    "q": "El 'ritmo interno' del propio cuerpo (por ejemplo, el latido cardíaco o la respiración), frente al 'ritmo externo' marcado por la música, puede trabajarse en expresión corporal para:",
+    "o": [
+     "Favorecer la conciencia corporal, percibiendo y expresando el propio ritmo fisiológico del cuerpo",
+     "Sustituir por completo el trabajo con música externa",
+     "No tiene relación alguna con la expresión corporal",
+     "Evaluar exclusivamente la capacidad pulmonar"
+    ],
+    "c": 0,
+    "e": "Trabajar el ritmo interno del propio cuerpo (percibir los propios latidos tras correr, sentir la respiración al calmarse) favorece la conciencia corporal del niño sobre su propio funcionamiento fisiológico, complementando el trabajo del ritmo externo marcado por la música o las palmas, y ayudándole a establecer relaciones entre movimiento, esfuerzo y sensación corporal."
+   },
+   {
+    "d": "media",
+    "q": "El logro de representar con éxito una idea o emoción a través del propio cuerpo, y ser reconocido por ello por el grupo, contribuye especialmente al desarrollo de:",
+    "o": [
+     "La autoestima y la confianza en las propias capacidades expresivas",
+     "Ningún aspecto relevante de la personalidad ni de la autoimagen infantil, según defienden algunos autores clásicos",
+     "Exclusivamente la técnica motriz avanzada",
+     "Un rechazo generalizado hacia la actividad física"
+    ],
+    "c": 0,
+    "e": "Cuando un niño logra representar con éxito una idea o emoción a través de su propio cuerpo y esto es reconocido de forma positiva por el docente y el grupo, se refuerza su autoestima y su confianza en las propias capacidades expresivas, contribuyendo a que se atreva a participar con mayor seguridad en futuras propuestas de expresión corporal."
+   },
+   {
+    "d": "moidificil",
+    "q": "En la teoría del movimiento de Rudolf Laban, el número de factores o componentes básicos que se suelen considerar en el análisis del movimiento (espacio, tiempo, peso y fluidez) es de:",
+    "o": [
+     "Dos",
+     "Tres",
+     "Cuatro",
+     "Seis"
+    ],
+    "c": 2,
+    "e": "La teoría del movimiento de Laban suele considerar cuatro factores o componentes básicos del análisis del movimiento: el espacio, el tiempo, el peso (o fuerza) y la fluidez, combinados entre sí para describir y analizar las cualidades de cualquier movimiento corporal, una base conceptual de referencia en la formación en expresión corporal y danza educativa."
+   },
+   {
+    "d": "facil",
+    "q": "La vuelta a la calma o relajación final de una sesión de expresión corporal cumple, además de la distensión física, una función de:",
+    "o": [
+     "Facilitar la transición emocional hacia la siguiente actividad de la jornada, ayudando a la autorregulación",
+     "Sustituir la necesidad de un ritual de entrada",
+     "Prolongar de forma indefinida la actividad motriz intensa",
+     "Evaluar exclusivamente el nivel de fuerza muscular alcanzado"
+    ],
+    "c": 0,
+    "e": "Más allá de la distensión física tras el esfuerzo, la vuelta a la calma o relajación final facilita la transición emocional hacia la actividad siguiente de la jornada (volver al aula, sentarse a trabajar), ayudando a los niños a autorregular su nivel de activación y evitando que lleguen alterados a la siguiente propuesta educativa."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según los estudios clásicos de Albert Mehrabian sobre comunicación de actitudes y sentimientos, el peso relativo que se atribuye al lenguaje corporal (gestos, postura) en la transmisión del mensaje, frente al tono de voz y las palabras, se estimó aproximadamente en torno a:",
+    "o": [
+     "El 7%",
+     "El 38%",
+     "El 55%",
+     "El 93%"
+    ],
+    "c": 2,
+    "e": "Los estudios clásicos de Albert Mehrabian sobre la comunicación de actitudes y sentimientos estimaron que, en ese tipo concreto de mensajes, el componente corporal (gestos, expresión facial, postura) pesaba aproximadamente un 55%, frente a un 38% del tono de voz y solo un 7% de las palabras en sí, unas cifras muy citadas -aunque a menudo generalizadas más allá de su contexto original- para subrayar la relevancia de la comunicación no verbal, de gran interés para justificar el trabajo de la expresión corporal en el aula."
    }
   ]
  },
@@ -4883,6 +8963,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "La estabilidad y continuidad de una figura de referencia (el tutor o tutora) a lo largo del curso favorece que el niño pueda establecer con ella un vínculo de apego seguro también en el contexto escolar (el llamado apego múltiple, ya que convive con el vínculo familiar), algo que un cambio constante de personal a cargo del grupo dificultaría notablemente."
+   },
+   {
+    "d": "facil",
+    "q": "Según el modelo ecológico del desarrollo humano de Urie Bronfenbrenner, la familia se sitúa dentro del sistema denominado:",
+    "o": [
+     "Macrosistema",
+     "Microsistema",
+     "Exosistema",
+     "Cronosistema"
+    ],
+    "c": 1,
+    "e": "En el modelo ecológico de Bronfenbrenner, el microsistema es el entorno más inmediato en el que el niño se desenvuelve directamente y establece relaciones cara a cara, como la familia o la escuela infantil; el macrosistema, en cambio, hace referencia a los valores y la cultura general de la sociedad, más alejados de la experiencia directa del niño."
+   },
+   {
+    "d": "media",
+    "q": "La relación de coordinación y comunicación que se establece entre la familia y la escuela infantil, dos microsistemas en los que participa el niño, se sitúa dentro del modelo de Bronfenbrenner en el nivel denominado:",
+    "o": [
+     "Microsistema",
+     "Mesosistema",
+     "Exosistema",
+     "Macrosistema"
+    ],
+    "c": 1,
+    "e": "El mesosistema, en el modelo de Bronfenbrenner, hace referencia a las relaciones e interconexiones entre dos o más microsistemas en los que el niño participa activamente, como la familia y la escuela infantil; cuanto más coherentes y coordinados sean esos dos microsistemas entre sí, más favorable resulta el mesosistema para el desarrollo del niño."
+   },
+   {
+    "d": "dificil",
+    "q": "Un contexto que influye en el niño de forma indirecta, sin que él participe activamente en él, como puede ser el horario laboral de sus progenitores, se sitúa dentro del modelo ecológico de Bronfenbrenner en el nivel denominado:",
+    "o": [
+     "Microsistema",
+     "Mesosistema",
+     "Exosistema",
+     "Cronosistema"
+    ],
+    "c": 2,
+    "e": "El exosistema comprende aquellos contextos en los que el niño no participa de forma directa, pero que le afectan indirectamente a través de su influencia sobre las personas de su microsistema; el horario o el estrés laboral de los progenitores es un ejemplo clásico, ya que condiciona el tiempo y la disponibilidad emocional que estos pueden dedicar al niño, aunque este no esté presente en el lugar de trabajo."
+   },
+   {
+    "d": "facil",
+    "q": "John Bowlby, autor de referencia en la teoría del apego, sostuvo que el vínculo afectivo que el bebé establece con su figura de referencia tiene, entre otras, una función:",
+    "o": [
+     "Exclusivamente nutricional, ligada de forma única y excluyente a la satisfacción del hambre",
+     "Biológica y de protección, favoreciendo la supervivencia y la seguridad emocional del bebé",
+     "Sin ninguna relevancia para el desarrollo posterior",
+     "Idéntica en importancia a cualquier otro vínculo social"
+    ],
+    "c": 1,
+    "e": "Bowlby, frente a las teorías que explicaban el apego únicamente por la satisfacción de necesidades como la alimentación, defendió que el vínculo de apego cumple una función biológica y de protección: buscar la proximidad de la figura de apego ante el peligro o el malestar favorece la supervivencia del bebé y le proporciona una base de seguridad emocional desde la que explorar el mundo."
+   },
+   {
+    "d": "media",
+    "q": "El procedimiento experimental conocido como la 'situación extraña' (Strange Situation), diseñado por Mary Ainsworth para estudiar el apego infantil, se basa en:",
+    "o": [
+     "Observar la reacción del bebé ante breves separaciones y reencuentros con su figura de apego",
+     "Realizar un extenso cuestionario estandarizado a las familias sobre sus hábitos habituales de crianza en el hogar",
+     "Medir exclusivamente el peso y la talla del bebé",
+     "Analizar el vocabulario del bebé en distintas situaciones"
+    ],
+    "c": 0,
+    "e": "La situación extraña, diseñada por Mary Ainsworth, es un procedimiento experimental que observa la reacción del bebé ante breves episodios de separación y reencuentro con su figura de apego, en presencia de una persona desconocida, permitiendo clasificar el tipo de apego (seguro, evitativo, ambivalente o, en formulaciones posteriores, desorganizado) según cómo el bebé gestiona esa situación."
+   },
+   {
+    "d": "dificil",
+    "q": "El tipo de apego que Ainsworth denominó 'ambivalente' o 'resistente' se caracteriza, en la situación extraña, porque el bebé:",
+    "o": [
+     "Explora con tranquilidad y busca activamente el contacto con la madre al reencontrarse, calmándose con facilidad",
+     "Muestra escasa angustia ante la separación y evita el contacto con la madre al reencontrarse",
+     "Muestra gran angustia ante la separación y, al reencontrarse, busca el contacto pero se resiste a él y le cuesta calmarse",
+     "Presenta un patrón de conducta contradictorio y desorientado, sin una estrategia clara ante la separación"
+    ],
+    "c": 2,
+    "e": "En el apego ambivalente o resistente, el bebé muestra una angustia intensa ante la separación de su figura de apego y, al reencontrarse con ella, busca el contacto pero al mismo tiempo se resiste a él (llora y se aferra, pero también rechaza el consuelo), costándole calmarse; se diferencia así del apego evitativo, en el que el bebé apenas muestra angustia y evita el contacto al reencontrarse, y del desorganizado, caracterizado por conductas contradictorias y desorientadas."
+   },
+   {
+    "d": "facil",
+    "q": "El estilo educativo 'negligente' o 'indiferente', añadido posteriormente a la clasificación inicial de Baumrind, se caracteriza por:",
+    "o": [
+     "Alto afecto y alta exigencia combinados de forma equilibrada y siempre razonada",
+     "Bajo nivel de afecto y baja exigencia, con escasa implicación en la crianza",
+     "Alto control con normas razonadas y explicadas",
+     "Alto afecto pero ausencia casi total de límites"
+    ],
+    "c": 1,
+    "e": "El estilo negligente o indiferente, incorporado posteriormente a la clasificación clásica de Baumrind, se caracteriza por un bajo nivel tanto de afecto y comunicación como de control y exigencia, con escasa implicación general de la familia en la crianza, un patrón asociado en la investigación a mayores dificultades en el desarrollo socioemocional del niño que cualquiera de los otros tres estilos."
+   },
+   {
+    "d": "media",
+    "q": "Joyce Epstein, autora de referencia en la investigación sobre la participación de las familias en la educación, propuso una clasificación de distintos tipos de implicación familiar que incluye, entre otros:",
+    "o": [
+     "Un único tipo de implicación posible, limitado exclusivamente a la asistencia puntual a reuniones generales de aula",
+     "La crianza en el hogar, la comunicación, el voluntariado, el aprendizaje en casa y la colaboración con la comunidad",
+     "Exclusivamente la aportación económica de las familias al centro",
+     "La sustitución completa de la función docente por parte de las familias"
+    ],
+    "c": 1,
+    "e": "Joyce Epstein propuso un modelo que distingue varios tipos de implicación familiar en la educación, entre ellos la crianza en el hogar (parenting), la comunicación entre familia y centro, el voluntariado en el centro, el apoyo al aprendizaje en casa, la participación en la toma de decisiones y la colaboración con la comunidad, mostrando que la implicación familiar va mucho más allá de la simple asistencia a reuniones."
+   },
+   {
+    "d": "moidificil",
+    "q": "En las formulaciones más completas del modelo ecológico de Bronfenbrenner, incluyendo la dimensión temporal añadida posteriormente, el número total de sistemas que se suelen distinguir es de:",
+    "o": [
+     "Tres",
+     "Cuatro",
+     "Cinco",
+     "Siete"
+    ],
+    "c": 2,
+    "e": "En las formulaciones más completas del modelo de Bronfenbrenner se distinguen cinco sistemas: microsistema, mesosistema, exosistema, macrosistema y, añadido en una revisión posterior del modelo, el cronosistema, que incorpora la dimensión temporal y los cambios que se producen a lo largo del tiempo tanto en la persona como en su entorno."
+   },
+   {
+    "d": "facil",
+    "q": "El acogimiento familiar, como medida de protección de menores, se diferencia de la adopción principalmente en que:",
+    "o": [
+     "El acogimiento es temporal y la adopción implica una filiación permanente",
+     "Ambas medidas son exactamente idénticas en su naturaleza y en sus efectos jurídicos sobre la patria potestad",
+     "El acogimiento siempre es definitivo y la adopción siempre temporal",
+     "Ninguna de las dos medidas afecta a la patria potestad"
+    ],
+    "c": 0,
+    "e": "El acogimiento familiar es, en principio, una medida de protección de carácter temporal, que puede finalizar cuando cambian las circunstancias que lo motivaron, mientras que la adopción constituye un vínculo de filiación permanente y estable, equiparable jurídicamente a la filiación biológica; ambas son formas legítimas de estructura familiar con las que puede convivir el alumnado de Infantil."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'modelos internos de trabajo' (internal working models), desarrollado dentro de la teoría del apego, hace referencia a:",
+    "o": [
+     "Las representaciones mentales que el niño construye sobre sí mismo y sobre los demás a partir del apego",
+     "Un conjunto de ejercicios físicos específicos, diseñados para fortalecer el vínculo afectivo entre el bebé y sus cuidadores",
+     "Un programa curricular específico para trabajar con las familias",
+     "Un trastorno del desarrollo relacionado con el apego"
+    ],
+    "c": 0,
+    "e": "Los modelos internos de trabajo son las representaciones mentales que el niño va construyendo, a partir de sus experiencias tempranas de apego, sobre sí mismo (¿merezco ser cuidado?), sobre los demás (¿son fiables y responden a mis necesidades?) y sobre las relaciones en general, representaciones que tienden a influir en sus relaciones afectivas posteriores, aunque no de forma inmodificable."
+   },
+   {
+    "d": "dificil",
+    "q": "La 'ansiedad ante los extraños', manifestación típica del desarrollo del apego en la que el bebé muestra rechazo o llanto ante personas desconocidas, suele aparecer aproximadamente en torno a:",
+    "o": [
+     "Los 2 meses de edad",
+     "Los 8 meses de edad",
+     "Los 18 meses de edad",
+     "Los 3 años de edad"
+    ],
+    "c": 1,
+    "e": "La ansiedad ante los extraños, en la que el bebé muestra malestar, llanto o rechazo ante personas desconocidas, suele aparecer aproximadamente en torno a los 8 meses de edad, coincidiendo con la consolidación del apego específico hacia la figura de referencia y con el desarrollo de la permanencia del objeto descrita por Piaget."
+   },
+   {
+    "d": "facil",
+    "q": "El principio de 'corresponsabilidad educativa' entre familia y escuela implica fundamentalmente que:",
+    "o": [
+     "Ambos contextos comparten la responsabilidad educativa, cada uno desde su papel específico",
+     "La familia asume toda la responsabilidad educativa del niño, sin que la escuela intervenga en ningún aspecto",
+     "La escuela asume toda la responsabilidad y la familia ninguna",
+     "No existe ninguna relación entre las responsabilidades de ambos contextos"
+    ],
+    "c": 0,
+    "e": "La corresponsabilidad educativa implica que tanto la familia como la escuela comparten la responsabilidad en la educación del niño, cada una desde su papel específico y complementario, y de forma coordinada, sin que ninguna de las dos instituciones pueda delegar por completo esa responsabilidad en la otra."
+   },
+   {
+    "d": "media",
+    "q": "Entre las funciones parentales básicas que se atribuyen a la familia en la crianza se suele incluir, junto al cuidado físico y la protección:",
+    "o": [
+     "La estimulación del desarrollo y el establecimiento de normas y límites",
+     "Exclusivamente la función económica, ligada al sustento material de todos los miembros del hogar",
+     "Únicamente la función jurídica de representación legal",
+     "Solo la transmisión de bienes materiales"
+    ],
+    "c": 0,
+    "e": "Además del cuidado físico y la protección, entre las funciones parentales básicas se incluye la estimulación del desarrollo del niño (jugar, hablarle, ofrecerle experiencias variadas) y la función normativa, es decir, el establecimiento de normas y límites razonables y adaptados a su edad, funciones que en conjunto configuran un ejercicio equilibrado de la crianza."
+   },
+   {
+    "d": "dificil",
+    "q": "En España, el reconocimiento legal del matrimonio entre personas del mismo sexo, con relevancia directa para la diversidad de estructuras familiares presentes en las aulas, se produjo en el año:",
+    "o": [
+     "1995",
+     "2005",
+     "2015",
+     "2020"
+    ],
+    "c": 1,
+    "e": "El matrimonio entre personas del mismo sexo se reconoció legalmente en España en el año 2005, mediante la modificación del Código Civil, lo que amplió el reconocimiento jurídico de la diversidad de estructuras familiares (incluidas las familias homoparentales) que la escuela infantil debe acoger y respetar con normalidad."
+   },
+   {
+    "d": "facil",
+    "q": "La reunión general de inicio de curso con las familias, a diferencia de las entrevistas individuales periódicas, tiene como finalidad principal:",
+    "o": [
+     "Presentar de forma conjunta la organización general del curso, la metodología y las normas de funcionamiento del aula",
+     "Abordar en exclusiva la situación individual de cada niño",
+     "Sustituir cualquier comunicación posterior durante el curso",
+     "Evaluar el rendimiento académico individual de cada alumno"
+    ],
+    "c": 0,
+    "e": "La reunión general de inicio de curso, a diferencia de las entrevistas individuales, tiene como finalidad presentar de forma conjunta a todas las familias del grupo la organización general del curso, la metodología de trabajo, las rutinas y las normas de funcionamiento del aula, sentando una base común de información que después se complementa con el seguimiento individualizado de cada niño."
+   },
+   {
+    "d": "media",
+    "q": "Los programas de 'alfabetización familiar' o de fomento de la lectura compartida entre familias y centro (por ejemplo, préstamo de cuentos para leer en casa) tienen como objetivo principal:",
+    "o": [
+     "Extender al hogar hábitos y prácticas de estimulación del lenguaje y la lectura, implicando a la familia en el proceso",
+     "Sustituir por completo el trabajo de lectoescritura realizado en el aula",
+     "Evaluar el nivel lector de los progenitores",
+     "Excluir a las familias que no dominan la lectoescritura"
+    ],
+    "c": 0,
+    "e": "Los programas de alfabetización familiar, como el préstamo de cuentos para compartir en casa o las maletas viajeras de lectura, buscan extender al hogar hábitos y prácticas de estimulación del lenguaje y la lectura, implicando activamente a la familia en el proceso, sin excluir a aquellas con menor dominio de la lectoescritura, para quienes pueden adaptarse las propuestas (por ejemplo, mirar juntos las ilustraciones y comentar la historia)."
+   },
+   {
+    "d": "dificil",
+    "q": "El patrón de apego 'desorganizado', el cuarto tipo identificado en investigaciones posteriores a las de Ainsworth, se asocia con mayor frecuencia a:",
+    "o": [
+     "Contextos de crianza especialmente sensibles y consistentes",
+     "Contextos familiares con maltrato, negligencia grave o figuras de apego atemorizantes o atemorizadas",
+     "Ausencia total de cualquier figura de apego identificable",
+     "Un desarrollo cognitivo necesariamente superior a la media"
+    ],
+    "c": 1,
+    "e": "El apego desorganizado, identificado en investigaciones posteriores a las clásicas de Ainsworth, se caracteriza por conductas contradictorias y desorientadas del bebé ante la figura de apego, y se asocia con mayor frecuencia a contextos familiares de riesgo, como el maltrato, la negligencia grave o la presencia de figuras de apego que resultan a la vez fuente de consuelo y de temor para el niño, lo que resulta especialmente relevante para la detección temprana desde la escuela infantil."
+   },
+   {
+    "d": "facil",
+    "q": "Los buzones de sugerencias, las encuestas de satisfacción o los canales informales de comunicación con las familias complementan a las reuniones y entrevistas formales porque:",
+    "o": [
+     "Ofrecen vías adicionales, más flexibles, para recoger la opinión y las propuestas de las familias sobre el centro",
+     "Sustituyen por completo la necesidad de reuniones y entrevistas",
+     "No aportan ninguna información relevante para el centro",
+     "Están reservados exclusivamente a las familias del Consejo Escolar"
+    ],
+    "c": 0,
+    "e": "Los buzones de sugerencias, las encuestas de satisfacción u otros canales informales complementan a las reuniones y entrevistas formales al ofrecer vías adicionales y más flexibles para que las familias puedan expresar su opinión, plantear propuestas o comunicar inquietudes sobre el funcionamiento del centro, sin necesidad de esperar a un encuentro presencial programado."
+   },
+   {
+    "d": "media",
+    "q": "La conciliación de la vida familiar y laboral de las familias es un factor especialmente relevante para la escuela infantil en aspectos como:",
+    "o": [
+     "La organización de los horarios de entrada, salida y del servicio de comedor o acogida temprana del centro",
+     "No tiene ninguna relación con la organización del centro",
+     "Solo afecta a la etapa de Educación Secundaria",
+     "Es responsabilidad exclusiva de las empresas, sin relación con el centro educativo"
+    ],
+    "c": 0,
+    "e": "La conciliación de la vida familiar y laboral es un factor especialmente relevante para la escuela infantil a la hora de organizar aspectos como los horarios de entrada y salida, el servicio de comedor o los servicios de acogida temprana y ampliación horaria, que permiten ajustar la jornada escolar a las necesidades reales de las familias trabajadoras."
    }
   ]
  },
@@ -5129,6 +9449,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Triangular la información procedente de distintas fuentes —la observación directa del docente, las aportaciones de la familia sobre lo que ocurre en casa, y en su caso la valoración de otros profesionales— permite obtener una visión más completa, contrastada y ajustada del desarrollo y las necesidades reales del niño, en lugar de basar las decisiones educativas en una única fuente de información que podría ser parcial."
+   },
+   {
+    "d": "facil",
+    "q": "Entre las funciones generales atribuidas legalmente al profesorado (recogidas, entre otras normas, en la legislación orgánica educativa) se incluyen, junto a la docencia directa:",
+    "o": [
+     "Exclusivamente impartir clase, sin que se le atribuya legalmente ninguna otra función complementaria de ningún tipo en absoluto",
+     "La programación y evaluación, la tutoría, la orientación, la investigación educativa y la información a las familias",
+     "Únicamente tareas de vigilancia y cuidado asistencial",
+     "Solo la función de calificar mediante exámenes"
+    ],
+    "c": 1,
+    "e": "La normativa educativa atribuye al profesorado un conjunto amplio de funciones que van más allá de la docencia directa en el aula, incluyendo la programación y evaluación del proceso de enseñanza-aprendizaje, la tutoría y orientación del alumnado, la contribución a la investigación e innovación educativa, y la información y comunicación con las familias, entre otras."
+   },
+   {
+    "d": "media",
+    "q": "La 'acción tutorial', como función específica del docente en Infantil, hace referencia principalmente a:",
+    "o": [
+     "El acompañamiento personalizado del proceso educativo de cada niño",
+     "Exclusivamente la corrección de tareas escritas y de las fichas de trabajo entregadas por el alumnado",
+     "Una función reservada solo a Educación Secundaria",
+     "La sustitución completa del equipo de orientación"
+    ],
+    "c": 0,
+    "e": "La acción tutorial es la función específica que implica el acompañamiento personalizado del proceso educativo y evolutivo de cada niño, el seguimiento de su desarrollo, la coordinación con el resto del equipo docente y de especialistas, y la comunicación fluida con las familias, siendo el tutor la referencia principal del grupo en Educación Infantil aunque no sea la única figura educativa que interviene."
+   },
+   {
+    "d": "dificil",
+    "q": "El concepto de 'investigación-acción' aplicado a la práctica docente, desarrollado por autores como Lawrence Stenhouse, plantea que el maestro o maestra debe:",
+    "o": [
+     "Limitarse a aplicar de forma mecánica programaciones y materiales diseñados por editoriales o por otros docentes externos",
+     "Investigar y reflexionar sistemáticamente sobre su propia práctica en el aula para mejorarla de forma continua",
+     "Evitar cualquier tipo de reflexión sobre su propia enseñanza",
+     "Delegar en la administración educativa toda decisión sobre su práctica"
+    ],
+    "c": 1,
+    "e": "Stenhouse, con el concepto de investigación-acción aplicado a la docencia, defendió la idea del 'profesor investigador': un docente que observa, analiza y reflexiona de forma sistemática sobre su propia práctica en el aula (por ejemplo, probando una modificación en una actividad y valorando sus efectos), generando así conocimiento pedagógico propio en lugar de limitarse a aplicar de forma mecánica decisiones o programaciones diseñadas por otros."
+   },
+   {
+    "d": "facil",
+    "q": "Loris Malaguzzi, impulsor de la experiencia educativa de Reggio Emilia, defendió la idea de que, junto al docente y la familia, existe un 'tercer educador', identificado con:",
+    "o": [
+     "El grupo de iguales exclusivamente, sin que el espacio físico del aula desempeñe ningún papel relevante",
+     "El ambiente y el espacio físico del aula, cuidadosamente diseñado",
+     "La televisión y los medios audiovisuales",
+     "Un docente especialista externo al centro"
+    ],
+    "c": 1,
+    "e": "Malaguzzi, en la experiencia educativa de Reggio Emilia, defendió que el ambiente y el espacio físico del aula, cuidadosamente diseñado, organizado y estéticamente cuidado, actúa como un 'tercer educador', junto al docente y la familia, ya que las características del espacio y de los materiales disponibles condicionan de forma importante las posibilidades de exploración y aprendizaje del niño."
+   },
+   {
+    "d": "media",
+    "q": "El Diseño Universal para el Aprendizaje (DUA), marco que orienta la labor del docente en la atención a la diversidad, propone diseñar la enseñanza:",
+    "o": [
+     "Pensando desde el inicio en la diversidad real del alumnado del grupo",
+     "Diseñando siempre una única vía de acceso al contenido, idéntica para todo el grupo con independencia de sus características",
+     "Aplicando adaptaciones únicamente cuando surge una necesidad específica detectada a posteriori",
+     "Excluyendo de la programación general al alumnado con necesidades específicas"
+    ],
+    "c": 0,
+    "e": "El Diseño Universal para el Aprendizaje (DUA) propone que el docente diseñe desde el inicio la enseñanza pensando en la diversidad real del alumnado, ofreciendo múltiples formas de representar la información, de que el alumnado pueda expresar lo aprendido y de motivarlo, en lugar de diseñar una única vía de acceso pensada para un alumnado 'estándar' y añadir adaptaciones puntuales solo cuando surge una dificultad."
+   },
+   {
+    "d": "dificil",
+    "q": "Según las ratios de referencia habitualmente utilizadas para el primer ciclo de Educación Infantil, el número máximo orientativo de niños y niñas de 2 a 3 años por unidad y docente se sitúa en torno a:",
+    "o": [
+     "8 niños por docente",
+     "13 niños por docente",
+     "20 niños por docente",
+     "25 niños por docente"
+    ],
+    "c": 2,
+    "e": "Las ratios de referencia habitualmente aplicadas en el primer ciclo de Educación Infantil sitúan el número máximo orientativo en torno a 8 niños por docente en el grupo de 0 a 1 año, 13 en el grupo de 1 a 2 años, y 20 en el grupo de 2 a 3 años, unas cifras que van aumentando progresivamente a medida que crece la autonomía del alumnado, hasta llegar a la ratio del segundo ciclo."
+   },
+   {
+    "d": "facil",
+    "q": "El marco europeo DigCompEdu, referido a la competencia digital docente, orienta principalmente el desarrollo profesional del maestro o maestra en relación con:",
+    "o": [
+     "El uso pedagógico, crítico y seguro de las tecnologías digitales en el aula",
+     "Exclusivamente la reparación técnica y el mantenimiento periódico de los equipos informáticos del centro educativo",
+     "La sustitución completa del docente por recursos digitales",
+     "Un ámbito sin ninguna relación con la función docente en Infantil"
+    ],
+    "c": 0,
+    "e": "El marco europeo DigCompEdu (Marco Europeo para la Competencia Digital Docente) describe las competencias que el profesorado debe desarrollar para hacer un uso pedagógico, crítico y seguro de las tecnologías digitales en su práctica educativa, desde la selección de recursos digitales adecuados hasta la evaluación de su uso, sin implicar en ningún caso la sustitución de la labor docente por dichos recursos."
+   },
+   {
+    "d": "media",
+    "q": "El acceso a una plaza docente en la escuela pública de Educación Infantil en España se realiza, tras la titulación universitaria correspondiente, mediante:",
+    "o": [
+     "Un proceso selectivo de oposición, con una fase de concurso y otra de oposición",
+     "Una entrevista personal exclusivamente, sin ninguna prueba escrita ni programación didáctica que defender",
+     "La libre designación por parte de la dirección del centro",
+     "La antigüedad exclusivamente, sin ninguna prueba selectiva"
+    ],
+    "c": 0,
+    "e": "El acceso a una plaza docente en la escuela pública de Educación Infantil en España se realiza, una vez obtenida la titulación universitaria correspondiente (el Grado en Educación Infantil), mediante un proceso selectivo de oposición que combina una fase de oposición (con pruebas de conocimientos y una programación didáctica) y una fase de concurso, en la que se valoran méritos como la experiencia previa o la formación complementaria."
+   },
+   {
+    "d": "dificil",
+    "q": "El Grado universitario en Educación Infantil que habilita para el ejercicio de la docencia en esta etapa tiene una carga lectiva total de:",
+    "o": [
+     "120 créditos ECTS",
+     "180 créditos ECTS",
+     "240 créditos ECTS",
+     "300 créditos ECTS"
+    ],
+    "c": 2,
+    "e": "El Grado en Educación Infantil tiene una carga lectiva total de 240 créditos ECTS, distribuidos habitualmente en cuatro cursos académicos, que incluyen tanto materias de formación básica y didáctico-disciplinar como un practicum obligatorio en centros educativos y, en muchos planes de estudio, un trabajo de fin de grado."
+   },
+   {
+    "d": "facil",
+    "q": "La autoevaluación docente, distinta de la heteroevaluación realizada por la inspección u otros agentes externos, consiste en:",
+    "o": [
+     "El análisis y la valoración que el propio docente hace de su práctica",
+     "Una evaluación realizada exclusivamente por las familias, sin ninguna intervención del propio docente en el proceso",
+     "Una evaluación realizada únicamente por el alumnado",
+     "Un proceso sin ninguna relación con la mejora de la práctica docente"
+    ],
+    "c": 0,
+    "e": "La autoevaluación docente es el proceso mediante el cual el propio maestro o maestra analiza y valora su práctica profesional (la adecuación de sus actividades, su forma de intervenir con el grupo), complementando así a la heteroevaluación realizada por agentes externos como la inspección educativa, y constituyendo una herramienta clave para la mejora continua vinculada a la práctica reflexiva."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'withitness' (estar al tanto de todo), propuesto por Jacob Kounin en sus estudios sobre gestión del aula, hace referencia a la capacidad del docente de:",
+    "o": [
+     "Percibir lo que ocurre en distintos puntos del aula de forma simultánea",
+     "Centrar toda su atención exclusivamente en un único niño durante toda la sesión, ignorando por completo el resto del grupo",
+     "Ignorar de forma deliberada lo que ocurre fuera de la actividad dirigida",
+     "Delegar por completo la gestión del grupo en el alumnado de mayor edad"
+    ],
+    "c": 0,
+    "e": "Kounin, en sus estudios sobre gestión eficaz del aula, acuñó el término 'withitness' para describir la capacidad del docente de percibir lo que ocurre en distintos puntos del aula de forma simultánea (aunque esté atendiendo directamente a un pequeño grupo), lo que le permite anticiparse y actuar con rapidez ante posibles conflictos o momentos de dispersión antes de que se agraven."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según las ratios de referencia habituales, el número máximo orientativo de alumnado por unidad y docente en el segundo ciclo de Educación Infantil (3 a 6 años) se sitúa en torno a:",
+    "o": [
+     "15 alumnos por docente",
+     "20 alumnos por docente",
+     "25 alumnos por docente",
+     "30 alumnos por docente"
+    ],
+    "c": 2,
+    "e": "Las ratios de referencia habituales sitúan el número máximo orientativo de alumnado por unidad y docente en el segundo ciclo de Educación Infantil (3 a 6 años) en torno a 25 alumnos, una cifra superior a las ratios del primer ciclo, ya en un contexto de mayor autonomía del alumnado, aunque puede variar según la normativa autonómica y las circunstancias específicas del grupo (por ejemplo, presencia de alumnado con necesidades específicas de apoyo educativo)."
+   },
+   {
+    "d": "facil",
+    "q": "En los Colegios Rurales Agrupados (CRA), frecuentes en el contexto gallego, el maestro o maestra itinerante desempeña su función:",
+    "o": [
+     "En un único centro fijo, sin ningún desplazamiento entre localidades a lo largo de la semana lectiva",
+     "Desplazándose entre distintas localidades o centros adscritos a la misma agrupación rural",
+     "Exclusivamente de forma telemática, sin presencia física en el aula",
+     "Solo durante el periodo de adaptación inicial"
+    ],
+    "c": 1,
+    "e": "En los Colegios Rurales Agrupados (CRA), habituales en zonas rurales como muchas de Galicia, el maestro o maestra itinerante desempeña su función desplazándose entre las distintas localidades o centros adscritos a la misma agrupación, lo que permite mantener una oferta educativa de calidad en zonas con poca población escolar dispersa geográficamente."
+   },
+   {
+    "d": "media",
+    "q": "La colaboración del tutor de Infantil con el equipo de orientación educativa y psicopedagógica (EOEP) resulta especialmente relevante para:",
+    "o": [
+     "La detección temprana de necesidades específicas de apoyo educativo",
+     "Sustituir por completo las funciones tutoriales propias del maestro durante todo el curso escolar",
+     "Evaluar exclusivamente el rendimiento académico en áreas instrumentales",
+     "Una función sin ninguna relevancia en la etapa de Infantil"
+    ],
+    "c": 0,
+    "e": "La colaboración del tutor con el equipo de orientación educativa y psicopedagógica (EOEP) resulta especialmente relevante para la detección temprana de posibles necesidades específicas de apoyo educativo (dificultades de lenguaje, de desarrollo motor, sociales) y para el diseño conjunto de la respuesta educativa más adecuada, sin que ello suponga que el orientador sustituya las funciones propias del tutor en el día a día del aula."
+   },
+   {
+    "d": "dificil",
+    "q": "El concepto de 'distancia óptima' en la relación afectiva del docente con el alumnado de Infantil hace referencia al equilibrio entre:",
+    "o": [
+     "Una cercanía afectiva suficiente que ofrezca seguridad, y una distancia profesional que evite dinámicas de dependencia excesiva o favoritismo",
+     "Una cercanía afectiva total, sin ningún tipo de límite profesional",
+     "Una distancia absoluta, evitando cualquier vínculo afectivo con el alumnado",
+     "Una relación idéntica a la que se establece con las propias familiares del docente"
+    ],
+    "c": 0,
+    "e": "La distancia óptima hace referencia al equilibrio que el docente debe buscar entre una cercanía afectiva suficiente, que ofrezca al niño seguridad y calidez, y el mantenimiento de una distancia profesional adecuada que evite dinámicas de dependencia excesiva, favoritismo hacia algún niño en particular, o una implicación emocional que dificulte la necesaria objetividad en su intervención educativa."
+   },
+   {
+    "d": "facil",
+    "q": "La información periódica que el docente proporciona a las familias sobre el progreso educativo del niño constituye una de las funciones que la normativa atribuye:",
+    "o": [
+     "Al profesorado de forma expresa, como parte de sus responsabilidades profesionales",
+     "Exclusivamente al equipo directivo del centro",
+     "Únicamente al servicio de inspección educativa",
+     "A ningún agente en concreto dentro del sistema educativo"
+    ],
+    "c": 0,
+    "e": "La normativa educativa atribuye expresamente al profesorado, como parte de sus funciones profesionales, la responsabilidad de informar periódicamente a las familias sobre el proceso de aprendizaje y desarrollo de sus hijos e hijas, siendo esta una obligación propia de la función docente y no una tarea delegable de forma general en otros órganos del centro."
+   },
+   {
+    "d": "media",
+    "q": "El fomento de un buen clima de aula y de la cohesión del grupo es una responsabilidad del docente que incide especialmente en:",
+    "o": [
+     "La calidad de las relaciones sociales y el bienestar emocional del alumnado",
+     "Un aspecto sin ninguna relación con el proceso de aprendizaje ni con el desarrollo social del alumnado",
+     "Una tarea exclusiva del especialista en educación física",
+     "Un objetivo que solo tiene sentido en Educación Primaria"
+    ],
+    "c": 0,
+    "e": "Fomentar un buen clima de aula y la cohesión del grupo (a través de dinámicas de conocimiento mutuo, la resolución conjunta de pequeños conflictos, el reconocimiento positivo) incide directamente en la calidad de las relaciones sociales entre iguales y en el bienestar emocional del alumnado, factores que a su vez favorecen la disposición y la seguridad necesarias para el aprendizaje."
+   },
+   {
+    "d": "facil",
+    "q": "La contribución del docente a la elaboración de la Programación General Anual (PGA) del centro forma parte de:",
+    "o": [
+     "Su función de participación en la planificación y organización general del centro educativo",
+     "Una tarea sin ninguna relación con su labor docente",
+     "Una función reservada en exclusiva al equipo directivo",
+     "Un documento que solo afecta a la etapa de Educación Secundaria"
+    ],
+    "c": 0,
+    "e": "La contribución del docente a documentos institucionales como la Programación General Anual (PGA) forma parte de su función de participación en la planificación y organización general del centro educativo, más allá de su intervención directa en el aula, en coordinación con el resto del claustro y bajo la coordinación del equipo directivo."
+   },
+   {
+    "d": "media",
+    "q": "Las reuniones de ciclo o de nivel entre los docentes que imparten el mismo tramo de edad tienen como finalidad principal:",
+    "o": [
+     "Coordinar la programación, los criterios de evaluación y las estrategias metodológicas comunes entre las distintas aulas del mismo ciclo",
+     "Sustituir las reuniones de claustro general del centro",
+     "Ser un espacio sin ninguna relevancia pedagógica",
+     "Evaluar individualmente el desempeño de cada docente del ciclo"
+    ],
+    "c": 0,
+    "e": "Las reuniones de ciclo o de nivel, en las que participan los docentes que imparten el mismo tramo de edad, tienen como finalidad coordinar la programación didáctica, unificar criterios de evaluación y compartir estrategias metodológicas comunes entre las distintas aulas del mismo ciclo, garantizando una mayor coherencia educativa dentro del centro."
+   },
+   {
+    "d": "dificil",
+    "q": "El papel del docente de Infantil en la promoción de la igualdad de género desde edades tempranas implica, entre otros aspectos:",
+    "o": [
+     "Revisar el propio lenguaje, los materiales y las dinámicas del aula para evitar la reproducción de estereotipos sexistas",
+     "Evitar cualquier mención a la igualdad de género por no ser un contenido propio de la etapa",
+     "Delegar esta responsabilidad exclusivamente en la familia",
+     "Tratar de forma diferenciada y desigual a niños y niñas según estereotipos tradicionales"
+    ],
+    "c": 0,
+    "e": "El docente de Infantil desempeña un papel activo en la promoción de la igualdad de género desde edades tempranas, revisando de forma crítica su propio lenguaje (evitando generalizaciones sexistas), los materiales y cuentos utilizados, y las dinámicas del aula (por ejemplo, evitando repartir juegos o responsabilidades según estereotipos de género), en línea con los principios de coeducación presentes en la normativa educativa vigente."
    }
   ]
  },
@@ -5375,6 +9935,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Que el propio alumnado cree contenidos audiovisuales sencillos (por ejemplo, fotografiar con ayuda del docente una construcción que ha hecho, o grabar un breve vídeo explicando un dibujo) favorece un papel activo y creativo frente a la imagen, en contraste con el rol puramente pasivo de espectador que se tiene al simplemente consumir contenidos ya elaborados por otros."
+   },
+   {
+    "d": "facil",
+    "q": "Según la teoría semiótica de Roland Barthes, aplicada al análisis de la imagen, el significado literal y objetivo de una imagen (lo que se ve directamente) se denomina:",
+    "o": [
+     "Denotación",
+     "Connotación",
+     "Sintaxis visual",
+     "Redundancia icónica"
+    ],
+    "c": 0,
+    "e": "Barthes distinguió, en el análisis semiótico de la imagen, entre la denotación, el significado literal y objetivo de lo que aparece representado (por ejemplo, 'un león'), y la connotación, los significados adicionales, simbólicos o culturales asociados a esa imagen (por ejemplo, 'fuerza' o 'valentía'), una distinción útil para trabajar en Infantil una primera aproximación, muy sencilla, a la lectura crítica de imágenes."
+   },
+   {
+    "d": "media",
+    "q": "Entre los elementos básicos del lenguaje visual que pueden trabajarse de forma sencilla en Infantil se encuentran:",
+    "o": [
+     "El punto, la línea, la forma y el color",
+     "Exclusivamente la sintaxis gramatical",
+     "Solo elementos sonoros, sin ningún componente visual",
+     "Únicamente el tamaño del papel utilizado"
+    ],
+    "c": 0,
+    "e": "Entre los elementos básicos del lenguaje visual que pueden explorarse de forma sencilla y manipulativa en Infantil se encuentran el punto, la línea, la forma y el color, elementos con los que el niño experimenta tanto al observar imágenes como al crear sus propias producciones plásticas, sentando una base perceptiva relevante también para la lectura posterior de imágenes más complejas."
+   },
+   {
+    "d": "dificil",
+    "q": "Según la clasificación de signos propuesta por el semiólogo Charles S. Peirce, una fotografía se considera principalmente un signo de tipo:",
+    "o": [
+     "Símbolo, por una relación puramente arbitraria y convencional con lo que representa",
+     "Icono, por mantener una relación de semejanza o parecido con aquello que representa",
+     "Índice, exclusivamente por una relación causal sin ninguna semejanza visual",
+     "Ninguno de los tipos anteriores, al no considerarse un signo"
+    ],
+    "c": 1,
+    "e": "Según la clasificación de Peirce, una fotografía se considera principalmente un signo icónico, ya que mantiene una relación de semejanza o parecido perceptivo con aquello que representa (la foto de un perro se parece visualmente a un perro real), a diferencia del símbolo, cuya relación con el referente es puramente arbitraria y convencional (como ocurre con las palabras del lenguaje verbal)."
+   },
+   {
+    "d": "facil",
+    "q": "Las principales recomendaciones internacionales sobre el uso de pantallas en niños de entre 2 y 4 años sitúan el límite orientativo de tiempo diario en torno a:",
+    "o": [
+     "Sin ningún límite de tiempo",
+     "Un máximo de una hora al día",
+     "Un mínimo de tres horas al día",
+     "Un máximo de seis horas al día"
+    ],
+    "c": 1,
+    "e": "Recomendaciones internacionales como las de la Organización Mundial de la Salud sitúan el límite orientativo de exposición a pantallas para niños de entre 2 y 4 años en un máximo de una hora al día, priorizando en el resto del tiempo actividades como el juego activo, la interacción social directa y el descanso adecuado, esenciales para un desarrollo saludable en esta franja de edad."
+   },
+   {
+    "d": "dificil",
+    "q": "La normativa española de comunicación audiovisual establece una franja horaria de protección reforzada del menor en la programación televisiva general, situada aproximadamente entre:",
+    "o": [
+     "Las 6:00 y las 8:00 horas, coincidiendo con el horario de mayor audiencia adulta",
+     "Las 8:00 y las 9:00, y las 17:00 y las 20:00 horas en días lectivos",
+     "Las 22:00 y las 24:00 horas",
+     "No existe ninguna franja horaria de protección reforzada"
+    ],
+    "c": 1,
+    "e": "La normativa española de comunicación audiovisual establece, dentro del horario general de protección al menor (de 6:00 a 22:00 horas), una franja de protección reforzada en horario de mayor audiencia infantil, situada aproximadamente entre las 8:00 y las 9:00 horas, y entre las 17:00 y las 20:00 horas en días lectivos, momentos en los que se exige un control especialmente estricto de los contenidos emitidos."
+   },
+   {
+    "d": "media",
+    "q": "El fenómeno conocido como 'sharenting' (compartir en redes sociales imágenes y datos de los propios hijos por parte de los progenitores) plantea principalmente cuestiones relacionadas con:",
+    "o": [
+     "La intimidad y la protección de datos del menor",
+     "Ningún riesgo relevante para el menor, según coinciden todas las investigaciones disponibles hasta la fecha",
+     "Exclusivamente cuestiones de calidad fotográfica",
+     "Un fenómeno sin ninguna relación con la infancia"
+    ],
+    "c": 0,
+    "e": "El 'sharenting' plantea cuestiones relevantes sobre la intimidad, la protección de datos personales y la futura identidad digital del menor, que no puede consentir ni controlar la difusión de sus propias imágenes en redes sociales, un tema sobre el que cada vez es más frecuente sensibilizar a las familias desde el propio centro educativo, dado su impacto potencial en el bienestar y la privacidad del niño a largo plazo."
+   },
+   {
+    "d": "facil",
+    "q": "La documentación pedagógica mediante fotografías del proceso de trabajo del alumnado, práctica destacada en la experiencia de Reggio Emilia, tiene como finalidad principal:",
+    "o": [
+     "Hacer visible el proceso de aprendizaje del niño, más allá del resultado final",
+     "Sustituir por completo la evaluación mediante observación directa realizada habitualmente por el docente",
+     "Ser utilizada exclusivamente con fines decorativos del aula",
+     "Evaluar únicamente la estética de los trabajos realizados"
+    ],
+    "c": 0,
+    "e": "La documentación pedagógica mediante fotografías, característica de la experiencia educativa de Reggio Emilia, tiene como finalidad hacer visible el proceso de aprendizaje del niño (cómo ha llegado a un resultado, qué ha probado, con quién ha interactuado), y no solo el producto final, permitiendo compartir y reflexionar sobre ese proceso con las familias y el propio alumnado."
+   },
+   {
+    "d": "media",
+    "q": "Ayudar al niño de Infantil a distinguir progresivamente entre imágenes que representan situaciones reales y aquellas que representan situaciones fantásticas o de ficción (un dibujo animado frente a un vídeo real) contribuye especialmente a:",
+    "o": [
+     "El desarrollo de la comprensión de la realidad y de la capacidad crítica",
+     "Ningún aspecto relevante del desarrollo cognitivo ni de la capacidad de comprensión del niño",
+     "Limitar por completo el acceso a contenidos de ficción",
+     "Ser una distinción que el niño domina ya de forma innata desde el nacimiento"
+    ],
+    "c": 0,
+    "e": "Ayudar progresivamente al niño a distinguir entre imágenes que representan situaciones reales y aquellas de carácter fantástico o de ficción (un dibujo animado con superpoderes frente a un vídeo de una situación cotidiana real) contribuye al desarrollo de su comprensión de la realidad y a sentar las bases de una capacidad crítica ante lo que observa, una distinción que no es innata sino que se va consolidando progresivamente a lo largo de la infancia."
+   },
+   {
+    "d": "facil",
+    "q": "El cómic o las viñetas secuenciales, adaptados a la edad, pueden emplearse en Infantil como recurso para:",
+    "o": [
+     "Trabajar la secuenciación temporal y la lectura de una narración en imágenes",
+     "Sustituir por completo el cuento tradicional narrado en voz alta por el propio docente cada día",
+     "Un recurso sin ninguna utilidad pedagógica en esta etapa",
+     "Evaluar exclusivamente la motricidad fina"
+    ],
+    "c": 0,
+    "e": "El cómic o las viñetas secuenciales sencillas, adaptadas a la edad, pueden emplearse en Infantil para trabajar la secuenciación temporal (qué pasa antes y qué pasa después) y la capacidad de seguir una narración a través de una serie ordenada de imágenes, complementando otros recursos como el cuento narrado o el álbum ilustrado, sin sustituirlos."
+   },
+   {
+    "d": "dificil",
+    "q": "El término 'nativos digitales', acuñado por Marc Prensky para referirse a las generaciones nacidas rodeadas de tecnología digital, ha sido posteriormente objeto de crítica porque:",
+    "o": [
+     "Nunca ha sido cuestionado por la comunidad educativa e investigadora, que lo considera un hecho totalmente incuestionable",
+     "Nacer rodeado de tecnología no implica automáticamente poseer competencias digitales críticas o un uso seguro y reflexivo de la misma",
+     "Solo se aplica a la generación nacida antes de 1980",
+     "Demuestra de forma incuestionable que todos los niños actuales dominan la tecnología de forma experta"
+    ],
+    "c": 1,
+    "e": "El término 'nativos digitales' de Prensky ha sido objeto de crítica porque haber nacido rodeado de tecnología digital no implica automáticamente poseer competencias digitales críticas, ni un uso seguro, reflexivo y autónomo de esa tecnología: esas competencias requieren de un proceso educativo explícito de alfabetización digital y mediática, que no se adquiere de forma espontánea por el simple contacto cotidiano con dispositivos."
+   },
+   {
+    "d": "media",
+    "q": "Entre las técnicas de persuasión más habituales de la publicidad dirigida específicamente a la infancia se encuentran:",
+    "o": [
+     "El uso de personajes conocidos y colores muy llamativos asociados al producto",
+     "Argumentos técnicos y datos objetivos complejos sobre las características reales del producto anunciado",
+     "La ausencia total de cualquier recurso visual o sonoro atractivo",
+     "Un lenguaje formal y descontextualizado del mundo infantil"
+    ],
+    "c": 0,
+    "e": "La publicidad dirigida específicamente a la infancia recurre habitualmente a técnicas de persuasión como el uso de personajes conocidos y queridos por los niños (de series o películas), colores muy llamativos, músicas pegadizas y un ritmo dinámico asociado al producto, recursos que apelan a lo emocional y lo atractivo más que a argumentos objetivos, de ahí la importancia de desarrollar un sentido crítico temprano ante estos mensajes."
+   },
+   {
+    "d": "dificil",
+    "q": "El uso de la pantalla como recurso habitual para calmar al niño ante un momento de frustración o aburrimiento (la llamada 'niñera digital') plantea el riesgo de:",
+    "o": [
+     "Favorecer siempre el desarrollo de estrategias propias y autónomas de autorregulación emocional",
+     "Interferir en el desarrollo de estrategias propias de autorregulación emocional, al externalizar la calma en un estímulo externo",
+     "No tener ninguna relación con la autorregulación emocional del niño",
+     "Ser la estrategia más recomendada por la evidencia científica actual"
+    ],
+    "c": 1,
+    "e": "Recurrir de forma habitual a la pantalla para calmar al niño ante la frustración o el aburrimiento plantea el riesgo de interferir en el desarrollo de sus propias estrategias de autorregulación emocional, ya que la calma se externaliza en un estímulo externo (el vídeo, el juego) en lugar de que el niño aprenda progresivamente, con el acompañamiento del adulto, a gestionar por sí mismo esos estados emocionales."
+   },
+   {
+    "d": "facil",
+    "q": "Al seleccionar aplicaciones o videojuegos educativos digitales adecuados para el alumnado de Infantil conviene valorar, entre otros criterios:",
+    "o": [
+     "La adecuación a la edad y la ausencia de publicidad intrusiva",
+     "Que tengan la mayor cantidad posible de anuncios publicitarios y de compras integradas dentro de la propia aplicación",
+     "Que estén diseñados exclusivamente para un público adulto",
+     "Que impliquen sesiones de uso de varias horas seguidas sin ninguna pausa"
+    ],
+    "c": 0,
+    "e": "Al seleccionar aplicaciones o videojuegos educativos para Infantil conviene valorar la adecuación de los contenidos y del diseño a la edad, la ausencia de publicidad intrusiva o de compras dentro de la aplicación, y una interacción sencilla, significativa y con un propósito educativo claro, evitando aplicaciones pensadas para captar la atención de forma prolongada sin ningún valor pedagógico real."
+   },
+   {
+    "d": "dificil",
+    "q": "La investigación sobre comprensión lectora ha señalado, en algunos estudios, un posible 'efecto de inferioridad de la pantalla' que indica que, en ciertas condiciones:",
+    "o": [
+     "La comprensión y retención de una narración pueden ser ligeramente inferiores cuando se presenta en formato digital frente al formato impreso",
+     "La comprensión es siempre y en todo caso muy superior en formato digital",
+     "No existe ninguna diferencia documentada entre formato digital e impreso en ningún estudio",
+     "El formato solo influye en la velocidad de lectura, nunca en la comprensión"
+    ],
+    "c": 0,
+    "e": "Algunos estudios sobre comprensión lectora han descrito un posible 'efecto de inferioridad de la pantalla', según el cual, en ciertas condiciones, la comprensión y la retención de una narración pueden ser ligeramente inferiores cuando se presenta en formato digital frente al formato impreso, un hallazgo relevante a la hora de decidir qué formato priorizar en actividades de narración y lectura compartida en Infantil, sin que ello signifique descartar por completo el uso de recursos digitales."
+   },
+   {
+    "d": "facil",
+    "q": "Al diseñar carteles, pictogramas o materiales visuales para el aula de Infantil conviene cuidar especialmente:",
+    "o": [
+     "Un tamaño y un contraste adecuados, con imágenes claras y sencillas",
+     "Un tamaño de letra muy pequeño, para así poder aprovechar al máximo el espacio disponible en el cartel",
+     "La máxima cantidad posible de información y detalles en cada imagen",
+     "El uso exclusivo de imágenes en blanco y negro sin ningún contraste"
+    ],
+    "c": 0,
+    "e": "Al diseñar materiales visuales para el aula de Infantil conviene cuidar un tamaño y un contraste adecuados a la distancia y altura a la que los verá el alumnado, con imágenes claras, bien definidas y sin elementos superfluos que puedan dificultar su identificación e interpretación rápida, especialmente relevante en pictogramas de uso funcional como los de una agenda visual."
+   },
+   {
+    "d": "media",
+    "q": "La segmentación de juguetes y su publicidad según estereotipos de género (colores, actividades asociadas a niños o a niñas) es un aspecto sobre el que la escuela infantil puede intervenir mediante:",
+    "o": [
+     "La oferta de materiales diversos, sin diferenciación por sexo, y la reflexión crítica",
+     "El refuerzo explícito de esa segmentación dentro del propio aula, agrupando los juguetes por rincones separados según el sexo",
+     "La prohibición total de cualquier tipo de juguete comercial",
+     "La indiferencia total ante este tipo de mensajes publicitarios"
+    ],
+    "c": 0,
+    "e": "Ante la segmentación de juguetes y su publicidad según estereotipos de género, la escuela infantil puede intervenir ofreciendo en el aula materiales y juguetes diversos, sin diferenciación por sexo (cocinitas, construcciones, disfraces disponibles para todo el alumnado por igual), y favoreciendo, de forma adaptada a la edad, una reflexión crítica inicial sobre estos mensajes, en línea con los principios de coeducación."
+   },
+   {
+    "d": "facil",
+    "q": "El debate sobre el posible impacto del uso frecuente de pantallas táctiles (deslizar el dedo) en el desarrollo de la motricidad fina necesaria para la escritura (pinza digital) plantea, entre las cautelas señaladas, la conveniencia de:",
+    "o": [
+     "Equilibrar el uso de pantallas con actividades manipulativas que impliquen pinza digital, como el recorte, el modelado o el dibujo con útiles diversos",
+     "Sustituir por completo cualquier actividad manipulativa tradicional por el uso de pantallas",
+     "No existe relación alguna entre el tipo de gesto empleado y el desarrollo motor fino",
+     "Prohibir de forma absoluta cualquier contacto con dispositivos táctiles"
+    ],
+    "c": 0,
+    "e": "Algunas voces han señalado la conveniencia de equilibrar el uso de pantallas táctiles, que implican gestos como deslizar o tocar, con actividades manipulativas tradicionales que exigen y entrenan específicamente la pinza digital (recortar, enhebrar, modelar plastilina, dibujar con distintos útiles), movimientos finos que resultan especialmente relevantes como preparación para la escritura convencional."
+   },
+   {
+    "d": "media",
+    "q": "Las iniciativas normativas orientadas a regular o desaconsejar la publicidad de juguetes basada en estereotipos sexistas responden principalmente al objetivo de:",
+    "o": [
+     "Promover la igualdad efectiva y evitar la transmisión de roles de género limitantes desde la infancia",
+     "Prohibir por completo la existencia de publicidad infantil",
+     "Favorecer una mayor segmentación de juguetes por sexo",
+     "Un objetivo sin ninguna relación con la igualdad de género"
+    ],
+    "c": 0,
+    "e": "Las iniciativas normativas orientadas a regular o desaconsejar la publicidad de juguetes basada en estereotipos sexistas responden al objetivo de promover la igualdad efectiva entre mujeres y hombres desde edades tempranas, evitando que determinados juguetes o actividades se presenten como exclusivos o más apropiados para un sexo que para otro, en línea con los principios de coeducación presentes en la normativa educativa vigente."
+   },
+   {
+    "d": "dificil",
+    "q": "Algunas guías de referencia amplían ligeramente el límite orientativo de tiempo de pantalla recomendado para niños de 5 a 6 años, situándolo, de forma orientativa y siempre con contenidos de calidad, en torno a:",
+    "o": [
+     "30 minutos al día como máximo absoluto",
+     "Hasta un máximo aproximado de 2 horas al día de contenidos de calidad",
+     "Sin ningún límite recomendado a partir de esta edad",
+     "Un mínimo obligatorio de 4 horas diarias"
+    ],
+    "c": 1,
+    "e": "Algunas guías de referencia sitúan, de forma orientativa, el límite de tiempo de pantalla recomendado para niños de 5 a 6 años en un máximo aproximado de 2 horas diarias de contenidos de calidad y supervisados, una cifra ligeramente superior a la recomendada para edades más tempranas (en torno a una hora para 2-4 años), aunque siempre priorizando el acompañamiento adulto y la calidad sobre la cantidad de tiempo."
+   },
+   {
+    "d": "moidificil",
+    "q": "Dentro de la clasificación de signos de Peirce, un signo que mantiene con su referente una relación de causa-efecto o contigüidad física, como el humo respecto al fuego, se denomina:",
+    "o": [
+     "Icono",
+     "Índice",
+     "Símbolo",
+     "Alegoría"
+    ],
+    "c": 1,
+    "e": "En la clasificación de Peirce, el índice es el tipo de signo que mantiene con su referente una relación de causa-efecto o de contigüidad física real (el humo como índice del fuego, unas huellas como índice del paso de alguien), a diferencia del icono, que se basa en una relación de semejanza (como una fotografía), y del símbolo, cuya relación es puramente convencional y arbitraria (como las palabras)."
    }
   ]
  },
@@ -5621,6 +10421,246 @@ const QUESTION_BANK = [
     ],
     "c": 1,
     "e": "El canon literario infantil —el conjunto de obras consideradas de referencia— debe entenderse en la actualidad como un referente orientativo, no como un listado cerrado e inmutable, y conviene revisarlo y ampliarlo de forma crítica incorporando diversidad de autores, culturas, perspectivas y formatos (como el álbum ilustrado contemporáneo), en lugar de limitarse siempre a los mismos clásicos."
+   },
+   {
+    "d": "facil",
+    "q": "Juan Cervera, en su clasificación de la literatura infantil, distingue entre 'literatura ganada', 'literatura creada' y 'literatura instrumentalizada'. La 'literatura ganada' hace referencia a:",
+    "o": [
+     "Los textos de tradición oral que el niño ha hecho suyos aunque no nacieron pensados para él",
+     "Las obras escritas expresamente por un autor concreto pensando en un público infantil determinado",
+     "Los textos escolares creados con fines exclusivamente didácticos y de evaluación",
+     "Las traducciones de obras juveniles extranjeras adaptadas al castellano"
+    ],
+    "c": 0,
+    "e": "Juan Cervera denomina 'literatura ganada' al conjunto de textos de origen popular y de tradición oral (cuentos, romances, canciones, adivinanzas) que no fueron creados pensando específicamente en la infancia, pero que con el tiempo esta ha hecho suyos por su sencillez y su atractivo, a diferencia de la 'literatura creada', escrita ya de forma deliberada para el público infantil, y de la 'literatura instrumentalizada', subordinada a fines didácticos."
+   },
+   {
+    "d": "dificil",
+    "q": "Vladimir Propp, en su obra 'Morfología del cuento', analizó los cuentos maravillosos rusos y concluyó que, pese a su enorme variedad de personajes y escenarios, comparten:",
+    "o": [
+     "Un mismo idioma original que impide cualquier traducción posterior",
+     "Un número limitado de funciones narrativas que se repiten en un orden similar",
+     "La ausencia constante de un antagonista claro y bien definido dentro de la trama",
+     "Una extensión idéntica y fija en todas sus versiones"
+    ],
+    "c": 1,
+    "e": "Vladimir Propp identificó que los cuentos maravillosos rusos, aunque varíen en personajes y ambientación, se construyen a partir de un conjunto limitado de funciones narrativas (como la fechoría inicial, la partida del héroe, la superación de una prueba o el castigo del antagonista) que aparecen siempre en una secuencia similar, lo que permitió establecer una estructura morfológica común aplicable después a muchos cuentos tradicionales de otras culturas."
+   },
+   {
+    "d": "facil",
+    "q": "Las retahílas y los juegos de palabras de tradición oral, usados para echar a suertes o iniciar un juego, tienen como función principal:",
+    "o": [
+     "El disfrute rítmico del lenguaje y la organización lúdica del grupo",
+     "Enseñar de manera sistemática y progresiva un vocabulario técnico avanzado propio de otras materias",
+     "Sustituir por completo la narración de cuentos en el aula",
+     "Evaluar de forma objetiva la capacidad lectora del alumnado"
+    ],
+    "c": 0,
+    "e": "Las retahílas (fórmulas rítmicas usadas para echar a suertes, elegir turnos o comenzar un juego) tienen como función principal el disfrute del componente sonoro y rítmico del lenguaje, además de organizar de forma lúdica y aceptada por todos el reparto de papeles o turnos dentro del juego grupal, sin relación con la enseñanza de vocabulario técnico ni con la evaluación lectora."
+   },
+   {
+    "d": "media",
+    "q": "El álbum sin palabras o libro-imagen, en el que la historia se cuenta exclusivamente a través de las ilustraciones, resulta especialmente valioso en Infantil porque:",
+    "o": [
+     "Obliga al niño a inventar y verbalizar la narración a partir de las imágenes",
+     "Carece por completo de cualquier tipo de estructura narrativa reconocible o coherente",
+     "Solo puede utilizarse con niños que ya leen de forma convencional",
+     "Impide cualquier tipo de mediación del adulto durante su lectura"
+    ],
+    "c": 0,
+    "e": "El álbum sin palabras traslada al niño la responsabilidad de construir el relato a partir de la secuencia de imágenes, lo que estimula su expresión oral (tiene que poner en palabras lo que observa), su capacidad de inferencia y su interpretación personal de la historia, y resulta accesible precisamente a niños que todavía no leen de forma convencional, con la mediación del adulto que acompaña esa lectura compartida."
+   },
+   {
+    "d": "dificil",
+    "q": "Según la propuesta evolutiva de Arthur Applebee sobre la comprensión infantil de la estructura narrativa, los relatos de niños de dos y tres años suelen presentar estructura de:",
+    "o": [
+     "Narración causal compleja con varios hilos argumentales entrelazados",
+     "Amontonamiento (heaps): elementos yuxtapuestos sin conexión causal clara",
+     "Tres actos idéntica a la del cuento clásico dirigido a adultos",
+     "Relato en primera persona con reflexión metanarrativa explícita"
+    ],
+    "c": 1,
+    "e": "Applebee describió una progresión en la forma en que los niños organizan sus relatos: hacia los dos-tres años predomina el 'amontonamiento' (heaps), una simple yuxtaposición de elementos sin conexión causal ni temporal (\"un perro... un coche... mi mamá\"), que con la edad evoluciona hacia secuencias con un núcleo temático común y, más adelante, hacia narraciones con verdadera organización causal y temporal."
+   },
+   {
+    "d": "facil",
+    "q": "Los trabalenguas, como recurso de la literatura de tradición oral, se emplean en el aula de Infantil especialmente para:",
+    "o": [
+     "Ejercitar la articulación fonética de forma lúdica",
+     "Enseñar de manera explícita y sistemática normas ortográficas y de acentuación",
+     "Sustituir de forma completa la lectura de cuentos",
+     "Evaluar formalmente la comprensión lectora"
+    ],
+    "c": 0,
+    "e": "Los trabalenguas, breves construcciones que combinan sonidos de pronunciación difícil (como 'tres tristes tigres'), se utilizan en el aula de Infantil de forma lúdica para ejercitar la articulación fonética y la agilidad en la pronunciación, sin relación con contenidos ortográficos, que resultan ajenos a esta etapa."
+   },
+   {
+    "d": "media",
+    "q": "El teatro de guiñol o de títeres, como manifestación de literatura dramática infantil, favorece especialmente:",
+    "o": [
+     "La comprensión de diálogos y una primera aproximación al lenguaje teatral",
+     "Exclusivamente el desarrollo de la motricidad fina mediante la manipulación del propio títere",
+     "Únicamente la práctica de la lectura silenciosa individual",
+     "Ningún aspecto relacionado con la literatura infantil"
+    ],
+    "c": 0,
+    "e": "El teatro de guiñol o de títeres acerca al niño al género dramático desde edades tempranas: favorece la comprensión de los diálogos entre personajes, estimula la expresión oral (cuando el propio niño manipula el títere y le da voz) y constituye una primera aproximación, lúdica y accesible, al lenguaje y las convenciones propias del teatro."
+   },
+   {
+    "d": "dificil",
+    "q": "Gianni Rodari, además del binomio fantástico, propuso la técnica de la 'hipótesis fantástica' (el 'qué pasaría si...'), que consiste en:",
+    "o": [
+     "Memorizar un cuento clásico completo palabra por palabra",
+     "Partir de una pregunta hipotética disparatada como arranque para inventar una historia",
+     "Repetir la misma historia cambiando solo el nombre del protagonista",
+     "Ilustrar un cuento ya existente sin modificar su texto original"
+    ],
+    "c": 1,
+    "e": "La 'hipótesis fantástica' de Gianni Rodari consiste en plantear una pregunta disparatada del tipo '¿qué pasaría si...?' (por ejemplo, '¿qué pasaría si de repente todos los botones del mundo desaparecieran?') como semilla creativa a partir de la cual el grupo va imaginando y desarrollando libremente una historia, estimulando así el pensamiento divergente."
+   },
+   {
+    "d": "facil",
+    "q": "A la hora de valorar las ilustraciones de un cuento infantil, un criterio de calidad relevante es que la imagen:",
+    "o": [
+     "Aporte matices o información que enriquezcan o completen el texto",
+     "Ser siempre lo más realista y fotográfica posible, evitando cualquier estilización",
+     "Ocupe el menor espacio posible dentro de la página",
+     "Utilice siempre una única gama fija de colores"
+    ],
+    "c": 0,
+    "e": "Una ilustración de calidad en el cuento infantil no se limita a repetir literalmente lo que dice el texto, sino que aporta matices, detalles o información complementaria que enriquecen la historia (por ejemplo, mostrando en la imagen algo que el texto no menciona), sin que existan requisitos de estilo realista, tamaño mínimo o paleta de colores única para considerarla adecuada."
+   },
+   {
+    "d": "media",
+    "q": "La diferencia principal entre la biblioteca de aula y la biblioteca escolar de centro radica en que la biblioteca de aula:",
+    "o": [
+     "Es un espacio reducido de uso cotidiano dentro de la propia clase",
+     "Sustituye de forma completa y permanente a la biblioteca escolar del centro",
+     "Solo puede existir en centros de gran tamaño y matrícula",
+     "No guarda ninguna relación con el fomento de la lectura"
+    ],
+    "c": 0,
+    "e": "La biblioteca de aula es un espacio reducido, ubicado dentro de la propia clase, con un fondo de libros seleccionado y renovado periódicamente para el uso cotidiano e inmediato del grupo, mientras que la biblioteca escolar es un espacio común a todo el centro, con un fondo bibliográfico más amplio y variado, y ambas se complementan dentro del plan de fomento de la lectura del centro."
+   },
+   {
+    "d": "moidificil",
+    "q": "El 'kamishibai', técnica de narración de origen japonés que emplea un pequeño teatrillo de madera (butai) y láminas ilustradas que se van deslizando, se caracteriza frente al cuentacuentos tradicional por:",
+    "o": [
+     "Prescindir siempre de cualquier apoyo visual durante toda la narración",
+     "Apoyarse en láminas que se retiran una a una mientras se narra el texto del dorso",
+     "Exigir que cada niño lea individualmente su propia lámina en silencio",
+     "Sustituir siempre la voz del narrador por una grabación sonora previa"
+    ],
+    "c": 1,
+    "e": "El kamishibai es una técnica de narración de origen japonés en la que las láminas ilustradas se colocan en un pequeño teatrillo de madera (butai) y se van retirando una a una a medida que se narra, apareciendo la siguiente imagen; el texto correspondiente a cada lámina suele figurar impreso al dorso de la anterior, lo que permite al narrador leer el texto mientras el público solo ve la ilustración."
+   },
+   {
+    "d": "dificil",
+    "q": "La revisión crítica de determinados cuentos clásicos por presentar estereotipos de género (por ejemplo, princesas pasivas que esperan ser rescatadas) plantea en la actualidad la necesidad de:",
+    "o": [
+     "Eliminar por completo estos cuentos del aula sin excepción alguna",
+     "Acompañarlos de mediación reflexiva y combinarlos con relatos más igualitarios",
+     "Mantenerlos exactamente igual sin ninguna contextualización previa",
+     "Utilizarlos únicamente en el segundo ciclo, nunca en el primero"
+    ],
+    "c": 1,
+    "e": "Ante los estereotipos de género u otros roles desiguales presentes en algunos cuentos clásicos, el enfoque actual no pasa por eliminarlos sin más del aula, sino por acompañarlos de una mediación reflexiva del adulto que invite a pensar sobre esos roles, y por combinarlos con otras versiones, relatos y álbumes contemporáneos que ofrezcan modelos de personajes más diversos, activos e igualitarios."
+   },
+   {
+    "d": "facil",
+    "q": "Las canciones de corro, acompañadas de movimiento y juego colectivo, forman parte de la literatura de tradición oral infantil y favorecen especialmente:",
+    "o": [
+     "La coordinación motriz, el ritmo y la interacción social del grupo",
+     "Exclusivamente el desarrollo del pensamiento lógico-matemático mediante el conteo de la letra",
+     "Únicamente la práctica de la lectura silenciosa individual",
+     "Ningún aspecto relevante del desarrollo infantil global"
+    ],
+    "c": 0,
+    "e": "Las canciones de corro (como 'El patio de mi casa' o 'Al pasar la barca'), que combinan letra, melodía y movimiento coordinado en grupo, favorecen la coordinación motriz, la interiorización del ritmo musical y la interacción social propia del juego colectivo, más allá del componente puramente verbal del texto."
+   },
+   {
+    "d": "media",
+    "q": "Los libros informativos o de no ficción dirigidos a la primera infancia (sobre animales, el cuerpo humano, los oficios) se diferencian del cuento narrativo en que:",
+    "o": [
+     "Transmiten conocimiento sobre la realidad sin necesidad de trama ni personajes",
+     "Carecen por completo de cualquier valor literario, educativo o estético reconocible",
+     "Solo pueden emplearse a partir de Educación Primaria en adelante",
+     "Deben presentarse siempre sin ningún tipo de ilustración"
+    ],
+    "c": 0,
+    "e": "Los libros informativos o de no ficción para primera infancia persiguen transmitir conocimiento sobre algún aspecto de la realidad (los animales, el cuerpo, los oficios) de forma atractiva y adaptada, sin necesidad de organizarse mediante una trama narrativa con personajes y conflicto como el cuento; forman parte también de la literatura infantil en sentido amplio y suelen apoyarse mucho en la ilustración."
+   },
+   {
+    "d": "dificil",
+    "q": "Charles Perrault publicó su recopilación de cuentos 'Historias o cuentos del tiempo pasado, con moralejas' (que incluye 'La bella durmiente' o 'Caperucita Roja') en el año:",
+    "o": [
+     "1729",
+     "1835",
+     "1812",
+     "1697"
+    ],
+    "c": 3,
+    "e": "Charles Perrault publicó en 1697 su célebre recopilación 'Historias o cuentos del tiempo pasado, con moralejas' (conocida también como 'Cuentos de mi madre la Oca'), más de un siglo antes de que los hermanos Grimm publicaran su propia recopilación de cuentos populares alemanes en 1812, y del cuentista danés Hans Christian Andersen, cuyos primeros cuentos aparecieron a partir de 1835."
+   },
+   {
+    "d": "facil",
+    "q": "El 'cuento de nunca acabar', estructura narrativa circular en la que el final enlaza de nuevo con el principio, tiene como función principal:",
+    "o": [
+     "Generar el efecto humorístico de un relato sin fin",
+     "Enseñar de forma explícita y directa una moraleja",
+     "Sustituir a los cuentos con planteamiento, nudo y desenlace",
+     "Servir exclusivamente para evaluar la comprensión lectora"
+    ],
+    "c": 0,
+    "e": "El cuento de nunca acabar es una estructura narrativa circular y humorística en la que, al llegar al final, la historia vuelve a enlazar con su comienzo, de modo que puede repetirse indefinidamente; su función principal es lúdica, generando sorpresa y complicidad con el oyente al romper la expectativa de un desenlace convencional, sin pretender transmitir una moraleja explícita."
+   },
+   {
+    "d": "media",
+    "q": "El plan de fomento de la lectura de un centro de Educación Infantil debe contemplar, entre otras actuaciones:",
+    "o": [
+     "Actividades sistemáticas de acercamiento al libro coordinadas durante el curso",
+     "Actividades puntuales y aisladas a lo largo del curso, sin ninguna planificación conjunta previa",
+     "Limitarse solo a la lectura individual y silenciosa del alumnado",
+     "Excluir de forma deliberada la participación de las familias"
+    ],
+    "c": 0,
+    "e": "Un plan de fomento de la lectura eficaz en Infantil contempla actuaciones sistemáticas y coordinadas a lo largo de todo el curso (servicio de préstamo, hora del cuento diaria, dinamización de la biblioteca de aula, actividades con las familias), y no acciones puntuales y desconectadas entre sí, siendo la implicación familiar un elemento habitual y deseable de estos planes."
+   },
+   {
+    "d": "moidificil",
+    "q": "En la selección de libros según la edad dentro de la etapa 0-6 años, los libros de cartón grueso, resistentes a la manipulación y con pocas palabras por página, se consideran especialmente adecuados para el tramo de:",
+    "o": [
+     "Exclusivamente a partir de los 6 años, al iniciar Primaria",
+     "4 a 5 años, cuando ya está consolidada la motricidad fina",
+     "5 a 6 años, en el último curso del segundo ciclo",
+     "0 a 1 año, cuando el libro se explora también con la boca"
+    ],
+    "c": 3,
+    "e": "En el primer año de vida, cuando el bebé explora los objetos también a través de la boca y realiza movimientos poco precisos con las manos, resultan especialmente adecuados los libros de cartón grueso (libros de cartoné), resistentes a la manipulación, con escaso texto y con imágenes grandes, sencillas y de alto contraste, muy distintos de los libros de papel más delicado propios de edades posteriores."
+   },
+   {
+    "d": "dificil",
+    "q": "Las fábulas, género literario que atribuye habla y comportamiento humano a animales para transmitir una enseñanza final, tienen entre sus autores clásicos de referencia a:",
+    "o": [
+     "Esopo, en la Grecia antigua, y Jean de La Fontaine, en el siglo XVII",
+     "Exclusivamente autores contemporáneos del siglo XX sin ninguna tradición anterior",
+     "Los hermanos Grimm como creadores originales del género",
+     "Gianni Rodari como iniciador histórico de la fábula"
+    ],
+    "c": 0,
+    "e": "La fábula es un género de larga tradición cuyos referentes clásicos más citados son Esopo, en la Grecia antigua, y Jean de La Fontaine, que en la Francia del siglo XVII versificó y popularizó numerosas fábulas (como 'La cigarra y la hormiga' o 'La liebre y la tortuga'), mucho antes de que autores del siglo XX, como Gianni Rodari, aportaran sus propias renovaciones al género de la literatura infantil."
+   },
+   {
+    "d": "moidificil",
+    "q": "En su 'Morfología del cuento', Vladimir Propp identificó un total de funciones narrativas básicas en los cuentos maravillosos rusos analizados de:",
+    "o": [
+     "21 funciones",
+     "36 funciones",
+     "31 funciones",
+     "25 funciones"
+    ],
+    "c": 2,
+    "e": "Vladimir Propp identificó un total de 31 funciones narrativas (acciones tipo de los personajes, como la fechoría inicial, la partida del héroe o su recompensa final) que, con distinta combinación y presencia según el cuento concreto, aparecen siempre en el mismo orden relativo dentro del centenar de cuentos maravillosos rusos que analizó para su estudio."
    }
   ]
  },
@@ -5867,6 +10907,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Disponer de un tiempo propio de juego libre, sin intervención constante del adulto (que observa pero no dirige cada acción), favorece la autonomía, la iniciativa personal del niño para decidir a qué y cómo jugar, y el desarrollo de su capacidad de autorregulación, y no debe considerarse una pérdida de tiempo que haya que sustituir siempre por actividades dirigidas."
+   },
+   {
+    "d": "facil",
+    "q": "El espacio del aula de Infantil, entendido como un elemento curricular más, debe reunir entre sus características básicas la de ser:",
+    "o": [
+     "Diseñado por criterios exclusivamente estéticos y decorativos",
+     "Polivalente, capaz de adaptarse a distintas actividades y funciones",
+     "Fijo e inamovible durante todo el curso escolar completo",
+     "Reservado en exclusiva para las actividades dirigidas por el adulto"
+    ],
+    "c": 1,
+    "e": "El espacio del aula de Infantil debe ser polivalente, es decir, capaz de transformarse y adaptarse a las distintas actividades y momentos de la jornada (una misma zona puede servir para la asamblea y, reorganizada, para el trabajo en pequeño grupo), en lugar de mantenerse fijo e inamovible o responder únicamente a criterios decorativos ajenos a su función pedagógica."
+   },
+   {
+    "d": "media",
+    "q": "El modelo de organización espacial por 'talleres', en el que distintos grupos rotan por espacios especializados (cocina, pintura, construcciones), se diferencia de los rincones de aula en que los talleres:",
+    "o": [
+     "Son idénticos en su gestión y funcionamiento a los rincones de aula",
+     "Excluyen por completo la posibilidad de trabajar mediante proyectos",
+     "Suelen implicar mayor especialización de espacios y varios adultos",
+     "Solo se aplican, por normativa, en el primer ciclo de la etapa"
+    ],
+    "c": 2,
+    "e": "Los talleres suelen organizarse como espacios más especializados que los rincones de aula habituales, con materiales y propuestas concretas (un taller de cocina, uno de pintura, uno de construcciones), por los que rotan distintos grupos a lo largo de la semana, y con frecuencia cuentan con la colaboración de otros adultos del centro o de familias, a diferencia del rincón de aula, gestionado habitualmente por el propio tutor o tutora dentro de su grupo estable."
+   },
+   {
+    "d": "dificil",
+    "q": "La pedagogía de Reggio Emilia defiende una organización del espacio en la que la 'piazza' o espacio central del centro cumple la función de:",
+    "o": [
+     "Un despacho reservado en exclusiva para el equipo directivo",
+     "Un almacén exclusivo de material fungible sin ninguna función pedagógica reconocible",
+     "Un espacio que por diseño debe permanecer siempre cerrado",
+     "Un lugar de encuentro y tránsito entre aulas que favorece el intercambio"
+    ],
+    "c": 3,
+    "e": "En la pedagogía de Reggio Emilia, la 'piazza' es un espacio central, a modo de plaza pública dentro del propio centro, que conecta las distintas aulas y favorece el encuentro, el tránsito y el intercambio espontáneo entre niños de distintos grupos, reflejando la importancia que este enfoque otorga a la dimensión social y comunitaria del espacio escolar."
+   },
+   {
+    "d": "media",
+    "q": "El tiempo dedicado al 'recibimiento' o entrada individual de cada niño al aula, con un saludo personalizado por parte del adulto, tiene como función principal:",
+    "o": [
+     "Favorecer un tránsito afectivo y seguro hacia el entorno escolar",
+     "Retrasar de forma innecesaria el inicio de las actividades del día",
+     "Sustituir por completo al momento posterior de la asamblea",
+     "Ser un trámite sin relación con el bienestar emocional del niño"
+    ],
+    "c": 0,
+    "e": "El recibimiento individualizado de cada niño, con un saludo personal y cercano por parte del adulto, favorece un tránsito afectivo y seguro entre el ámbito familiar y el escolar, ayudando a que el niño se sienta reconocido y acogido desde el primer momento de la jornada, sin que ello suponga retrasar de forma relevante el resto de actividades."
+   },
+   {
+    "d": "media",
+    "q": "La organización de un 'horario tipo' o marco horario de referencia en el aula de Infantil debe entenderse como:",
+    "o": [
+     "Un requisito meramente burocrático sin utilidad práctica en el aula",
+     "Un horario idéntico y obligatorio en todos los centros del ciclo",
+     "Un documento cerrado de cumplimiento exacto cada día lectivo",
+     "Una estructura orientativa que da seguridad y admite ajustes"
+    ],
+    "c": 3,
+    "e": "El horario tipo o marco horario de referencia debe entenderse como una estructura orientativa, que aporta seguridad y previsibilidad al organizar los grandes bloques de la jornada, pero que admite ajustes puntuales según las circunstancias del día (una actividad que se alarga, una salida imprevista), y no como un documento rígido de cumplimiento exacto ni idéntico en todos los centros."
+   },
+   {
+    "d": "facil",
+    "q": "El rincón de 'la casita' o de juego simbólico, presente habitualmente en las aulas de Infantil, favorece especialmente:",
+    "o": [
+     "Exclusivamente el desarrollo de la motricidad gruesa del niño",
+     "La resolución de problemas lógico-matemáticos formales y abstractos",
+     "El juego de roles y la representación simbólica de la vida cotidiana",
+     "Aspectos ajenos al desarrollo social propio de la etapa infantil"
+    ],
+    "c": 2,
+    "e": "El rincón de la casita o de juego simbólico ofrece al niño la posibilidad de representar y recrear situaciones cotidianas (cocinar, cuidar a un bebé, ir de compras), favoreciendo el juego de roles, la representación simbólica y el desarrollo de habilidades sociales a través de la interacción con sus iguales en ese contexto de ficción compartida."
+   },
+   {
+    "d": "dificil",
+    "q": "La disposición del espacio siguiendo criterios de accesibilidad universal en el aula de Infantil (mobiliario a distintas alturas, eliminación de barreras) responde principalmente al principio de:",
+    "o": [
+     "Ahorro económico en la adquisición del mobiliario escolar",
+     "Uniformidad estética que debe imponerse al conjunto del centro educativo",
+     "Reducción deliberada del número de materiales disponibles",
+     "Diseño para todas las personas, que garantiza la participación de todos"
+    ],
+    "c": 3,
+    "e": "Organizar el espacio siguiendo criterios de accesibilidad universal (mobiliario a alturas variadas, ausencia de barreras físicas, materiales alcanzables desde distintas posiciones) responde al principio de diseño para todas las personas, que persigue que cualquier niño, tenga o no una discapacidad o necesidad específica, pueda participar y desenvolverse de forma autónoma en el espacio del aula."
+   },
+   {
+    "d": "moidificil",
+    "q": "El momento del aseo o higiene personal a lo largo de la jornada, además de su función higiénica, se aprovecha pedagógicamente para trabajar:",
+    "o": [
+     "Exclusivamente contenidos formales de lógica matemática",
+     "Hábitos de autonomía personal y el esquema corporal",
+     "La lectoescritura formal y sistemática del alumnado",
+     "Un ámbito sin ninguna conexión con lo educativo"
+    ],
+    "c": 1,
+    "e": "El momento del aseo, más allá de su función higiénica evidente, se aprovecha pedagógicamente para trabajar la autonomía personal (lavarse las manos solo, abrocharse un botón), el conocimiento del propio esquema corporal y hábitos saludables, integrándose así plenamente en la intervención educativa cotidiana del aula."
+   },
+   {
+    "d": "media",
+    "q": "La organización de 'ambientes' inspirados en el enfoque de Reggio Emilia, frente al modelo clásico de rincones fijos por curso, tiende a:",
+    "o": [
+     "Mantenerse exactamente igual durante los tres cursos del ciclo",
+     "Eliminar por completo cualquier tipo de organización espacial",
+     "Limitarse a un único espacio compartido por todo el centro",
+     "Reconfigurarse con flexibilidad según proyectos e intereses vigentes"
+    ],
+    "c": 3,
+    "e": "A diferencia del modelo clásico de rincones más fijos y estables durante el curso, la organización en ambientes propia de Reggio Emilia tiende a reconfigurarse y transformarse con cierta frecuencia, adaptando materiales y propuestas a los proyectos de investigación y a los intereses que van surgiendo en cada grupo en cada momento del curso."
+   },
+   {
+    "d": "dificil",
+    "q": "La 'documentación pedagógica' del espacio y los procesos de aprendizaje (fotografías, producciones, notas de observación expuestas en el aula), propia también del enfoque de Reggio Emilia, tiene como finalidad principal:",
+    "o": [
+     "Servir únicamente como decoración estética de las paredes",
+     "Sustituir de forma completa y permanente a los informes de evaluación individual",
+     "Ser solo un requisito administrativo sin ninguna carga pedagógica",
+     "Hacer visible el proceso de aprendizaje y convertirlo en reflexión conjunta"
+    ],
+    "c": 3,
+    "e": "La documentación pedagógica (exponer fotografías del proceso, producciones del alumnado, notas de lo observado) hace visible el proceso de aprendizaje —no solo el resultado final— y lo convierte en objeto de reflexión compartida entre niños, docentes y familias, permitiendo revisar y dar sentido conjunto a lo vivido en el aula, mucho más allá de una simple función decorativa."
+   },
+   {
+    "d": "media",
+    "q": "La zona destinada a la expresión plástica dentro del aula (pintura, modelado) debe ubicarse preferentemente:",
+    "o": [
+     "En el centro exacto del aula, sin ninguna otra consideración",
+     "Cerca de una fuente de agua y de fácil limpieza, bien iluminada",
+     "Alejada por completo de cualquier fuente de luz natural",
+     "Compartiendo espacio de forma simultánea con el rincón de descanso"
+    ],
+    "c": 1,
+    "e": "El rincón o zona de expresión plástica debe ubicarse, siempre que sea posible, cerca de una fuente de agua (para facilitar la limpieza de manos y materiales) y en una zona de fácil limpieza y buena iluminación, evitando compartir espacio con zonas incompatibles como el rincón de descanso, que requiere condiciones muy distintas de tranquilidad."
+   },
+   {
+    "d": "media",
+    "q": "El respeto a los 'tiempos de transición' entre actividades (guardar el material, cambiar de espacio) dentro de la organización temporal del aula responde a la necesidad de:",
+    "o": [
+     "Reducir al máximo posible la duración de cualquier actividad",
+     "Eliminar de la jornada cualquier tipo de momento de transición",
+     "Imponer siempre idéntico ritmo de cambio a todo el grupo sin más",
+     "Evitar prisas y facilitar un cambio ordenado y comprendido"
+    ],
+    "c": 3,
+    "e": "Prever tiempo suficiente para las transiciones entre actividades (recoger el material, desplazarse a otro espacio) evita las prisas y la tensión que generan los cambios bruscos, y facilita que el propio alumnado comprenda y participe de forma ordenada en ese cambio, sin que ello implique necesariamente aplicar el mismo ritmo exacto a todos los niños."
+   },
+   {
+    "d": "facil",
+    "q": "El espacio destinado a la psicomotricidad o sala de movimiento en un centro de Infantil suele incluir, entre otros elementos:",
+    "o": [
+     "Exclusivamente mesas y sillas dispuestas en hileras fijas",
+     "Material propio y específico de un aula de informática",
+     "Pizarras digitales interactivas como único recurso disponible",
+     "Colchonetas, módulos blandos y materiales para el movimiento"
+    ],
+    "c": 3,
+    "e": "La sala de psicomotricidad suele equiparse con colchonetas, módulos blandos, rampas, aros, telas u otros materiales que facilitan el movimiento libre, la exploración corporal y el juego motor, un tipo de mobiliario y material muy distinto al propio de un aula ordinaria orientada al trabajo en mesa."
+   },
+   {
+    "d": "dificil",
+    "q": "La organización de un 'aula matinal' o servicio de acogida anterior al horario lectivo, frecuente en muchos centros de Infantil, debe planificarse con especial cuidado en:",
+    "o": [
+     "La ausencia total de supervisión adulta durante ese tiempo",
+     "La aplicación de contenidos curriculares idénticos al horario lectivo",
+     "La transición hacia la actividad ordinaria y la coordinación entre personal",
+     "Impedir que el alumnado juegue de forma libre en ese periodo"
+    ],
+    "c": 2,
+    "e": "El aula matinal, al ser un servicio previo al horario lectivo con frecuencia atendido por personal distinto, requiere una planificación cuidadosa tanto de la transición hacia la actividad lectiva ordinaria (evitar que el cambio sea brusco) como de la coordinación y traspaso de información entre el personal de ambos servicios, sin que deba replicar de forma idéntica los contenidos curriculares del horario lectivo."
+   },
+   {
+    "d": "facil",
+    "q": "La existencia de un espacio o rincón dedicado a la 'calma' o la relajación dentro del aula tiene como finalidad principal:",
+    "o": [
+     "Servir de espacio de castigo ante conductas disruptivas puntuales",
+     "Sustituir por completo al momento del descanso o siesta",
+     "No guardar relación alguna con la gestión emocional del niño",
+     "Ofrecer un lugar tranquilo para regular las emociones intensas"
+    ],
+    "c": 3,
+    "e": "El rincón de la calma ofrece al niño un espacio tranquilo, con elementos sensoriales suaves, al que puede acudir de forma voluntaria o acompañada cuando necesita regular una emoción intensa (frustración, enfado), y no debe utilizarse en ningún caso como forma de castigo ni confundirse con el espacio de descanso o siesta."
+   },
+   {
+    "d": "media",
+    "q": "La coordinación entre las familias y el centro respecto a la organización del tiempo (horarios de entrada y salida, calendario de actividades) resulta relevante principalmente porque:",
+    "o": [
+     "No influye en ningún caso en el bienestar cotidiano del alumnado",
+     "Debe limitarse siempre a la comunicación escrita mediante circulares",
+     "Es responsabilidad exclusiva de la familia, sin implicación del centro",
+     "Favorece la coherencia y la seguridad del niño entre ambos contextos"
+    ],
+    "c": 3,
+    "e": "La coordinación entre familias y centro en torno a la organización del tiempo (horarios, calendario de actividades) favorece la coherencia entre lo que el niño vive en casa y en la escuela, reforzando su seguridad y evitando confusiones o contradicciones, e implica una comunicación bidireccional que va más allá de la mera circular informativa escrita."
+   },
+   {
+    "d": "dificil",
+    "q": "La ratio máxima de alumnado por unidad establecida con carácter general para el segundo ciclo de Educación Infantil (3-6 años) en la normativa educativa española es de:",
+    "o": [
+     "20 alumnos por aula",
+     "30 alumnos por aula",
+     "25 alumnos por aula",
+     "15 alumnos por aula"
+    ],
+    "c": 2,
+    "e": "La normativa educativa española establece con carácter general una ratio máxima de 25 alumnos por unidad para el segundo ciclo de Educación Infantil (3-6 años), una cifra sensiblemente superior a la establecida para el primer ciclo, mucho más reducida por tramos de edad dado el mayor grado de atención individualizada que requieren los bebés y niños más pequeños."
+   },
+   {
+    "d": "dificil",
+    "q": "La organización del espacio exterior con zonas diferenciadas (arenero, huerto, zona de motricidad) responde principalmente a la necesidad de:",
+    "o": [
+     "Reducir al máximo el tiempo que el alumnado pasa en el exterior",
+     "Ofrecer distintos tipos de experiencia y estimulación variados",
+     "Evitar cualquier tipo de contacto con elementos naturales",
+     "Aplicar exactamente el mismo criterio que en el espacio interior"
+    ],
+    "c": 1,
+    "e": "Diferenciar zonas en el espacio exterior (un arenero para juego sensorial, un huerto para la observación y el cuidado de plantas, una zona amplia para el juego motor) permite ofrecer al alumnado distintos tipos de experiencia y estimulación, ajustados a intereses variados, aprovechando así todo el potencial educativo que ofrece un espacio exterior bien planificado."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según el enfoque de organización temporal propio de la etapa infantil, la duración recomendada de una actividad de atención dirigida en gran grupo para niños de tres años, frente a los de cinco años, debe ser:",
+    "o": [
+     "Considerablemente más larga, dada su mayor capacidad de espera",
+     "Exactamente idéntica en ambos casos, sin ajuste alguno por edad",
+     "Indiferente, ya que la edad no influye en la capacidad de atención",
+     "Considerablemente más corta, dado su periodo de atención más breve"
+    ],
+    "c": 3,
+    "e": "El periodo de atención sostenida que puede mantener un niño en una actividad dirigida en gran grupo aumenta de forma progresiva con la edad, por lo que las propuestas de este tipo deben ser considerablemente más breves con niños de tres años, con una capacidad de espera y concentración todavía limitada, que con niños de cinco años, capaces ya de sostener la atención durante periodos algo más prolongados."
+   },
+   {
+    "d": "media",
+    "q": "El rincón de 'lógico-matemática' dentro del aula, con materiales como regletas, bloques lógicos o material de ensartado, favorece especialmente:",
+    "o": [
+     "La manipulación de material estructurado para construir nociones matemáticas",
+     "Exclusivamente la memorización oral de la serie numérica",
+     "Es responsabilidad exclusiva y única de la familia, sin implicación alguna del centro",
+     "Un espacio sin ninguna utilidad dentro de la organización del aula"
+    ],
+    "c": 0,
+    "e": "El rincón de lógico-matemática, equipado con material manipulativo estructurado (regletas de Cuisenaire, bloques lógicos, material de ensartado y clasificación), favorece que el niño construya nociones matemáticas —cantidad, seriación, clasificación— a partir de la manipulación directa, en lugar de a través de la memorización oral descontextualizada de la serie numérica."
    }
   ]
  },
@@ -6113,6 +11393,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "La presencia progresiva y decreciente de la familia durante el periodo de adaptación (permanecer un rato en el aula junto al niño, e ir reduciendo ese tiempo día a día) facilita una transición más segura hacia el nuevo entorno escolar, apoyándose el niño en la figura de apego conocida mientras va construyendo confianza también con la educadora y el nuevo espacio."
+   },
+   {
+    "d": "facil",
+    "q": "La programación en el primer ciclo debe partir, ante todo, del conocimiento de las características evolutivas de cada tramo de edad porque:",
+    "o": [
+     "La normativa exige una programación idéntica en todos los tramos",
+     "El desarrollo evolutivo carece por completo de relevancia para planificar",
+     "Las necesidades y capacidades cambian mucho entre los tramos de 0 a 3 años",
+     "Todos los niños del ciclo presentan necesidades idénticas por edad"
+    ],
+    "c": 2,
+    "e": "En el primer ciclo, un bebé de seis meses, uno de dieciocho y uno de treinta presentan necesidades, capacidades motrices y comunicativas muy distintas entre sí, por lo que la programación debe partir necesariamente del conocimiento de esas diferencias evolutivas propias de cada tramo, sin poder aplicar un mismo planteamiento uniforme a todo el ciclo."
+   },
+   {
+    "d": "media",
+    "q": "El 'diario de aula' o cuaderno de seguimiento que muchas escuelas infantiles de primer ciclo comparten diariamente con la familia tiene como función principal:",
+    "o": [
+     "Sustituir de forma definitiva a la propuesta pedagógica del centro",
+     "Compartir información cotidiana relevante sobre el día del niño",
+     "Servir solo como registro administrativo interno sin más uso",
+     "Evaluar de forma numérica el desarrollo diario de cada niño"
+    ],
+    "c": 1,
+    "e": "El diario de aula o cuaderno de seguimiento, entregado a diario a la familia en muchas escuelas infantiles, comparte información cotidiana relevante (cuánto ha dormido, qué ha comido, cómo ha estado de ánimo), favoreciendo la continuidad entre el centro y el hogar y facilitando una comunicación fluida sin necesidad de recurrir a valoraciones numéricas, impropias de esta etapa."
+   },
+   {
+    "d": "facil",
+    "q": "La organización de subgrupos reducidos dentro del aula de primer ciclo para determinadas actividades (por ejemplo, cuentos o juego heurístico) responde principalmente a la necesidad de:",
+    "o": [
+     "Cumplir un requisito exclusivamente burocrático sin más utilidad",
+     "Aumentar de forma artificial la carga del equipo educador",
+     "Sustituir por completo el trabajo posterior en gran grupo",
+     "Ofrecer una atención más cercana y ajustada a cada niño"
+    ],
+    "c": 3,
+    "e": "Organizar subgrupos reducidos para ciertas actividades (la hora del cuento, el juego heurístico con objetos cotidianos) permite ofrecer una atención más cercana, individualizada y ajustada a las necesidades de cada niño en ese momento concreto, complementando, no sustituyendo, otros momentos de la jornada organizados en gran grupo."
+   },
+   {
+    "d": "dificil",
+    "q": "El 'cesto de los tesoros', propuesta desarrollada por Elinor Goldschmied para bebés que aún no se desplazan de forma autónoma, consiste en:",
+    "o": [
+     "Objetos cotidianos y diversos para la exploración sensorial del bebé sentado",
+     "Un recurso exclusivo de estimulación auditiva mediante instrumentos musicales variados",
+     "Una actividad reservada solo a niños que ya caminan sin ayuda",
+     "Un conjunto cerrado de juguetes de plástico de un único color"
+    ],
+    "c": 0,
+    "e": "Elinor Goldschmied propuso el 'cesto de los tesoros' como una selección de objetos cotidianos de materiales muy diversos (madera, metal, tela, elementos naturales), presentados en un cesto al alcance de un bebé que ya se sostiene sentado pero aún no se desplaza, para que los explore libremente con todos sus sentidos sin intervención directa del adulto durante el juego."
+   },
+   {
+    "d": "media",
+    "q": "El 'juego heurístico', continuación del cesto de los tesoros para niños que ya caminan, propuesto también por Goldschmied, se caracteriza por:",
+    "o": [
+     "Consistir en fichas de trabajo dirigido con lápiz y papel",
+     "Presentar materiales de recuperación agrupados para explorar libremente",
+     "Limitarse siempre al uso exclusivo de juguetes comerciales de plástico",
+     "Requerir manipulación siempre guiada paso a paso por el adulto"
+    ],
+    "c": 1,
+    "e": "El juego heurístico presenta a niños que ya caminan materiales de recuperación agrupados por tipos (tapones, tubos de cartón, pinzas, aros), invitándolos a explorarlos, combinarlos y clasificarlos libremente según su propio criterio, con una intervención del adulto discreta, centrada en preparar el material y observar, no en dirigir la actividad paso a paso."
+   },
+   {
+    "d": "facil",
+    "q": "En el primer ciclo, la programación de actividades relacionadas con el lenguaje debe priorizar especialmente:",
+    "o": [
+     "La realización de fichas escritas de vocabulario nuevo",
+     "La enseñanza formal y sistemática de la lectoescritura",
+     "La memorización de listas extensas de palabras fuera de todo contexto",
+     "La interacción comunicativa cotidiana con acompañamiento verbal"
+    ],
+    "c": 3,
+    "e": "En el primer ciclo, dado que el lenguaje verbal está aún en construcción, la programación debe priorizar la interacción comunicativa cotidiana y el acompañamiento verbal constante de las rutinas por parte del adulto (nombrar lo que se hace mientras se hace), muy por delante de cualquier enseñanza formal de la lectoescritura, del todo inadecuada a esta edad."
+   },
+   {
+    "d": "dificil",
+    "q": "La ratio máxima de niños por unidad establecida con carácter orientativo para el tramo de 0 a 1 año en el primer ciclo suele situarse, según la normativa autonómica habitual, en torno a:",
+    "o": [
+     "20 niños por unidad",
+     "12 niños por unidad",
+     "15 niños por unidad",
+     "8 niños por unidad"
+    ],
+    "c": 3,
+    "e": "La normativa autonómica sobre requisitos mínimos de los centros de primer ciclo suele fijar, con carácter orientativo, una ratio máxima de en torno a 8 niños por unidad y educador para el tramo de 0 a 1 año, una cifra considerablemente más reducida que la de tramos de edad posteriores dentro del propio primer ciclo, dada la intensidad de cuidados que requieren los bebés de menos de un año."
+   },
+   {
+    "d": "facil",
+    "q": "La programación de actividades de estimulación psicomotriz en el primer ciclo debe adaptarse principalmente a:",
+    "o": [
+     "Un programa idéntico de ejercicios para todo el grupo sin ninguna distinción de edad",
+     "Los hitos motores ya alcanzados por cada niño y los próximos a lograr",
+     "Criterios exclusivamente de competición entre el alumnado",
+     "La disponibilidad de material sin considerar el desarrollo real"
+    ],
+    "c": 1,
+    "e": "La programación de la estimulación psicomotriz en el primer ciclo debe adaptarse a los hitos motores que cada niño ya ha alcanzado (sentarse, gatear, caminar) y a aquellos a los que está próximo a llegar, proponiendo retos ajustados a su zona de desarrollo próximo, y no aplicando un mismo programa de ejercicios idéntico a todo el grupo sin tener en cuenta su desarrollo real."
+   },
+   {
+    "d": "media",
+    "q": "La organización de la programación en 'unidades de experiencia' o pequeños centros de interés muy sencillos en el primer ciclo, a diferencia del segundo ciclo, se caracteriza por:",
+    "o": [
+     "Seguir exactamente la misma estructura y duración que en el segundo",
+     "Basarse siempre en la lectura de textos escritos de cierta complejidad y extensión",
+     "Excluir por completo cualquier tipo de experiencia sensorial directa",
+     "Ser mucho más breve, sensorial y flexible por los periodos de atención cortos"
+    ],
+    "c": 3,
+    "e": "En el primer ciclo, las propuestas de experiencia (por ejemplo, en torno al otoño o a los animales de la granja) deben ser mucho más breves, sensoriales y flexibles que en el segundo ciclo, ajustándose a los periodos de atención muy cortos propios de esta edad y priorizando la experiencia directa (tocar, oler, oír) sobre cualquier forma de trabajo con textos escritos."
+   },
+   {
+    "d": "dificil",
+    "q": "La figura profesional que, junto a la maestra o maestro especialista en Educación Infantil, puede formar parte del equipo educador en el primer ciclo según la normativa vigente es la de:",
+    "o": [
+     "Auxiliar administrativo del propio centro educativo",
+     "Monitor de comedor escolar sin cualificación específica",
+     "Técnico superior en Educación Infantil",
+     "Técnico en cuidados auxiliares de enfermería exclusivamente"
+    ],
+    "c": 2,
+    "e": "Junto a maestras y maestros especialistas en Educación Infantil, la normativa contempla la figura del técnico superior en Educación Infantil como profesional cualificado que puede formar parte del equipo educador de las unidades del primer ciclo, con una formación específica orientada a la atención y educación de esta franja de edad."
+   },
+   {
+    "d": "facil",
+    "q": "La planificación de la alimentación en el primer ciclo (introducción progresiva de alimentos, texturas) debe realizarse siempre:",
+    "o": [
+     "Aplicando siempre el mismo menú con independencia de la edad de cada niño",
+     "De manera idéntica y simultánea para todo el grupo sin excepción",
+     "Sin ningún tipo de comunicación previa con la familia del niño",
+     "De forma coordinada con la familia y respetando el ritmo de cada niño"
+    ],
+    "c": 3,
+    "e": "La introducción progresiva de alimentos y texturas en el primer ciclo debe planificarse siempre de forma coordinada con la familia, respetando el ritmo individual de cada niño y las posibles indicaciones médicas o alergias, y no aplicando un mismo menú y calendario de introducción idéntico y simultáneo a todo el grupo sin distinción."
+   },
+   {
+    "d": "media",
+    "q": "La 'propuesta pedagógica' del primer ciclo debe incluir, entre sus apartados, los procedimientos previstos para la coordinación con las familias, dado que esta coordinación resulta especialmente relevante en esta etapa porque:",
+    "o": [
+     "Los niños de esta edad comunican ya con total autonomía sus necesidades",
+     "La normativa prohíbe expresamente cualquier forma de participación familiar",
+     "El niño depende casi por completo del adulto para comunicar sus necesidades",
+     "La familia no tiene ningún papel relevante durante el primer ciclo"
+    ],
+    "c": 2,
+    "e": "En el primer ciclo, dado que el niño depende en gran medida del adulto para comunicar sus necesidades básicas (hambre, sueño, malestar), la coordinación estrecha con la familia —que mejor conoce esas señales— resulta especialmente relevante para ajustar la intervención educativa, por lo que la propuesta pedagógica debe prever de forma expresa los procedimientos para esa coordinación."
+   },
+   {
+    "d": "dificil",
+    "q": "La incorporación progresiva de hábitos de autonomía en el control de esfínteres dentro de la programación del primer ciclo debe basarse fundamentalmente en:",
+    "o": [
+     "Un calendario único aplicado por igual a todo el grupo en una fecha",
+     "La presión constante y sostenida del adulto para acelerar el proceso",
+     "Criterios exclusivamente organizativos del centro, ajenos al niño",
+     "La madurez fisiológica y neurológica individual de cada niño"
+    ],
+    "c": 3,
+    "e": "El proceso de control de esfínteres debe basarse fundamentalmente en la madurez fisiológica y neurológica individual de cada niño (el control muscular necesario no se alcanza en todos a la misma edad), acompañándolo de forma respetuosa y sin presión, y coordinándose con la familia, en lugar de imponer un calendario único idéntico para todo el grupo."
+   },
+   {
+    "d": "facil",
+    "q": "La programación del primer ciclo debe prever momentos de interacción individual uno a uno entre el educador y cada niño porque:",
+    "o": [
+     "Carecen de relevancia frente a las actividades de gran grupo",
+     "Deben eliminarse por completo al aumentar la ratio del aula",
+     "Solo tienen sentido durante el breve periodo de adaptación inicial",
+     "Son especialmente valiosos para el vínculo afectivo y la observación"
+    ],
+    "c": 3,
+    "e": "Los momentos de interacción individual entre el educador y cada niño (durante el cambio de pañal, en un juego compartido breve) son especialmente valiosos en el primer ciclo para reforzar el vínculo afectivo y para observar de cerca su estado y su desarrollo, y deben mantenerse a lo largo de todo el curso, no limitarse al periodo de adaptación inicial."
+   },
+   {
+    "d": "media",
+    "q": "La programación de espacios y materiales sensoriales (telas de distintas texturas, sonajeros, materiales naturales) en el aula de bebés responde principalmente al principio de que, a esta edad, el aprendizaje se produce sobre todo a través de:",
+    "o": [
+     "La instrucción verbal explícita ofrecida por parte del adulto",
+     "La exploración sensoriomotriz directa del entorno inmediato",
+     "La observación pasiva de láminas y materiales impresos",
+     "La memorización de secuencias verbales sin manipulación previa"
+    ],
+    "c": 1,
+    "e": "En los primeros meses y años de vida, el aprendizaje se produce fundamentalmente a través de la exploración sensoriomotriz directa del entorno inmediato —tocar, llevarse objetos a la boca, escuchar distintos sonidos—, por lo que la programación de espacios y materiales sensoriales resulta clave, mucho más que cualquier instrucción verbal explícita, poco accesible todavía a esta edad."
+   },
+   {
+    "d": "dificil",
+    "q": "La evaluación en el primer ciclo, aunque no se traduzca en calificaciones, debe recoger un informe individualizado al finalizar el ciclo cuya finalidad principal es:",
+    "o": [
+     "Servir exclusivamente como documento de archivo sin uso posterior",
+     "Clasificar de forma sistemática al alumnado según su rendimiento observado",
+     "Sustituir por completo la comunicación oral con la familia",
+     "Garantizar la continuidad y coordinación con el centro que recibe al niño"
+    ],
+    "c": 3,
+    "e": "El informe individualizado elaborado al finalizar el primer ciclo tiene como finalidad principal garantizar la continuidad educativa y facilitar la coordinación con el centro o el nivel que recibirá al niño a continuación, aportando información relevante sobre su proceso de desarrollo, y no limitarse a un mero archivo documental sin utilidad práctica posterior."
+   },
+   {
+    "d": "facil",
+    "q": "La programación de la siesta o del descanso en el primer ciclo debe considerar que las necesidades de sueño:",
+    "o": [
+     "Se mantienen exactamente iguales durante los tres años del ciclo",
+     "Aumentan de forma progresiva a medida que el niño crece",
+     "No guardan ninguna relación con la edad concreta del niño",
+     "Disminuyen de forma progresiva a medida que el niño crece"
+    ],
+    "c": 3,
+    "e": "Las necesidades de sueño diurno disminuyen de forma progresiva a lo largo del primer ciclo: un bebé de pocos meses puede necesitar varias siestas al día, mientras que un niño de dos años y medio suele necesitar solo una, por lo que la programación del descanso debe ajustarse a esa evolución en lugar de mantener un mismo patrón fijo durante todo el ciclo."
+   },
+   {
+    "d": "media",
+    "q": "La coordinación entre el primer ciclo y las familias respecto a los ritmos y hábitos (sueño, alimentación) adquiere una relevancia especial frente al segundo ciclo porque en el primer ciclo:",
+    "o": [
+     "No existe en este ciclo ningún tipo de rutina relacionada con estos aspectos",
+     "La familia no participa en absoluto en su seguimiento diario",
+     "Estos aspectos ocupan una parte central y muy significativa de la jornada",
+     "Estos aspectos tienen bastante menor relevancia que en el segundo ciclo"
+    ],
+    "c": 2,
+    "e": "En el primer ciclo, los momentos de cuidado —sueño, alimentación, higiene— ocupan una parte central y muy significativa de la jornada, mucho más que en el segundo ciclo, donde ya predominan otras propuestas de tipo más simbólico y de lenguaje, lo que explica que la coordinación con la familia sobre estos ritmos resulte especialmente relevante en esta primera etapa."
+   },
+   {
+    "d": "moidificil",
+    "q": "En el marco de la propuesta pedagógica del primer ciclo, la revisión de los objetivos y contenidos programados para el tramo de 2 a 3 años debe incorporar de forma especial, frente al tramo de 0 a 1 año, un mayor peso de:",
+    "o": [
+     "La estimulación sensorial básica de forma exclusiva y sin más contenido",
+     "El control postural inicial como único contenido relevante del tramo",
+     "La ausencia total de interacción con otros niños del propio grupo",
+     "El lenguaje oral, la interacción entre iguales y la autonomía personal"
+    ],
+    "c": 3,
+    "e": "En el tramo de 2 a 3 años, ya consolidados aspectos como el control postural o la marcha propios de edades anteriores, la propuesta pedagógica debe dar un mayor peso al desarrollo del lenguaje oral (que experimenta un gran avance en este periodo), a la interacción social entre iguales (aparecen los primeros juegos compartidos) y a la autonomía personal (vestirse, comer solo), a diferencia del tramo de 0 a 1 año, centrado sobre todo en la estimulación sensoriomotriz básica."
+   },
+   {
+    "d": "dificil",
+    "q": "La 'propuesta pedagógica' del primer ciclo debe recoger también los criterios para la organización de los espacios exteriores, cuando el centro dispone de ellos, atendiendo especialmente a:",
+    "o": [
+     "Criterios exclusivamente estéticos y decorativos del espacio exterior",
+     "La seguridad física y la adecuación al nivel motor de cada tramo",
+     "La ausencia total de cualquier supervisión adulta durante su uso",
+     "Un único diseño idéntico aplicado a todas las edades del ciclo"
+    ],
+    "c": 1,
+    "e": "En los espacios exteriores de un centro de primer ciclo, la propuesta pedagógica debe priorizar la seguridad física (superficies adecuadas, ausencia de riesgos) y la adecuación de los elementos de juego al nivel motor real de cada tramo de edad, ya que un mismo elemento (un tobogán, por ejemplo) puede ser adecuado para unos niños e inseguro para otros más pequeños del propio ciclo."
    }
   ]
  },
@@ -6395,6 +11915,246 @@ const QUESTION_BANK = [
     ],
     "c": 2,
     "e": "En Galicia, la valoración cualitativa del proceso de aprendizaje en Educación Infantil se expresa habitualmente mediante los términos SD (sen dificultade), EP (en proceso) o CD (con dificultade), en coherencia con el carácter global, cualitativo y no numérico de la evaluación propia de esta etapa."
+   },
+   {
+    "d": "facil",
+    "q": "El 'diseño universal para el aprendizaje' (DUA), como enfoque a incorporar en la programación del segundo ciclo, propone diversificar principalmente:",
+    "o": [
+     "Únicamente el tipo concreto de mobiliario disponible dentro del propio aula de referencia",
+     "El horario semanal completo de las distintas áreas curriculares del ciclo",
+     "El número total y concreto de docentes de apoyo asignados de forma fija a cada uno de los grupos del ciclo",
+     "Las formas de presentar la información, de que el alumnado se implique y de expresar lo aprendido"
+    ],
+    "c": 3,
+    "e": "El diseño universal para el aprendizaje propone diversificar, desde la propia programación, múltiples formas de representación de la información, de implicación del alumnado y de expresión de lo aprendido, anticipando así la diversidad del grupo desde el diseño inicial de la propuesta, en lugar de introducir adaptaciones a posteriori solo para determinados alumnos."
+   },
+   {
+    "d": "media",
+    "q": "La 'unidad didáctica', como forma más habitual de concretar la programación de aula en periodos cortos, se diferencia del 'proyecto de trabajo' principalmente en que la unidad didáctica:",
+    "o": [
+     "Nunca puede incluir de forma simultánea contenidos de varias áreas curriculares distintas",
+     "Suele estar más estructurada y secuenciada previamente por la persona docente",
+     "Excluye siempre la participación activa del alumnado en su desarrollo",
+     "Debe durar obligatoriamente un curso escolar completo"
+    ],
+    "c": 1,
+    "e": "La unidad didáctica suele estar más estructurada y secuenciada de antemano por la persona docente, en torno a un tema o centro de interés con objetivos y actividades bastante definidos, mientras que el proyecto de trabajo parte de forma más abierta de un interés surgido del propio alumnado, con un desarrollo más flexible e imprevisible en su recorrido concreto."
+   },
+   {
+    "d": "facil",
+    "q": "Los 'rincones de aprendizaje' pueden formar parte de la metodología recogida en la programación del segundo ciclo porque permiten:",
+    "o": [
+     "Imponer una única actividad idéntica y simultánea al conjunto de todo el alumnado del grupo",
+     "La libre elección de actividad y el trabajo autónomo o en pequeño grupo",
+     "Sustituir por completo la necesidad de una programación de aula",
+     "Evaluar exclusivamente mediante pruebas escritas individuales"
+    ],
+    "c": 1,
+    "e": "Los rincones de aprendizaje, integrados en la programación de aula, permiten organizar la actividad de forma que el alumnado elija libremente entre distintas propuestas y trabaje de forma autónoma o en pequeño grupo, complementando otras metodologías como los proyectos o las unidades didácticas, sin sustituir la necesidad de una programación de conjunto."
+   },
+   {
+    "d": "dificil",
+    "q": "Los 'situaciones de aprendizaje', término que sustituye al de 'unidad didáctica' en el enfoque competencial reciente del currículo, se caracterizan frente a este último por:",
+    "o": [
+     "Excluir por completo cualquier forma de evaluación real de las competencias del alumnado del grupo",
+     "Prescindir por completo de cualquier tipo de secuenciación previa de las actividades planificadas",
+     "No admitir ninguna vinculación con los objetivos de la etapa",
+     "Diseñarse explícitamente en torno a la resolución de problemas o retos contextualizados y significativos"
+    ],
+    "c": 3,
+    "e": "Las situaciones de aprendizaje, propias del enfoque competencial del currículo, se diseñan explícitamente en torno a la resolución de problemas, retos o desafíos contextualizados y significativos para el alumnado, poniendo el foco en la aplicación funcional de lo aprendido, más allá de la mera secuenciación de contenidos propia de una unidad didáctica clásica."
+   },
+   {
+    "d": "media",
+    "q": "La 'temporalización' dentro de una programación didáctica del segundo ciclo hace referencia a:",
+    "o": [
+     "El listado exclusivo de materiales fungibles necesarios",
+     "La relación completa de docentes que imparten clase a lo largo del curso en cada nivel concreto",
+     "La distribución y secuenciación de los contenidos y actividades a lo largo del curso escolar",
+     "El conjunto de normas de convivencia del aula"
+    ],
+    "c": 2,
+    "e": "La temporalización es el apartado de la programación didáctica que distribuye y secuencia en el tiempo (por trimestres, por semanas) los contenidos, las unidades didácticas o proyectos y las actividades previstas a lo largo del curso escolar, permitiendo planificar con anticipación el ritmo de desarrollo de la propuesta educativa."
+   },
+   {
+    "d": "facil",
+    "q": "El apartado de 'recursos' dentro de una programación didáctica del segundo ciclo debe especificar, entre otros aspectos:",
+    "o": [
+     "Únicamente el nombre de la editorial del libro de texto empleado",
+     "Exclusivamente el presupuesto económico anual asignado de forma global al centro completo cada curso",
+     "Los materiales, espacios y personas necesarios para poder desarrollar bien las actividades ya previstas",
+     "El listado de alumnado matriculado en el grupo"
+    ],
+    "c": 2,
+    "e": "El apartado de recursos de una programación didáctica debe especificar los materiales (fungibles, didácticos), los espacios (aula, patio, biblioteca) y las personas (docentes de apoyo, especialistas) necesarios para poder desarrollar de forma efectiva las actividades planificadas, más allá de la mera referencia a un libro de texto concreto."
+   },
+   {
+    "d": "dificil",
+    "q": "La inclusión en la programación didáctica de 'situaciones de evaluación' variadas (observación, entrevistas, análisis de producciones) responde principalmente a la necesidad de:",
+    "o": [
+     "Sustituir por completo la observación directa y continuada que realiza el propio docente del grupo",
+     "Recoger evidencias diversas y complementarias sobre el proceso de aprendizaje del alumnado",
+     "Limitar la evaluación a un único instrumento estandarizado y cerrado",
+     "Evaluar exclusivamente los contenidos memorizados por el alumnado"
+    ],
+    "c": 1,
+    "e": "Emplear distintas situaciones e instrumentos de evaluación (la observación sistemática, entrevistas breves con el niño, el análisis de sus producciones plásticas o gráficas) permite recoger evidencias diversas y complementarias sobre su proceso de aprendizaje, ofreciendo una imagen más completa y matizada que la que aportaría un único instrumento aislado."
+   },
+   {
+    "d": "facil",
+    "q": "La programación didáctica del segundo ciclo debe contemplar medidas de refuerzo educativo para el alumnado que:",
+    "o": [
+     "Obtiene siempre los mejores resultados del grupo en todas las áreas",
+     "No presenta ningún tipo de necesidad educativa a lo largo del curso",
+     "Ya ha promocionado de curso sin que se detectara ninguna incidencia relevante previa",
+     "Presenta dificultades puntuales en la adquisición de determinados aprendizajes"
+    ],
+    "c": 3,
+    "e": "Las medidas de refuerzo educativo previstas en la programación didáctica están destinadas al alumnado que presenta dificultades puntuales o transitorias en la adquisición de determinados aprendizajes, ofreciéndole un apoyo específico y temporal para que pueda alcanzar los objetivos previstos, sin necesidad de que exista una necesidad específica de apoyo educativo diagnosticada."
+   },
+   {
+    "d": "media",
+    "q": "La programación de 'ampliación' dentro de las medidas de atención a la diversidad recogidas en la programación didáctica está pensada para el alumnado que:",
+    "o": [
+     "Presenta dificultades de tipo generalizado y sostenido en el conjunto de las áreas curriculares",
+     "Muestra un ritmo de aprendizaje más rápido y podría beneficiarse de propuestas más complejas",
+     "Debe repetir el curso por no alcanzar los objetivos mínimos",
+     "Requiere obligatoriamente la intervención de un especialista externo"
+    ],
+    "c": 1,
+    "e": "Las medidas de ampliación se dirigen al alumnado que muestra un ritmo de aprendizaje más rápido de lo habitual en determinados contenidos y podría beneficiarse de propuestas algo más complejas o de mayor profundidad, evitando así que se aburra o desaproveche su potencial mientras espera a que el resto del grupo avance al mismo ritmo."
+   },
+   {
+    "d": "moidificil",
+    "q": "El principio de 'coherencia vertical' en la programación del segundo ciclo hace referencia a la necesidad de que exista una progresión adecuada entre:",
+    "o": [
+     "Las distintas áreas curriculares que se trabajan de forma simultánea dentro de un mismo curso concreto",
+     "Los distintos cursos y ciclos de la etapa, evitando repeticiones o vacíos de contenido",
+     "Las actividades ordinarias y las complementarias de un mismo trimestre",
+     "El horario de mañana y el horario de tarde en la jornada partida"
+    ],
+    "c": 1,
+    "e": "La coherencia vertical hace referencia a la progresión adecuada de objetivos y contenidos entre los distintos cursos y ciclos de la etapa (entre 3, 4 y 5 años, o entre el segundo ciclo y Primaria), evitando repeticiones innecesarias o vacíos de contenidos, mientras que la coherencia horizontal se refiere a la relación entre las distintas áreas dentro de un mismo curso."
+   },
+   {
+    "d": "facil",
+    "q": "La programación de actividades relacionadas con la expresión musical en el segundo ciclo debe integrar, entre otros aspectos:",
+    "o": [
+     "Exclusivamente la lectura de partituras musicales convencionales",
+     "Únicamente la memorización teórica de conceptos musicales abstractos",
+     "La ausencia total de movimiento durante las propuestas musicales",
+     "El ritmo, la escucha activa y la expresión corporal a través del sonido"
+    ],
+    "c": 3,
+    "e": "La programación de actividades musicales en el segundo ciclo debe integrar el ritmo, la escucha activa de sonidos y músicas variadas, y la expresión corporal como respuesta natural al sonido, de forma vivencial y global, y no a través de la lectura de partituras convencionales ni de la memorización teórica de conceptos, del todo ajenos a esta etapa."
+   },
+   {
+    "d": "media",
+    "q": "La programación de actividades de iniciación matemática en el segundo ciclo debe partir de:",
+    "o": [
+     "La resolución de operaciones escritas de suma y resta con cifras",
+     "La memorización mecánica de la serie numérica sin manipulación",
+     "Exámenes escritos periódicos de contenidos matemáticos formales",
+     "Situaciones manipulativas y funcionales próximas a la vida cotidiana del niño"
+    ],
+    "c": 3,
+    "e": "La iniciación matemática en el segundo ciclo debe partir de situaciones manipulativas y funcionales próximas a la vida cotidiana del niño (repartir platos en la mesa, contar cuántos niños han venido hoy), construyendo así las nociones matemáticas de forma significativa, y no mediante operaciones escritas formales ni la memorización mecánica y descontextualizada de la serie numérica."
+   },
+   {
+    "d": "dificil",
+    "q": "La 'evaluación inicial' o de diagnóstico al comienzo del curso en el segundo ciclo tiene como finalidad principal:",
+    "o": [
+     "Calificar de forma numérica y ya definitiva al alumnado desde el mismo comienzo del curso escolar",
+     "Sustituir por completo a la evaluación continua realizada durante el resto del curso",
+     "Determinar de forma irrevocable la promoción del alumnado al curso siguiente",
+     "Conocer el punto de partida del alumnado para ajustar la programación a sus necesidades reales"
+    ],
+    "c": 3,
+    "e": "La evaluación inicial permite conocer el punto de partida real del alumnado —qué saben, qué intereses tienen, qué dificultades presentan— al comienzo del curso o de una unidad, para poder ajustar la programación didáctica a sus necesidades concretas, y no tiene como finalidad calificar de forma numérica ni sustituir a la evaluación continua posterior."
+   },
+   {
+    "d": "facil",
+    "q": "La programación de actividades relacionadas con la educación en valores y la convivencia en el segundo ciclo debe abordarse principalmente a través de:",
+    "o": [
+     "Charlas de tipo teórico y expositivo dirigidas de forma exclusiva y pasiva al conjunto del alumnado",
+     "Situaciones cotidianas del aula y la resolución conjunta de conflictos reales",
+     "Exámenes escritos sobre contenidos de convivencia y valores",
+     "La ausencia total de intervención del adulto ante los conflictos"
+    ],
+    "c": 1,
+    "e": "La educación en valores y la convivencia se trabajan en el segundo ciclo, sobre todo, a través de las situaciones cotidianas que surgen de forma natural en el aula (un reparto de juguetes, un conflicto por un turno) y de la resolución conjunta y acompañada de esos conflictos reales, mucho más eficaz a esta edad que cualquier charla teórica desconectada de la experiencia directa del niño."
+   },
+   {
+    "d": "media",
+    "q": "La 'memoria final de curso' que recoge la valoración de la programación didáctica desarrollada tiene como finalidad principal:",
+    "o": [
+     "Sustituir por completo al informe individual elaborado sobre cada alumno o alumna del grupo",
+     "Valorar el grado de cumplimiento de lo programado y proponer mejoras para el curso siguiente",
+     "Ser un documento sin ninguna relación con la programación de aula",
+     "Calificar de forma numérica el desempeño del profesorado del centro"
+    ],
+    "c": 1,
+    "e": "La memoria final de curso recoge una valoración global del grado de cumplimiento de lo previsto en la programación didáctica (qué se consiguió, qué dificultades surgieron, qué aspectos conviene ajustar) y sirve de base para introducir mejoras en la programación del curso siguiente, dentro de un proceso cíclico de planificación, desarrollo y revisión."
+   },
+   {
+    "d": "dificil",
+    "q": "La programación de actividades relacionadas con las tecnologías de la información y la comunicación (TIC) en el segundo ciclo debe entenderse como:",
+    "o": [
+     "Un recurso complementario e instrumental al servicio de los objetivos educativos de la etapa",
+     "El eje central y absolutamente prioritario de toda la programación didáctica del ciclo completo",
+     "Un contenido que debe evitarse por completo en esta etapa educativa",
+     "Una sustitución progresiva de la experiencia manipulativa y sensorial directa"
+    ],
+    "c": 0,
+    "e": "Las TIC en el segundo ciclo deben entenderse como un recurso complementario e instrumental al servicio de los objetivos educativos propios de la etapa (por ejemplo, una pizarra digital que apoya un proyecto sobre los animales), sin convertirse nunca en el eje central de la programación ni sustituir a la experiencia manipulativa y sensorial directa, esencial a esta edad."
+   },
+   {
+    "d": "facil",
+    "q": "La coordinación entre el equipo docente del segundo ciclo (reuniones de nivel o ciclo) para revisar la programación tiene como función principal:",
+    "o": [
+     "Compartir criterios comunes y garantizar coherencia en la intervención educativa",
+     "Sustituir por completo la programación individual que elabora cada tutor o tutora de forma autónoma",
+     "Reducir el tiempo que cada docente dedica a la observación de su grupo",
+     "No tiene ninguna relación con la calidad de la programación didáctica"
+    ],
+    "c": 0,
+    "e": "Las reuniones de coordinación de nivel o ciclo permiten compartir criterios comunes sobre metodología, contenidos y evaluación, y garantizar así una mayor coherencia en la intervención educativa entre las distintas aulas y cursos, sin sustituir el margen propio que cada tutor o tutora mantiene para adaptar la programación a las características concretas de su grupo."
+   },
+   {
+    "d": "moidificil",
+    "q": "En el marco de la evaluación en el segundo ciclo de Infantil en Galicia, ¿en qué momento del proceso de escolarización se elabora un informe individualizado sobre el alumnado que se traslada de centro?",
+    "o": [
+     "Únicamente al finalizar el segundo ciclo completo, nunca antes",
+     "Solo si el alumno presenta necesidades específicas de apoyo educativo",
+     "Nunca se elabora informe alguno en caso de traslado de centro",
+     "En el momento del traslado, para garantizar la continuidad del proceso educativo"
+    ],
+    "c": 3,
+    "e": "Cuando un alumno o alumna se traslada de centro durante el segundo ciclo de Educación Infantil, se elabora un informe individualizado en el momento del propio traslado, con el fin de garantizar la continuidad del proceso educativo y facilitar que el centro receptor disponga de información relevante sobre su evolución, sin necesidad de esperar a la finalización del ciclo completo."
+   },
+   {
+    "d": "dificil",
+    "q": "La secuenciación de los criterios de evaluación por cursos dentro de la programación didáctica del segundo ciclo debe evitar, entre otros errores frecuentes:",
+    "o": [
+     "Adaptar el nivel de exigencia a las características evolutivas de cada curso",
+     "Vincular los criterios de evaluación con los objetivos de cada área",
+     "Redactar los criterios de forma observable y ajustada a la etapa",
+     "Formular criterios idénticos y sin matices de progresión entre 3, 4 y 5 años"
+    ],
+    "c": 3,
+    "e": "Un error frecuente al secuenciar los criterios de evaluación por cursos es formular criterios prácticamente idénticos para 3, 4 y 5 años, sin matices de progresión en su nivel de exigencia, cuando lo adecuado es adaptar gradualmente ese nivel a las características evolutivas propias de cada curso, manteniendo la coherencia con los objetivos de cada área y una redacción observable."
+   },
+   {
+    "d": "dificil",
+    "q": "¿Con qué periodicidad mínima debe informarse por escrito a las familias del alumnado sobre el proceso de aprendizaje de sus hijos e hijas en el segundo ciclo de Infantil en Galicia?",
+    "o": [
+     "Cada dos cursos escolares completos",
+     "Una vez al finalizar toda la etapa",
+     "Al menos con periodicidad trimestral",
+     "Solo cuando la familia lo solicite expresamente"
+    ],
+    "c": 2,
+    "e": "La normativa gallega establece que las familias deben ser informadas por escrito, al menos con periodicidad trimestral, sobre el proceso de aprendizaje de sus hijas e hijos, coincidiendo habitualmente esa información con las sesiones de evaluación parcial previstas a lo largo del curso, y no únicamente a petición expresa de la familia ni con una periodicidad mayor."
    }
   ]
  },
@@ -6677,6 +12437,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "La evaluación del proceso de enseñanza y de la propia práctica docente tiene como finalidad analizar y valorar la intervención educativa realizada, para poder adaptarla progresivamente a las características y necesidades reales del alumnado, y no clasificar al alumnado por rendimiento ni sustituir la observación directa que el docente hace de cada niño."
+   },
+   {
+    "d": "facil",
+    "q": "El principio de 'aprendizaje por descubrimiento' de Jerome Bruner, aplicado a Infantil, defiende que el niño aprende de forma más profunda cuando:",
+    "o": [
+     "Recibe la información ya elaborada y completa por parte del adulto",
+     "Memoriza de forma repetitiva y mecánica contenidos presentados de manera abstracta y descontextualizada",
+     "Explora activamente y llega por sí mismo a construir relaciones y conclusiones",
+     "Se limita a observar de forma pasiva una demostración del adulto"
+    ],
+    "c": 2,
+    "e": "Bruner defiende que el aprendizaje resulta más significativo y duradero cuando el niño explora activamente el entorno y llega por sí mismo, con la guía del adulto, a descubrir relaciones y construir sus propias conclusiones (por ejemplo, descubrir por ensayo y error qué piezas encajan al construir una torre), frente a la simple recepción pasiva de información ya elaborada."
+   },
+   {
+    "d": "media",
+    "q": "El concepto de 'andamiaje' (scaffolding), desarrollado a partir de las ideas de Vygotski, implica que el adulto debe:",
+    "o": [
+     "Realizar siempre la tarea completa en lugar del niño",
+     "No intervenir nunca en el proceso de aprendizaje del niño",
+     "Mantener idéntico el nivel de ayuda durante todo el proceso, sin ningún ajuste",
+     "Ofrecer un apoyo ajustado que se retira progresivamente a medida que el niño gana autonomía"
+    ],
+    "c": 3,
+    "e": "El andamiaje consiste en que el adulto ofrezca al niño un apoyo ajustado a su nivel de competencia (una pista, una pregunta orientadora, sujetar parte de la tarea), que se va retirando de forma progresiva a medida que el niño gana autonomía y competencia en esa tarea concreta, de modo que el apoyo no es fijo ni permanente, sino dinámico y decreciente."
+   },
+   {
+    "d": "facil",
+    "q": "El principio de 'sensibilidad hacia las necesidades del niño', como principio de intervención educativa, implica que el docente debe:",
+    "o": [
+     "Aplicar de forma sistemática el mismo tipo exacto de respuesta a todos los niños del grupo por igual",
+     "Ignorar de forma deliberada las señales no verbales que el niño transmite constantemente durante el día",
+     "Estar atento a las señales, ritmos y estados emocionales de cada niño para responder de forma ajustada",
+     "Limitar su atención exclusivamente a los momentos de conflicto"
+    ],
+    "c": 2,
+    "e": "La sensibilidad hacia las necesidades del niño implica que el docente esté atento a las señales, tanto verbales como no verbales, y a los ritmos y estados emocionales propios de cada niño, para poder responder de forma ajustada y oportuna a lo que realmente necesita en cada momento, en lugar de aplicar una respuesta única y estandarizada a todo el grupo."
+   },
+   {
+    "d": "dificil",
+    "q": "El concepto de 'zona de desarrollo próximo' (ZDP) de Vygotski se define como la distancia entre:",
+    "o": [
+     "Dos niños de la misma edad cronológica exacta",
+     "El nivel de desarrollo real del niño y el nivel de desarrollo potencial que puede alcanzar con ayuda",
+     "El nivel de desarrollo motor y el nivel de desarrollo del lenguaje",
+     "La etapa sensoriomotora y la etapa preoperacional de Piaget"
+    ],
+    "c": 1,
+    "e": "Vygotski define la zona de desarrollo próximo como la distancia entre el nivel de desarrollo real (lo que el niño puede hacer de forma autónoma) y el nivel de desarrollo potencial (lo que podría llegar a hacer con la ayuda de un adulto o de un igual más competente), un espacio en el que precisamente resulta más eficaz intervenir educativamente, ya que el aprendizaje autónomo total o la exigencia imposible aportan menos."
+   },
+   {
+    "d": "media",
+    "q": "El principio de 'enfoque comunicativo' en el tratamiento del lenguaje durante la etapa infantil implica priorizar:",
+    "o": [
+     "El análisis gramatical formal de las oraciones",
+     "La memorización de reglas ortográficas específicas",
+     "El uso funcional y contextualizado del lenguaje dentro de situaciones reales y cotidianas de comunicación",
+     "La repetición mecánica y descontextualizada de estructuras sintácticas complejas sin ningún propósito comunicativo"
+    ],
+    "c": 2,
+    "e": "El enfoque comunicativo del lenguaje en Infantil prioriza el uso funcional del lenguaje en situaciones reales de comunicación (pedir algo, contar lo que ha pasado, resolver un conflicto verbalmente), en lugar de centrarse en el análisis gramatical formal o en la repetición mecánica de estructuras descontextualizadas, mucho más propios de etapas educativas posteriores."
+   },
+   {
+    "d": "facil",
+    "q": "El principio de 'participación activa de la familia' en el proceso educativo se concreta, entre otras vías, en:",
+    "o": [
+     "Reuniones, entrevistas individuales y colaboración en actividades del centro",
+     "La delegación completa de las decisiones educativas en la familia",
+     "La ausencia total de comunicación con el centro durante el curso",
+     "Limitar cualquier contacto habitual a la única reunión inicial de comienzo de curso escolar"
+    ],
+    "c": 0,
+    "e": "La participación activa de la familia se concreta en distintas vías complementarias: reuniones de grupo, entrevistas individuales periódicas, colaboración puntual en actividades del centro o participación en órganos como el consejo escolar, y no se limita a un único contacto inicial ni supone delegar en la familia decisiones que corresponden al ámbito pedagógico del centro."
+   },
+   {
+    "d": "moidificil",
+    "q": "El principio de 'respeto al periodo sensible' de determinados aprendizajes, concepto tomado de la pedagogía de María Montessori, hace referencia a que:",
+    "o": [
+     "Todos los aprendizajes deben posponerse hasta que el niño cumpla seis años",
+     "El adulto debe imponer siempre el mismo ritmo de aprendizaje sin considerar en ningún caso la etapa evolutiva",
+     "Existen periodos evolutivos en los que el niño está especialmente predispuesto a adquirir ciertas capacidades",
+     "No existe ninguna relación entre el momento evolutivo y la facilidad de aprendizaje"
+    ],
+    "c": 2,
+    "e": "María Montessori planteó la existencia de 'periodos sensibles', ventanas evolutivas en las que el niño muestra una especial predisposición y facilidad para adquirir determinadas capacidades (como el orden, el lenguaje o el refinamiento sensorial), por lo que la intervención educativa debe aprovechar esos momentos favorables en lugar de imponer un ritmo ajeno a la disposición real del niño."
+   },
+   {
+    "d": "facil",
+    "q": "El principio de 'normalización', vinculado a la atención a la diversidad en Infantil, implica que el alumnado con necesidades específicas de apoyo educativo debe:",
+    "o": [
+     "Llevar una vida lo más parecida posible a la del resto de sus iguales, con los apoyos necesarios",
+     "Ser escolarizado siempre en centros y espacios completamente separados del resto de sus iguales y compañeros",
+     "Recibir una atención idéntica sin ningún tipo de apoyo adicional",
+     "Quedar excluido de las actividades ordinarias del grupo-aula"
+    ],
+    "c": 0,
+    "e": "El principio de normalización defiende que las personas con necesidades específicas de apoyo educativo tienen derecho a llevar una vida y a participar en el entorno lo más parecido posible al del resto de sus iguales, contando con los apoyos y ajustes necesarios para ello, en lugar de ser excluidas de las actividades ordinarias o escolarizadas en espacios completamente separados por sistema."
+   },
+   {
+    "d": "media",
+    "q": "El principio de 'intervención en el entorno natural' del niño, aplicado especialmente a la atención temprana, defiende que la intervención educativa resulta más eficaz cuando se desarrolla:",
+    "o": [
+     "Exclusivamente en un despacho especializado y completamente ajeno a la vida diaria y cotidiana del niño",
+     "En contextos y rutinas cotidianas del propio niño, en lugar de en sesiones aisladas y descontextualizadas",
+     "Siempre sin ninguna implicación de la familia en su desarrollo",
+     "Únicamente mediante sesiones individuales fuera del horario escolar"
+    ],
+    "c": 1,
+    "e": "El principio de intervención en el entorno natural, muy presente en atención temprana, defiende que la intervención resulta más eficaz cuando se integra en los contextos y rutinas cotidianas del propio niño (el juego, la comida, el momento del baño), implicando activamente a la familia como agente educativo, en lugar de limitarse a sesiones aisladas en un despacho desconectadas de su vida diaria."
+   },
+   {
+    "d": "dificil",
+    "q": "El principio de 'multisensorialidad', aplicado a la intervención educativa en Infantil, defiende que las propuestas de aprendizaje deben:",
+    "o": [
+     "Implicar de forma combinada varios canales sensoriales para enriquecer la experiencia y la comprensión",
+     "Limitarse siempre y de forma exclusiva a un único canal sensorial, preferentemente el visual",
+     "Evitar cualquier estímulo táctil por resultar del todo innecesario e irrelevante a esta edad concreta y temprana",
+     "Prescindir del canal auditivo en las propuestas dirigidas al alumnado"
+    ],
+    "c": 0,
+    "e": "El principio de multisensorialidad defiende que las propuestas de aprendizaje deben implicar, siempre que sea posible, varios canales sensoriales de forma combinada (ver, tocar, oír, oler), lo que enriquece la experiencia y favorece una comprensión más completa y duradera, frente a propuestas que se apoyan en un único canal, habitualmente el visual, dejando de lado el resto de vías sensoriales disponibles."
+   },
+   {
+    "d": "facil",
+    "q": "El principio de 'motivación intrínseca' como base del aprendizaje en Infantil defiende priorizar propuestas que:",
+    "o": [
+     "Se sostengan de forma exclusiva en premios materiales entregados sistemáticamente por el propio adulto",
+     "Impongan la actividad sin ninguna conexión con el interés del niño",
+     "Despierten el interés genuino del niño, más que depender de recompensas externas",
+     "Se basen únicamente en evitar un castigo ante el incumplimiento"
+    ],
+    "c": 2,
+    "e": "El principio de motivación intrínseca defiende priorizar propuestas educativas que despierten el interés genuino y la curiosidad natural del niño (la propia satisfacción de resolver un reto o descubrir algo nuevo), en lugar de depender de forma sistemática de recompensas externas materiales o de la evitación de un castigo, estrategias que a la larga resultan menos sostenibles y significativas."
+   },
+   {
+    "d": "media",
+    "q": "El principio de 'currículo abierto y flexible' propio de la etapa infantil implica que la programación:",
+    "o": [
+     "Debe seguirse de forma literal y completamente cerrada, sin ningún tipo de modificación posible",
+     "No admite ningún tipo de ajuste una vez elaborada al inicio de curso",
+     "Debe adaptarse y reajustarse a partir de la observación continua del proceso del alumnado",
+     "Debe ser idéntica en todos los centros con independencia de su contexto"
+    ],
+    "c": 2,
+    "e": "El carácter abierto y flexible del currículo de Infantil implica que la programación debe adaptarse y reajustarse de forma continua a partir de la observación del proceso real del alumnado y del contexto concreto del centro, y no aplicarse de forma literal, cerrada e idéntica en todos los casos, como si de un documento inamovible se tratara."
+   },
+   {
+    "d": "dificil",
+    "q": "El principio de 'prevención' en la intervención educativa de Infantil, entendido en sentido amplio, defiende actuar principalmente:",
+    "o": [
+     "Únicamente una vez que la dificultad ya se ha consolidado con toda claridad y sin margen de duda",
+     "Solo en los casos que cuentan con un diagnóstico clínico formal previo",
+     "De forma anticipada, favoreciendo condiciones que eviten dificultades futuras en el desarrollo",
+     "Sin ninguna coordinación con otros profesionales o servicios externos"
+    ],
+    "c": 2,
+    "e": "El principio de prevención defiende actuar de forma anticipada, favoreciendo desde la propia intervención educativa ordinaria las condiciones (estimulación adecuada, detección temprana de señales de alerta) que puedan evitar o minimizar dificultades futuras en el desarrollo, sin esperar a que estas se consoliden ni limitarse a los casos con un diagnóstico clínico ya formalizado."
+   },
+   {
+    "d": "facil",
+    "q": "El principio de 'coherencia metodológica' entre los distintos profesionales que intervienen con un mismo grupo (tutor, especialistas, apoyo) implica principalmente:",
+    "o": [
+     "Actuar cada profesional siguiendo un criterio estrictamente propio, sin ninguna coordinación entre ellos",
+     "Reducir al mínimo posible la intervención de cualquier especialista dentro del propio aula ordinaria",
+     "Compartir criterios comunes de actuación entre todos para no generar mensajes contradictorios en el aula",
+     "No tiene ninguna relevancia para el desarrollo del alumnado"
+    ],
+    "c": 2,
+    "e": "La coherencia metodológica entre los distintos profesionales que intervienen con un mismo grupo (compartir criterios sobre cómo gestionar un conflicto o cómo reforzar una conducta) resulta fundamental para no generar mensajes contradictorios que confundan al alumnado, favoreciendo así una intervención educativa integrada y coherente en lugar de actuaciones aisladas y desconectadas entre sí."
+   },
+   {
+    "d": "media",
+    "q": "El principio de 'refuerzo positivo', aplicado con criterio dentro de la intervención educativa en Infantil, consiste en:",
+    "o": [
+     "Ignorar sistemáticamente cualquier logro o avance del alumnado",
+     "Aplicar siempre y sin excepción un premio de tipo material ante cualquier conducta observada en el niño",
+     "Centrarse exclusivamente en señalar los errores cometidos",
+     "Reconocer y valorar de forma específica las conductas y logros adecuados del niño"
+    ],
+    "c": 3,
+    "e": "El refuerzo positivo aplicado con criterio consiste en reconocer y valorar de forma específica y contingente las conductas y logros adecuados del niño ('has esperado tu turno muy bien'), reforzando así su repetición futura, sin necesidad de recurrir siempre a premios materiales ni centrar la intervención únicamente en señalar los errores cometidos."
+   },
+   {
+    "d": "dificil",
+    "q": "El principio de 'transferencia de los aprendizajes' implica que la intervención educativa debe favorecer que el niño:",
+    "o": [
+     "Limite lo aprendido exclusivamente al contexto concreto en que lo adquirió",
+     "Aplique lo aprendido en un contexto a situaciones y contextos distintos",
+     "Olvide de forma natural lo trabajado al finalizar cada actividad",
+     "Repita de forma idéntica y literal la misma situación de aprendizaje"
+    ],
+    "c": 1,
+    "e": "El principio de transferencia defiende que la intervención educativa debe favorecer que el niño sea capaz de aplicar lo aprendido en un contexto concreto (clasificar objetos por color en un rincón) a situaciones y contextos distintos (clasificar prendas de ropa en casa), lo que constituye un indicador de que el aprendizaje ha sido realmente comprendido y no memorizado de forma mecánica y aislada."
+   },
+   {
+    "d": "facil",
+    "q": "El principio de 'flexibilidad metodológica' implica que el docente debe estar dispuesto a:",
+    "o": [
+     "Mantener siempre la misma estrategia con independencia del resultado obtenido",
+     "Aplicar un único método válido para cualquier grupo y situación",
+     "Evitar cualquier cambio en la planificación ya realizada",
+     "Ajustar sus estrategias y propuestas en función de la respuesta real del grupo"
+    ],
+    "c": 3,
+    "e": "La flexibilidad metodológica implica que el docente debe estar dispuesto a ajustar sus estrategias, materiales y propuestas en función de la respuesta real observada en el grupo, revisando lo planificado cuando no está funcionando como se esperaba, en lugar de mantener de forma rígida un único método o estrategia sin ningún tipo de ajuste."
+   },
+   {
+    "d": "moidificil",
+    "q": "¿Qué principio educativo, recogido en la normativa gallega sobre el currículo de Educación Infantil, hace referencia a la necesidad de que la intervención educativa se apoye en la experimentación y en el descubrimiento a través de la interacción con el entorno?",
+    "o": [
+     "Principio de calificación numérica",
+     "Principio de segregación curricular",
+     "Principio de actividad y experimentación",
+     "Principio de instrucción directa exclusiva"
+    ],
+    "c": 2,
+    "e": "El currículo de Educación Infantil en Galicia recoge, entre sus principios metodológicos, el de actividad y experimentación, que subraya que la intervención educativa debe apoyarse en la experimentación directa y el descubrimiento activo a través de la interacción del niño con el entorno físico y social, y no en la calificación numérica ni en la instrucción directa exclusiva propia de otras etapas."
+   },
+   {
+    "d": "dificil",
+    "q": "El principio de 'equilibrio entre actividad dirigida y actividad libre' en la intervención educativa de Infantil defiende que la programación de la jornada debe:",
+    "o": [
+     "Basarse exclusivamente en propuestas dirigidas por el adulto en todo momento",
+     "Basarse exclusivamente en el juego libre del alumnado, sin ninguna propuesta dirigida por el adulto",
+     "Combinar ambos tipos de propuesta, sin que una elimine por completo a la otra",
+     "Eliminar cualquier tipo de estructura para dejar total libertad al alumnado"
+    ],
+    "c": 2,
+    "e": "El equilibrio entre actividad dirigida y actividad libre defiende que la jornada debe combinar propuestas guiadas por el adulto, con una intencionalidad educativa clara, con momentos de juego libre y autónomo, sin que ninguno de los dos extremos elimine por completo al otro, ya que ambos aportan beneficios complementarios y necesarios al desarrollo integral del niño."
+   },
+   {
+    "d": "media",
+    "q": "El principio de 'participación del niño en la toma de decisiones' dentro del aula (elegir una actividad, opinar sobre una norma) se relaciona directamente con el desarrollo de:",
+    "o": [
+     "Exclusivamente la motricidad fina del niño",
+     "Ningún aspecto relevante del desarrollo socioemocional propio de esta etapa educativa concreta",
+     "La autoestima, la iniciativa personal y el sentido de pertenencia del niño respecto al conjunto del grupo",
+     "La memoria mecánica de contenidos curriculares abstractos y descontextualizados de la vida diaria"
+    ],
+    "c": 2,
+    "e": "Permitir que el niño participe, de forma ajustada a su edad, en ciertas decisiones del aula (elegir entre dos cuentos, opinar sobre una norma de convivencia) favorece el desarrollo de su autoestima, su iniciativa personal y su sentido de pertenencia y corresponsabilidad respecto al grupo, aspectos centrales del desarrollo socioemocional propio de esta etapa."
    }
   ]
  },
@@ -8279,6 +14279,246 @@ const QUESTION_BANK = [
     ],
     "c": 0,
     "e": "Art. 4.4 LO 1/2004: la Educación Secundaria Obligatoria contribuirá a desarrollar en el alumnado la capacidad para relacionarse con los demás de forma pacífica y para conocer, valorar y respetar la igualdad de oportunidades de hombres y mujeres, continuando en esta etapa el trabajo en igualdad ya iniciado en Educación Infantil."
+   },
+   {
+    "d": "facil",
+    "q": "Según el artículo 27.2 de la Constitución Española, ¿cuál es el objeto de la educación?",
+    "o": [
+     "La formación exclusiva en competencias técnicas y profesionales orientadas de manera directa e inmediata a la incorporación al mercado laboral y productivo",
+     "La preparación exclusiva para el acceso a estudios universitarios reglados, excluyendo cualquier otra finalidad formativa",
+     "El pleno desarrollo de la personalidad humana en el respeto a los principios democráticos de convivencia y a los derechos y libertades fundamentales",
+     "El fomento del deporte y la actividad física como finalidad prioritaria del sistema educativo español"
+    ],
+    "c": 2,
+    "e": "Art. 27.2 CE: la educación tendrá por objeto el pleno desarrollo de la personalidad humana en el respeto a los principios democráticos de convivencia y a los derechos y libertades fundamentales. Este precepto orienta, por ejemplo, los objetivos generales que fija el currículo de Educación Infantil, centrados en el desarrollo integral del niño y no solo en contenidos instrumentales."
+   },
+   {
+    "d": "facil",
+    "q": "Según el artículo 39.4 de la Constitución, ¿qué protección se reconoce a los niños?",
+    "o": [
+     "Ninguna protección específica más allá de la de los adultos",
+     "La protección prevista en los acuerdos internacionales que velan por sus derechos",
+     "Únicamente la que determine cada Comunidad Autónoma",
+     "La protección exclusiva de sus progenitores, sin intervención pública"
+    ],
+    "c": 1,
+    "e": "Art. 39.4 CE: los niños gozarán de la protección prevista en los acuerdos internacionales que velan por sus derechos. Este mandato conecta la Constitución con instrumentos como la Convención sobre los Derechos del Niño de Naciones Unidas, que inspira buena parte de la normativa educativa y de protección de la infancia en España."
+   },
+   {
+    "d": "facil",
+    "q": "¿Qué derecho reconoce el artículo 43.1 de la Constitución?",
+    "o": [
+     "El derecho a la protección de la salud",
+     "El derecho a la vivienda digna",
+     "El derecho al medio ambiente adecuado",
+     "El derecho a la cultura"
+    ],
+    "c": 0,
+    "e": "Art. 43.1 CE: se reconoce el derecho a la protección de la salud. Este derecho, situado entre los principios rectores de la política social y económica del Capítulo Tercero, no es directamente exigible ante los tribunales del mismo modo que un derecho fundamental, pero vincula la actuación de los poderes públicos, por ejemplo en la organización del sistema sanitario público."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 103.1 de la Constitución, ¿con arreglo a qué principios actúa la Administración Pública?",
+    "o": [
+     "Rapidez, economía procesal y discrecionalidad técnica amplia, con control exclusivamente parlamentario a posteriori de la actividad administrativa",
+     "Autonomía plena, soberanía compartida y reciprocidad institucional, sin sometimiento a control judicial ordinario",
+     "Jerarquía y centralización administrativa exclusivamente, sin posibilidad alguna de descentralización territorial",
+     "Eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho"
+    ],
+    "c": 3,
+    "e": "Art. 103.1 CE: la Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho. Este último inciso es la base del principio de legalidad administrativa: la Administración no puede actuar al margen de las normas, ni siquiera invocando razones de eficacia."
+   },
+   {
+    "d": "media",
+    "q": "Entre las libertades que reconoce el artículo 20.1 de la Constitución se encuentra la libertad de cátedra. ¿En qué apartado del artículo se recoge?",
+    "o": [
+     "En el apartado c)",
+     "En el apartado a)",
+     "En el apartado b)",
+     "En el apartado d)"
+    ],
+    "c": 0,
+    "e": "Art. 20.1.c) CE: se reconoce y protege el derecho a la libertad de cátedra, junto a la libertad de expresión (20.1.a), la producción y creación literaria, artística, científica y técnica (20.1.b) y el derecho a comunicar o recibir libremente información veraz (20.1.d). La libertad de cátedra ampara, en los niveles que la jurisprudencia ha ido matizando, la autonomía del docente en el desarrollo de su función."
+   },
+   {
+    "d": "facil",
+    "q": "Según el artículo 6.1 del Estatuto de Autonomía de Galicia, ¿cuál es la lengua propia de Galicia?",
+    "o": [
+     "El castellano",
+     "El gallego",
+     "El gallego y el castellano por igual",
+     "El portugués"
+    ],
+    "c": 1,
+    "e": "Art. 6.1 del Estatuto (LO 1/1981): la lengua propia de Galicia es el gallego. El apartado 2 del mismo artículo añade que los idiomas gallego y castellano son oficiales en Galicia y todos tienen derecho a conocerlos y usarlos, distinguiendo así entre «lengua propia» (el gallego) y «lenguas oficiales» (ambas)."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 27 del Estatuto de Autonomía, ¿sobre cuál de las siguientes materias tiene Galicia competencia exclusiva?",
+    "o": [
+     "La legislación penal",
+     "La asistencia social",
+     "La política monetaria",
+     "Las relaciones internacionales"
+    ],
+    "c": 1,
+    "e": "Art. 27 del Estatuto recoge, entre las materias de competencia exclusiva de la Comunidad Autónoma gallega, la asistencia social. A diferencia de la legislación penal, la política monetaria o las relaciones internacionales, que la Constitución reserva al Estado (art. 149.1 CE), la asistencia social permite a Galicia regular, por ejemplo, sus propios servicios sociales y prestaciones."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según el artículo 5 del Estatuto de Autonomía de Galicia, ¿qué fecha se declara día nacional de Galicia?",
+    "o": [
+     "El 25 de julio, festividad del Apóstol Santiago",
+     "El 17 de mayo, Día das Letras Galegas",
+     "El 24 de junio, festividad de San Juan",
+     "El 1 de marzo, aniversario del referéndum del Estatuto"
+    ],
+    "c": 0,
+    "e": "Art. 5 del Estatuto de Autonomía de Galicia establece la bandera, el himno y declara el día 25 de julio, festividad del Apóstol Santiago, Patrón de Galicia, como día nacional de Galicia. No debe confundirse con el 17 de mayo (Día das Letras Galegas, de origen distinto, dedicado a las letras gallegas) ni con otras fechas conmemorativas que no tienen ese reconocimiento estatutario."
+   },
+   {
+    "d": "dificil",
+    "q": "Según el artículo 21.3 de la Ley 39/2015, cuando las normas reguladoras de los procedimientos no fijen un plazo máximo, ¿de cuánto será este?",
+    "o": [
+     "Un mes",
+     "Tres meses",
+     "Seis meses",
+     "Veinte días"
+    ],
+    "c": 1,
+    "e": "Art. 21.3 Ley 39/2015: el plazo máximo para notificar la resolución expresa será el fijado por la norma reguladora del procedimiento correspondiente, sin que pueda exceder de seis meses salvo norma con rango de ley o Derecho de la Unión Europea; cuando las normas reguladoras no fijen plazo máximo, este será de tres meses. Transcurrido ese plazo sin resolución expresa, opera el silencio administrativo en los términos previstos por la ley."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 68.1 de la Ley 39/2015, si la solicitud de iniciación no reúne los requisitos exigidos, ¿en qué plazo debe el interesado subsanar la falta o acompañar los documentos preceptivos?",
+    "o": [
+     "Un mes",
+     "Quince días",
+     "Diez días",
+     "Cinco días"
+    ],
+    "c": 2,
+    "e": "Art. 68.1 Ley 39/2015: se requerirá al interesado para que, en un plazo de diez días, subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición, previa resolución dictada en los términos del artículo 21. Un ejemplo típico es la falta de firma o de un anexo obligatorio en una solicitud de admisión a un proceso selectivo."
+   },
+   {
+    "d": "moidificil",
+    "q": "Según el artículo 30.2 de la Ley 39/2015, cuando los plazos se señalan por días, y salvo que se indique que son naturales, ¿qué días se excluyen del cómputo?",
+    "o": [
+     "Los sábados y domingos, salvo en el mes de agosto",
+     "Solo los días festivos de ámbito nacional",
+     "Únicamente los domingos y festivos, pero no los sábados",
+     "Los sábados, los domingos y los declarados festivos"
+    ],
+    "c": 3,
+    "e": "Art. 30.2 Ley 39/2015: siempre que por ley o en el Derecho de la Unión Europea no se exprese otro cómputo, cuando los plazos se señalen por días se entiende que estos son hábiles, excluyéndose del cómputo los sábados, los domingos y los declarados festivos. Esta regla afecta, por ejemplo, al cómputo del plazo de diez días para subsanar una solicitud: si el último día cae en sábado, el plazo se traslada al siguiente día hábil."
+   },
+   {
+    "d": "facil",
+    "q": "Según el artículo 22 de la Ley 2/2015, del empleo público de Galicia, tiene la condición de personal laboral quien:",
+    "o": [
+     "Ejerce funciones de confianza o asesoramiento especial sin vínculo contractual",
+     "Presta servicios en virtud de un contrato de trabajo formalizado por escrito",
+     "Ocupa plazas de forma provisional mediante nombramiento administrativo",
+     "Desempeña funciones con carácter no permanente por razones de necesidad o urgencia"
+    ],
+    "c": 1,
+    "e": "Art. 22 Ley 2/2015: tiene la condición de personal laboral quien, en virtud de contrato de trabajo formalizado por escrito, presta servicios retribuidos en las Administraciones públicas incluidas en el ámbito de la ley. A diferencia del personal funcionario, su relación se rige por la legislación laboral y los convenios colectivos aplicables, no por una relación estatutaria de derecho administrativo."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 59 de la Ley 2/2015, uno de los requisitos generales para el acceso al empleo público en Galicia es:",
+    "o": [
+     "Poseer la titulación exigida en la correspondiente convocatoria",
+     "Haber residido al menos diez años de forma continuada en Galicia",
+     "Ser mayor de treinta y cinco años en la fecha de la convocatoria",
+     "Estar en posesión del certificado de nivel Celga 4, en todo caso"
+    ],
+    "c": 0,
+    "e": "Art. 59 Ley 2/2015: entre los requisitos generales para el acceso al empleo público figura poseer la titulación exigida, además de tener la nacionalidad exigible, capacidad funcional para el desempeño de las funciones y no haber sido separado del servicio ni estar inhabilitado. El requisito de un nivel concreto de gallego (como el Celga) no es un requisito general de la ley, sino que puede exigirse, en su caso, en función del puesto o convocatoria específica."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 60.1 de la Ley 2/2015, ¿cuáles son los sistemas selectivos para el acceso al empleo público en Galicia?",
+    "o": [
+     "Únicamente la oposición libre, sin posibilidad de otros sistemas selectivos",
+     "Libre designación en todos los cuerpos y escalas, previa convocatoria pública restringida",
+     "Oposición, concurso-oposición y, con carácter excepcional, concurso",
+     "Sorteo público entre los aspirantes que hayan superado el trámite previo de inscripción"
+    ],
+    "c": 2,
+    "e": "Art. 60.1 Ley 2/2015: los procesos selectivos tendrán carácter abierto y se realizarán mediante los sistemas de oposición, concurso-oposición o, con carácter excepcional, concurso, garantizando en todo caso el cumplimiento de los principios de igualdad, mérito, capacidad y publicidad. El sistema de concurso puro solo puede utilizarse en supuestos tasados, precisamente para evitar que se prescinda de pruebas de capacidad."
+   },
+   {
+    "d": "facil",
+    "q": "Según el artículo 88 de la LO 3/2018 (LOPDGDD), ¿qué derecho digital se reconoce a los trabajadores y a los empleados públicos fuera de su tiempo de trabajo?",
+    "o": [
+     "El derecho a la neutralidad de la red",
+     "El derecho a la portabilidad de datos",
+     "El derecho al olvido en internet",
+     "El derecho a la desconexión digital"
+    ],
+    "c": 3,
+    "e": "Art. 88 LO 3/2018: los trabajadores y los empleados públicos tienen derecho a la desconexión digital a fin de garantizar, fuera del tiempo de trabajo legal o convencionalmente establecido, el respeto de su tiempo de descanso, permisos y vacaciones, así como de su intimidad personal y familiar. Por ejemplo, ampara al docente que no está obligado a responder correos institucionales fuera de su jornada laboral."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 83 de la LO 3/2018 (LOPDGDD), los centros educativos deben incluir en el desarrollo del currículum contenidos relacionados con:",
+    "o": [
+     "La gestión económica de las administraciones públicas",
+     "El uso seguro y responsable de los medios digitales y de las tecnologías de la información y la comunicación",
+     "El derecho procesal aplicado a los menores de edad en los distintos órdenes jurisdiccionales existentes",
+     "La programación informática avanzada exclusivamente, con exclusión de cualquier otro contenido curricular"
+    ],
+    "c": 1,
+    "e": "Art. 83 LO 3/2018: los centros educativos impartirán en la educación primaria y secundaria, dentro del desarrollo del currículo, contenidos relacionados con el uso seguro y responsable de los medios digitales y de las tecnologías de la información y la comunicación, materia en cuya formación cabe implicar a los servicios de inspección educativa y, en su caso, a las familias."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 3 de la Ley 7/2023, uno de los principios generales que deben informar la actuación de los poderes públicos de Galicia en materia de igualdad es:",
+    "o": [
+     "La transversalidad de género en todas las políticas públicas",
+     "La subsidiariedad exclusiva respecto de las políticas del Estado",
+     "La neutralidad absoluta ante las desigualdades existentes",
+     "La reserva de las políticas de igualdad al ámbito exclusivamente privado"
+    ],
+    "c": 0,
+    "e": "Art. 3 Ley 7/2023 (DOG núm. 236, de 13/12/2023): recoge entre los principios generales de la ley la transversalidad de género, que implica integrar la perspectiva de igualdad entre mujeres y hombres en el diseño, ejecución y evaluación de todas las políticas y actuaciones de los poderes públicos gallegos, no solo en las específicamente dirigidas a la igualdad."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 7 de la Ley 7/2023, se entiende por acoso por razón de sexo:",
+    "o": [
+     "Únicamente el contacto físico no deseado y explícito de connotación sexual ejercido de forma reiterada por la misma persona en el ámbito laboral",
+     "Solo las conductas cometidas de forma expresa por un superior jerárquico directo sobre una persona a su cargo dentro del ámbito estrictamente laboral",
+     "Todo comportamiento realizado en función del sexo de una persona que tiene el propósito o el efecto de atentar contra su dignidad y crear un entorno hostil, degradante u ofensivo",
+     "Cualquier comentario ocasional sobre el aspecto físico de una persona, con independencia de su intención o de su reiteración"
+    ],
+    "c": 2,
+    "e": "Art. 7 Ley 7/2023: se entiende por acoso por razón de sexo cualquier comportamiento realizado en función del sexo de una persona, con el propósito o el efecto de atentar contra su dignidad y de crear un entorno intimidatorio, hostil, degradante, humillante u ofensivo. A diferencia del acoso sexual del artículo 6, aquí la conducta no tiene por qué ser de naturaleza sexual, sino que está motivada por el sexo de la persona (por ejemplo, comentarios despectivos sistemáticos hacia una trabajadora por el hecho de ser mujer)."
+   },
+   {
+    "d": "media",
+    "q": "Según el artículo 19.1 de la LO 1/2004, las mujeres víctimas de violencia de género tienen derecho a:",
+    "o": [
+     "Una indemnización automática con cargo a los Presupuestos Generales del Estado",
+     "Servicios sociales de atención, de emergencia, de apoyo y acogida y de recuperación integral",
+     "La escolarización inmediata de sus hijos en un centro educativo concertado",
+     "Una vivienda en propiedad cedida directamente por la Administración competente"
+    ],
+    "c": 1,
+    "e": "Art. 19.1 LO 1/2004 (BOE núm. 313, de 29/12/2004): las mujeres víctimas de violencia de género tienen derecho a servicios sociales de atención, de emergencia, de apoyo y acogida y de recuperación integral, organizados por las Comunidades Autónomas y las Corporaciones Locales, que deben actuar de forma coordinada. No se trata de una indemnización económica automática, sino de una red de recursos y prestaciones de atención directa."
+   },
+   {
+    "d": "dificil",
+    "q": "Según el artículo 23 de la LO 1/2004, ¿mediante qué medios se acreditan las situaciones de violencia de género que dan lugar al reconocimiento de los derechos regulados en el Título II de la ley?",
+    "o": [
+     "Únicamente mediante denuncia presentada ante la policía, sin que resulte necesaria ninguna intervención judicial posterior",
+     "Exclusivamente mediante sentencia condenatoria firme dictada en un procedimiento penal previo, sin admitirse ninguna otra vía de acreditación posible",
+     "Solo mediante orden de protección dictada por el juzgado competente, sin que quepa ningún otro medio de acreditación",
+     "Sentencia condenatoria, orden de protección o, excepcionalmente, informe del Ministerio Fiscal que indique indicios de violencia de género"
+    ],
+    "c": 3,
+    "e": "Art. 23 LO 1/2004: las situaciones de violencia de género que dan lugar al reconocimiento de los derechos regulados en el Título II se acreditarán mediante sentencia condenatoria, una orden de protección o, excepcionalmente, hasta tanto se dicte la orden de protección, el informe del Ministerio Fiscal que indique la existencia de indicios de que la demandante es víctima de violencia de género. Estas tres vías conviven, no son excluyentes entre sí, lo que facilita el acceso a los derechos mientras se resuelve la vía judicial."
    }
   ]
  }
